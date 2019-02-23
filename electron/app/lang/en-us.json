@@ -1,0 +1,10 @@
+{
+  "win.close.title": "Prompt",
+  "win.close.confirm": "Are you sure you want to close?",
+  "win.close.ok": "Yes",
+  "win.close.cancel": "No",
+  "version.error":"Checking for updates failed",
+  "version.checking": "Checking for updates...",
+  "version.updateAva": "Detect a new version, downloading......",
+  "version.updateNotAva": "Latest version already installed"
+}

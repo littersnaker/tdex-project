@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>合伙人管理中心</title>
+        <link rel="stylesheet" href="./css/header.css">
+        <link rel="stylesheet" href="./css/footer.css">
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="./iconfont/iconfont.css">
+        <link rel="stylesheet" href="./css/common.css">
+        <link rel="stylesheet" href="./css/partner-admin.css">
+    </head>
+    <body>
+        <!--头部-->
+        <div style="background: #191a1e;height: 60px;" id="header" class="header-down">
+            <ul class="header-left">
+                <li>
+                    <div class="header-logo-tdex"></div>
+                </li>
+                <li><a href="/trade/BTCUSD">合约交易</a></li>
+                <li><a href="/exchange/TDBTC">币币交易</a></li>
+                <li><a href="/invite">邀请返佣</a></li>
+                <li><a href="/activitycenter">活动中心</a></li>
+            </ul>
+            <ul class="header-right">
+                <li><a class="activeList null">资金管理<i class="iconfont icon-xiala"></i></a></li>
+                <div class="header-right-login-bar zh-cn">
+                    <a href="/personal">tttt.0015.t@tdex.com</a>
+                    <a href="javascript:;">退出</a>
+                </div>
+                <li>
+                    <div>
+                        <div class="change-lang">
+                                    <span class="change-lang-img flag-zh-cn">
+                                    </span><span>简体中文</span>
+                            <span class="iconfont icon-xiala"></span>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <!--内容-->
+        <div class="inside-page-web">
+            <div class="inside-web-part">
+                <div class="partner-admin-head-flex">
+                    <div class="item">
+                        <p class="title">100</p>
+                        <p class="text">本月有效邀请人<span class="iconfont icon-arrow-l"></span></p>
+                        <p class="many">累计邀请人：<span>9,000</span></p>
+                        <div class="item-partner-bg"></div>
+                    </div>
+                    <div class="item">
+                        <p class="title">600,000</p>
+                        <p class="text">本月已到账返佣TD<span class="iconfont icon-arrow-l"></span></p>
+                        <p class="many">累计返佣TD：<span>9,000,000</span></p>
+                        <div class="item-account-bg"></div>
+                    </div>
+                </div>
+                <div class="partner-admin-invitation-way">
+                    <h3>邀请方式</h3>
+                    <div class="invitation-way-content">
+                        <div class="invitation-way-qr">
+                            <div></div>
+                            <p>专属邀请二维码</p>
+                        </div>
+                        <ul class="invitation-way-text">
+                            <li class="item">
+                                <p class="title">邀请码</p>
+                                <p class="input-config"><input style="width: 120px" type="text" value="ADFGFGF"><span>复制邀请码</span></p>
+                            </li>
+                            <li class="item" style="margin-top: 25px;">
+                                <p class="title">邀请链接</p>
+                                <p class="input-config"><input style="width: 240px;" type="text" value="https://www.tdex.com/login"><span>复制邀请链接</span></p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="tab-data-list">
+                    <div class="list-header-text list-header-tab">
+                        <h3 class="active">本月邀请</h3>
+                        <h3>邀请历史</h3>
+                        <div class="list-change-date">
+                            <label class="change-date-label">
+                                <input class="custom-radio" type="radio" name="skin-type">
+                                <span class="custom-radioInput"></span>
+                                <span>仅显示有效邀请人</span>
+                            </label>
+                            <div class="change-date-option">
+                                <div class="item">
+                                    1 月<i class="iconfont icon-xiala"></i>
+                                </div>
+                                <span>-</span>
+                                <div class="item">
+                                    2018<i class="iconfont icon-xiala"></i>
+                                </div>
+                            </div>
+                            <div class="change-date-search">
+                                <input type="text" placeholder="搜索 UID">
+                                <i class="iconfont icon-search"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="list-global-config">
+                        <div class="list-config-title-top">
+                            <p>本月有效邀请人：<span>100</span></p>
+                            <p>本月累计邀请人：<span>200</span></p>
+                        </div>
+                        <ul class="list-config-title">
+                            <li>序号</li>
+                            <li>注册时间</li>
+                            <li>UID</li>
+                            <li>累计返佣TD</li>
+                            <li>是否为有效邀请人</li>
+                        </ul>
+                        <ul class="list-config-content">
+                            <li>1</li>
+                            <li>2018-09-23  18:49:12</li>
+                            <li>945136456</li>
+                            <li>300</li>
+                            <li>是</li>
+                        </ul>
+                        <ul class="list-config-content">
+                            <li>1</li>
+                            <li>2018-09-23  18:49:12</li>
+                            <li>945136456</li>
+                            <li>300</li>
+                            <li>是</li>
+                        </ul>
+                        <ul class="list-config-content">
+                            <li>1</li>
+                            <li>2018-09-23  18:49:12</li>
+                            <li>945136456</li>
+                            <li>300</li>
+                            <li>是</li>
+                        </ul>
+                        <ul class="list-config-content">
+                            <li>1</li>
+                            <li>2018-09-23  18:49:12</li>
+                            <li>945136456</li>
+                            <li>300</li>
+                            <li>是</li>
+                        </ul>
+                        <ul class="list-config-content">
+                            <li>1</li>
+                            <li>2018-09-23  18:49:12</li>
+                            <li>945136456</li>
+                            <li>300</li>
+                            <li>是</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="tab-data-list">
+                    <div class="list-header-text list-header-tab">
+                        <h3 class="active">本月激活</h3>
+                        <h3>激活历史</h3>
+                        <div class="list-change-date">
+                            <div class="change-date-search">
+                                <input type="text" placeholder="搜索 UID">
+                                <i class="iconfont icon-search"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="list-global-config">
+                        <div class="list-config-title-top">
+                            <p>累计邀请人：<span>9,000</span></p>
+                        </div>
+                        <ul class="list-config-title">
+                            <li>序号</li>
+                            <li>注册时间</li>
+                            <li>UID</li>
+                            <li>累计返佣TD</li>
+                            <li>是否为有效邀请人</li>
+                        </ul>
+                        <ul class="list-config-content">
+                            <li>1</li>
+                            <li>2018-09-23  18:49:12</li>
+                            <li>945136456</li>
+                            <li>300</li>
+                            <li>是</li>
+                        </ul>
+                        <ul class="list-config-content">
+                            <li>1</li>
+                            <li>2018-09-23  18:49:12</li>
+                            <li>945136456</li>
+                            <li>300</li>
+                            <li>是</li>
+                        </ul>
+                        <ul class="list-config-content">
+                            <li>1</li>
+                            <li>2018-09-23  18:49:12</li>
+                            <li>945136456</li>
+                            <li>300</li>
+                            <li>是</li>
+                        </ul>
+                        <ul class="list-config-content">
+                            <li>1</li>
+                            <li>2018-09-23  18:49:12</li>
+                            <li>945136456</li>
+                            <li>300</li>
+                            <li>是</li>
+                        </ul>
+                        <ul class="list-config-content">
+                            <li>1</li>
+                            <li>2018-09-23  18:49:12</li>
+                            <li>945136456</li>
+                            <li>300</li>
+                            <li>是</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="title-data-list">
+                    <div class="list-header-text">
+                        <h3>返佣明细</h3>
+                        <div class="list-change-date">
+                            <div class="change-date-option">
+                                <div class="item">
+                                    1 月<i class="iconfont icon-xiala"></i>
+                                </div>
+                                <span>-</span>
+                                <div class="item">
+                                    2018<i class="iconfont icon-xiala"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="list-global-config">
+                        <div class="list-config-title-top">
+                            <p>本月返佣TD：<span>100</span></p>
+                            <p>本月享受返佣比例：<span>50%</span></p>
+                        </div>
+                        <ul class="list-config-title">
+                            <li>注册时间</li>
+                            <li>返佣TD</li>
+                            <li>操作</li>
+                        </ul>
+                        <ul class="list-config-content">
+                            <li>2018-09-23  18:49:12</li>
+                            <li>300</li>
+                            <li>详情</li>
+                        </ul>
+                        <ul class="list-config-content">
+                            <li>2018-09-23  18:49:12</li>
+                            <li>300</li>
+                            <li>详情</li>
+                        </ul>
+                        <ul class="list-config-content">
+                            <li>2018-09-23  18:49:12</li>
+                            <li>300</li>
+                            <li>详情</li>
+                        </ul>
+                        <ul class="list-config-content">
+                            <li>2018-09-23  18:49:12</li>
+                            <li>300</li>
+                            <li>详情</li>
+                        </ul>
+                        <ul class="list-config-content">
+                            <li>2018-09-23  18:49:12</li>
+                            <li>300</li>
+                            <li>详情</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="title-data-list">
+                    <div class="list-header-text">
+                        <h3>返佣比例</h3>
+                    </div>
+                    <div class="list-global-config">
+                        <ul class="list-config-title">
+                            <li>当月有效邀请用户数</li>
+                            <li>返佣比例</li>
+                        </ul>
+                        <ul class="list-config-content">
+                            <li>20</li>
+                            <li>30%</li>
+                        </ul>
+                        <ul class="list-config-content">
+                            <li>20</li>
+                            <li>30%</li>
+                        </ul>
+                        <ul class="list-config-content">
+                            <li>20</li>
+                            <li>30%</li>
+                        </ul>
+                        <ul class="list-config-content">
+                            <li>20</li>
+                            <li>30%</li>
+                        </ul>
+                        <ul class="list-config-content">
+                            <li>20</li>
+                            <li>30%</li>
+                        </ul>
+                    </div>
+                </div>
+                <ul class="partner-admin-tips">
+                    <p>注：</p>
+                    <li>1、有效邀请用户必须每月在TDEx交易满10,000张合约；</li>
+                    <li>2、返佣额=邀请用户实际产生交易手续费*返佣比例；</li>
+                    <li>3、推广周期长期有效，后续若有比例调整，会提前公告告知；</li>
+                    <li>
+                        4、结算方式：
+                        <p>① 返佣额均以TD的形式结算;</p>
+                        <p>② 超级合伙人返佣其中20%按普通推荐返佣比例进行实时结算，下月1号发放达到要求的额外比例。</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!--底部-->
+        <div style="background: #16181a" class="footer m-hide">
+            <div>
+                <div class="footer-left zh-cn">
+                    <ul>
+                        <li class="footer-left-title">服务支持</li>
+                        <li><a href="https://www.tdex.com/doc/restapi/" target="_blank">API文档</a></li>
+                        <li><a href="https://www.tdex.com/doc/wsapi/" target="_blank">WebSocket API文档</a></li>
+                        <li><a href="https://support.tdex.com/hc/zh-cn" target="_blank">帮助中心</a></li>
+                    </ul>
+                    <ul>
+                        <li class="footer-left-title">联系我们</li>
+                        <li><a href="https://support.tdex.com/hc/zh-cn/requests/new" target="_blank">问题反馈</a></li>
+                        <li><a href="https://t.me/TDEx_com" target="_blank">中文电报群</a></li>
+                        <li><a href="https://t.me/TDEx_comENG" target="_blank">英文电报群</a></li>
+                        <li><a href="https://t.me/TDEx_API" target="_blank">API 电报群</a></li>
+                    </ul>
+                    <ul>
+                        <li class="footer-left-title">相关下载</li>
+                        <li><a class="home-footer-a" href="javascript:;"><span class="lh-25">App 下载</span>
+                            <div class="home-footer-qr">
+                                <canvas height="100" width="100" style="height: 100px; width: 100px;"></canvas>
+                            </div>
+                        </a></li>
+                        <li>
+                            <a href="https://app-1257080242.cos.ap-guangzhou.myqcloud.com/pc/TDEx_setup_0.1.2.dmg"><p>MacOS客户端下载</p></a>
+                        </li>
+                        <li>
+                            <a href="https://app-1257080242.cos.ap-guangzhou.myqcloud.com/pc/TDEx_setup_0.1.2.exe"><p>PC客户端下载</p></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-right">
+                    <div class="footer-right-logo zh-cn">图灵衍生品交易所</div>
+                    <div class="footer-right-icon">
+                        <a href="https://t.me/tdexcom" target="_blank" title="官方信息发布（Telegram）"><i class="iconfont icon-telegram"></i></a>
+                        <a href="https://twitter.com/TDEx_CEO" target="_blank" title="关注CEO推特（Twitter）"><i class="iconfont icon-twitter"></i></a>
+                        <i class="iconfont icon-sina"></i>
+                        <i class="iconfont icon-facebook"></i>
+                    </div>
+                    <p class="footer-right-lang-p">Copyright © TDEx TRADING LTD 版权所有</p>
+                </div>
+            </div>
+            <div class="footer-bottom"></div>
+        </div>
+    </body>
+</html>

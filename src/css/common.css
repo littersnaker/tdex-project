@@ -1,0 +1,573 @@
+.inside-page-web {
+  margin-top: 72px;
+  background: #f8f8fa;
+  color: #777;
+  min-height: 800px;
+  overflow-x: hidden; }
+  .inside-page-web .inside-web-part {
+    margin: 0 auto;
+    width: 1200px;
+    padding: 30px 0; }
+
+.inside-page-web.back {
+  background: #0b0d10; }
+
+.tab-data-list, .title-data-list, .account-data-list {
+  margin-top: 40px;
+  position: relative; }
+  .tab-data-list .list-header-text, .title-data-list .list-header-text, .account-data-list .list-header-text {
+    display: flex;
+    display: -ms-flexbox;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding-bottom: 20px; }
+    .tab-data-list .list-header-text h3, .title-data-list .list-header-text h3, .account-data-list .list-header-text h3 {
+      font-size: 18px;
+      color: #17181b; }
+    .tab-data-list .list-header-text .header-path-text, .title-data-list .list-header-text .header-path-text, .account-data-list .list-header-text .header-path-text {
+      color: #f3b652;
+      font-size: 15px;
+      cursor: pointer; }
+      .tab-data-list .list-header-text .header-path-text i, .title-data-list .list-header-text .header-path-text i, .account-data-list .list-header-text .header-path-text i {
+        font-size: 12px;
+        vertical-align: 1px; }
+  .tab-data-list .list-header-tab, .title-data-list .list-header-tab, .account-data-list .list-header-tab {
+    justify-content: flex-start;
+    margin-bottom: 20px;
+    padding-bottom: 0px; }
+    .tab-data-list .list-header-tab h3, .title-data-list .list-header-tab h3, .account-data-list .list-header-tab h3 {
+      margin-right: 32px;
+      position: relative;
+      padding-bottom: 15px;
+      font-size: 16px;
+      cursor: pointer; }
+    .tab-data-list .list-header-tab .active, .title-data-list .list-header-tab .active, .account-data-list .list-header-tab .active {
+      font-size: 18px;
+      font-weight: 600; }
+    .tab-data-list .list-header-tab .active:before, .title-data-list .list-header-tab .active:before, .account-data-list .list-header-tab .active:before {
+      content: '';
+      position: absolute;
+      left: 0;
+      right: 0;
+      margin: auto;
+      bottom: 0;
+      width: 45px;
+      height: 4px;
+      background: #f3b652; }
+  .tab-data-list .list-global-config, .title-data-list .list-global-config, .account-data-list .list-global-config {
+    border: 1px solid #e1e1e1; }
+    .tab-data-list .list-global-config .list-config-title-top, .title-data-list .list-global-config .list-config-title-top, .account-data-list .list-global-config .list-config-title-top {
+      display: flex;
+      justify-content: flex-start;
+      height: 60px;
+      align-items: center;
+      padding: 0 20px;
+      box-sizing: border-box;
+      letter-spacing: 0.5px; }
+      .tab-data-list .list-global-config .list-config-title-top p, .title-data-list .list-global-config .list-config-title-top p, .account-data-list .list-global-config .list-config-title-top p {
+        font-size: 15px;
+        padding-right: 40px; }
+      .tab-data-list .list-global-config .list-config-title-top span, .title-data-list .list-global-config .list-config-title-top span, .account-data-list .list-global-config .list-config-title-top span {
+        color: #17181b;
+        font-size: 17px;
+        font-weight: 600; }
+    .tab-data-list .list-global-config .list-config-title, .tab-data-list .list-global-config .list-config-content, .title-data-list .list-global-config .list-config-title, .title-data-list .list-global-config .list-config-content, .account-data-list .list-global-config .list-config-title, .account-data-list .list-global-config .list-config-content {
+      display: flex;
+      flex-wrap: nowrap;
+      justify-content: space-around; }
+      .tab-data-list .list-global-config .list-config-title li, .tab-data-list .list-global-config .list-config-content li, .title-data-list .list-global-config .list-config-title li, .title-data-list .list-global-config .list-config-content li, .account-data-list .list-global-config .list-config-title li, .account-data-list .list-global-config .list-config-content li {
+        width: 100%;
+        text-align: center;
+        border-right: 1px solid #e1e1e1;
+        border-bottom: 1px solid #e1e1e1; }
+      .tab-data-list .list-global-config .list-config-title li:last-child, .tab-data-list .list-global-config .list-config-content li:last-child, .title-data-list .list-global-config .list-config-title li:last-child, .title-data-list .list-global-config .list-config-content li:last-child, .account-data-list .list-global-config .list-config-title li:last-child, .account-data-list .list-global-config .list-config-content li:last-child {
+        border-right: 0;
+        margin-right: -1px; }
+    .tab-data-list .list-global-config .list-config-content-auto, .title-data-list .list-global-config .list-config-content-auto, .account-data-list .list-global-config .list-config-content-auto {
+      height: 154px;
+      overflow-x: hidden;
+      overflow-y: auto; }
+    .tab-data-list .list-global-config .list-config-title:last-child li, .tab-data-list .list-global-config .list-config-content:last-child li, .title-data-list .list-global-config .list-config-title:last-child li, .title-data-list .list-global-config .list-config-content:last-child li, .account-data-list .list-global-config .list-config-title:last-child li, .account-data-list .list-global-config .list-config-content:last-child li {
+      border-bottom: 0; }
+    .tab-data-list .list-global-config .list-config-title, .title-data-list .list-global-config .list-config-title, .account-data-list .list-global-config .list-config-title {
+      background: #dcdcde; }
+      .tab-data-list .list-global-config .list-config-title li, .title-data-list .list-global-config .list-config-title li, .account-data-list .list-global-config .list-config-title li {
+        font-size: 15px;
+        color: #17181b;
+        line-height: 36px; }
+    .tab-data-list .list-global-config .list-config-content li, .title-data-list .list-global-config .list-config-content li, .account-data-list .list-global-config .list-config-content li {
+      line-height: 30px; }
+    .tab-data-list .list-global-config .list-sub-detail, .title-data-list .list-global-config .list-sub-detail, .account-data-list .list-global-config .list-sub-detail {
+      background: #fcfcfc;
+      border-bottom: 1px solid #e1e1e1; }
+      .tab-data-list .list-global-config .list-sub-detail li, .title-data-list .list-global-config .list-sub-detail li, .account-data-list .list-global-config .list-sub-detail li {
+        display: flex;
+        justify-content: center; }
+        .tab-data-list .list-global-config .list-sub-detail li > span, .title-data-list .list-global-config .list-sub-detail li > span, .account-data-list .list-global-config .list-sub-detail li > span {
+          width: 100%;
+          line-height: 30px;
+          text-align: center; }
+  .tab-data-list .list-change-date, .title-data-list .list-change-date, .account-data-list .list-change-date {
+    position: absolute;
+    right: 0;
+    color: #26272a;
+    display: flex; }
+    .tab-data-list .list-change-date .change-date-label, .title-data-list .list-change-date .change-date-label, .account-data-list .list-change-date .change-date-label {
+      height: 30px;
+      line-height: 30px;
+      margin-right: 30px; }
+    .tab-data-list .list-change-date .custom-radioInput, .title-data-list .list-change-date .custom-radioInput, .account-data-list .list-change-date .custom-radioInput {
+      border: 2px solid #dcdcde; }
+      .tab-data-list .list-change-date .custom-radioInput.on, .title-data-list .list-change-date .custom-radioInput.on, .account-data-list .list-change-date .custom-radioInput.on {
+        border-color: #eab762; }
+    .tab-data-list .list-change-date .custom-radio:checked + .custom-radioInput:after, .title-data-list .list-change-date .custom-radio:checked + .custom-radioInput:after, .account-data-list .list-change-date .custom-radio:checked + .custom-radioInput:after {
+      background-color: #f3b458; }
+    .tab-data-list .list-change-date .change-date-option, .title-data-list .list-change-date .change-date-option, .account-data-list .list-change-date .change-date-option {
+      display: flex;
+      align-items: center;
+      position: relative; }
+      .tab-data-list .list-change-date .change-date-option > .item, .title-data-list .list-change-date .change-date-option > .item, .account-data-list .list-change-date .change-date-option > .item {
+        border: 1px solid #dcdcde;
+        height: 30px;
+        line-height: 30px;
+        box-sizing: border-box;
+        padding-left: 8px;
+        padding-right: 35px;
+        cursor: pointer;
+        position: relative; }
+        .tab-data-list .list-change-date .change-date-option > .item > .iconfont, .title-data-list .list-change-date .change-date-option > .item > .iconfont, .account-data-list .list-change-date .change-date-option > .item > .iconfont {
+          position: absolute;
+          right: 5px; }
+      .tab-data-list .list-change-date .change-date-option > span, .title-data-list .list-change-date .change-date-option > span, .account-data-list .list-change-date .change-date-option > span {
+        padding: 0 14px; }
+      .tab-data-list .list-change-date .change-date-option .change-date-option-item, .title-data-list .list-change-date .change-date-option .change-date-option-item, .account-data-list .list-change-date .change-date-option .change-date-option-item {
+        position: absolute;
+        top: 30px;
+        left: -1px;
+        background: #fff;
+        width: 103%;
+        height: 126px;
+        overflow: auto; }
+        .tab-data-list .list-change-date .change-date-option .change-date-option-item::-webkit-scrollbar, .title-data-list .list-change-date .change-date-option .change-date-option-item::-webkit-scrollbar, .account-data-list .list-change-date .change-date-option .change-date-option-item::-webkit-scrollbar {
+          width: 6px; }
+        .tab-data-list .list-change-date .change-date-option .change-date-option-item::-webkit-scrollbar-thumb, .title-data-list .list-change-date .change-date-option .change-date-option-item::-webkit-scrollbar-thumb, .account-data-list .list-change-date .change-date-option .change-date-option-item::-webkit-scrollbar-thumb {
+          background: #aaa; }
+        .tab-data-list .list-change-date .change-date-option .change-date-option-item::-webkit-scrollbar-track, .title-data-list .list-change-date .change-date-option .change-date-option-item::-webkit-scrollbar-track, .account-data-list .list-change-date .change-date-option .change-date-option-item::-webkit-scrollbar-track {
+          background: #f1f1f1; }
+        .tab-data-list .list-change-date .change-date-option .change-date-option-item > li, .title-data-list .list-change-date .change-date-option .change-date-option-item > li, .account-data-list .list-change-date .change-date-option .change-date-option-item > li {
+          width: 100%;
+          border: 1px solid #dcdcde;
+          height: 30px;
+          line-height: 30px;
+          box-sizing: border-box;
+          padding-left: 8px;
+          margin: 1px auto;
+          transition: all 0.4s; }
+          .tab-data-list .list-change-date .change-date-option .change-date-option-item > li:hover, .title-data-list .list-change-date .change-date-option .change-date-option-item > li:hover, .account-data-list .list-change-date .change-date-option .change-date-option-item > li:hover {
+            background: #f1f1f1; }
+    .tab-data-list .list-change-date .change-date-search, .title-data-list .list-change-date .change-date-search, .account-data-list .list-change-date .change-date-search {
+      margin-left: 30px;
+      position: relative; }
+      .tab-data-list .list-change-date .change-date-search input, .title-data-list .list-change-date .change-date-search input, .account-data-list .list-change-date .change-date-search input {
+        width: 160px;
+        border: 1px solid #dcdcde;
+        outline-color: #f4bb5e;
+        height: 30px;
+        font-size: 14px;
+        padding-right: 32px;
+        box-sizing: border-box; }
+      .tab-data-list .list-change-date .change-date-search > .iconfont, .title-data-list .list-change-date .change-date-search > .iconfont, .account-data-list .list-change-date .change-date-search > .iconfont {
+        position: absolute;
+        top: 0;
+        right: 8px;
+        line-height: 30px;
+        color: #f3b652;
+        cursor: pointer; }
+
+.account-data-list .list-header-text {
+  padding-bottom: 0; }
+
+.no-list-data {
+  position: relative;
+  text-align: center; }
+  .no-list-data .no-list-data-pic {
+    background: url("../images/user-info/no-list-data.png") no-repeat;
+    background-size: 100% 100%;
+    height: 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 48px;
+    padding-top: 56px;
+    top: -42px; }
+
+.no-list-data.back .no-list-data-pic {
+  background: url("../images/user-info/no-list-data-back.png") no-repeat;
+  background-size: 100% 100%; }
+.no-list-data.back p {
+  color: #5b5e65 !important; }
+
+.no-list-data.show-5 {
+  height: 154px; }
+  .no-list-data.show-5 p {
+    padding-top: 92px;
+    color: #c8c8d8; }
+
+.no-list-data.show-10 {
+  height: 470px; }
+  .no-list-data.show-10 p {
+    padding-top: 220px;
+    color: #c8c8d8; }
+  .no-list-data.show-10 .no-list-data-pic {
+    top: -100px; }
+
+.crumbs-header-link {
+  border-bottom: 1px solid #dcdcde;
+  padding-bottom: 22px;
+  margin-bottom: 33px; }
+  .crumbs-header-link a {
+    font-size: 24px;
+    cursor: pointer; }
+    .crumbs-header-link a i {
+      vertical-align: middle;
+      font-size: 18px;
+      padding: 0 10px; }
+  .crumbs-header-link a:first-child {
+    color: #17181b; }
+
+.tabpage .public-pages-config {
+  margin: 20px auto; }
+  .tabpage .public-pages-config span {
+    font-size: 14px;
+    color: #848484;
+    cursor: default; }
+  .tabpage .public-pages-config a {
+    margin-left: 5px;
+    height: 25px;
+    line-height: 25px;
+    color: #a9a9a9;
+    font-size: 13px;
+    border: 1px solid #dcdcde;
+    border-radius: 1px;
+    background: #fff;
+    transition: all 0.5s;
+    box-sizing: border-box; }
+  .tabpage .public-pages-config a:hover {
+    color: #eab862;
+    border: 1px #eab862 solid; }
+  .tabpage .public-pages-config a.current {
+    display: inline-block;
+    min-width: 15px;
+    height: 25px;
+    line-height: 25px;
+    color: #fff;
+    background: #f3b652;
+    border: 1px solid #f3b652;
+    cursor: default; }
+  .tabpage .public-pages-config a.disabled, .tabpage .public-pages-config a.disabled:hover {
+    color: #919297;
+    background: #f5f5f5 !important;
+    border-color: #f2f2f2 !important;
+    cursor: not-allowed; }
+  .tabpage .public-pages-config .pageInput {
+    display: inline-block;
+    margin-left: 5px;
+    height: 25px;
+    border: 0;
+    vertical-align: 1px; }
+  .tabpage .public-pages-config .pageInput > input {
+    padding-left: 0;
+    width: 40px;
+    text-align: center;
+    border: 1px solid #dcdcde;
+    outline-color: #f3b652; }
+  .tabpage .public-pages-config .travel-to {
+    margin-left: 20px; }
+
+.selection-date-config {
+  height: 32px;
+  margin-bottom: 20px; }
+  .selection-date-config .change-fenfa-type {
+    border: 1px solid #d3d3d3;
+    height: 32px;
+    line-height: 32px;
+    padding: 0 30px 0 20px;
+    display: inline-block;
+    cursor: pointer;
+    box-sizing: border-box;
+    vertical-align: -1px;
+    margin-right: 15px;
+    background: url(../images/icons/xjt.png) no-repeat right 9px;
+    position: relative; }
+  .selection-date-config .change-fenfa-type-list {
+    position: absolute;
+    top: 31px;
+    width: 100%;
+    left: -1px;
+    z-index: 9; }
+  .selection-date-config .change-fenfa-type-list li {
+    border: 1px solid #d3d3d3;
+    width: 100%;
+    background: #fff;
+    text-align: center;
+    border-top: 0;
+    transition: all 0.4s; }
+    .selection-date-config .change-fenfa-type-list li:hover {
+      background: #eee; }
+  .selection-date-config .date-time-box > span {
+    border: 1px solid transparent; }
+    .selection-date-config .date-time-box > span.current {
+      border: 1px solid #d3d3d3; }
+  .selection-date-config .date-picket-box-btn {
+    background: #f4b653;
+    color: #fff;
+    border: 0;
+    transition: all 0.4s; }
+    .selection-date-config .date-picket-box-btn:hover {
+      background: #ffd28b; }
+  .selection-date-config .download-csv-icon {
+    float: right;
+    padding-top: 10px;
+    cursor: pointer;
+    transition: all 0.4s; }
+    .selection-date-config .download-csv-icon:hover {
+      color: #f3b652; }
+
+@media screen and (max-width: 750px) {
+  .inside-page-web {
+    margin-top: 0px;
+    padding-top: 40px;
+    min-height: inherit;
+    box-sizing: border-box; }
+    .inside-page-web .inside-web-part {
+      margin: 0 auto;
+      width: 95%;
+      padding-top: 45px;
+      overflow: hidden; }
+    .inside-page-web .trading-web-part {
+      width: 100%;
+      padding-top: 40px;
+      background: #fff; }
+    .inside-page-web .trading-web-part-head {
+      width: 95%;
+      margin: 0 auto; }
+      .inside-page-web .trading-web-part-head .list-header-text, .inside-page-web .trading-web-part-head .list-header-tab {
+        justify-content: center !important;
+        margin-bottom: 17px;
+        margin-top: 5px; }
+        .inside-page-web .trading-web-part-head .list-header-text h3, .inside-page-web .trading-web-part-head .list-header-tab h3 {
+          margin: 0 10px; }
+      .inside-page-web .trading-web-part-head .selection-date-config {
+        margin-bottom: 10px;
+        padding-bottom: 15px; }
+
+  .tab-data-list, .title-data-list, .account-data-list {
+    margin-top: 20px; }
+    .tab-data-list .list-header-text, .title-data-list .list-header-text, .account-data-list .list-header-text {
+      padding-bottom: 10px; }
+      .tab-data-list .list-header-text h3, .title-data-list .list-header-text h3, .account-data-list .list-header-text h3 {
+        font-size: 14px;
+        font-weight: 600; }
+      .tab-data-list .list-header-text .header-path-text, .title-data-list .list-header-text .header-path-text, .account-data-list .list-header-text .header-path-text {
+        font-size: 12px; }
+        .tab-data-list .list-header-text .header-path-text i, .title-data-list .list-header-text .header-path-text i, .account-data-list .list-header-text .header-path-text i {
+          font-size: 12px;
+          vertical-align: 0px; }
+    .tab-data-list .list-header-tab, .title-data-list .list-header-tab, .account-data-list .list-header-tab {
+      margin-bottom: 10px;
+      padding-bottom: 0px; }
+      .tab-data-list .list-header-tab h3, .title-data-list .list-header-tab h3, .account-data-list .list-header-tab h3 {
+        margin-right: 10px;
+        padding-bottom: 8px;
+        font-size: 14px;
+        font-weight: 500; }
+      .tab-data-list .list-header-tab .active, .title-data-list .list-header-tab .active, .account-data-list .list-header-tab .active {
+        font-size: 14px; }
+      .tab-data-list .list-header-tab .active:before, .title-data-list .list-header-tab .active:before, .account-data-list .list-header-tab .active:before {
+        width: 35px;
+        height: 3px; }
+    .tab-data-list .list-global-config .list-config-title li:last-child, .tab-data-list .list-global-config .list-config-content li:last-child, .title-data-list .list-global-config .list-config-title li:last-child, .title-data-list .list-global-config .list-config-content li:last-child, .account-data-list .list-global-config .list-config-title li:last-child, .account-data-list .list-global-config .list-config-content li:last-child {
+      border-right: 0;
+      margin-right: -1px; }
+    .tab-data-list .list-global-config .list-config-title li, .title-data-list .list-global-config .list-config-title li, .account-data-list .list-global-config .list-config-title li {
+      font-size: 12px; }
+    .tab-data-list .list-global-config .list-config-content li, .title-data-list .list-global-config .list-config-content li, .account-data-list .list-global-config .list-config-content li {
+      line-height: 30px;
+      font-size: 12px; }
+
+  .no-list-data {
+    position: relative;
+    text-align: center;
+    background: #f3f3f3; }
+    .no-list-data p {
+      font-size: 12px; }
+    .no-list-data .no-list-data-pic {
+      background: url("../images/user-info/no-list-data.png") no-repeat;
+      background-size: 100% 100%;
+      height: 0;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      margin: auto;
+      width: 48px;
+      padding-top: 47px;
+      top: -42px; }
+
+  .no-list-data.show-5 {
+    height: 155px; }
+    .no-list-data.show-5 p {
+      padding-top: 92px; }
+
+  .no-list-data.show-10 {
+    height: 400px; }
+    .no-list-data.show-10 p {
+      padding-top: 185px; }
+
+  .crumbs-header-link {
+    padding-bottom: 8px;
+    margin-bottom: 20px; }
+    .crumbs-header-link a {
+      font-size: 16px; }
+      .crumbs-header-link a i {
+        font-size: 14px; }
+    .crumbs-header-link a:first-child {
+      font-weight: bold; }
+
+  .selection-date-config {
+    height: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 15px; }
+    .selection-date-config .selection-date-config-box {
+      height: 32px;
+      width: 65%;
+      border: 1px solid #d3d3d3;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-sizing: border-box; }
+      .selection-date-config .selection-date-config-box > p {
+        font-size: 12px;
+        min-width: 20px;
+        text-align: center; }
+      .selection-date-config .selection-date-config-box input {
+        border: 0;
+        width: 90px;
+        outline: none;
+        padding: 0 8px;
+        box-sizing: border-box;
+        text-align: center; }
+    .selection-date-config .date-picket-box-btn {
+      width: 26%; }
+    .selection-date-config .selection-time-config-box {
+      width: 100%;
+      text-align: center;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      margin-top: 10px; }
+      .selection-date-config .selection-time-config-box .current {
+        color: #f3b652; }
+
+  .public-pages-config {
+    text-align: center; }
+    .public-pages-config span {
+      display: none !important; }
+    .public-pages-config a:last-child {
+      display: none !important; }
+    .public-pages-config a {
+      margin-left: 5px;
+      padding: 2px 10px;
+      color: #a9a9a9;
+      font-size: 14px;
+      border: 1px solid #f5f5f5;
+      border-radius: 1px;
+      background: #f5f5f5;
+      transition: all 0.5s; }
+    .public-pages-config a:hover {
+      color: #eab862;
+      border: 1px #eab862 solid; }
+    .public-pages-config a.current {
+      display: inline-block;
+      min-width: 15px;
+      height: 17px;
+      line-height: 17px;
+      color: #fff;
+      background: #f3b652;
+      border: 1px solid #f3b652;
+      cursor: default; }
+    .public-pages-config a.disabled, .public-pages-config a.disabled:hover {
+      color: #919297;
+      background: #fff;
+      border-color: #dcdcde !important;
+      cursor: not-allowed; }
+    .public-pages-config .pageInput {
+      display: inline-block;
+      margin-left: 5px;
+      border: 0;
+      vertical-align: 1px; }
+    .public-pages-config .pageInput > input {
+      padding-left: 0px;
+      width: 40px;
+      height: 25px;
+      text-align: center;
+      border: 1px solid #ccc;
+      outline-color: #f3b652; }
+    .public-pages-config .travel-to {
+      margin-left: 20px;
+      display: none; }
+
+  .m-list-global-config {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background: #fff;
+    padding: 2.5%;
+    box-sizing: border-box;
+    margin-bottom: 10px; }
+    .m-list-global-config > li {
+      width: 50%;
+      line-height: 30px; }
+      .m-list-global-config > li span:nth-child(1) {
+        font-size: 12px; }
+      .m-list-global-config > li span:nth-child(2) {
+        color: #000;
+        padding-left: 4px; }
+    .m-list-global-config .m-list-config-title {
+      width: 100%;
+      margin-bottom: 10px;
+      height: 32px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid #f2f2f2; }
+      .m-list-global-config .m-list-config-title > p span.red {
+        background: #eb147b;
+        color: #fff;
+        padding: 1px 5px;
+        border-radius: 4px; }
+      .m-list-global-config .m-list-config-title > p span.green {
+        background: #94c248;
+        color: #fff;
+        padding: 1px 5px;
+        border-radius: 4px; }
+      .m-list-global-config .m-list-config-title > p span.title {
+        font-weight: bold; }
+
+  .m-list-global-config-auto {
+    height: calc(100vh - 219px);
+    overflow-x: hidden;
+    overflow-y: auto;
+    background: #f3f3f3;
+    padding-top: 10px; }
+    .m-list-global-config-auto .public-pages-config {
+      background: #fff;
+      margin: 0 !important;
+      padding: 20px 0 40px; } }
+
+/*# sourceMappingURL=common.css.map */

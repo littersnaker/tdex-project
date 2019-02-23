@@ -1,0 +1,306 @@
+.zwb-main-section {
+  background: #000;
+  color: #fff;
+}
+.zwb-main-section .container {
+  margin: auto;
+  max-width: 1200px;
+  width: 1200px;
+  padding: 60px 0 90px;
+}
+.zwb-main-section .container > h2 {
+  color: #fff;
+  text-align: left;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 80px;
+}
+.zwb-main-section .container-center {
+  border: 1px solid #333333;
+  text-align: center;
+  height: 320px;
+  display: flex;
+  margin-bottom: 140px;
+}
+.zwb-main-section .center-new-left {
+  flex: 0.6;
+  background: #333333;
+  border: 1px solid #1e1e1e;
+  padding: 0 10px;
+}
+.zwb-main-section .left-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 136px;
+  border-bottom: 1px dashed #666666;
+}
+.zwb-main-section .top-left {
+  flex: 1;
+}
+.zwb-main-section .top-right {
+  flex: 1;
+}
+.zwb-main-section .left-top span {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 20px;
+  display: block;
+}
+.zwb-main-section .top-left span {
+  color: #cc6633;
+}
+.zwb-main-section .top-right span {
+  color: #7bc475;
+}
+.zwb-main-section .left-bottom {
+  margin: 24px 30px;
+  height: 132px;
+  border: 1px solid #fb3838;
+}
+.zwb-main-section .left-bottom h3 {
+  text-align: center;
+  line-height: 38px;
+}
+.zwb-main-section .bottom-info {
+  display: flex;
+}
+.zwb-main-section .info-item {
+  flex: 1;
+}
+.zwb-main-section .info-item p {
+  padding: 15px 0;
+  color: #666666;
+  font-size: 14px;
+}
+.zwb-main-section .info-item h4 {
+  font-size: 16px;
+}
+
+.zwb-main-section .center-new-right {
+  flex: 0.4;
+  padding-right: 30px;
+}
+.zwb-main-section .center-new-right > p {
+  line-height: 68px;
+  color: #cccccc;
+  text-align: left;
+  font-size: 14px;
+  padding-left: 60px;
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.zwb-main-section .center-new-right p span {
+  color: #0099ff;
+}
+.zwb-main-section .center-new-right p a {
+  color: #666666;
+  margin-left: 15px;
+}
+.zwb-main-section .right-select {
+  height: 31px;
+  padding-top: 20px;
+}
+.select-content {
+  float: right;
+  height: 30px;
+  width: 175px;
+  position: relative;
+  background: #333;
+  border: 1px solid #666;
+  line-height: 30px;
+  color: #ccc;
+}
+.zwb-main-section .select-list {
+  position: absolute;
+  left: -1px;
+  top: 30px;
+  width: calc(100% + 2px);
+  overflow: hidden;
+  animation: 0.3s all;
+}
+.zwb-main-section .select-list li {
+  line-height: 28px;
+  color: #cccccc;
+  border-top: 1px solid #666666;
+  border-right: 1px solid #666666;
+  border-left: 1px solid #666666;
+  border-bottom: 1px solid #666666;
+  background: #333;
+  cursor: pointer;
+}
+.zwb-main-section .select-list li:hover {
+  background: #ccc;
+  color: #333;
+}
+.zwb-main-section .select-list li:first-child {
+  border-bottom: 0;
+}
+.zwb-main-section .select-item {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  right: 10px;
+  top: 5px;
+}
+.zwb-main-section .select-item::after {
+  content: "";
+  width: 0;
+  height: 0;
+  border-right: 6px solid transparent;
+  border-top: 7px solid #dddddd;
+  border-left: 6px solid transparent;
+  background-color: transparent;
+  position: absolute;
+  left: 4px;
+  top: 7px;
+}
+.zwb-main-section .select-text {
+  float: right;
+  line-height: 30px;
+  color: #cccccc;
+  font-size: 16px;
+}
+.zwb-main-section .user-wallet {
+  height: 70px;
+  margin-top: 1px;
+}
+.zwb-main-section .user-wallet p {
+  float: right;
+  line-height: 52px;
+}
+.zwb-main-section .user-wallet p span {
+  color: #ccc;
+}
+.zwb-main-section .apply-amount {
+  height: 30px;
+  margin-bottom: 30px;
+}
+.zwb-main-section .apply-amount input {
+  outline: none;
+  float: right;
+  height: 28px;
+  line-height: 28px;
+  background: transparent;
+  color: #ccc;
+  border: 1px solid #666;
+}
+.zwb-main-section .apply-amount h4 {
+  float: right;
+  line-height: 28px;
+  font-size: 16px;
+  color: #ccc;
+}
+.zwb-main-section .apply-button {
+  height: 44px;
+  text-align: right;
+}
+.zwb-main-section .apply-button a {
+  display: inline-block;
+  line-height: 42px;
+  width: 175px;
+  text-align: center;
+  border: 1px solid #7bc475;
+  border-radius: 5px;
+  font-size: 16px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.zwb-main-section .apply-button a:first-child {
+  color: #fff;
+  background: #7bc475;
+  margin-right: 40px;
+}
+.zwb-main-section .apply-button a:last-child {
+  color: #7bc475;
+}
+.zwb-main-section .inline-block {
+  display: inline-block;
+}
+.zwb-main-section .tip {
+  color: #999;
+  line-height: 24px;
+  margin-bottom: 20px;
+}
+.zwb-main-section .table {
+  border: 1px solid #333333;
+  color: #333;
+  width: 100%;
+  margin-bottom: 20px;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.zwb-main-section .table th, .zwb-main-section .table td {
+  text-align: center!important;
+  width: 16.6666%;
+  border: 1px solid #333333!important;
+  padding: 8px;
+  line-height: 1.428571429;
+  vertical-align: bottom;
+}
+.zwb-main-section .table th {
+  background: #232323;
+  color: #ccc;
+}
+.zwb-main-section .table tbody tr {
+  background: #2e2e2e;
+  color: #999;
+}
+.zwb-main-section .table tbody tr:nth-child(2n) {
+  background: #232323;
+}
+.zwb-main-section .container-history h3 {
+  text-align: center;
+  background: #313131;
+  border-bottom: 1px solid #3d3d3d;
+  color: #fff;
+  line-height: 56px;
+  font-size: 18px;
+}
+.zwb-main-section .history-menu {
+  background: #232323;
+  line-height: 42px;
+  padding: 10px 0;
+}
+.zwb-main-section .history-menu a {
+  margin: 0 20px;
+  color: #fff;
+}
+.zwb-main-section .history-body {
+  background: #232323;
+  min-height: 400px;
+}
+.zwb-main-section .history-body ul {
+  border-top: 1px solid #3d3d3d;
+}
+.zwb-main-section .history-body li {
+  border-bottom: 1px solid #3d3d3d;
+  line-height: 32px;
+  text-align: center;
+  display: flex;
+}
+.zwb-main-section .history-body span {
+  flex: 1;
+  color: #fff;
+}
+.zwb-main-section .border-right {
+  border-right: 1px solid #3d3d3d;
+}
+.zwb-main-section .history-body ul li:nth-child(2n) {
+  background: #2e2e2e;
+}
+.zwb-main-section .history-menu .menu-active {
+  color: #7cc576;
+}
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

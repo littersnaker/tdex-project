@@ -1,0 +1,467 @@
+@charset "UTF-8";
+.home {
+    width: 100%;
+    background: #fff;
+    min-width: 1200px;
+    .home-tips {
+        background: rgba(23, 24, 27, 0.5);
+        margin-top: -50px;
+        position: relative;
+        z-index: 0;
+        div {
+            width: 1140px;
+            margin: 0 auto;
+            height: 50px;
+            line-height: 50px;
+            display: flex;
+            flex-wrap: nowrap;
+            justify-content: left;
+            align-items: center;
+            .icon-lingdang {
+                color: #f3b652;
+                padding-right: 10px;
+            }
+            .tips-list {
+                width: 100%;
+                white-space: nowrap;
+                margin: 0;
+                a {
+                    white-space: nowrap;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    cursor: pointer;
+                    line-height: 1.3;
+                    transition: 0.4s all;
+                }
+                a:first-child {
+                    border-right:1px solid #a2a2a2 ;
+                    padding-right: 4%;
+                    margin-right: 4%;
+                }
+                a:hover {
+                    color: #f3f3f3;
+                }
+            }
+            .more-btn {
+                display: inline-block;
+                line-height: 1;
+                width: 120px;
+                transition: 0.4s all;
+                i {font-size: 12px;padding-left: 5px;}
+            }
+            .more-btn:hover {
+                color: #f3f3f3;
+            }
+        }
+    }
+    .trading-kline {
+        width: 100%;
+        position: relative;
+        z-index: 1;
+        box-shadow: 0 5px 10px #eee;
+        background: url("../images/home/trading-kline-bg.jpg") no-repeat;
+        background-size: cover !important;
+        >div {
+            width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            flex-wrap: nowrap;
+            justify-content: space-between;
+            .trading-kline-setion {
+                width: 480px;
+                height: 145px;
+                border: 1px solid #e0e0e0;
+                margin: 50px 0;
+                position: relative;
+                background: #fff;
+                //overflow: hidden;
+                .trading-kline-setion-map {
+                    width: calc(100% + 186px) ;
+                    height: calc(100% + 50px) ;
+                    position: absolute;
+                    top: 0;
+                    left: -93px ;
+                    bottom: -68px;
+                    right: 0;
+                    margin: auto;
+                }
+                .kline-item {
+                    .kline-cur {
+                        width: 72px;
+                        height: 91px;
+                        position: absolute;
+                        top: -6px;
+                        left: 20px;
+                        background-size: cover !important;
+                    }
+                    .kline-cur.kline-BTC {background: url("../images/home/kline-BTC.png") no-repeat;}
+                    .kline-cur.kline-TD {background: url("../images/home/kline-TD.png") no-repeat;}
+                    .kline-cur-data {
+                        width: 325px;
+                        padding-top: 28px;
+                        padding-left: 118px;
+                        position: relative;
+                        cursor: pointer;
+                        p {padding-bottom: 18px;line-height: 1;font-size: 16px;}
+                        .data-title-flex {display: flex;justify-content: space-between;align-items: flex-start;}
+                        .data-title {font-size: 24px;color: #17181b;font-weight: 600;}
+                        .data-number {color:#17181b;padding-right: 28px;}
+                        .data-txt {font-size: 18px;font-weight: 600;}
+                        .data-txt.red {color: #f11aa8;}
+                        .data-txt.green {color: #1af199;}
+                    }
+                }
+            }
+        }
+    }
+    .home-section-item{
+        text-align: center;
+        >h3 {padding-top: 75px;font-size: 36px;color: #17181b;letter-spacing: 1px;cursor: default;}
+        >p {padding-top: 10px;font-size: 16px;}
+    }
+    .mining-section {
+        position: relative;
+        z-index: 0;
+        background: #f5f5f5;
+        height: 670px;
+        >a {margin-top: 26px;text-decoration: underline;display: inline-block;margin-bottom: 70px;transition: all 0.4s;}
+        >a:hover {color: #f3b652;}
+        .mining-section-flex {
+            width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: nowrap;
+            >div {
+                width: 48%;
+            }
+            .mining-data {
+                border: 1px solid #dcdcde;
+                padding: 22px;
+                display: flex;
+                justify-content: space-between;
+                box-sizing: border-box;
+                ul{
+                    text-align: left;
+                    li {
+                        margin-bottom: 45px;
+                        .mining-share-data {
+                            font-size: 24px;
+                            font-weight: 600;
+                            color: #17181b;
+                            padding-top: 6px;
+                        }
+                    }
+                    li:last-child {
+                        padding-bottom: 0;
+                    }
+                }
+            }
+            .mining-circular {
+                //position: relative;
+                .mining-circular-chart {
+                    width: 500px;
+                    height: 305px;
+                    border-radius: 50%;
+                }
+            }
+        }
+    }
+    .introduce-section {
+        >div{
+            width: 1200px;
+            margin: 130px auto 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .introduce-section-item {
+            width: 50%;
+            display: flex;
+            flex-wrap: nowrap;
+            justify-content: left;
+            align-items: center;
+            padding-bottom: 100px;
+            .introduce-section-bg {
+                width: 250px;
+                height: 190px;
+                margin-right: 50px;
+                background-size: 100% 100% !important;
+            }
+            .introduce-section-bg.item-bg1 {
+                background: url("../images/home/introduce-section-icon1.png") no-repeat;
+            }
+            .introduce-section-bg.item-bg2 {
+                background: url("../images/home/introduce-section-icon2.png") no-repeat;
+            }
+            .introduce-section-bg.item-bg3 {
+                background: url("../images/home/introduce-section-icon3.png") no-repeat;
+            }
+            .introduce-section-bg.item-bg4 {
+                background: url("../images/home/introduce-section-icon4.png") no-repeat;
+            }
+            .introduce-section-text {
+                width: 250px;
+                h4 {font-size: 24px;color: #18181b;padding-bottom: 12px;padding-top: 5px;letter-spacing: 1px;}
+                p {line-height: 20px;}
+            }
+        }
+    }
+    .client-section {
+        width: 100%;
+        height: 464px;
+        background: url("../images/home/client-bg.jpg") no-repeat;
+        background-size: cover !important;
+        >h3 {color: #f3f3f3;}
+        >div {
+            width: 950px;
+            margin: 50px auto 0;
+            display: flex;
+            flex-wrap: nowrap;
+            justify-content: space-around;
+            .client-section-item {
+                text-align: center;
+                position: relative;
+                a {
+                    display: block;
+                    width: 120px;
+                    height: 40px;
+                    line-height: 38px;
+                    border: 1px solid #5e5f65;
+                    border-radius: 2em;
+                    box-sizing: border-box;
+                    transition: 0.4s all;
+                    margin-top: 22px;
+                    .client-bg-qr {
+                        width: 100%;
+                        background: #f3f3f3;
+                        position: absolute;
+                        top: -20px;
+                        //padding-bottom: 15px;
+                        box-sizing: border-box;
+                        border-radius: 7px;
+                        display: none;
+                        padding: 15px;
+                        line-height: 1;
+                        >p {color: #17181b;line-height: 1.5;padding-bottom: 10px;text-align: left;}
+                        >div {
+                            width: 90px;
+                            height: 90px;
+                            background: #000;
+                            display: inline-block;
+                        }
+                    }
+                    .client-bg-qr.ja-jp {
+                        top: -90px;
+                    }
+                    .client-bg-qr.en-us {
+                        top: -48px;
+                    }
+                }
+                a:hover {
+                    background-color: #f3b652;
+                    border-color: #f3b652;
+                    color: #17181b;
+                }
+                a:hover .client-bg-qr {
+                    display: block;
+                }
+                .client-bg-item {width: 116px;height: 116px;display: inline-block;background-size: 100% 100% !important;}
+                .client-bg-ios {background: url("../images/home/client-ios.png")no-repeat;}
+                .client-bg-android {background: url("../images/home/client-android.png")no-repeat;}
+                .client-bg-mac {background: url("../images/home/client-mac.png")no-repeat;}
+                .client-bg-win {background: url("../images/home/client-win.png")no-repeat;}
+
+            }
+        }
+    }
+    .soon-trading {
+        width: 100%;
+        height: 340px;
+        background: url("../images/home/soon-trading.jpg") no-repeat;
+        background-size: cover !important;
+        >h3 {color: #f3f3f3;}
+        >div {
+            margin-top: 54px;
+            a:first-child {margin-right: 100px}
+            a {width: 160px;height: 48px;display: inline-block;box-sizing: border-box;border: 1px solid #5e5f65;border-radius: 5px;line-height: 46px;font-size: 16px;letter-spacing: 2px;font-weight: 500;padding-left: 2px;transition: 0.4s all;color: #f3f3f3;}
+            a:hover{background: #f3b652;color: #17181b;border-color: #17181b;}
+        }
+    }
+}
+@media screen and (max-width: 750px) {
+    .home {
+        overflow-x: hidden;
+        min-width: inherit;
+        .home-tips {
+            margin-top: -9vw;
+            div {
+                width: 95%;
+                height: 9vw;
+                line-height: 9vw;
+                .tips-list {
+                    >a:first-child {
+                        width: 95%;
+                        margin-right: 0;
+                        border-right: 0;
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+        .home-section-item{
+            >h3 {font-size: 30px;}
+        }
+        .trading-kline {
+            background: none;
+            >div {
+                width: 95%;
+                //flex-wrap: wrap;
+                //justify-content: center;
+                padding: 0;
+                .trading-kline-setion {
+                    margin: 15px 0;
+                    width: 49%;
+                    height: 95px;
+                    //.trading-kline-setion-map {
+                    //    width: calc(100% + 140px) ;
+                    //    left: -70px ;
+                    //}
+                    .kline-item {
+                        width: 100%;
+                        margin: 20px 0;
+                        .kline-cur {display: none;}
+                        .kline-cur-data {
+                            width: 95%;
+                            box-sizing: border-box;
+                            padding-top: 18px;
+                            padding-left: 8px;
+                            .data-title {
+                                font-size: 15px;
+                            }
+                            .data-number {padding-right: 8px;}
+                            .data-txt {font-size: 13px;}
+                            p {font-size: 12px;padding-bottom: 8px;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}
+                        }
+                    }
+                }
+
+            }
+        }
+        .mining-section {
+            height: inherit;
+            >a {margin-bottom: 40px;}
+            .mining-section-flex {
+                width: 95%;
+                justify-content:center;
+                flex-wrap: wrap;
+                >div {width: 100%;}
+                .mining-circular {
+                    display: none;
+                }
+                .mining-data {
+                    border: 0;
+                    padding: 0;
+                    margin-bottom: 30px;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    width: 100%;
+                    ul:first-child {padding-bottom: 30px;}
+                    li {
+                        background: #dcdcdc;
+                        width: 100% !important;
+                        display: inline-block;
+                        margin-bottom: 10px !important;
+                        padding: 10px;
+                        box-sizing: border-box;
+                    }
+                    li:last-child {padding-bottom: 10px !important;}
+                }
+            }
+        }
+        .introduce-section {
+            >div{
+                width: 95%;
+                margin: 30px auto 50px;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+            .introduce-section-item {
+                width: 100%;
+                padding: 20px 0;
+                justify-content: space-between;
+                .introduce-section-bg {
+                    margin-right: 0px;
+                    width: 30vw;
+                    height: 22vw;
+                }
+                .introduce-section-text {
+                    width: 58vw;
+                    h4 {
+                        font-size:16px;
+                    }
+                    p {font-size: 13px;}
+                }
+            }
+        }
+        .client-section {
+            width: 100%;
+            height: inherit;background-size: cover;
+            >div {
+                width: 95%;
+                margin: 0 auto;
+                display: flex;
+                flex-wrap: wrap;
+                padding-bottom: 30px;
+                .client-section-item {
+                    padding-top: 40px;
+                }
+            }
+        }
+        .soon-trading {
+            width: 100%;
+            >div {
+                margin-top: 54px;
+                a:first-child {margin-right: 20px}
+                a {width: 150px;}
+            }
+        }
+    }
+    .link-download {
+        background: rgba(23, 24, 28, 0.7);
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        left: 0;
+        height: 50px;
+        z-index: 9;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 5%;
+        box-sizing: border-box;
+        .advert-download-pic {
+            width: 9vw;
+            height: 9vw;
+            background: url("../images/app-icon.png") no-repeat;
+            background-size: 100% 100%;
+        }
+        .advert-download-text {
+            width: calc(100% - 38vw);
+            h3 {color: #fff;line-height: 1;margin-bottom: 5px;}
+            P {font-size: 12px;line-height: 1;}
+        }
+        .advert-download-btn {
+            width: 80px;
+            display: block;
+            height: 28px;
+            line-height: 28px;
+            background: #f3b652;
+            border-radius: 2em;
+            color: #000;
+            text-align: center;
+            font-size: 12px;
+        }
+    }
+}

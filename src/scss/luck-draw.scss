@@ -1,0 +1,436 @@
+@charset "UTF-8";
+.luck-draw-style-config {
+    width: 100%;
+    min-height: 800px;
+    background: #161535;
+    .luck-draw-banner {
+        width: 100%;
+        height: 430px;
+        background: url("../images/activities/luck-draw/luck-draw-banner-zh-cn-bg.png") no-repeat 50%;
+        background-size: cover !important;
+        text-align: center;
+        .luck-draw-banner-btn {
+            padding-top: 315px;
+            button {
+                width: 270px;
+                height: 67px;
+                background: linear-gradient(to bottom, #ffd76f, #faab29);
+                border: 0;
+                margin: 0 18px;
+                border-radius: 5px;
+                cursor: pointer;
+                box-sizing: border-box;
+                p {font-weight: bold;letter-spacing: 1px;padding-left: 2px;}
+                p:nth-child(1) {color: #c47d00;padding-bottom: 3px;font-size: 14.5px;}
+                p:nth-child(2) {
+                    color: #a44900;
+                    font-size: 15.5px;
+                    >i {
+                        margin-left: -6px;
+                        &:first-child {
+                            padding-left: 10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .luck-draw-banner.en-us {
+        background: url("../images/activities/luck-draw/luck-draw-banner-en-us-bg.png") no-repeat 50%;
+        >h1 {
+            letter-spacing: 0;
+        }
+    }
+    .luck-draw-content {
+        width: 970px;
+        margin: 33px auto 0;
+        .luck-draw-content-tips {
+            width: 100%;
+            background: #201a48;
+            height: 40px;
+            line-height: 40px;
+            padding-left: 370px;
+            box-sizing: border-box;
+            cursor: default;
+            i {color: #fbb436;vertical-align: -1px;}
+            .swiper-slide {padding-left: 30px;}
+        }
+        .luck-draw-content-tips.en-us {padding-left: 290px;}
+        .luck-draw-style-flex {
+            width: 100%;
+            margin: 35px auto 0;
+            display: flex;
+            flex-wrap: nowrap;
+            justify-content: space-between;
+            .luck-draw-turntable, .luck-draw-prize-list {
+                background: #201a48;
+            }
+            // 转盘
+            .luck-draw-turntable {
+                width: 660px;
+                height: 590px;
+                position: relative;
+                .luck-draw-circular {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    right: 0;
+                    bottom: 0;
+                    margin: auto;
+                    width: 440px;
+                    height: 440px;
+                    background: url("../images/activities/luck-draw/luck-draw-turntable-bg.png") no-repeat;
+                    background-size: 100% 100%;
+                    overflow: hidden;
+                }
+                .luck-draw-circular-1, .luck-draw-circular-2 {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    right: 0;
+                    bottom: 0;
+                    margin: auto;
+                    border: 1px solid #332e57;
+                    border-radius: 50%;
+                }
+                .luck-draw-circular-1 {width: 470px;height: 470px;}
+                .luck-draw-circular-1.active {animation: scale1 ease-in-out 5s infinite;}
+                .luck-draw-circular-2 {width: 515px;height: 515px;}
+                .luck-draw-circular-2.active {animation: scale2 ease-in-out 5s infinite;}
+                .luck-draw-circular-btn {
+                    background: url("../images/activities/luck-draw/luck-draw-turntable-btn.png") no-repeat;
+                    background-size: 100% 100%;
+                    width: 96px;
+                    height: 120px;
+                    position: absolute;
+                    top: -27px;
+                    left: 0;
+                    bottom: 0;
+                    right: 0;
+                    margin: auto;
+                    cursor: pointer;
+                    overflow: hidden;
+                    font-size: 24px;
+                    color: #fff6cc;
+                    padding-top: 39px;
+                    padding-left: 23.5px;
+                    letter-spacing: 2px;
+                    box-sizing: border-box;
+                    font-weight: 600;
+                }
+                .luck-draw-circular-btn.en-us {
+                    padding-top: 55px;
+                    padding-left: 20px;
+                }
+            }
+            // 中奖列表
+            .luck-draw-prize-list {
+                width: 270px;
+                text-align: center;
+                cursor: default;
+                .luck-draw-prize-list-title {
+                    width: 185px;
+                    height: 35px;
+                    line-height: 36px;
+                    font-size: 13px;
+                    color: #fff;border: 0;
+                    letter-spacing: 1px;
+                    background: #4e3eb4;
+                    margin: 40px auto 0;
+                    border-radius: 2em;
+                    transition: all 0.4s;
+                    position: relative;
+                    &:after, &:before {
+                        content: '';
+                        display: block;
+                        position: absolute;
+                        background: #4e3eb4;
+                        width: 7px;
+                        height: 7px;
+                        border-radius: 50%;
+                        top: 15px;
+                    }
+                    &:after {right: -20px;}
+                    &:before {left: -20px;}
+                    &:hover {background: #4e3eb4;}
+                    >span {color: #fbb234;padding: 0 5px;font-weight: bold;}
+                }
+                .luck-draw-prize-list-title.en-us {width: 210px;}
+                .prize-list-title, .prize-list-content {
+                    display: flex;
+                    justify-content: center;
+                    li {width: 50%;line-height: 40px;height: 40px;}
+                }
+                .prize-list-title {color: #9785ff;margin-top: 20px;}
+                .prize-list-content {
+                    text-align: left;
+                    border-bottom: 1px solid #171040;
+                    transition: all 0.4s;
+                    li {padding-left: 20px;color: #f3f3f3;box-sizing: border-box;font-size: 12px;white-space: nowrap;}
+                    li:last-child {padding-left: 45px;}
+                    &:hover {background: #362b73;}
+                }
+                .prize-list-no-content {
+                    color: #69639a;
+                    padding-top: 184px;
+                    font-size: 13px;
+                }
+                .wrapper{ position: relative;z-index: 0;}
+                .bscroll-vertical-scrollbar{
+                    opacity: 1 !important;
+                    background: #2e265d  !important;
+                    border-radius: 1em;
+                    .bscroll-indicator{
+                        background: #5a5190 !important;
+                        border: 1px solid #776bbd !important;
+                    }
+                }
+            }
+
+        }
+        .luck-draw-rule {
+            padding: 55px 0 100px;cursor: default;
+            >h3 {color: #3c98fb;font-size: 24px;line-height: 55px;}
+            li {padding: 4px 0;line-height: 1.7;color: #b0aad5;}
+            span {
+                color: #3c98fb;
+                &:hover {text-decoration: underline;}
+            }
+        }
+    }
+}
+
+
+// 动画
+@keyframes scale1 {
+    0% {transform: scale(1);}
+    25% {transform: scale(1.05);}
+    50% {transform: scale(1);}
+    75% {transform: scale(1.05);}
+}
+
+@keyframes scale2 {
+    0% {transform: scale(1);}
+    25% {transform: scale(1.1);}
+    50% {transform: scale(1);}
+    75% {transform: scale(1.1);}
+}
+
+// 抽奖选择动画
+.luck-draw-circular.ani6 {
+    transform: rotate(7200deg + 390deg);// BTC
+}
+.luck-draw-circular.ani5 {
+    transform: rotate(7200deg + 330deg); // iphone XR
+}
+.luck-draw-circular.ani4 {
+    transform: rotate(7200deg + 450deg); // ipad
+}
+.luck-draw-circular.ani3 {
+    transform: rotate(7200deg + 510deg); // 888TD
+}
+.luck-draw-circular.ani2 {
+    transform: rotate(7200deg + 570deg); // 666TD
+}
+.luck-draw-circular.ani1 {
+    transform: rotate(7200deg + 630deg); // 111TD
+}
+
+// 弹窗遮罩
+.luck-draw-mask {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    background: rgba(0, 0, 0, 0.7);
+    top: 0;
+    left: 0;
+    z-index: 9;
+    text-align: center;
+    .luck-draw-mask-content {
+        width: 330px;
+        height: 260px;
+        background: #f3f3f3;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        border-radius: 2px;
+        .luck-draw-mask-pic {margin: 45px auto 15px;background-size: 100% 100% !important;}
+        .luck-draw-mask-pic.btc {
+            background: url("../images/activities/luck-draw/btc.png") no-repeat;
+            width: 82px;
+            height: 82px;
+        }
+        .luck-draw-mask-pic.ipad {
+            background: url("../images/activities/luck-draw/ipad.png") no-repeat;
+            width: 64px;
+            height: 92px;
+        }
+        .luck-draw-mask-pic.iphone {
+            background: url("../images/activities/luck-draw/iphone.png") no-repeat;
+            width: 45px;
+            height: 89px;
+        }
+        .luck-draw-mask-pic.td {
+            background: url("../images/activities/luck-draw/td.png") no-repeat;
+            width: 70px;
+            height: 89px;
+        }
+        >p {
+            font-size: 18px;
+            letter-spacing: 1.5px;
+            color: #000;
+            span {
+                color: #fea236;
+            }
+        }
+        .no-prize {padding-top: 80px;}
+        button {
+            width: 120px;
+            height: 38px;
+            outline: none;
+            border-radius: 5px;
+            border: 0;
+            background: linear-gradient(to bottom, #ffd76e, #faab29);
+            color: #644000;
+            letter-spacing: 2px;
+            padding-left: 4px;
+            font-weight: bold;
+            font-size: 16px;
+            box-sizing: border-box;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+    }
+}
+
+// 没有数据
+.luck-draw-prize-nolist {
+    border: 1px solid #d0c6c6;
+    width: 183px;
+    margin: 150px auto 0;
+    color: #e0dede;
+    line-height: 35px;
+    font-size: 13px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 750px) {
+    .luck-draw-style-config {
+        .luck-draw-banner {
+            height: 200px;
+            overflow: hidden;
+            background: url("../images/activities/luck-draw/m-luck-draw-banner-zh-cn-bg.png") no-repeat 50%;
+            >h1 {
+                font-size: 24px;
+                padding-top: 50px;
+                letter-spacing: 1px;
+                span {padding: 0 5px;}
+            }
+            .luck-draw-banner-time {line-height: 1.5;font-size: 12px;    padding: 8px 0 12px;}
+            .luck-draw-banner-btn {
+                width: 105px;
+                height: 36px;
+                line-height: 36px;
+                padding: 0;
+                border-radius: 4px;
+                background: linear-gradient(to bottom, #f9d77d, #efae47);
+                cursor: pointer;
+                margin: 146px auto 0;
+                color: #994e19;
+                font-weight: bold;
+            }
+        }
+        .luck-draw-banner.en-us {
+            height: 230px;
+            background: url("../images/activities/luck-draw/m-luck-draw-banner-en-us-bg.png") no-repeat 50%;
+            .luck-draw-banner-btn {margin: 170px auto 0;}
+        }
+        .luck-draw-content {
+            width: 100%;
+            margin: 0 auto 0;
+            background: #161534;
+            .luck-draw-content-tips {
+                padding: 0 !important;
+                font-size: 12px;
+                width: 210px;
+                white-space: nowrap;
+                overflow: hidden;
+                background: #161534;
+                .swiper-slide {
+                    padding-left: 25px !important;
+                }
+            }
+            .luck-draw-content-tips.en-us {width: 325px;}
+            .luck-draw-style-flex {
+                margin: 0 auto 0;
+                flex-wrap: wrap;
+                .luck-draw-turntable, .luck-draw-prize-list {
+                    background: #161534;
+                }
+                // 转盘
+                .luck-draw-turntable {
+                    width: 100%;
+                    height: 400px;
+                    position: relative;
+                    .luck-draw-circular {
+                        width: 320px;
+                        height: 320px;
+                    }
+                    .luck-draw-circular-btn {
+                        width: 69px;
+                        height: 86px;
+                        top: -19px;
+                        left: 1px;
+                        font-size: 15px;
+                        padding-top: 31px;
+                        padding-left: 19px;
+
+                    }
+                    .luck-draw-circular-btn.en-us {
+                        padding-top: 41px;
+                        padding-left: 16px;
+                    }
+                }
+                // 中奖列表
+                .luck-draw-prize-list {
+                    width: 95%;
+                    margin: 0 auto;
+                    text-align: center;
+                    cursor: default;
+                    background: #1f1d45;
+                    .prize-list-title, .prize-list-content {
+                        display: flex;
+                        justify-content: center;
+                        li {width: 50%;line-height: 40px;height: 40px;text-align: center !important;padding: 0 !important;}
+                    }
+                    .wrapper{width: 100% !important;height: 200px !important;}
+                    .prize-list-no-content {padding-top: 84px;}
+                    .luck-draw-prize-list-title {border-radius: 5px;height: 36px;}
+                }
+
+            }
+            .luck-draw-rule {
+                padding: 20px 0 30px;
+                text-align: center;
+                width: 95%;
+                margin: 0 auto;
+                >h3 {font-size: 17px;}
+                li {text-align: left;font-size: 12px;}
+            }
+        }
+    }
+
+    .luck-draw-mask {
+        .luck-draw-mask-content {
+            width: 320px;
+            >p {font-size: 16px};
+        }
+    }
+
+    .luck-draw-prize-nolist {margin: 55px auto 72px;}
+}

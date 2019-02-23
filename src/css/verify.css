@@ -1,0 +1,409 @@
+.verify, .verify-pop, .verify-inside-page {
+  width: 100%;
+  height: 929px;
+  background: url("../images/verify/login-bg.jpg") no-repeat;
+  background-position: 50% !important;
+  background-size: cover !important; }
+  .verify .verify-box, .verify-pop .verify-box, .verify-inside-page .verify-box {
+    width: 1100px;
+    margin: 0 auto;
+    padding-top: 9%; }
+    .verify .verify-box h3, .verify-pop .verify-box h3, .verify-inside-page .verify-box h3 {
+      font-size: 36px;
+      color: #f3f3f3;
+      letter-spacing: 2px; }
+    .verify .verify-box .verify-input-box, .verify .verify-box .verify-ph-and-gg, .verify-pop .verify-box .verify-input-box, .verify-pop .verify-box .verify-ph-and-gg, .verify-inside-page .verify-box .verify-input-box, .verify-inside-page .verify-box .verify-ph-and-gg {
+      width: 100%;
+      display: flex;
+      flex-wrap: nowrap;
+      justify-content: left;
+      align-items: flex-start; }
+      .verify .verify-box .verify-input-box form, .verify .verify-box .verify-ph-and-gg form, .verify-pop .verify-box .verify-input-box form, .verify-pop .verify-box .verify-ph-and-gg form, .verify-inside-page .verify-box .verify-input-box form, .verify-inside-page .verify-box .verify-ph-and-gg form {
+        margin-right: 70px; }
+        .verify .verify-box .verify-input-box form .verify-input-text, .verify .verify-box .verify-ph-and-gg form .verify-input-text, .verify-pop .verify-box .verify-input-box form .verify-input-text, .verify-pop .verify-box .verify-ph-and-gg form .verify-input-text, .verify-inside-page .verify-box .verify-input-box form .verify-input-text, .verify-inside-page .verify-box .verify-ph-and-gg form .verify-input-text {
+          position: relative; }
+          .verify .verify-box .verify-input-box form .verify-input-text input, .verify .verify-box .verify-ph-and-gg form .verify-input-text input, .verify-pop .verify-box .verify-input-box form .verify-input-text input, .verify-pop .verify-box .verify-ph-and-gg form .verify-input-text input, .verify-inside-page .verify-box .verify-input-box form .verify-input-text input, .verify-inside-page .verify-box .verify-ph-and-gg form .verify-input-text input {
+            border: 1px solid #4b4232;
+            outline-color: #f3b652;
+            font-size: 15px;
+            width: 450px;
+            height: 54px;
+            margin-top: 38px;
+            padding-right: 45px; }
+          .verify .verify-box .verify-input-box form .verify-input-text .input-error, .verify .verify-box .verify-ph-and-gg form .verify-input-text .input-error, .verify-pop .verify-box .verify-input-box form .verify-input-text .input-error, .verify-pop .verify-box .verify-ph-and-gg form .verify-input-text .input-error, .verify-inside-page .verify-box .verify-input-box form .verify-input-text .input-error, .verify-inside-page .verify-box .verify-ph-and-gg form .verify-input-text .input-error {
+            color: #ff8522;
+            position: absolute;
+            bottom: -23px;
+            font-size: 12px; }
+            .verify .verify-box .verify-input-box form .verify-input-text .input-error i, .verify .verify-box .verify-ph-and-gg form .verify-input-text .input-error i, .verify-pop .verify-box .verify-input-box form .verify-input-text .input-error i, .verify-pop .verify-box .verify-ph-and-gg form .verify-input-text .input-error i, .verify-inside-page .verify-box .verify-input-box form .verify-input-text .input-error i, .verify-inside-page .verify-box .verify-ph-and-gg form .verify-input-text .input-error i {
+              font-size: 12px;
+              padding-right: 5px;
+              padding-left: 10px; }
+          .verify .verify-box .verify-input-box form .verify-input-text .time-btn, .verify .verify-box .verify-ph-and-gg form .verify-input-text .time-btn, .verify-pop .verify-box .verify-input-box form .verify-input-text .time-btn, .verify-pop .verify-box .verify-ph-and-gg form .verify-input-text .time-btn, .verify-inside-page .verify-box .verify-input-box form .verify-input-text .time-btn, .verify-inside-page .verify-box .verify-ph-and-gg form .verify-input-text .time-btn {
+            width: 150px;
+            height: 52px;
+            margin-top: 38px;
+            border: 1px solid #4b4232;
+            text-align: center;
+            line-height: 50px; }
+          .verify .verify-box .verify-input-box form .verify-input-text .verify-code-text, .verify .verify-box .verify-ph-and-gg form .verify-input-text .verify-code-text, .verify-pop .verify-box .verify-input-box form .verify-input-text .verify-code-text, .verify-pop .verify-box .verify-ph-and-gg form .verify-input-text .verify-code-text, .verify-inside-page .verify-box .verify-input-box form .verify-input-text .verify-code-text, .verify-inside-page .verify-box .verify-ph-and-gg form .verify-input-text .verify-code-text {
+            margin-bottom: -25px;
+            margin-top: 20px; }
+        .verify .verify-box .verify-input-box form .verify-input-phone-text, .verify .verify-box .verify-ph-and-gg form .verify-input-phone-text, .verify-pop .verify-box .verify-input-box form .verify-input-phone-text, .verify-pop .verify-box .verify-ph-and-gg form .verify-input-phone-text, .verify-inside-page .verify-box .verify-input-box form .verify-input-phone-text, .verify-inside-page .verify-box .verify-ph-and-gg form .verify-input-phone-text {
+          display: flex;
+          flex-wrap: nowrap;
+          justify-content: space-between;
+          width: 100%; }
+          .verify .verify-box .verify-input-box form .verify-input-phone-text input, .verify .verify-box .verify-ph-and-gg form .verify-input-phone-text input, .verify-pop .verify-box .verify-input-box form .verify-input-phone-text input, .verify-pop .verify-box .verify-ph-and-gg form .verify-input-phone-text input, .verify-inside-page .verify-box .verify-input-box form .verify-input-phone-text input, .verify-inside-page .verify-box .verify-ph-and-gg form .verify-input-phone-text input {
+            width: 69% !important;
+            padding-right: 0; }
+          .verify .verify-box .verify-input-box form .verify-input-phone-text a, .verify .verify-box .verify-ph-and-gg form .verify-input-phone-text a, .verify-pop .verify-box .verify-input-box form .verify-input-phone-text a, .verify-pop .verify-box .verify-ph-and-gg form .verify-input-phone-text a, .verify-inside-page .verify-box .verify-input-box form .verify-input-phone-text a, .verify-inside-page .verify-box .verify-ph-and-gg form .verify-input-phone-text a {
+            border: 1px solid #f3b652;
+            font-size: 15px;
+            width: 30%;
+            height: 54px;
+            line-height: 54px;
+            text-align: center;
+            margin-top: 38px;
+            box-sizing: border-box;
+            margin-left: 0;
+            color: #000;
+            background: #f3b652; }
+        .verify .verify-box .verify-input-box form .verify-tab-text, .verify .verify-box .verify-ph-and-gg form .verify-tab-text, .verify-pop .verify-box .verify-input-box form .verify-tab-text, .verify-pop .verify-box .verify-ph-and-gg form .verify-tab-text, .verify-inside-page .verify-box .verify-input-box form .verify-tab-text, .verify-inside-page .verify-box .verify-ph-and-gg form .verify-tab-text {
+          display: flex;
+          flex-wrap: nowrap;
+          justify-content: left;
+          align-items: flex-end;
+          font-size: 15px;
+          margin-top: 30px; }
+          .verify .verify-box .verify-input-box form .verify-tab-text > div, .verify .verify-box .verify-ph-and-gg form .verify-tab-text > div, .verify-pop .verify-box .verify-input-box form .verify-tab-text > div, .verify-pop .verify-box .verify-ph-and-gg form .verify-tab-text > div, .verify-inside-page .verify-box .verify-input-box form .verify-tab-text > div, .verify-inside-page .verify-box .verify-ph-and-gg form .verify-tab-text > div {
+            border-bottom: 2px solid #4b4232;
+            padding-bottom: 10px;
+            margin-bottom: -2px;
+            cursor: pointer;
+            padding-right: 10px;
+            padding-left: 10px; }
+          .verify .verify-box .verify-input-box form .verify-tab-text > div.active, .verify .verify-box .verify-ph-and-gg form .verify-tab-text > div.active, .verify-pop .verify-box .verify-input-box form .verify-tab-text > div.active, .verify-pop .verify-box .verify-ph-and-gg form .verify-tab-text > div.active, .verify-inside-page .verify-box .verify-input-box form .verify-tab-text > div.active, .verify-inside-page .verify-box .verify-ph-and-gg form .verify-tab-text > div.active {
+            border-bottom: 2px solid #f3b652; }
+        .verify .verify-box .verify-input-box form .forget-password-text, .verify .verify-box .verify-ph-and-gg form .forget-password-text, .verify-pop .verify-box .verify-input-box form .forget-password-text, .verify-pop .verify-box .verify-ph-and-gg form .forget-password-text, .verify-inside-page .verify-box .verify-input-box form .forget-password-text, .verify-inside-page .verify-box .verify-ph-and-gg form .forget-password-text {
+          text-align: right;
+          padding-top: 20px;
+          color: #f3b652; }
+          .verify .verify-box .verify-input-box form .forget-password-text a, .verify .verify-box .verify-ph-and-gg form .forget-password-text a, .verify-pop .verify-box .verify-input-box form .forget-password-text a, .verify-pop .verify-box .verify-ph-and-gg form .forget-password-text a, .verify-inside-page .verify-box .verify-input-box form .forget-password-text a, .verify-inside-page .verify-box .verify-ph-and-gg form .forget-password-text a {
+            color: #f3b652;
+            font-size: 14px; }
+        .verify .verify-box .verify-input-box form button, .verify .verify-box .verify-ph-and-gg form button, .verify-pop .verify-box .verify-input-box form button, .verify-pop .verify-box .verify-ph-and-gg form button, .verify-inside-page .verify-box .verify-input-box form button, .verify-inside-page .verify-box .verify-ph-and-gg form button {
+          width: 450px;
+          height: 58px;
+          box-sizing: border-box;
+          font-size: 18px;
+          border-radius: 5px;
+          margin-top: 50px;
+          cursor: pointer;
+          outline-color: #f3b652; }
+        .verify .verify-box .verify-input-box form button.active, .verify .verify-box .verify-ph-and-gg form button.active, .verify-pop .verify-box .verify-input-box form button.active, .verify-pop .verify-box .verify-ph-and-gg form button.active, .verify-inside-page .verify-box .verify-input-box form button.active, .verify-inside-page .verify-box .verify-ph-and-gg form button.active {
+          background: #f3b652;
+          border: 1px solid #f3b652; }
+        .verify .verify-box .verify-input-box form button.active:hover, .verify .verify-box .verify-ph-and-gg form button.active:hover, .verify-pop .verify-box .verify-input-box form button.active:hover, .verify-pop .verify-box .verify-ph-and-gg form button.active:hover, .verify-inside-page .verify-box .verify-input-box form button.active:hover, .verify-inside-page .verify-box .verify-ph-and-gg form button.active:hover {
+          background: #f3b652;
+          border: 1px solid #f3b652; }
+        .verify .verify-box .verify-input-box form .btnDis, .verify .verify-box .verify-ph-and-gg form .btnDis, .verify-pop .verify-box .verify-input-box form .btnDis, .verify-pop .verify-box .verify-ph-and-gg form .btnDis, .verify-inside-page .verify-box .verify-input-box form .btnDis, .verify-inside-page .verify-box .verify-ph-and-gg form .btnDis {
+          border-color: #4b4232 !important;
+          background: none !important;
+          color: #757575 !important;
+          cursor: not-allowed; }
+        .verify .verify-box .verify-input-box form .inside-error-text, .verify .verify-box .verify-ph-and-gg form .inside-error-text, .verify-pop .verify-box .verify-input-box form .inside-error-text, .verify-pop .verify-box .verify-ph-and-gg form .inside-error-text, .verify-inside-page .verify-box .verify-input-box form .inside-error-text, .verify-inside-page .verify-box .verify-ph-and-gg form .inside-error-text {
+          color: red;
+          padding: 10px 0; }
+      .verify .verify-box .verify-input-box .input-right-text, .verify .verify-box .verify-ph-and-gg .input-right-text, .verify-pop .verify-box .verify-input-box .input-right-text, .verify-pop .verify-box .verify-ph-and-gg .input-right-text, .verify-inside-page .verify-box .verify-input-box .input-right-text, .verify-inside-page .verify-box .verify-ph-and-gg .input-right-text {
+        position: relative; }
+        .verify .verify-box .verify-input-box .input-right-text p, .verify .verify-box .verify-input-box .input-right-text a, .verify .verify-box .verify-ph-and-gg .input-right-text p, .verify .verify-box .verify-ph-and-gg .input-right-text a, .verify-pop .verify-box .verify-input-box .input-right-text p, .verify-pop .verify-box .verify-input-box .input-right-text a, .verify-pop .verify-box .verify-ph-and-gg .input-right-text p, .verify-pop .verify-box .verify-ph-and-gg .input-right-text a, .verify-inside-page .verify-box .verify-input-box .input-right-text p, .verify-inside-page .verify-box .verify-input-box .input-right-text a, .verify-inside-page .verify-box .verify-ph-and-gg .input-right-text p, .verify-inside-page .verify-box .verify-ph-and-gg .input-right-text a {
+          font-size: 15px;
+          color: #757575;
+          line-height: 34px;
+          cursor: default;
+          letter-spacing: 1px; }
+        .verify .verify-box .verify-input-box .input-right-text p:first-child, .verify .verify-box .verify-ph-and-gg .input-right-text p:first-child, .verify-pop .verify-box .verify-input-box .input-right-text p:first-child, .verify-pop .verify-box .verify-ph-and-gg .input-right-text p:first-child, .verify-inside-page .verify-box .verify-input-box .input-right-text p:first-child, .verify-inside-page .verify-box .verify-ph-and-gg .input-right-text p:first-child {
+          padding-top: 27px;
+          font-size: 16px; }
+        .verify .verify-box .verify-input-box .input-right-text .text-action, .verify .verify-box .verify-ph-and-gg .input-right-text .text-action, .verify-pop .verify-box .verify-input-box .input-right-text .text-action, .verify-pop .verify-box .verify-ph-and-gg .input-right-text .text-action, .verify-inside-page .verify-box .verify-input-box .input-right-text .text-action, .verify-inside-page .verify-box .verify-ph-and-gg .input-right-text .text-action {
+          color: #f3b652;
+          padding-top: 10px;
+          display: inline-block;
+          cursor: pointer;
+          padding-right: 20px; }
+        .verify .verify-box .verify-input-box .input-right-text .verify-right-bg, .verify .verify-box .verify-ph-and-gg .input-right-text .verify-right-bg, .verify-pop .verify-box .verify-input-box .input-right-text .verify-right-bg, .verify-pop .verify-box .verify-ph-and-gg .input-right-text .verify-right-bg, .verify-inside-page .verify-box .verify-input-box .input-right-text .verify-right-bg, .verify-inside-page .verify-box .verify-ph-and-gg .input-right-text .verify-right-bg {
+          background: url("../images/verify/verify-bg-right.png") no-repeat;
+          width: 400px;
+          height: 314px;
+          position: absolute;
+          background-size: 100% 100%;
+          top: -10px;
+          left: 100px; }
+    .verify .verify-box .verify-ph-and-gg form, .verify-pop .verify-box .verify-ph-and-gg form, .verify-inside-page .verify-box .verify-ph-and-gg form {
+      margin-right: 0; }
+      .verify .verify-box .verify-ph-and-gg form .verify-ph-gg-flex, .verify-pop .verify-box .verify-ph-and-gg form .verify-ph-gg-flex, .verify-inside-page .verify-box .verify-ph-and-gg form .verify-ph-gg-flex {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: left;
+        align-items: center;
+        margin: 40px 0; }
+        .verify .verify-box .verify-ph-and-gg form .verify-ph-gg-flex .ph-gg-pic, .verify-pop .verify-box .verify-ph-and-gg form .verify-ph-gg-flex .ph-gg-pic, .verify-inside-page .verify-box .verify-ph-and-gg form .verify-ph-gg-flex .ph-gg-pic {
+          width: 170px;
+          height: 156px;
+          background: url(../images/verify/ggauth-setting.png) no-repeat;
+          background-size: 100% 100%;
+          margin-right: 60px; }
+        .verify .verify-box .verify-ph-and-gg form .verify-ph-gg-flex .ph-gg-text, .verify-pop .verify-box .verify-ph-and-gg form .verify-ph-gg-flex .ph-gg-text, .verify-inside-page .verify-box .verify-ph-and-gg form .verify-ph-gg-flex .ph-gg-text {
+          width: 310px;
+          font-size: 16px; }
+      .verify .verify-box .verify-ph-and-gg form .ph-gg-terms, .verify-pop .verify-box .verify-ph-and-gg form .ph-gg-terms, .verify-inside-page .verify-box .verify-ph-and-gg form .ph-gg-terms {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: left;
+        align-items: center;
+        padding: 20px 0; }
+        .verify .verify-box .verify-ph-and-gg form .ph-gg-terms .terms1, .verify-pop .verify-box .verify-ph-and-gg form .ph-gg-terms .terms1, .verify-inside-page .verify-box .verify-ph-and-gg form .ph-gg-terms .terms1 {
+          margin-right: 10px; }
+          .verify .verify-box .verify-ph-and-gg form .ph-gg-terms .terms1 i, .verify-pop .verify-box .verify-ph-and-gg form .ph-gg-terms .terms1 i, .verify-inside-page .verify-box .verify-ph-and-gg form .ph-gg-terms .terms1 i {
+            color: #f3b652; }
+        .verify .verify-box .verify-ph-and-gg form .ph-gg-terms .terms2, .verify-pop .verify-box .verify-ph-and-gg form .ph-gg-terms .terms2, .verify-inside-page .verify-box .verify-ph-and-gg form .ph-gg-terms .terms2 {
+          width: 500px;
+          text-align: left;
+          font-size: 14px;
+          line-height: 1.6;
+          margin-right: 30px; }
+        .verify .verify-box .verify-ph-and-gg form .ph-gg-terms .input-agree, .verify-pop .verify-box .verify-ph-and-gg form .ph-gg-terms .input-agree, .verify-inside-page .verify-box .verify-ph-and-gg form .ph-gg-terms .input-agree {
+          appearance: none;
+          -webkit-appearance: none;
+          outline: none;
+          display: none; }
+        .verify .verify-box .verify-ph-and-gg form .ph-gg-terms .input-agree + span, .verify-pop .verify-box .verify-ph-and-gg form .ph-gg-terms .input-agree + span, .verify-inside-page .verify-box .verify-ph-and-gg form .ph-gg-terms .input-agree + span {
+          width: 16px;
+          height: 16px;
+          background-color: red;
+          display: inline-block;
+          background: url("../images/icons/icon-checkbox.png") no-repeat;
+          background-position-y: -21px;
+          vertical-align: -3px;
+          margin-right: 10px; }
+        .verify .verify-box .verify-ph-and-gg form .ph-gg-terms .input-agree:checked + span, .verify-pop .verify-box .verify-ph-and-gg form .ph-gg-terms .input-agree:checked + span, .verify-inside-page .verify-box .verify-ph-and-gg form .ph-gg-terms .input-agree:checked + span {
+          background-position: 0 0px; }
+      .verify .verify-box .verify-ph-and-gg form > a, .verify .verify-box .verify-ph-and-gg form > span, .verify-pop .verify-box .verify-ph-and-gg form > a, .verify-pop .verify-box .verify-ph-and-gg form > span, .verify-inside-page .verify-box .verify-ph-and-gg form > a, .verify-inside-page .verify-box .verify-ph-and-gg form > span {
+        color: #000;
+        display: block;
+        width: 450px;
+        height: 58px;
+        line-height: 58px;
+        text-align: center;
+        box-sizing: border-box;
+        font-size: 18px;
+        border-radius: 5px;
+        margin-top: 50px;
+        cursor: pointer;
+        outline-color: #f3b652;
+        background: #f3b652;
+        border: 1px solid #f3b652; }
+    .verify .verify-box .verify-ph-and-gg .input-right-text, .verify-pop .verify-box .verify-ph-and-gg .input-right-text, .verify-inside-page .verify-box .verify-ph-and-gg .input-right-text {
+      position: relative; }
+      .verify .verify-box .verify-ph-and-gg .input-right-text .verify-right-bg, .verify-pop .verify-box .verify-ph-and-gg .input-right-text .verify-right-bg, .verify-inside-page .verify-box .verify-ph-and-gg .input-right-text .verify-right-bg {
+        top: 20px;
+        left: 100px; }
+
+.verify-pop {
+  width: 550px;
+  background: #fff;
+  height: inherit;
+  padding: 25px 64px 60px;
+  box-sizing: border-box; }
+  .verify-pop .verify-box {
+    width: 100%;
+    padding-top: 20px; }
+    .verify-pop .verify-box h3 {
+      font-size: 26px;
+      text-align: center;
+      letter-spacing: 2px;
+      color: #17181c; }
+    .verify-pop .verify-box .verify-input-box form, .verify-pop .verify-box .verify-ph-and-gg form {
+      width: 100%;
+      margin-right: 0px; }
+      .verify-pop .verify-box .verify-input-box form .verify-ph-gg-flex, .verify-pop .verify-box .verify-ph-and-gg form .verify-ph-gg-flex {
+        margin: 20px 0; }
+        .verify-pop .verify-box .verify-input-box form .verify-ph-gg-flex .ph-gg-pic, .verify-pop .verify-box .verify-ph-and-gg form .verify-ph-gg-flex .ph-gg-pic {
+          margin-right: 10px;
+          width: 140px;
+          height: 116px; }
+        .verify-pop .verify-box .verify-input-box form .verify-ph-gg-flex .ph-gg-text, .verify-pop .verify-box .verify-ph-and-gg form .verify-ph-gg-flex .ph-gg-text {
+          width: calc(100% - 200px);
+          font-size: 16px; }
+      .verify-pop .verify-box .verify-input-box form .verify-tab-text, .verify-pop .verify-box .verify-ph-and-gg form .verify-tab-text {
+        justify-content: space-between; }
+        .verify-pop .verify-box .verify-input-box form .verify-tab-text > div, .verify-pop .verify-box .verify-ph-and-gg form .verify-tab-text > div {
+          border-bottom: 4px solid #dcdcde;
+          width: 50%;
+          text-align: center;
+          color: #17181c; }
+        .verify-pop .verify-box .verify-input-box form .verify-tab-text > div.active, .verify-pop .verify-box .verify-ph-and-gg form .verify-tab-text > div.active {
+          border-bottom: 4px solid #f3b652;
+          color: #f3b652; }
+      .verify-pop .verify-box .verify-input-box form .verify-input-text input, .verify-pop .verify-box .verify-ph-and-gg form .verify-input-text input {
+        border: 1px solid #dcdcde;
+        width: 100%;
+        height: 48px; }
+      .verify-pop .verify-box .verify-input-box form .verify-input-text a, .verify-pop .verify-box .verify-ph-and-gg form .verify-input-text a {
+        height: 48px;
+        font-size: 16px;
+        line-height: 48px;
+        color: #fff; }
+      .verify-pop .verify-box .verify-input-box form .forget-password-text, .verify-pop .verify-box .verify-ph-and-gg form .forget-password-text {
+        text-align: right;
+        padding-top: 20px;
+        color: #f3b652; }
+        .verify-pop .verify-box .verify-input-box form .forget-password-text a, .verify-pop .verify-box .verify-ph-and-gg form .forget-password-text a {
+          color: #f3b652;
+          font-size: 14px; }
+      .verify-pop .verify-box .verify-input-box form .ph-gg-terms, .verify-pop .verify-box .verify-ph-and-gg form .ph-gg-terms {
+        padding: 10px 0; }
+      .verify-pop .verify-box .verify-input-box form > button, .verify-pop .verify-box .verify-input-box form > span, .verify-pop .verify-box .verify-input-box form > a, .verify-pop .verify-box .verify-ph-and-gg form > button, .verify-pop .verify-box .verify-ph-and-gg form > span, .verify-pop .verify-box .verify-ph-and-gg form > a {
+        width: 100%;
+        height: 55px;
+        font-size: 17px;
+        margin-top: 30px;
+        color: #fff; }
+    .verify-pop .verify-box .verify-input-box .input-right-text, .verify-pop .verify-box .verify-ph-and-gg .input-right-text {
+      display: none; }
+
+.verify-inside-page {
+  background: #fff;
+  height: inherit;
+  margin-top: 10px;
+  padding: 20px 0 50px;
+  min-height: 620px; }
+  .verify-inside-page .verify-box {
+    padding-top: 0; }
+    .verify-inside-page .verify-box h3 {
+      color: #18191d; }
+    .verify-inside-page .verify-box .verify-input-box form .verify-input-text input {
+      border: 1px solid #dcdcde;
+      padding-right: 10px; }
+    .verify-inside-page .verify-box .verify-input-box form .verify-input-text .intl-tel-input {
+      padding: 0;
+      display: flex;
+      justify-content: space-between;
+      margin-top: 38px; }
+      .verify-inside-page .verify-box .verify-input-box form .verify-input-text .intl-tel-input .flag-container {
+        border: 1px solid #dcdcde; }
+      .verify-inside-page .verify-box .verify-input-box form .verify-input-text .intl-tel-input input {
+        width: calc(100% - 50px);
+        margin-left: 50px;
+        border-left: 0; }
+    .verify-inside-page .verify-box .verify-input-box form .verify-input-tab {
+      display: flex;
+      justify-content: space-between; }
+      .verify-inside-page .verify-box .verify-input-box form .verify-input-tab > a {
+        width: 150px;
+        height: 54px;
+        margin-top: 38px;
+        margin-left: 0;
+        text-align: center;
+        line-height: 54px;
+        color: #18191d;
+        background: #f3b652;
+        border: 0; }
+      .verify-inside-page .verify-box .verify-input-box form .verify-input-tab a:hover {
+        color: #18191d;
+        background: #f3b652;
+        border: 0; }
+    .verify-inside-page .verify-box .verify-input-box .gg-verify-box .gg-verify-input > p {
+      color: #17181a;
+      padding: 15px 0; }
+    .verify-inside-page .verify-box .verify-input-box .gg-verify-box .gg-verify-input .app-store a {
+      width: 48%;
+      height: 54px;
+      box-sizing: border-box;
+      line-height: 52px; }
+      .verify-inside-page .verify-box .verify-input-box .gg-verify-box .gg-verify-input .app-store a i, .verify-inside-page .verify-box .verify-input-box .gg-verify-box .gg-verify-input .app-store a span {
+        color: #17181a;
+        vertical-align: middle; }
+      .verify-inside-page .verify-box .verify-input-box .gg-verify-box .gg-verify-input .app-store a i {
+        font-size: 26px; }
+    .verify-inside-page .verify-box .verify-input-box .gg-verify-box .gg-verify-input .gg-verify-qr {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: nowrap; }
+      .verify-inside-page .verify-box .verify-input-box .gg-verify-box .gg-verify-input .gg-verify-qr .gg-verify-qr-text {
+        width: calc(100% - 200px); }
+        .verify-inside-page .verify-box .verify-input-box .gg-verify-box .gg-verify-input .gg-verify-qr .gg-verify-qr-text p:first-child {
+          color: #17181a;
+          font-size: 15px; }
+        .verify-inside-page .verify-box .verify-input-box .gg-verify-box .gg-verify-input .gg-verify-qr .gg-verify-qr-text p:nth-child(2) {
+          background: #f5f5f5;
+          text-align: center;
+          padding: 14px 0;
+          color: #17181a;
+          font-size: 15px;
+          font-weight: bold;
+          margin: 10px 0; }
+    .verify-inside-page .verify-box .verify-input-box .gg-verify-box .verify-input-text.m-t-10 input {
+      margin-top: 10px; }
+
+@media screen and (max-width: 750px) {
+  .verify, .verify-inside-page {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    background-size: cover; }
+    .verify .verify-box, .verify-inside-page .verify-box {
+      width: 95%;
+      margin: 0 auto;
+      padding-top: 100px; }
+      .verify .verify-box h3, .verify-inside-page .verify-box h3 {
+        font-size: 30px; }
+      .verify .verify-box .verify-input-box form, .verify-inside-page .verify-box .verify-input-box form {
+        width: 100%;
+        margin-right: 0px;
+        margin-bottom: 50px; }
+        .verify .verify-box .verify-input-box form .verify-input-text input, .verify-inside-page .verify-box .verify-input-box form .verify-input-text input {
+          width: 100%; }
+        .verify .verify-box .verify-input-box form .verify-ph-gg-flex, .verify-inside-page .verify-box .verify-input-box form .verify-ph-gg-flex {
+          justify-content: space-between; }
+          .verify .verify-box .verify-input-box form .verify-ph-gg-flex .ph-gg-pic, .verify-inside-page .verify-box .verify-input-box form .verify-ph-gg-flex .ph-gg-pic {
+            width: 45%;
+            margin-right: 0; }
+          .verify .verify-box .verify-input-box form .verify-ph-gg-flex .ph-gg-text, .verify-inside-page .verify-box .verify-input-box form .verify-ph-gg-flex .ph-gg-text {
+            width: 50%; }
+        .verify .verify-box .verify-input-box form > button, .verify .verify-box .verify-input-box form > a, .verify .verify-box .verify-input-box form > span, .verify-inside-page .verify-box .verify-input-box form > button, .verify-inside-page .verify-box .verify-input-box form > a, .verify-inside-page .verify-box .verify-input-box form > span {
+          width: 100%; }
+      .verify .verify-box .verify-input-box .verify-input-right-text, .verify-inside-page .verify-box .verify-input-box .verify-input-right-text {
+        display: none; }
+
+  .verify-pop {
+    width: 320px;
+    padding: 18px 20px 50px; }
+    .verify-pop .verify-input-box form .verify-ph-gg-flex .ph-gg-text, .verify-pop .verify-ph-and-gg form .verify-ph-gg-flex .ph-gg-text {
+      width: calc(100% - 100px) !important; }
+    .verify-pop .verify-input-box .input-right-text, .verify-pop .verify-ph-and-gg .input-right-text {
+      display: none; }
+
+  .verify-inside-page {
+    width: 100%;
+    padding: 0; }
+    .verify-inside-page .verify-box {
+      width: 100%;
+      padding-top: 50px; }
+      .verify-inside-page .verify-box .verify-input-box form .verify-ph-gg-flex .ph-gg-text, .verify-inside-page .verify-box .verify-ph-and-gg form .verify-ph-gg-flex .ph-gg-text {
+        width: calc(100% - 100px) !important; }
+      .verify-inside-page .verify-box .verify-input-box .input-right-text, .verify-inside-page .verify-box .verify-ph-and-gg .input-right-text {
+        display: none; }
+      .verify-inside-page .verify-box .verify-input-box .gg-verify-box .gg-verify-input .gg-verify-qr, .verify-inside-page .verify-box .verify-ph-and-gg .gg-verify-box .gg-verify-input .gg-verify-qr {
+        align-items: center; }
+        .verify-inside-page .verify-box .verify-input-box .gg-verify-box .gg-verify-input .gg-verify-qr .gg-verify-qr-code, .verify-inside-page .verify-box .verify-ph-and-gg .gg-verify-box .gg-verify-input .gg-verify-qr .gg-verify-qr-code {
+          width: 120px;
+          height: 120px; }
+          .verify-inside-page .verify-box .verify-input-box .gg-verify-box .gg-verify-input .gg-verify-qr .gg-verify-qr-code canvas, .verify-inside-page .verify-box .verify-ph-and-gg .gg-verify-box .gg-verify-input .gg-verify-qr .gg-verify-qr-code canvas {
+            width: 120px;
+            height: 120px; }
+        .verify-inside-page .verify-box .verify-input-box .gg-verify-box .gg-verify-input .gg-verify-qr .gg-verify-qr-text, .verify-inside-page .verify-box .verify-ph-and-gg .gg-verify-box .gg-verify-input .gg-verify-qr .gg-verify-qr-text {
+          width: calc(100% - 140px); } }
+
+/*# sourceMappingURL=verify.css.map */

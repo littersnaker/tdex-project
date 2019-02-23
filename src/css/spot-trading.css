@@ -1,0 +1,544 @@
+.spot-trading-style {
+  min-height: 900px;
+  background: #131316;
+  padding-top: 60px;
+  overflow: hidden; }
+  .spot-trading-style .spot-trading-config {
+    width: 1200px;
+    margin: 10px auto 80px; }
+    .spot-trading-style .spot-trading-config .trading-order-style-config {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: nowrap; }
+  .spot-trading-style .spot-trading-order {
+    width: 680px;
+    min-height: 523px; }
+    .spot-trading-style .spot-trading-order .spot-trading-order-header {
+      height: 40px;
+      display: flex;
+      padding: 0 20px;
+      justify-content: space-between;
+      flex-wrap: nowrap;
+      align-items: center;
+      background: #191a1e;
+      color: #6f6f6f; }
+      .spot-trading-style .spot-trading-order .spot-trading-order-header > h3 {
+        color: #fff;
+        letter-spacing: 1px;
+        padding-right: 10px; }
+      .spot-trading-style .spot-trading-order .spot-trading-order-header .spot-trading-link {
+        color: #f3b652;
+        transition: color 0.4s;
+        cursor: pointer;
+        padding-left: 25px; }
+        .spot-trading-style .spot-trading-order .spot-trading-order-header .spot-trading-link:hover {
+          color: #ca912b; }
+      .spot-trading-style .spot-trading-order .spot-trading-order-header .spot-trading-item {
+        padding-left: 25px; }
+    .spot-trading-style .spot-trading-order .spot-trading-order-body {
+      background: #1e2024;
+      overflow: hidden;
+      min-height: 483px; }
+      .spot-trading-style .spot-trading-order .spot-trading-order-body .spot-trading-tab-config {
+        display: flex;
+        justify-content: center;
+        padding-top: 10px; }
+        .spot-trading-style .spot-trading-order .spot-trading-order-body .spot-trading-tab-config li {
+          padding: 0 12px;
+          margin: 0 28px;
+          font-size: 16px;
+          color: #6a6a6b;
+          height: 50px;
+          line-height: 50px;
+          border-bottom: 2px solid transparent;
+          transition: color 0.4s;
+          letter-spacing: 1.5px;
+          cursor: pointer; }
+          .spot-trading-style .spot-trading-order .spot-trading-order-body .spot-trading-tab-config li:hover {
+            color: #f3b652; }
+        .spot-trading-style .spot-trading-order .spot-trading-order-body .spot-trading-tab-config li.active {
+          color: #f3b652;
+          border-bottom: 2px solid #f3b652; }
+      .spot-trading-style .spot-trading-order .spot-trading-order-body .spot-trading-all-input {
+        width: 365px;
+        margin: 25px auto 0; }
+        .spot-trading-style .spot-trading-order .spot-trading-order-body .spot-trading-all-input .spot-trading-input-item {
+          position: relative;
+          margin-bottom: 20px; }
+          .spot-trading-style .spot-trading-order .spot-trading-order-body .spot-trading-all-input .spot-trading-input-item .spot-trading-input-title {
+            position: absolute;
+            top: 8px;
+            left: -145px;
+            width: 120px;
+            text-align: right; }
+          .spot-trading-style .spot-trading-order .spot-trading-order-body .spot-trading-all-input .spot-trading-input-item .spot-trading-input-config {
+            height: 34px;
+            position: relative;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: nowrap;
+            background: #292a2e;
+            padding: 0 10px; }
+            .spot-trading-style .spot-trading-order .spot-trading-order-body .spot-trading-all-input .spot-trading-input-item .spot-trading-input-config .spot-trading-input-text {
+              color: #e5e6e8;
+              cursor: default;
+              font-size: 15px; }
+            .spot-trading-style .spot-trading-order .spot-trading-order-body .spot-trading-all-input .spot-trading-input-item .spot-trading-input-config input {
+              border: 0;
+              padding: 0;
+              outline: none;
+              font-size: 14px;
+              color: #e5e6e8;
+              width: 78%; }
+            .spot-trading-style .spot-trading-order .spot-trading-order-body .spot-trading-all-input .spot-trading-input-item .spot-trading-input-config .spot-trading-icon-up-down .up {
+              transform: rotate(90deg); }
+            .spot-trading-style .spot-trading-order .spot-trading-order-body .spot-trading-all-input .spot-trading-input-item .spot-trading-input-config .spot-trading-icon-up-down .down {
+              transform: rotate(-90deg); }
+            .spot-trading-style .spot-trading-order .spot-trading-order-body .spot-trading-all-input .spot-trading-input-item .spot-trading-input-config .spot-trading-span-Percentage {
+              display: flex;
+              justify-content: space-between;
+              width: 100%; }
+              .spot-trading-style .spot-trading-order .spot-trading-order-body .spot-trading-all-input .spot-trading-input-item .spot-trading-input-config .spot-trading-span-Percentage > span {
+                display: inline-block;
+                width: 82px;
+                height: 33px;
+                line-height: 33px;
+                text-align: center;
+                background: #292a2e;
+                letter-spacing: 1px;
+                font-size: 12px;
+                cursor: pointer;
+                padding-left: 4px;
+                border: 1px solid transparent;
+                box-sizing: border-box;
+                transition: all 0.4s; }
+                .spot-trading-style .spot-trading-order .spot-trading-order-body .spot-trading-all-input .spot-trading-input-item .spot-trading-input-config .spot-trading-span-Percentage > span:hover {
+                  border: 1px solid #6a6a6b; }
+              .spot-trading-style .spot-trading-order .spot-trading-order-body .spot-trading-all-input .spot-trading-input-item .spot-trading-input-config .spot-trading-span-Percentage > span.on {
+                border: 1px solid #6a6a6b;
+                color: #fff;
+                font-size: 14px; }
+            .spot-trading-style .spot-trading-order .spot-trading-order-body .spot-trading-all-input .spot-trading-input-item .spot-trading-input-config .uit {
+              color: #757575; }
+          .spot-trading-style .spot-trading-order .spot-trading-order-body .spot-trading-all-input .spot-trading-input-item .spot-trading-input-drop-down {
+            position: absolute;
+            top: 39px;
+            left: 0;
+            width: 100%;
+            z-index: 1; }
+            .spot-trading-style .spot-trading-order .spot-trading-order-body .spot-trading-all-input .spot-trading-input-item .spot-trading-input-drop-down li {
+              width: 100%;
+              background: #292a2e;
+              display: flex;
+              height: 33px;
+              align-items: center;
+              padding: 0 10px;
+              box-sizing: border-box;
+              margin-bottom: 1px;
+              color: #e5e6e8;
+              cursor: pointer;
+              transition: all 0.4s;
+              box-shadow: 0px 2px 6px #0d0e13; }
+              .spot-trading-style .spot-trading-order .spot-trading-order-body .spot-trading-all-input .spot-trading-input-item .spot-trading-input-drop-down li:hover {
+                background-color: #383a42;
+                color: #b1b8c5; }
+          .spot-trading-style .spot-trading-order .spot-trading-order-body .spot-trading-all-input .spot-trading-input-item .spot-trading-input-error {
+            color: #ff8522;
+            position: absolute;
+            font-size: 12px;
+            top: 35px; }
+            .spot-trading-style .spot-trading-order .spot-trading-order-body .spot-trading-all-input .spot-trading-input-item .spot-trading-input-error i {
+              font-size: 12px;
+              padding-right: 5px;
+              padding-left: 10px; }
+          .spot-trading-style .spot-trading-order .spot-trading-order-body .spot-trading-all-input .spot-trading-input-item .spot-trading-input-config.active .spot-trading-icon-triangle {
+            transform: rotate(-90deg); }
+          .spot-trading-style .spot-trading-order .spot-trading-order-body .spot-trading-all-input .spot-trading-input-item .spot-trading-input-config.bg-none {
+            background: none;
+            padding: 0; }
+        .spot-trading-style .spot-trading-order .spot-trading-order-body .spot-trading-all-input .spot-trading-input-item-text {
+          display: flex;
+          align-items: center;
+          height: 28px;
+          letter-spacing: 0.5px; }
+          .spot-trading-style .spot-trading-order .spot-trading-order-body .spot-trading-all-input .spot-trading-input-item-text > span {
+            padding: 0 1px; }
+          .spot-trading-style .spot-trading-order .spot-trading-order-body .spot-trading-all-input .spot-trading-input-item-text .link-config-style {
+            margin-left: 15px;
+            transition: all 0.4s; }
+            .spot-trading-style .spot-trading-order .spot-trading-order-body .spot-trading-all-input .spot-trading-input-item-text .link-config-style:hover {
+              color: #f3b652; }
+            .spot-trading-style .spot-trading-order .spot-trading-order-body .spot-trading-all-input .spot-trading-input-item-text .link-config-style > i {
+              font-size: 13px; }
+        .spot-trading-style .spot-trading-order .spot-trading-order-body .spot-trading-all-input .spot-trading-btn-config {
+          width: 100%;
+          background: none;
+          border: 1px solid #f3b652;
+          border-radius: 5px;
+          height: 50px;
+          line-height: 46px;
+          color: #6a6a6b;
+          margin: 22px auto 52px;
+          letter-spacing: 0.5px;
+          padding-left: 6px;
+          box-sizing: border-box;
+          font-size: 15px;
+          transition: all 0.4s;
+          outline: none; }
+          .spot-trading-style .spot-trading-order .spot-trading-order-body .spot-trading-all-input .spot-trading-btn-config a {
+            color: #f3b652;
+            padding: 0 4px; }
+        .spot-trading-style .spot-trading-order .spot-trading-order-body .spot-trading-all-input .spot-trading-btn-config.buy {
+          background: #81a417;
+          color: #fff;
+          border-color: #81a417;
+          cursor: pointer;
+          letter-spacing: 1px; }
+          .spot-trading-style .spot-trading-order .spot-trading-order-body .spot-trading-all-input .spot-trading-btn-config.buy:hover {
+            background: #a2c537;
+            border-color: #a2c537; }
+        .spot-trading-style .spot-trading-order .spot-trading-order-body .spot-trading-all-input .spot-trading-btn-config.sell {
+          background: #cc0765;
+          color: #fff;
+          border-color: #cc0765;
+          cursor: pointer;
+          letter-spacing: 1px; }
+          .spot-trading-style .spot-trading-order .spot-trading-order-body .spot-trading-all-input .spot-trading-btn-config.sell:hover {
+            background: #c3387a;
+            color: #ffe9f4;
+            border-color: #c3387a; }
+  .spot-trading-style .spot-trading-depth {
+    width: 510px;
+    min-height: 523px;
+    background: #1e2024; }
+    .spot-trading-style .spot-trading-depth .spot-trading-list-config .list-config-title, .spot-trading-style .spot-trading-depth .spot-trading-list-config .list-config-content {
+      display: flex;
+      flex-wrap: nowrap;
+      justify-content: space-around; }
+      .spot-trading-style .spot-trading-depth .spot-trading-list-config .list-config-title li, .spot-trading-style .spot-trading-depth .spot-trading-list-config .list-config-content li {
+        width: 100%;
+        text-align: center; }
+    .spot-trading-style .spot-trading-depth .spot-trading-list-config .list-config-title {
+      background: #191a1e; }
+      .spot-trading-style .spot-trading-depth .spot-trading-list-config .list-config-title li {
+        font-size: 12px;
+        line-height: 40px;
+        color: #6f6f6f; }
+    .spot-trading-style .spot-trading-depth .spot-trading-list-config .list-config-content {
+      color: #f3f3f3;
+      transition: all 0.4s; }
+      .spot-trading-style .spot-trading-depth .spot-trading-list-config .list-config-content:hover {
+        background-color: #383a42;
+        color: #b1b8c5; }
+      .spot-trading-style .spot-trading-depth .spot-trading-list-config .list-config-content li {
+        line-height: 40px;
+        font-size: 12px; }
+  .spot-trading-style .spot-trading-history-config {
+    background: #1e2024;
+    margin-top: 10px; }
+    .spot-trading-style .spot-trading-history-config .spot-trading-tab-config {
+      display: flex;
+      align-items: center;
+      background: #191a1e; }
+      .spot-trading-style .spot-trading-history-config .spot-trading-tab-config > li {
+        height: 40px;
+        line-height: 40px;
+        box-sizing: border-box;
+        padding: 0 5px;
+        margin: 0 32px;
+        border-bottom: 2px solid transparent;
+        cursor: pointer;
+        transition: all 0.4s; }
+        .spot-trading-style .spot-trading-history-config .spot-trading-tab-config > li:hover {
+          color: #f3b652; }
+      .spot-trading-style .spot-trading-history-config .spot-trading-tab-config > li.active {
+        color: #f3b652;
+        border-bottom: 2px solid #f3b652; }
+    .spot-trading-style .spot-trading-history-config .spot-trading-tab-config.no-hover > li:hover {
+      color: #a2a2a2; }
+    .spot-trading-style .spot-trading-history-config .spot-trading-history-list {
+      min-height: 240px; }
+      .spot-trading-style .spot-trading-history-config .spot-trading-history-list .list-config-title, .spot-trading-style .spot-trading-history-config .spot-trading-history-list .list-config-content {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        cursor: default; }
+        .spot-trading-style .spot-trading-history-config .spot-trading-history-list .list-config-title li, .spot-trading-style .spot-trading-history-config .spot-trading-history-list .list-config-content li {
+          width: 100%; }
+        .spot-trading-style .spot-trading-history-config .spot-trading-history-list .list-config-title li:first-child, .spot-trading-style .spot-trading-history-config .spot-trading-history-list .list-config-content li:first-child {
+          padding-left: 20px; }
+      .spot-trading-style .spot-trading-history-config .spot-trading-history-list .list-config-title li {
+        font-size: 12px;
+        line-height: 40px;
+        color: #6f6f6f; }
+      .spot-trading-style .spot-trading-history-config .spot-trading-history-list .list-config-content {
+        color: #959595;
+        transition: all 0.4s; }
+        .spot-trading-style .spot-trading-history-config .spot-trading-history-list .list-config-content:hover {
+          background-color: #383a42;
+          color: #b1b8c5; }
+        .spot-trading-style .spot-trading-history-config .spot-trading-history-list .list-config-content li {
+          line-height: 26px;
+          font-size: 12px; }
+      .spot-trading-style .spot-trading-history-config .spot-trading-history-list .link-config-style {
+        text-align: center;
+        margin-top: 20px; }
+        .spot-trading-style .spot-trading-history-config .spot-trading-history-list .link-config-style > a {
+          letter-spacing: 0.5px;
+          transition: all 0.4s;
+          font-size: 12px; }
+          .spot-trading-style .spot-trading-history-config .spot-trading-history-list .link-config-style > a:hover {
+            color: #f3b652; }
+          .spot-trading-style .spot-trading-history-config .spot-trading-history-list .link-config-style > a > i {
+            font-size: 13px; }
+    .spot-trading-style .spot-trading-history-config .spot-trading-pager-config {
+      margin-top: 20px;
+      text-align: center; }
+      .spot-trading-style .spot-trading-history-config .spot-trading-pager-config span {
+        font-size: 12px;
+        color: #848484;
+        cursor: default; }
+      .spot-trading-style .spot-trading-history-config .spot-trading-pager-config a {
+        margin-left: 5px;
+        padding: 3px 13px;
+        color: #a9a9a9;
+        font-size: 12px;
+        border: 1px solid #2a2c32;
+        border-radius: 1px;
+        background: #2a2c32;
+        transition: all 0.4s; }
+      .spot-trading-style .spot-trading-history-config .spot-trading-pager-config a:hover {
+        border: 1px #6a6a6b solid; }
+      .spot-trading-style .spot-trading-history-config .spot-trading-pager-config a.current {
+        display: inline-block;
+        min-width: 15px;
+        height: 17px;
+        line-height: 17px;
+        background: #2a2c32;
+        border: 1px solid #2a2c32;
+        cursor: default; }
+      .spot-trading-style .spot-trading-history-config .spot-trading-pager-config a.disabled, .spot-trading-style .spot-trading-history-config .spot-trading-pager-config a.disabled:hover {
+        cursor: not-allowed;
+        border: 1px #2a2c32 solid !important; }
+      .spot-trading-style .spot-trading-history-config .spot-trading-pager-config .pageInput {
+        display: inline-block;
+        margin-left: 5px;
+        border: 0;
+        vertical-align: 0.5px; }
+      .spot-trading-style .spot-trading-history-config .spot-trading-pager-config .pageInput > input {
+        padding-left: 0px;
+        width: 40px;
+        height: 23px;
+        text-align: center;
+        border: 1px solid #2a2c32;
+        background: #2a2c32;
+        outline-color: #6a6a6b;
+        font-size: 12px; }
+      .spot-trading-style .spot-trading-history-config .spot-trading-pager-config .travel-to {
+        margin-left: 20px; }
+  .spot-trading-style .spot-trading-icon-triangle {
+    width: 0px;
+    height: 0px;
+    border-top: 6px solid transparent;
+    border-right: 8px solid #fdfdfd;
+    border-bottom: 6px solid transparent;
+    cursor: pointer;
+    transition: all 0.4s;
+    display: block; }
+    .spot-trading-style .spot-trading-icon-triangle:hover {
+      border-right: 8px solid #868a98; }
+  .spot-trading-style .spot-color-f3f3f3 {
+    color: #f3f3f3; }
+  .spot-trading-style .spot-color-b50a5c {
+    color: #b50a5c; }
+  .spot-trading-style .spot-color-81a417 {
+    color: #81a417; }
+
+.spot-trading-tips-config {
+  position: fixed;
+  width: 502px;
+  height: 330px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  background: #2b2c2f;
+  box-shadow: 1px 2px 10px #111213;
+  border-radius: 2px; }
+  .spot-trading-tips-config > h3 {
+    text-align: center;
+    font-size: 34px;
+    color: #f3f3f3;
+    font-weight: 300;
+    padding: 40px 0 24px 2px;
+    letter-spacing: 2px; }
+  .spot-trading-tips-config .spot-trading-tips-text {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 15.5px;
+    letter-spacing: 0.5px;
+    line-height: 1.8; }
+  .spot-trading-tips-config .spot-trading-tips-btn {
+    padding-top: 40px;
+    text-align: center; }
+    .spot-trading-tips-config .spot-trading-tips-btn > button {
+      width: 188px;
+      height: 58px;
+      border: 1px solid #a2a2a2;
+      border-radius: 5px;
+      background: none;
+      color: #a2a2a2;
+      font-size: 14px;
+      box-sizing: border-box;
+      outline: none;
+      cursor: pointer; }
+    .spot-trading-tips-config .spot-trading-tips-btn > button.active {
+      background: #f3b652;
+      border-color: #f3b652;
+      color: #17181b;
+      margin-left: 20px;
+      transition: all 0.4s; }
+      .spot-trading-tips-config .spot-trading-tips-btn > button.active:hover {
+        background: #f5c06a; }
+  .spot-trading-tips-config .spot-trading-tips-icon-close {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    cursor: pointer;
+    transition: all 1s; }
+    .spot-trading-tips-config .spot-trading-tips-icon-close:hover {
+      transform: rotate(180deg); }
+
+@media screen and (max-width: 750px) {
+  .spot-trading-style .spot-trading-config {
+    width: 95%; }
+    .spot-trading-style .spot-trading-config .trading-order-style-config {
+      flex-wrap: wrap; }
+  .spot-trading-style .spot-trading-order {
+    width: 100%; }
+    .spot-trading-style .spot-trading-order .spot-trading-order-header {
+      position: relative;
+      height: 120px;
+      display: flex;
+      flex-wrap: wrap;
+      padding: 0; }
+      .spot-trading-style .spot-trading-order .spot-trading-order-header > h3, .spot-trading-style .spot-trading-order .spot-trading-order-header .spot-trading-link, .spot-trading-style .spot-trading-order .spot-trading-order-header .spot-trading-item {
+        padding: 0; }
+      .spot-trading-style .spot-trading-order .spot-trading-order-header > p {
+        width: 100%; }
+        .spot-trading-style .spot-trading-order .spot-trading-order-header > p > span {
+          display: block;
+          padding: 5px 0 !important; }
+        .spot-trading-style .spot-trading-order .spot-trading-order-header > p > a {
+          position: absolute;
+          top: 15px;
+          right: 10px; }
+    .spot-trading-style .spot-trading-order .spot-trading-order-body .spot-trading-tab-config {
+      padding-top: 10px; }
+      .spot-trading-style .spot-trading-order .spot-trading-order-body .spot-trading-tab-config li {
+        margin: 0 20px;
+        height: 38px;
+        line-height: 38px; }
+    .spot-trading-style .spot-trading-order .spot-trading-order-body .spot-trading-all-input {
+      width: 92%; }
+  .spot-trading-style .spot-trading-depth {
+    width: 100%; }
+  .spot-trading-style .spot-trading-history-config .spot-trading-tab-config {
+    display: flex;
+    align-items: center; }
+    .spot-trading-style .spot-trading-history-config .spot-trading-tab-config > li {
+      height: 40px;
+      line-height: 40px;
+      box-sizing: border-box;
+      padding: 0 5px;
+      margin: 0 10px;
+      font-size: 13px; }
+    .spot-trading-style .spot-trading-history-config .spot-trading-tab-config > li.active {
+      color: #f3b652;
+      border-bottom: 2px solid #f3b652; }
+  .spot-trading-style .spot-trading-history-config .spot-trading-tab-config.no-hover > li:hover {
+    color: #a2a2a2; }
+  .spot-trading-style .spot-trading-history-config .spot-trading-history-list {
+    overflow: auto; }
+    .spot-trading-style .spot-trading-history-config .spot-trading-history-list .list-config-title, .spot-trading-style .spot-trading-history-config .spot-trading-history-list .list-config-content {
+      width: 1200px; }
+    .spot-trading-style .spot-trading-history-config .spot-trading-history-list .no-list-data {
+      background: none; }
+  .spot-trading-style .spot-trading-icon-triangle {
+    width: 0px;
+    height: 0px;
+    border-top: 6px solid transparent;
+    border-right: 8px solid #fdfdfd;
+    border-bottom: 6px solid transparent;
+    cursor: pointer;
+    transition: all 0.4s;
+    display: block; }
+    .spot-trading-style .spot-trading-icon-triangle:hover {
+      border-right: 8px solid #868a98; }
+  .spot-trading-style .spot-color-f3f3f3 {
+    color: #f3f3f3; }
+  .spot-trading-style .spot-color-b50a5c {
+    color: #b50a5c; }
+  .spot-trading-style .spot-color-81a417 {
+    color: #81a417; }
+
+  .spot-trading-tips-config {
+    position: fixed;
+    width: 100%;
+    height: 330px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background: #2b2c2f;
+    box-shadow: 1px 2px 10px #111213;
+    border-radius: 2px; }
+    .spot-trading-tips-config > h3 {
+      text-align: center;
+      font-size: 34px;
+      color: #f3f3f3;
+      font-weight: 300;
+      padding: 40px 0 24px 2px;
+      letter-spacing: 2px; }
+    .spot-trading-tips-config .spot-trading-tips-text {
+      width: 80%;
+      margin: 0 auto;
+      font-size: 15.5px;
+      letter-spacing: 0.5px;
+      line-height: 1.8; }
+    .spot-trading-tips-config .spot-trading-tips-btn {
+      padding-top: 40px;
+      text-align: center; }
+      .spot-trading-tips-config .spot-trading-tips-btn > button {
+        width: 40%;
+        height: 58px;
+        border: 1px solid #a2a2a2;
+        border-radius: 5px;
+        background: none;
+        color: #a2a2a2;
+        font-size: 14px;
+        box-sizing: border-box;
+        outline: none;
+        cursor: pointer; }
+      .spot-trading-tips-config .spot-trading-tips-btn > button.active {
+        background: #f3b652;
+        border-color: #f3b652;
+        color: #17181b;
+        margin-left: 20px;
+        transition: all 0.4s; }
+        .spot-trading-tips-config .spot-trading-tips-btn > button.active:hover {
+          background: #f5c06a; }
+    .spot-trading-tips-config .spot-trading-tips-icon-close {
+      position: absolute;
+      top: 15px;
+      right: 15px;
+      cursor: pointer;
+      transition: all 1s; }
+      .spot-trading-tips-config .spot-trading-tips-icon-close:hover {
+        transform: rotate(180deg); } }
+
+/*# sourceMappingURL=spot-trading.css.map */

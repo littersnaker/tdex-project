@@ -1,0 +1,1162 @@
+.trading-exchange-config {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background: #151a1e;
+  cursor: default;
+  color: #dfdfdf; }
+  .trading-exchange-config .trading-exchange-head {
+    width: 100%;
+    height: 50px;
+    background: #262d33;
+    border: 0; }
+    .trading-exchange-config .trading-exchange-head.header-box {
+      color: #dfdfdf; }
+    .trading-exchange-config .trading-exchange-head .login-bar a {
+      min-width: 40px;
+      border: 0;
+      margin: 0 4px;
+      transition: all 0.4s;
+      color: #dfdfdf; }
+      .trading-exchange-config .trading-exchange-head .login-bar a:hover {
+        background: #313940;
+        color: #f3b652 !important; }
+    .trading-exchange-config .trading-exchange-head .head-icon-config:hover {
+      background: #313940;
+      color: #f3b652; }
+    .trading-exchange-config .trading-exchange-head .head-icon-config-hover {
+      background: #262d33;
+      box-shadow: 0 2px 6px #151a1e;
+      min-width: inherit; }
+      .trading-exchange-config .trading-exchange-head .head-icon-config-hover a {
+        color: #dfdfdf; }
+        .trading-exchange-config .trading-exchange-head .head-icon-config-hover a:hover {
+          color: #f3b652; }
+    .trading-exchange-config .trading-exchange-head #langselect cite {
+      color: #dfdfdf; }
+  .trading-exchange-config .trading-exchange-body {
+    margin-top: 10px;
+    width: 100%;
+    height: calc(100% - 60px);
+    position: relative; }
+    .trading-exchange-config .trading-exchange-body .futures-bg-primary .ft-bd-78 {
+      border: none !important;
+      padding: 6px 6px 6px 0; }
+  .trading-exchange-config .trading-exchange-chart {
+    width: calc(100% - 360px);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 320px; }
+  .trading-exchange-config .trading-chart-library {
+    position: absolute;
+    top: 0;
+    left: 10px;
+    width: calc(100% - 380px);
+    height: calc(100% - 320px);
+    background: #262d33; }
+  .trading-exchange-config .trading-exchange-order {
+    width: calc(100% - 20px);
+    height: 250px;
+    margin: 10px auto 0;
+    background: #22272b; }
+    .trading-exchange-config .trading-exchange-order .item-title, .trading-exchange-config .trading-exchange-order .item-content {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-left: 15px;
+      box-sizing: border-box; }
+      .trading-exchange-config .trading-exchange-order .item-title li, .trading-exchange-config .trading-exchange-order .item-content li {
+        text-align: center;
+        width: 100%;
+        height: 32px;
+        line-height: 32px; }
+      .trading-exchange-config .trading-exchange-order .item-title li.input, .trading-exchange-config .trading-exchange-order .item-content li.input {
+        width: 22px;
+        flex-shrink: 0; }
+    .trading-exchange-config .trading-exchange-order .item-title {
+      margin-top: 10px;
+      position: relative; }
+      .trading-exchange-config .trading-exchange-order .item-title .exchange-product {
+        position: absolute;
+        bottom: 0; }
+      .trading-exchange-config .trading-exchange-order .item-title li {
+        white-space: nowrap;
+        text-overflow: ellipsis; }
+    .trading-exchange-config .trading-exchange-order .item-content {
+      transition: all 0.4s; }
+      .trading-exchange-config .trading-exchange-order .item-content .custom-checkbox div {
+        margin: 0 3px 3px 0; }
+      .trading-exchange-config .trading-exchange-order .item-content li, .trading-exchange-config .trading-exchange-order .item-content li i {
+        font-size: 12px; }
+      .trading-exchange-config .trading-exchange-order .item-content li {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap; }
+      .trading-exchange-config .trading-exchange-order .item-content.on, .trading-exchange-config .trading-exchange-order .item-content:hover {
+        background: #262d33; }
+        .trading-exchange-config .trading-exchange-order .item-content.on .custom-checkbox div, .trading-exchange-config .trading-exchange-order .item-content:hover .custom-checkbox div {
+          cursor: pointer; }
+          .trading-exchange-config .trading-exchange-order .item-content.on .custom-checkbox div .input_check + i, .trading-exchange-config .trading-exchange-order .item-content:hover .custom-checkbox div .input_check + i {
+            border: 1px solid #f3b652; }
+    .trading-exchange-config .trading-exchange-order .tab-content-auto {
+      width: 100%; }
+    .trading-exchange-config .trading-exchange-order .no-list-data {
+      width: 100%;
+      height: 100%;
+      position: relative;
+      background: #22272b; }
+      .trading-exchange-config .trading-exchange-order .no-list-data .no-list-data-position {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        margin: auto;
+        width: 114px;
+        height: 83px;
+        overflow: hidden; }
+        .trading-exchange-config .trading-exchange-order .no-list-data .no-list-data-position > p {
+          color: #4d5564;
+          font-size: 13px;
+          padding-top: 10px;
+          padding-left: 3px; }
+      .trading-exchange-config .trading-exchange-order .no-list-data .no-list-data-pic {
+        background: url("../images/user-info/no-list-data-back.png") no-repeat;
+        background-size: 100% 100%;
+        width: 46px;
+        height: 56px;
+        padding: 0;
+        position: initial; }
+  .trading-exchange-config .trading-exchange-depth {
+    width: 360px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0; }
+    .trading-exchange-config .trading-exchange-depth .trading-exchange-btn {
+      width: 100%;
+      height: 50px;
+      margin-top: 10px;
+      background: #f3b652;
+      color: #131316;
+      font-size: 15px;
+      font-weight: bold;
+      text-align: center;
+      line-height: 50px;
+      cursor: pointer;
+      transition: all 0.4s;
+      letter-spacing: 1px;
+      padding-left: 4px;
+      box-sizing: border-box; }
+      .trading-exchange-config .trading-exchange-depth .trading-exchange-btn:hover {
+        background: #f5c06a; }
+    .trading-exchange-config .trading-exchange-depth .trading-exchange-business-order {
+      display: flex;
+      width: 250px;
+      justify-content: space-between;
+      position: absolute; }
+      .trading-exchange-config .trading-exchange-depth .trading-exchange-business-order li {
+        width: 122px;
+        padding: 7px 0 14px;
+        color: #f5f5f5;
+        text-align: center;
+        cursor: pointer;
+        transition: all 0.4s;
+        border-radius: 4px; }
+        .trading-exchange-config .trading-exchange-depth .trading-exchange-business-order li.sell {
+          background: #ce1c5a; }
+          .trading-exchange-config .trading-exchange-depth .trading-exchange-business-order li.sell:hover {
+            background: #e12265; }
+        .trading-exchange-config .trading-exchange-depth .trading-exchange-business-order li.buy {
+          background: #679f1e; }
+          .trading-exchange-config .trading-exchange-depth .trading-exchange-business-order li.buy:hover {
+            background: #75b422; }
+        .trading-exchange-config .trading-exchange-depth .trading-exchange-business-order li p:nth-child(1) {
+          font-size: 25px;
+          line-height: 40px;
+          font-weight: 600;
+          letter-spacing: 1px; }
+        .trading-exchange-config .trading-exchange-depth .trading-exchange-business-order li p:nth-child(2) {
+          font-size: 13px; }
+  .trading-exchange-config .trading-exchange-product {
+    width: 100%;
+    height: 50px;
+    margin-top: 10px;
+    background: #262d33;
+    display: flex;
+    align-items: center;
+    color: #f5f5f5;
+    position: relative; }
+    .trading-exchange-config .trading-exchange-product .select-the-currency {
+      height: 100%;
+      position: relative;
+      line-height: 50px;
+      text-align: center;
+      min-width: 148px;
+      box-sizing: border-box;
+      cursor: pointer; }
+      .trading-exchange-config .trading-exchange-product .select-the-currency span {
+        display: inline-block;
+        width: 22px;
+        height: 22px;
+        background-size: 100% 100% !important;
+        margin-right: 8px; }
+      .trading-exchange-config .trading-exchange-product .select-the-currency .BCH {
+        background: #ff8500; }
+        .trading-exchange-config .trading-exchange-product .select-the-currency .BCH span {
+          background: url("../images/icons/BCH.png") no-repeat;
+          height: 14px !important; }
+      .trading-exchange-config .trading-exchange-product .select-the-currency .LTC {
+        background: #a5a8a9; }
+        .trading-exchange-config .trading-exchange-product .select-the-currency .LTC span {
+          background: url("../images/icons/LTC.png") no-repeat; }
+      .trading-exchange-config .trading-exchange-product .select-the-currency .USDT {
+        background: #259e79; }
+        .trading-exchange-config .trading-exchange-product .select-the-currency .USDT span {
+          background: url("../images/icons/USDT.png") no-repeat; }
+      .trading-exchange-config .trading-exchange-product .select-the-currency .EOS {
+        background: #010619; }
+        .trading-exchange-config .trading-exchange-product .select-the-currency .EOS span {
+          background: url("../images/icons/EOS.png") no-repeat; }
+      .trading-exchange-config .trading-exchange-product .select-the-currency .ETH {
+        background: #102027; }
+        .trading-exchange-config .trading-exchange-product .select-the-currency .ETH span {
+          background: url("../images/icons/ETH.png") no-repeat; }
+      .trading-exchange-config .trading-exchange-product .select-the-currency .BTC {
+        background: #f69129; }
+        .trading-exchange-config .trading-exchange-product .select-the-currency .BTC span {
+          background: url("../images/icons/BTC.png") no-repeat; }
+      .trading-exchange-config .trading-exchange-product .select-the-currency .TD {
+        background: #559629; }
+        .trading-exchange-config .trading-exchange-product .select-the-currency .TD span {
+          background: url("../images/icons/TD.png") no-repeat; }
+      .trading-exchange-config .trading-exchange-product .select-the-currency .select-the-currency-title {
+        font-size: 15px;
+        letter-spacing: 1px;
+        padding-left: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center; }
+        .trading-exchange-config .trading-exchange-product .select-the-currency .select-the-currency-title .icon-shouqi {
+          font-size: 15px;
+          padding-left: 5px; }
+      .trading-exchange-config .trading-exchange-product .select-the-currency .select-the-currency-conten {
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+        bottom: 60px;
+        width: 78%;
+        box-sizing: border-box;
+        overflow: hidden;
+        background: #313a41;
+        padding: 5px 0;
+        border-radius: 4px; }
+        .trading-exchange-config .trading-exchange-product .select-the-currency .select-the-currency-conten > li {
+          height: 30px;
+          line-height: 30px;
+          font-size: 12px;
+          transition: all 0.4s;
+          text-align: left;
+          padding-left: 35%; }
+          .trading-exchange-config .trading-exchange-product .select-the-currency .select-the-currency-conten > li:hover {
+            background: #38424a;
+            color: #f3b652; }
+    .trading-exchange-config .trading-exchange-product .list-of-assets {
+      display: flex;
+      align-items: center; }
+      .trading-exchange-config .trading-exchange-product .list-of-assets li {
+        padding-left: 50px;
+        font-size: 12px;
+        color: #ccc;
+        display: flex;
+        align-items: center; }
+        .trading-exchange-config .trading-exchange-product .list-of-assets li:first-child {
+          padding-left: 20px; }
+        .trading-exchange-config .trading-exchange-product .list-of-assets li > span {
+          color: #f5f5f5;
+          font-size: 14px; }
+    .trading-exchange-config .trading-exchange-product .link {
+      padding: 5px 14px !important;
+      transition: all 0.4s;
+      background: #303a40;
+      color: #f3b652;
+      border-radius: 1em;
+      font-size: 12px;
+      letter-spacing: 1px; }
+      .trading-exchange-config .trading-exchange-product .link:hover {
+        background: #f3b652;
+        color: #fff; }
+  .trading-exchange-config .fillet-global-config {
+    border-radius: 4px;
+    overflow: hidden; }
+  .trading-exchange-config .fillet-global-config-auto {
+    border-radius: 4px; }
+  .trading-exchange-config .exchange-red {
+    color: #ff1e6c; }
+  .trading-exchange-config .exchange-green {
+    color: #679f1e; }
+  .trading-exchange-config .custom-checkbox div {
+    cursor: pointer; }
+    .trading-exchange-config .custom-checkbox div:hover .input_check + i {
+      border: 1px solid #f3b652; }
+  .trading-exchange-config .custom-checkbox .input_check + i {
+    width: 12px;
+    height: 12px;
+    border: 1px solid #49555f;
+    border-radius: 2px;
+    transition: all 0.4s; }
+  .trading-exchange-config .custom-checkbox .input_check:checked + i {
+    background: #f3b652;
+    border-color: #f3b652; }
+  .trading-exchange-config .custom-checkbox .input_check:checked + i:after {
+    content: "";
+    position: absolute;
+    left: 2px;
+    bottom: 5px;
+    width: 9px;
+    height: 5px;
+    border: 1px solid #303840;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    transform: rotate(-45deg); }
+  .trading-exchange-config .under-line {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    transition: all 0.4s; }
+    .trading-exchange-config .under-line:after {
+      content: '';
+      display: block;
+      position: absolute;
+      height: 1px;
+      width: 100%;
+      bottom: 4px;
+      border-bottom: 1px dashed #86888b;
+      transition: all 0.4s; }
+    .trading-exchange-config .under-line .show-line-content {
+      cursor: default;
+      position: absolute;
+      background: #303840;
+      bottom: 42px;
+      left: -45px;
+      right: -45px;
+      z-index: 2;
+      border-radius: 4px;
+      overflow: hidden;
+      padding: 5px 0;
+      box-shadow: 1px 3px 10px #191b1d; }
+      .trading-exchange-config .under-line .show-line-content > ul {
+        display: flex;
+        align-items: center;
+        transition: all 0.4s; }
+        .trading-exchange-config .under-line .show-line-content > ul.on, .trading-exchange-config .under-line .show-line-content > ul:hover {
+          background: #38424a;
+          color: #f3b652; }
+          .trading-exchange-config .under-line .show-line-content > ul.on .custom-checkbox .input_check + i, .trading-exchange-config .under-line .show-line-content > ul:hover .custom-checkbox .input_check + i {
+            border: 1px solid #f3b652; }
+        .trading-exchange-config .under-line .show-line-content > ul li {
+          font-size: 12px;
+          min-width: 100px;
+          text-align: left;
+          padding-left: 10px; }
+          .trading-exchange-config .under-line .show-line-content > ul li span {
+            padding-left: 10px; }
+          .trading-exchange-config .under-line .show-line-content > ul li label {
+            cursor: pointer; }
+
+.exchange-white {
+  color: #dfdfdf !important; }
+
+.show-head-options {
+  position: absolute;
+  top: 60px;
+  left: 0;
+  background: #313a41;
+  border-radius: 4px;
+  z-index: 5;
+  box-shadow: 0 2px 6px #151a1e;
+  width: 350px;
+  padding-top: 10px; }
+  .show-head-options .trading-exchange-order-tab-title {
+    padding: 0 20px;
+    justify-content: space-around;
+    background: #313a41; }
+    .show-head-options .trading-exchange-order-tab-title > li {
+      margin: 0; }
+  .show-head-options .trading-exchange-list {
+    width: 100%;
+    background: #20262b;
+    margin-top: 15px; }
+    .show-head-options .trading-exchange-list .exchange-red {
+      color: #ff1e6c; }
+    .show-head-options .trading-exchange-list .exchange-green {
+      color: #679f1e; }
+    .show-head-options .trading-exchange-list-title {
+      background: #20262b;
+      color: #49555f; }
+    .show-head-options .trading-exchange-list .contrac-trading-title {
+      padding: 0 20px;
+      justify-content: space-between; }
+      .show-head-options .trading-exchange-list .contrac-trading-title > li {
+        width: 100%;
+        text-align: left;
+        flex: 1;
+        padding: 0px; }
+        .show-head-options .trading-exchange-list .contrac-trading-title > li:last-child {
+          text-align: right; }
+    .show-head-options .trading-exchange-list .contrac-trading-content .item-content {
+      padding: 0 20px;
+      justify-content: space-between; }
+      .show-head-options .trading-exchange-list .contrac-trading-content .item-content > li {
+        width: 100%;
+        text-align: left; }
+        .show-head-options .trading-exchange-list .contrac-trading-content .item-content > li:last-child {
+          text-align: right; }
+  .show-head-options .trading-exchange-search {
+    width: 91%;
+    height: 36px;
+    margin: 16px auto 0; }
+    .show-head-options .trading-exchange-search input {
+      width: 100%;
+      background: #20262b; }
+    .show-head-options .trading-exchange-search .icon-calculator {
+      display: none; }
+
+.trading-exchange-search {
+  width: 100%;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative; }
+  .trading-exchange-search input {
+    height: 100%;
+    width: calc(100% - 42px);
+    border: 0;
+    outline: none;
+    box-sizing: border-box;
+    padding-left: 35px;
+    padding-right: 8px;
+    background: #262d33;
+    color: #dfdfdf; }
+  .trading-exchange-search .icon-search {
+    position: absolute;
+    top: 10px;
+    left: 9px;
+    color: #999;
+    line-height: initial; }
+  .trading-exchange-search .icon-calculator {
+    padding-right: 14px;
+    font-size: 20px;
+    color: #49555f;
+    cursor: pointer;
+    line-height: initial; }
+
+.trading-exchange-list {
+  width: calc(100% - 10px);
+  height: calc(100% - 46px - 60px);
+  margin-top: 10px;
+  background: #22272b; }
+  .trading-exchange-list-title {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 45px;
+    line-height: 45px;
+    align-items: center;
+    background: #262d33;
+    color: #dfdfdf;
+    box-sizing: border-box;
+    padding-left: 43px;
+    padding-right: 20px; }
+    .trading-exchange-list-title > li:nth-child(1) {
+      flex: 1; }
+    .trading-exchange-list-title > li:nth-child(2) {
+      flex: 1.7;
+      text-align: right;
+      padding-right: 4px; }
+    .trading-exchange-list-title > li:nth-child(3) {
+      flex: 1.5;
+      padding-left: 4px; }
+    .trading-exchange-list-title > li:nth-child(4) {
+      flex: 1; }
+  .trading-exchange-list-content {
+    width: 100%;
+    height: calc(100% - 45px); }
+    .trading-exchange-list-content .item {
+      border-bottom: 1px solid #282f35;
+      color: #dfdfdf; }
+      .trading-exchange-list-content .item .handle {
+        top: 0px;
+        left: 200px;
+        width: 150px;
+        height: 40px; }
+      .trading-exchange-list-content .item.on .icon-arrow-l {
+        transform: rotate(90deg); }
+      .trading-exchange-list-content .item-title {
+        height: 40px;
+        display: flex;
+        align-items: center;
+        font-size: 13px;
+        cursor: pointer;
+        margin-left: 10px; }
+        .trading-exchange-list-content .item-title .icon-arrow-l {
+          color: #f3b652;
+          font-size: 12px;
+          transition: all 0.4s; }
+        .trading-exchange-list-content .item-title > span {
+          padding-left: 10px;
+          font-weight: 600; }
+      .trading-exchange-list-content .item-content {
+        display: flex;
+        justify-content: space-between;
+        height: 40px;
+        line-height: 40px;
+        align-items: center;
+        font-size: 12px;
+        box-sizing: border-box;
+        padding-left: 10px;
+        padding-right: 15px;
+        transition: all 0.4s;
+        position: relative;
+        -webkit-backface-visibility: hidden;
+        -webkit-transform-style: preserve-3d; }
+        .trading-exchange-list-content .item-content > li {
+          box-sizing: border-box;
+          white-space: nowrap; }
+          .trading-exchange-list-content .item-content > li.sell, .trading-exchange-list-content .item-content > li.buy, .trading-exchange-list-content .item-content > li.change {
+            font-weight: 600; }
+          .trading-exchange-list-content .item-content > li.first-icon {
+            flex: 0.75; }
+          .trading-exchange-list-content .item-content > li.type {
+            flex: 2.3; }
+          .trading-exchange-list-content .item-content > li.sell {
+            flex: 2.1;
+            text-align: right;
+            padding-right: 4px; }
+          .trading-exchange-list-content .item-content > li.buy {
+            flex: 2.2;
+            padding-left: 4px; }
+          .trading-exchange-list-content .item-content > li.change {
+            flex: 1.1; }
+          .trading-exchange-list-content .item-content > li.last-icon {
+            flex: 0.8;
+            height: 100%;
+            text-align: right; }
+            .trading-exchange-list-content .item-content > li.last-icon .flag {
+              display: inline-block;
+              width: 16px;
+              height: 11px;
+              background: url("../images/icons/flags-min-sprite.png") no-repeat;
+              background-size: 100% auto;
+              font-size: 0;
+              float: none;
+              overflow: hidden; }
+              .trading-exchange-list-content .item-content > li.last-icon .flag.otc {
+                background-position: 0 1px; }
+              .trading-exchange-list-content .item-content > li.last-icon .flag.us {
+                background-position: 0 -11px; }
+              .trading-exchange-list-content .item-content > li.last-icon .flag.eu {
+                background-position: 0 -22px; }
+              .trading-exchange-list-content .item-content > li.last-icon .flag.de {
+                background-position: 0 -31px; }
+              .trading-exchange-list-content .item-content > li.last-icon .flag.fr {
+                background-position: 0 -42px; }
+              .trading-exchange-list-content .item-content > li.last-icon .flag.gb {
+                background-position: 0 -53px; }
+              .trading-exchange-list-content .item-content > li.last-icon .flag.ch {
+                background-position: 0 -64px; }
+              .trading-exchange-list-content .item-content > li.last-icon .flag.lu {
+                background-position: 0 -75px; }
+              .trading-exchange-list-content .item-content > li.last-icon .flag.es {
+                background-position: 0 -86px; }
+              .trading-exchange-list-content .item-content > li.last-icon .flag.jp {
+                background-position: 0 -97px; }
+              .trading-exchange-list-content .item-content > li.last-icon .flag.hk {
+                background-position: 0 -108px; }
+              .trading-exchange-list-content .item-content > li.last-icon .flag.nz {
+                background-position: 0 -119px; }
+              .trading-exchange-list-content .item-content > li.last-icon .flag.cn {
+                background-position: 0 -130px; }
+              .trading-exchange-list-content .item-content > li.last-icon .flag.nl {
+                background-position: 0 -140px; }
+              .trading-exchange-list-content .item-content > li.last-icon .flag.au {
+                background-position: 0 -150px; }
+              .trading-exchange-list-content .item-content > li.last-icon .flag.okc {
+                background-position: 0 -164px; }
+              .trading-exchange-list-content .item-content > li.last-icon .flag.bmx {
+                background-position: 0 -174px; }
+        .trading-exchange-list-content .item-content .icon-trading-menu {
+          opacity: 0;
+          z-index: -1;
+          display: inline-block;
+          transform: translateX(-1px);
+          transition: all 0.4s;
+          cursor: pointer; }
+          .trading-exchange-list-content .item-content .icon-trading-menu:hover {
+            color: #f3b652; }
+        .trading-exchange-list-content .item-content.on, .trading-exchange-list-content .item-content:hover {
+          background: #262d33; }
+          .trading-exchange-list-content .item-content.on .icon-trading-menu, .trading-exchange-list-content .item-content:hover .icon-trading-menu {
+            opacity: 1; }
+          .trading-exchange-list-content .item-content.on > li span, .trading-exchange-list-content .item-content:hover > li span {
+            border-radius: 2em;
+            padding: 0 4px; }
+          .trading-exchange-list-content .item-content.on > li.exchange-red span, .trading-exchange-list-content .item-content:hover > li.exchange-red span {
+            border: 1px solid #ff1e6c; }
+          .trading-exchange-list-content .item-content.on > li.exchange-green span, .trading-exchange-list-content .item-content:hover > li.exchange-green span {
+            border: 1px solid #679f1e; }
+        .trading-exchange-list-content .item-content.on {
+          z-index: 2; }
+          .trading-exchange-list-content .item-content.on .icon-trading-menu {
+            color: #f3b652; }
+
+.trading-exchange-order-tab-title {
+  display: flex;
+  padding: 0 35px;
+  box-sizing: border-box;
+  height: 46px;
+  align-items: center;
+  background: #262d33;
+  position: relative;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px; }
+  .trading-exchange-order-tab-title > li {
+    margin: auto 30px;
+    cursor: pointer;
+    height: 100%;
+    line-height: 46px;
+    transition: all 0.4s;
+    position: relative; }
+    .trading-exchange-order-tab-title > li:before {
+      content: '';
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      margin: auto;
+      height: 3px;
+      width: 28px;
+      transition: all 0.4s; }
+    .trading-exchange-order-tab-title > li:hover, .trading-exchange-order-tab-title > li.active {
+      position: relative;
+      color: #f3b652; }
+    .trading-exchange-order-tab-title > li.active:before {
+      background: #f3b652; }
+    .trading-exchange-order-tab-title > li:first-child {
+      margin-left: 0; }
+
+.exchange-mask {
+  width: 390px;
+  box-shadow: 0px 2px 20px #191b1d;
+  background: #313a41;
+  box-sizing: border-box;
+  text-align: center;
+  padding-bottom: 25px; }
+  .exchange-mask .exchange-red {
+    color: #ff1e6c; }
+  .exchange-mask .exchange-green {
+    color: #679f1e; }
+  .exchange-mask .icon-close {
+    position: absolute;
+    top: 16px;
+    right: 20px;
+    cursor: pointer;
+    color: #9fa0a4;
+    font-size: 14px;
+    font-weight: bold;
+    transition: all 0.4s; }
+    .exchange-mask .icon-close:hover {
+      color: #dfdfdf; }
+  .exchange-mask h3 {
+    height: 55px;
+    line-height: 55px;
+    font-size: 17px;
+    letter-spacing: 1px;
+    font-weight: 600; }
+  .exchange-mask.trading {
+    color: #dfdfdf; }
+    .exchange-mask.trading .trading-content {
+      padding: 0 20px; }
+      .exchange-mask.trading .trading-content .buy-sell-title {
+        position: relative; }
+        .exchange-mask.trading .trading-content .buy-sell-title .middle-text {
+          position: absolute;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          margin: auto;
+          width: 40px;
+          line-height: 24px;
+          height: 24px;
+          padding: 0 10px;
+          background: #262d33;
+          font-size: 12px;
+          letter-spacing: 1px;
+          border-radius: 2em; }
+        .exchange-mask.trading .trading-content .buy-sell-title > li {
+          width: 49%;
+          background: #151a1e;
+          border-radius: 4px;
+          padding: 10px 0;
+          position: relative; }
+          .exchange-mask.trading .trading-content .buy-sell-title > li .title {
+            font-size: 18px;
+            line-height: 18px;
+            font-weight: bold; }
+          .exchange-mask.trading .trading-content .buy-sell-title > li .text {
+            font-size: 12px;
+            padding-top: 10px; }
+          .exchange-mask.trading .trading-content .buy-sell-title > li .sell, .exchange-mask.trading .trading-content .buy-sell-title > li .buy {
+            position: absolute;
+            top: 12px;
+            font-size: 12px; }
+          .exchange-mask.trading .trading-content .buy-sell-title > li .sell {
+            left: 10px; }
+          .exchange-mask.trading .trading-content .buy-sell-title > li .buy {
+            right: 10px; }
+      .exchange-mask.trading .trading-content .market-or-price {
+        margin-top: 14px;
+        background: #151a1e;
+        border-radius: 4px;
+        overflow: hidden; }
+        .exchange-mask.trading .trading-content .market-or-price > li {
+          height: 36px;
+          line-height: 36px;
+          width: 50%;
+          font-weight: 600;
+          letter-spacing: 1px;
+          cursor: pointer;
+          transition: all 0.4s; }
+          .exchange-mask.trading .trading-content .market-or-price > li:hover, .exchange-mask.trading .trading-content .market-or-price > li.on {
+            background: #f3b652;
+            color: #26231f; }
+      .exchange-mask.trading .trading-content .slider-number-box {
+        background-color: #292f35;
+        border-color: #888f94; }
+      .exchange-mask.trading .trading-content .num-or-price {
+        width: 100%;
+        margin-top: 14px;
+        align-items: center;
+        font-size: 13px;
+        letter-spacing: 1px; }
+        .exchange-mask.trading .trading-content .num-or-price .num-or-price-input {
+          background: #151a1e;
+          border: 1px solid #313a41;
+          border-radius: 4px;
+          position: relative;
+          height: 30px;
+          width: 80%;
+          display: flex;
+          justify-content: space-between;
+          align-items: center; }
+          .exchange-mask.trading .trading-content .num-or-price .num-or-price-input i {
+            height: 19px;
+            line-height: 19px;
+            width: 27px;
+            cursor: pointer;
+            position: relative;
+            z-index: 1;
+            padding-top: 1px;
+            padding-left: 2px; }
+            .exchange-mask.trading .trading-content .num-or-price .num-or-price-input i.icon-decrease {
+              border-right: 1px solid #313a41;
+              border-left: 1px solid transparent; }
+            .exchange-mask.trading .trading-content .num-or-price .num-or-price-input i.icon-increase {
+              border-left: 1px solid #313a41;
+              border-right: 1px solid transparent; }
+          .exchange-mask.trading .trading-content .num-or-price .num-or-price-input input {
+            border: 0;
+            position: absolute;
+            top: 0;
+            left: 31px;
+            width: calc(100% - 61px);
+            height: 100%;
+            text-align: center;
+            color: #dfdfdf; }
+        .exchange-mask.trading .trading-content .num-or-price .num-or-price-input.cfd-error .error-text {
+          background: #496aa1;
+          position: absolute;
+          top: 30px;
+          left: 30px;
+          z-index: 2;
+          text-align: left;
+          font-size: 12px;
+          line-height: 1;
+          padding: 2px; }
+        .exchange-mask.trading .trading-content .num-or-price .num-or-price-input.cfd-error input {
+          background: #620020; }
+      .exchange-mask.trading .trading-content .tips-text {
+        margin-top: 14px;
+        font-size: 13px;
+        text-align: left; }
+        .exchange-mask.trading .trading-content .tips-text > span {
+          padding-left: 5px; }
+      .exchange-mask.trading .trading-content .high-options-tips {
+        margin-top: 14px;
+        font-size: 13px;
+        align-items: center; }
+        .exchange-mask.trading .trading-content .high-options-tips i {
+          font-size: 18px;
+          transition: all 0.4s; }
+        .exchange-mask.trading .trading-content .high-options-tips.on i {
+          transform: rotate(-180deg); }
+      .exchange-mask.trading .trading-content .entrust {
+        height: 36px;
+        margin-top: 14px;
+        background: #151a1e;
+        border-radius: 4px;
+        align-items: center;
+        font-size: 13px;
+        padding: 0 10px;
+        position: relative; }
+        .exchange-mask.trading .trading-content .entrust .item {
+          cursor: pointer;
+          font-size: 12px; }
+          .exchange-mask.trading .trading-content .entrust .item i {
+            display: inline-block;
+            margin-left: 5px;
+            font-size: 18px;
+            vertical-align: -1px;
+            transition: all 0.4s; }
+        .exchange-mask.trading .trading-content .entrust.on .item i {
+          transform: rotate(-180deg); }
+        .exchange-mask.trading .trading-content .entrust .show-entrust-item {
+          position: absolute;
+          top: 37px;
+          z-index: 3;
+          background: #262d33;
+          border-radius: 4px;
+          overflow: hidden; }
+          .exchange-mask.trading .trading-content .entrust .show-entrust-item > li {
+            height: 32px;
+            line-height: 32px;
+            text-align: right;
+            padding-right: 33px;
+            font-size: 12px;
+            transition: all 0.4s; }
+            .exchange-mask.trading .trading-content .entrust .show-entrust-item > li:hover {
+              background: #20272d; }
+        .exchange-mask.trading .trading-content .entrust .show-entrust-item.all {
+          left: 0;
+          width: 100%; }
+        .exchange-mask.trading .trading-content .entrust .show-entrust-item.right {
+          right: 0;
+          width: 40%; }
+      .exchange-mask.trading .trading-content .profit-or-loss {
+        margin-top: 14px;
+        font-size: 13px;
+        background: #151a1e;
+        border-radius: 4px;
+        align-items: center;
+        padding: 8.5px 10px;
+        flex-wrap: wrap;
+        position: relative; }
+        .exchange-mask.trading .trading-content .profit-or-loss .profit-or-loss-icon {
+          font-size: 12px; }
+          .exchange-mask.trading .trading-content .profit-or-loss .profit-or-loss-icon i {
+            display: inline-block;
+            margin-left: 5px;
+            font-size: 18px;
+            vertical-align: -1px;
+            transition: all 0.4s; }
+        .exchange-mask.trading .trading-content .profit-or-loss.on .profit-or-loss-icon i {
+          transform: rotate(-180deg); }
+        .exchange-mask.trading .trading-content .profit-or-loss .num-or-price {
+          font-size: 12px; }
+        .exchange-mask.trading .trading-content .profit-or-loss .show-entrust-item {
+          position: absolute;
+          top: 37px;
+          z-index: 3;
+          background: #262d33;
+          border-radius: 4px;
+          overflow: hidden; }
+          .exchange-mask.trading .trading-content .profit-or-loss .show-entrust-item > li {
+            height: 32px;
+            line-height: 32px;
+            text-align: right;
+            padding-right: 33px;
+            font-size: 12px;
+            transition: all 0.4s; }
+            .exchange-mask.trading .trading-content .profit-or-loss .show-entrust-item > li:hover {
+              background: #20272d; }
+        .exchange-mask.trading .trading-content .profit-or-loss .show-entrust-item.all {
+          left: 0;
+          width: 100%; }
+      .exchange-mask.trading .trading-content .trading-btn {
+        margin-top: 14px; }
+        .exchange-mask.trading .trading-content .trading-btn > li {
+          width: 49%;
+          height: 44px;
+          line-height: 43px;
+          border-radius: 4px;
+          color: #fff;
+          font-size: 15px;
+          letter-spacing: 1.5px;
+          padding-left: 2px;
+          box-sizing: border-box;
+          cursor: pointer;
+          transition: all 0.4s; }
+          .exchange-mask.trading .trading-content .trading-btn > li.sell {
+            background: #ce1c5a; }
+            .exchange-mask.trading .trading-content .trading-btn > li.sell:hover {
+              background: #e12265; }
+          .exchange-mask.trading .trading-content .trading-btn > li.buy {
+            background: #679f1e; }
+            .exchange-mask.trading .trading-content .trading-btn > li.buy:hover {
+              background: #75b422; }
+      .exchange-mask.trading .trading-content .nodes-text {
+        font-size: 12px;
+        text-align: left;
+        margin-top: 14px;
+        line-height: 1.7; }
+  .exchange-mask.details {
+    padding-bottom: 0px; }
+    .exchange-mask.details .details-content {
+      padding-bottom: 20px; }
+      .exchange-mask.details .details-content ul {
+        position: relative;
+        display: flex;
+        align-items: flex-start;
+        background: #313a41;
+        margin: 2px 20px;
+        padding: 0 10px;
+        box-sizing: border-box;
+        text-align: left;
+        border-radius: 4px; }
+        .exchange-mask.details .details-content ul li {
+          padding: 6px 0;
+          line-height: 1.6;
+          font-size: 12px; }
+          .exchange-mask.details .details-content ul li:nth-child(1) {
+            width: 30%;
+            color: #f5f5f5; }
+          .exchange-mask.details .details-content ul li:nth-child(2) {
+            width: 70%;
+            color: #a2a2a2; }
+        .exchange-mask.details .details-content ul:nth-child(even) {
+          background: #262d33; }
+        .exchange-mask.details .details-content ul .camalar {
+          color: #f3b652;
+          cursor: pointer;
+          text-decoration: underline; }
+        .exchange-mask.details .details-content ul .camalar:hover {
+          color: #e0a138; }
+        .exchange-mask.details .details-content ul .dateSel {
+          position: absolute;
+          left: 105px;
+          bottom: 28px;
+          padding: 10px 0;
+          min-width: 40%;
+          line-height: 26px;
+          background: #3d464e;
+          border-radius: 5px;
+          z-index: 2; }
+          .exchange-mask.details .details-content ul .dateSel dt {
+            color: #fefefe;
+            text-align: center; }
+          .exchange-mask.details .details-content ul .dateSel dd {
+            padding: 0 15px;
+            color: #d5dade;
+            cursor: pointer; }
+            .exchange-mask.details .details-content ul .dateSel dd span:first-child {
+              display: inline-block;
+              min-width: 35px; }
+          .exchange-mask.details .details-content ul .dateSel dd.on, .exchange-mask.details .details-content ul .dateSel dd:hover {
+            color: #f3b652;
+            background: #272e33; }
+  .exchange-mask .entrust-advanced {
+    padding-bottom: 5px;
+    background: #151a1e;
+    border-radius: 4px; }
+  .exchange-mask .date-block {
+    border: 1px solid #313a41;
+    border-radius: 4px; }
+    .exchange-mask .date-block .react-datepicker__input-container {
+      width: 80px;
+      height: 30px; }
+      .exchange-mask .date-block .react-datepicker__input-container input.date-class {
+        padding: 0 !important;
+        border: none !important; }
+    .exchange-mask .date-block .time-edit {
+      display: flex;
+      justify-content: center; }
+      .exchange-mask .date-block .time-edit input {
+        position: inherit !important;
+        width: 25px !important;
+        border: none !important;
+        padding: 0 !important; }
+
+.flex-space-between {
+  display: flex;
+  justify-content: space-between; }
+
+.flex-start {
+  display: flex;
+  justify-content: flex-start; }
+
+.leverageSection {
+  position: relative;
+  margin-left: 6px;
+  width: calc(100% - 120px); }
+  .leverageSection .leverage-text {
+    font-size: 12px; }
+    .leverageSection .leverage-text > li {
+      width: 24px; }
+  .leverageSection .leverage {
+    margin: 5px 0 0;
+    position: relative;
+    align-items: center; }
+    .leverageSection .leverage:before {
+      content: '';
+      width: 100%;
+      position: absolute;
+      height: 3px;
+      background: #dfdfdf;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      margin: auto;
+      z-index: 0;
+      border-radius: 2em; }
+    .leverageSection .leverage .leverage-bg {
+      position: absolute;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      margin: auto;
+      height: 3px;
+      width: 100%;
+      background: #f3b652; }
+    .leverageSection .leverage > li {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: #f3b652;
+      position: relative;
+      z-index: 1;
+      cursor: pointer;
+      margin: 3px 0; }
+      .leverageSection .leverage > li.on {
+        width: 10px;
+        height: 10px;
+        position: relative;
+        background: #1d1f27;
+        border: 2px solid #f3b652;
+        margin: 0; }
+        .leverageSection .leverage > li.on:after {
+          content: '';
+          position: absolute;
+          width: 6px;
+          height: 6px;
+          top: 0;
+          left: 0;
+          bottom: 0;
+          right: 0;
+          margin: auto;
+          border-radius: 50%;
+          background: #f3b652; }
+  .leverageSection .slider-dio {
+    top: 17px; }
+
+.icon-menu-list {
+  border-radius: 4px;
+  overflow: hidden;
+  background: #313a41;
+  width: auto;
+  z-index: 1;
+  box-shadow: 0px 2px 20px #191b1d; }
+  .icon-menu-list > li {
+    height: 33px;
+    line-height: 33px;
+    font-size: 12px;
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 0 18px;
+    color: #dfdfdf;
+    transition: all 0.4s;
+    letter-spacing: 0.5px;
+    cursor: pointer; }
+    .icon-menu-list > li i {
+      padding-right: 5px; }
+      .icon-menu-list > li i.icon-details {
+        color: #f3b652; }
+      .icon-menu-list > li i.icon-delete {
+        color: #ee4747; }
+      .icon-menu-list > li i.icon-mark {
+        color: #f3e25c; }
+    .icon-menu-list > li:hover {
+      background: #38424a; }
+
+.cfd-tooltip {
+  color: #f3b652 !important;
+  background-color: #222323 !important;
+  opacity: 1 !important;
+  line-height: 24px !important;
+  text-align: center;
+  padding: 8px 0px !important; }
+
+@media screen and (max-width: 760px) {
+  .show-head-options {
+    position: relative;
+    top: auto;
+    left: auto;
+    width: 100%; }
+
+  #pn_pop-transfer {
+    width: 96%; }
+
+  .product-toggle {
+    padding-top: 10px;
+    text-align: center;
+    color: #f3b652; }
+    .product-toggle .icon-shouqi {
+      display: inline-block;
+      transition: all 0.4s; }
+
+  .product-toggle.on .icon-shouqi {
+    transform: rotate(180deg); }
+
+  .exchange-mask.details {
+    width: 100%; }
+
+  .trading-exchange-config .under-line .show-line-content {
+    top: 32px;
+    bottom: auto; } }
+#mb-futures-center .show-head-options {
+  padding-top: 60px; }
+#mb-futures-center .trading-chart-library {
+  position: relative;
+  left: 0;
+  width: 100% !important; }
+#mb-futures-center .trading-exchange-chart {
+  position: relative;
+  left: 0;
+  overflow-x: auto;
+  overflow-y: hidden; }
+  #mb-futures-center .trading-exchange-chart .trading-exchange-order {
+    width: 1200px !important;
+    margin: 0 0 10px !important; }
+#mb-futures-center .trading-exchange-product {
+  width: 1200px;
+  margin-bottom: 10px; }
+#mb-futures-center .mb-resolution-bg {
+  background: #262d33; }
+#mb-futures-center .mb-kLine-resolution {
+  border-bottom: none; }
+#mb-futures-center .trading-exchange-depth {
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding: 0 5px;
+  box-sizing: border-box; }
+  #mb-futures-center .trading-exchange-depth .exchange-mask {
+    box-shadow: none; }
+
+/*# sourceMappingURL=trading-contest-exchange.css.map */

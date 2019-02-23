@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./iconfont/iconfont.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/trading-contest-exchange.css">
+    <style type="text/css">
+        .exchange-mask { position: absolute; top: 0; left: 0; right: 0; bottom: 0; margin: auto;}
+    </style>
+</head>
+    <body>
+        <div class="trading-exchange-config">
+            <!--头部-->
+            <header class="header-box trading-exchange-head">
+                <div class="tradefull-head-box f-clear">
+                    <div class="header-logo-box f-clear">
+                        <span class="point">
+                            <div class="header-logo fl"></div>
+                            <div class="pd010 fl">|</div>
+                            <div class="fl">图灵衍生品交易所</div>
+                        </span>
+                        <div class="drop-menu drop-menu-horizontal pd010 fl ml-50">
+                            <div class="">
+                                <span>BTCUSD</span>
+                                <i class="iconfont icon-xiala transit"></i>
+                            </div>
+                            <!--头部选项-->
+                            <div style="display: none;" class="show-head-options">
+                                <ul class="trading-exchange-order-tab-title">
+                                    <li class="active">差价合约</li>
+                                    <li>永续合约</li>
+                                    <li>币币交易</li>
+                                </ul>
+                                <div style="display: none;" class="trading-exchange-list">
+                                    <ul class="trading-exchange-list-title contrac-trading-title">
+                                        <li>市场</li>
+                                        <li>价格</li>
+                                        <li>24h 涨跌</li>
+                                        <li>24h成交量</li>
+                                    </ul>
+                                    <ul class="trading-exchange-list-content contrac-trading-content">
+                                        <li class="item">
+                                            <ul class="item-content">
+                                                <li>BTCUSD</li>
+                                                <li class="exchange-red">3,609</li>
+                                                <li class="exchange-green">-0.39%</li>
+                                                <li>7,620,355</li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="trading-exchange-search">
+                                    <i class="iconfont icon-search"></i>
+                                    <input class="fillet-global-config" type="text" placeholder="Seach">
+                                    <i class="iconfont icon-calculator"></i>
+                                </div>
+                                <div class="trading-exchange-list">
+                                    <ul class="trading-exchange-list-title">
+                                        <li>Product</li>
+                                        <li>Sell</li>
+                                        <li>Buy</li>
+                                        <li>Change(%)</li>
+                                    </ul>
+                                    <ul class="trading-exchange-list-content">
+                                        <li class="item on">
+                                            <div class="item-title"><i class="iconfont icon-arrow-l"></i><span>Choose</span></div>
+                                            <ul class="item-content">
+                                                <i class="iconfont icon-trading-menu"></i>
+                                                <li>BTC</li>
+                                                <li class="exchange-red"><span>3700.00</span></li>
+                                                <li class="exchange-green"><span>3700.00</span></li>
+                                                <li class="exchange-green">-10%</li>
+                                                <i class="flag cn"></i>
+                                            </ul>
+                                            <ul class="item-content">
+                                                <i class="iconfont icon-trading-menu"></i>
+                                                <li>BTC</li>
+                                                <li class="exchange-red"><span>3700.00</span></li>
+                                                <li class="exchange-green"><span>3700.00</span></li>
+                                                <li class="exchange-green">-12%</li>
+                                                <i class="flag us"></i>
+                                            </ul>
+                                            <ul class="item-content on">
+                                                <i class="iconfont icon-trading-menu"></i>
+                                                <li>BTC</li>
+                                                <li class="exchange-red"><span>3700.00</span></li>
+                                                <li class="exchange-green"><span>3700.00</span></li>
+                                                <li class="exchange-green">-12%</li>
+                                                <i class="flag kr"></i>
+                                                <ul class="icon-menu-list">
+                                                    <li><i class="iconfont icon-details"></i>交易品种信息</li>
+                                                    <li><i class="iconfont icon-delete"></i>删除自选</li>
+                                                </ul>
+                                            </ul>
+                                            <ul class="item-content">
+                                                <i class="iconfont icon-trading-menu"></i>
+                                                <li>BTC</li>
+                                                <li class="exchange-red"><span>3700.00</span></li>
+                                                <li class="exchange-green"><span>3700.00</span></li>
+                                                <li class="exchange-green">-12%</li>
+                                                <i class="flag jp"></i>
+                                            </ul>
+                                            <ul class="item-content">
+                                                <i class="iconfont icon-trading-menu"></i>
+                                                <li>BTC</li>
+                                                <li class="exchange-red"><span>3700.00</span></li>
+                                                <li class="exchange-green"><span>3700.00</span></li>
+                                                <li class="exchange-green">-12%</li>
+                                                <i class="flag fr"></i>
+                                            </ul>
+                                            <ul class="item-content">
+                                                <i class="iconfont icon-trading-menu"></i>
+                                                <li>BTC</li>
+                                                <li class="exchange-red"><span>3700.00</span></li>
+                                                <li class="exchange-green"><span>3700.00</span></li>
+                                                <li class="exchange-green">-12%</li>
+                                                <i class="flag es"></i>
+                                            </ul>
+                                            <ul class="item-content">
+                                                <i class="iconfont icon-trading-menu"></i>
+                                                <li>BTC</li>
+                                                <li class="exchange-red"><span>3700.00</span></li>
+                                                <li class="exchange-green"><span>3700.00</span></li>
+                                                <li class="exchange-green">-12%</li>
+                                                <i class="flag pt"></i>
+                                            </ul>
+                                            <ul class="item-content">
+                                                <i class="iconfont icon-trading-menu"></i>
+                                                <li>BTC</li>
+                                                <li class="exchange-red"><span>3700.00</span></li>
+                                                <li class="exchange-green"><span>3700.00</span></li>
+                                                <li class="exchange-green">-12%</li>
+                                                <i class="flag ru"></i>
+                                            </ul>
+                                            <ul class="item-content">
+                                                <i class="iconfont icon-trading-menu"></i>
+                                                <li>BTC</li>
+                                                <li class="exchange-red"><span>3700.00</span></li>
+                                                <li class="exchange-green"><span>3700.00</span></li>
+                                                <li class="exchange-green">-12%</li>
+                                                <i class="flag tr"></i>
+                                            </ul>
+                                        </li>
+                                        <li class="item">
+                                            <div class="item-title"><i class="iconfont icon-arrow-l"></i><span>Foreign Exchange</span></div>
+                                        </li>
+                                        <li class="item">
+                                            <div class="item-title"><i class="iconfont icon-arrow-l"></i><span>Index</span></div>
+                                        </li>
+                                        <li class="item">
+                                            <div class="item-title"><i class="iconfont icon-arrow-l"></i><span>Digital Currency</span></div>
+                                        </li>
+                                        <li class="item">
+                                            <div class="item-title"><i class="iconfont icon-arrow-l"></i><span>Index</span></div>
+                                        </li>
+                                        <li class="item">
+                                            <div class="item-title"><i class="iconfont icon-arrow-l"></i><span>Crude Oil</span></div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tick-price fl ml-20">
+                            <span>
+                                最新价格：<span class="exchange-red">3,625<i class="iconfont fem125"></i></span>
+                            </span>
+                            <span class="pdl-15">24h 涨跌：<span class="exchange-red">-4.23%</span></span>
+                            <span class="pdl-15">标记价格：<span class="exchange-green">3,623.98</span></span>
+                            <span class="pdl-15">指数价格：<span class="exchange-red">3,624.19</span></span>
+                        </div>
+                    </div>
+                    <div class="login-box f-clear">
+                        <div class="login-bar fl">
+                            <a class="pd010" href="/login?return_to=%2Ftrade%2FBTCUSD">登录</a>
+                            <a class="pd010" href="/register">注册</a>
+                        </div>
+                        <div class="fl head-icon-config">
+                            <i class="iconfont icon-setting"></i>
+                        </div>
+                        <div class="fl head-icon-config">
+                            <i class="iconfont icon-helper"></i>
+                            <ul class="head-icon-config-hover zh-cn">
+                                <li>
+                                    <a href="https://support.tdex.com/hc/zh-cn/sections/360000015451" target="_blank">交易指南</a>
+                                </li>
+                                <li>
+                                    <a href="https://support.tdex.com/hc/zh-cn/requests/new" target="_blank">联系客服</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="header-lang border-l h-50">
+                        <div id="langselect" class="ml-20 fem875"><cite class=""><span>简体中文</span></cite>
+                            <ul class="hide full-lang">
+                                <li><a href="javascript:;"><span>简体中文</span></a></li>
+                                <li><a href="javascript:;"><span>English</span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <!--中间k线图与深度列表-->
+            <div class="trading-exchange-body">
+                <!--k线表-->
+                <div class="trading-chart-library fillet-global-config"></div>
+                <!--深度列表-->
+                <div class="trading-exchange-depth">
+                    <!--搜索-->
+                    <div class="trading-exchange-search">
+                        <i class="iconfont icon-search"></i>
+                        <input class="fillet-global-config" type="text" placeholder="Seach">
+                        <i class="iconfont icon-calculator"></i>
+                    </div>
+                    <!--列表-->
+                    <div class="trading-exchange-list fillet-global-config">
+                        <ul class="trading-exchange-list-title">
+                            <li>Product</li>
+                            <li>Sell</li>
+                            <li>Buy</li>
+                            <li>Change(%)</li>
+                        </ul>
+                        <ul class="trading-exchange-list-content">
+                            <li class="item on">
+                                <div class="item-title"><i class="iconfont icon-arrow-l"></i><span>Choose</span></div>
+                                <ul class="item-content">
+                                    <li class="first-icon"><i class="iconfont icon-trading-menu"></i></li>
+                                    <li class="type">BTC</li>
+                                    <li class="sell exchange-red"><span>37000.00</span></li>
+                                    <li class="buy exchange-green"><span>37000.00</span></li>
+                                    <li class="change exchange-green">-10%</li>
+                                    <li class="last-icon"><i class="flag eu"></i></li>
+                                </ul>
+                                <ul class="item-content">
+                                    <li class="first-icon"><i class="iconfont icon-trading-menu"></i></li>
+                                    <li class="type">美元指数_061</li>
+                                    <li class="sell exchange-red"><span>3700.00</span></li>
+                                    <li class="buy exchange-green"><span>3700.00</span></li>
+                                    <li class="change exchange-green">-10%</li>
+                                    <li class="last-icon"><i class="flag us"></i></li>
+                                </ul>
+                                <ul class="item-content on">
+                                    <li class="first-icon"><i class="iconfont icon-trading-menu"></i></li>
+                                    <li class="type">恐慌指数_02</li>
+                                    <li class="sell exchange-red"><span>3700.00</span></li>
+                                    <li class="buy exchange-green"><span>3700.00</span></li>
+                                    <li class="change exchange-green">-10%</li>
+                                    <li class="last-icon"><i class="flag hk"></i></li>
+                                    <ul class="icon-menu-list">
+                                        <li><i class="iconfont icon-details"></i>交易品种信息</li>
+                                        <li><i class="iconfont icon-delete"></i>删除自选</li>
+                                    </ul>
+                                </ul>
+                                <ul class="item-content">
+                                    <li class="first-icon"><i class="iconfont icon-trading-menu"></i></li>
+                                    <li class="type">BTC</li>
+                                    <li class="sell exchange-red"><span>3700.00</span></li>
+                                    <li class="buy exchange-green"><span>3700.00</span></li>
+                                    <li class="change exchange-green">-10%</li>
+                                    <li class="last-icon"><i class="flag cn"></i></li>
+                                </ul>
+                                <ul class="item-content">
+                                    <li class="first-icon"><i class="iconfont icon-trading-menu"></i></li>
+                                    <li class="type">BTC</li>
+                                    <li class="sell exchange-red"><span>3700.00</span></li>
+                                    <li class="buy exchange-green"><span>3700.00</span></li>
+                                    <li class="change exchange-green">-10%</li>
+                                    <li class="last-icon"><i class="flag uk"></i></li>
+                                </ul>
+                                <ul class="item-content">
+                                    <li class="first-icon"><i class="iconfont icon-trading-menu"></i></li>
+                                    <li class="type">BTC</li>
+                                    <li class="sell exchange-red"><span>3700.00</span></li>
+                                    <li class="buy exchange-green"><span>3700.00</span></li>
+                                    <li class="change exchange-green">-10%</li>
+                                    <li class="last-icon"><i class="flag au"></i></li>
+                                </ul>
+                                <ul class="item-content">
+                                    <li class="first-icon"><i class="iconfont icon-trading-menu"></i></li>
+                                    <li class="type">BTC</li>
+                                    <li class="sell exchange-red"><span>3700.00</span></li>
+                                    <li class="buy exchange-green"><span>3700.00</span></li>
+                                    <li class="change exchange-green">-10%</li>
+                                    <li class="last-icon"><i class="flag nl"></i></li>
+                                </ul>
+                                <ul class="item-content">
+                                    <li class="first-icon"><i class="iconfont icon-trading-menu"></i></li>
+                                    <li class="type">BTC</li>
+                                    <li class="sell exchange-red"><span>3700.00</span></li>
+                                    <li class="buy exchange-green"><span>3700.00</span></li>
+                                    <li class="change exchange-green">-10%</li>
+                                    <li class="last-icon"><i class="flag es"></i></li>
+                                </ul>
+                                <ul class="item-content">
+                                    <li class="first-icon"><i class="iconfont icon-trading-menu"></i></li>
+                                    <li class="type">BTC</li>
+                                    <li class="sell exchange-red"><span>3700.00</span></li>
+                                    <li class="buy exchange-green"><span>3700.00</span></li>
+                                    <li class="change exchange-green">-10%</li>
+                                    <li class="last-icon"><i class="flag jp"></i></li>
+                                </ul>
+                            </li>
+                            <li class="item">
+                                <div class="item-title"><i class="iconfont icon-arrow-l"></i><span>Foreign Exchange</span></div>
+                            </li>
+                            <li class="item">
+                                <div class="item-title"><i class="iconfont icon-arrow-l"></i><span>Index</span></div>
+                            </li>
+                            <li class="item">
+                                <div class="item-title"><i class="iconfont icon-arrow-l"></i><span>Digital Currency</span></div>
+                            </li>
+                            <li class="item">
+                                <div class="item-title"><i class="iconfont icon-arrow-l"></i><span>Index</span></div>
+                            </li>
+                            <li class="item">
+                                <div class="item-title"><i class="iconfont icon-arrow-l"></i><span>Crude Oil</span></div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="trading-exchange-btn">
+                        立即交易
+                    </div>
+                    <ul class="trading-exchange-business-order" style="transform: translate(0, 0);top: 100px;right: 423px;">
+                        <li class="sell">
+                            <p>3860</p>
+                            <p>卖空</p>
+                        </li>
+                        <li class="buy">
+                            <p>3860</p>
+                            <p>买多</p>
+                        </li>
+                    </ul>
+                </div>
+                <!--订单列表-->
+                <div class="trading-exchange-chart">
+                    <!--订单列表-->
+                    <div class="trading-exchange-order fillet-global-config-auto">
+                        <ul class="trading-exchange-order-tab-title">
+                            <li class="active">持仓</li>
+                            <li>委托</li>
+                            <li>历史成交</li>
+                            <li>历史委托</li>
+                        </ul>
+                        <ul class="item-title">
+                            <li>
+                                <label class="custom-checkbox">
+                                    <div>
+                                        <input type="checkbox" class="input_check">
+                                        <i></i>
+                                    </div>
+                                </label>
+                            </li>
+                            <li>仓位ID</li>
+                            <li>产品</li>
+                            <li>
+                                <div class="under-line">
+                                    币种
+                                    <div class="show-line-content">
+                                        <ul>
+                                            <li>
+                                                <label class="custom-checkbox">
+                                                <div>
+                                                    <input type="checkbox" class="input_check">
+                                                    <i></i>
+                                                </div>
+                                            </label>
+                                            </li>
+                                            <li>全部</li>
+                                        </ul>
+                                        <ul>
+                                            <li>
+                                                <label class="custom-checkbox">
+                                                <div>
+                                                    <input type="checkbox" class="input_check">
+                                                    <i></i>
+                                                </div>
+                                            </label>
+                                            </li>
+                                            <li>TD</li>
+                                        </ul>
+                                        <ul class="on">
+                                            <li>
+                                                <label class="custom-checkbox">
+                                                <div>
+                                                    <input type="checkbox" class="input_check" checked="checked">
+                                                    <i></i>
+                                                </div>
+                                            </label>
+                                            </li>
+                                            <li>BTC</li>
+                                        </ul>
+                                        <ul>
+                                            <li>
+                                                <label class="custom-checkbox">
+                                                <div>
+                                                    <input type="checkbox" class="input_check">
+                                                    <i></i>
+                                                </div>
+                                            </label>
+                                            </li>
+                                            <li>BTC</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>方向</li>
+                            <li>杠杆</li>
+                            <li>数量</li>
+                            <li>价值</li>
+                            <li>开仓均价</li>
+                            <li>保证金</li>
+                            <li>止损</li>
+                            <li>获利</li>
+                            <li>盈亏</li>
+                            <li>手续费</li>
+                            <li>强平价格</li>
+                            <li>操作</li>
+                        </ul>
+                        <div class="tab-content-auto">
+                            <ul class="item-content on">
+                                <li>
+                                    <label class="custom-checkbox">
+                                        <div>
+                                            <input type="checkbox" class="input_check" checked="">
+                                            <i></i>
+                                        </div>
+                                    </label>
+                                </li>
+                                <li>3FKW59</li>
+                                <li>BTCUSD</li>
+                                <li>BTC</li>
+                                <li class="exchange-green">买多</li>
+                                <li>10x</li>
+                                <li>1</li>
+                                <li>¥0.0005</li>
+                                <li>4028.66</li>
+                                <li>¥0.0005</li>
+                                <li>LAST≤3800</li>
+                                <li>4039</li>
+                                <li class="exchange-red">¥0.0005(15%)</li>
+                                <li>1TD</li>
+                                <li>4096</li>
+                                <li></li>
+                            </ul>
+                            <ul class="item-content">
+                                <li>
+                                    <label class="custom-checkbox">
+                                        <div>
+                                            <input type="checkbox" class="input_check">
+                                            <i></i>
+                                        </div>
+                                    </label>
+                                </li>
+                                <li>3FKW59</li>
+                                <li>BTCUSD</li>
+                                <li>BTC</li>
+                                <li class="exchange-green">买多</li>
+                                <li>10x</li>
+                                <li>1</li>
+                                <li>¥0.0005</li>
+                                <li>4028.66</li>
+                                <li>¥0.0005</li>
+                                <li>LAST≤3800</li>
+                                <li>4039</li>
+                                <li class="exchange-red">¥0.0005(15%)</li>
+                                <li>1TD</li>
+                                <li>4096</li>
+                                <li></li>
+                            </ul>
+                            <ul class="item-content">
+                                <li>
+                                    <label class="custom-checkbox">
+                                        <div>
+                                            <input type="checkbox" class="input_check">
+                                            <i></i>
+                                        </div>
+                                    </label>
+                                </li>
+                                <li>3FKW59</li>
+                                <li>BTCUSD</li>
+                                <li>TD</li>
+                                <li class="exchange-green">买多</li>
+                                <li>10x</li>
+                                <li>1</li>
+                                <li>¥0.0005</li>
+                                <li>4028.66</li>
+                                <li>¥0.0005</li>
+                                <li>LAST≤3800</li>
+                                <li>4039</li>
+                                <li class="exchange-red">¥0.0005(15%)</li>
+                                <li>1TD</li>
+                                <li>4096</li>
+                                <li></li>
+                            </ul>
+                            <ul class="item-content">
+                                <li>
+                                    <label class="custom-checkbox">
+                                        <div>
+                                            <input type="checkbox" class="input_check">
+                                            <i></i>
+                                        </div>
+                                    </label>
+                                </li>
+                                <li>3FKW59</li>
+                                <li>BTCUSD</li>
+                                <li>BTC</li>
+                                <li class="exchange-green">买多</li>
+                                <li>10x</li>
+                                <li>1</li>
+                                <li>¥0.0005</li>
+                                <li>4028.66</li>
+                                <li>¥0.0005</li>
+                                <li>LAST≤3800</li>
+                                <li>4039</li>
+                                <li class="exchange-red">¥0.0005(15%)</li>
+                                <li>1TD</li>
+                                <li>4096</li>
+                                <li></li>
+                            </ul>
+                            <div style="display: none" class="no-list-data">
+                                <div class="no-list-data-position">
+                                    <div class="no-list-data-pic"></div>
+                                    <p>暂无数据</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--产品选择-->
+                    <div class="trading-exchange-product">
+                        <div class="select-the-currency">
+                            <p class="select-the-currency-title BTC"><span></span>TD <i class="iconfont icon-shouqi"></i></p>
+                            <ul class="select-the-currency-conten">
+                                <li>BCH</li>
+                                <li>LTC</li>
+                                <li>USDT</li>
+                                <li>EOS</li>
+                                <li>ETH</li>
+                                <li>BTC</li>
+                            </ul>
+                        </div>
+                        <ul class="list-of-assets">
+                            <li>资产：<span>6472.31000 BTC</span></li>
+                            <li>余额：<span>12.82100 BTC</span></li>
+                            <li>可用：<span>6472.31000 BTC</span></li>
+                            <li>盈亏：<span>12.82100 BTC</span></li>
+                        </ul>
+                        <a class="link" href="#">充币</a>
+                    </div>
+                </div>
+            </div>
+            <!--详情弹窗-->
+            <div style="display: block;" class="exchange-mask details">
+                <i class="iconfont icon-close"></i>
+                <h3>比特币期货(比特币）</h3>
+                <div class="details-content">
+                    <ul>
+                        <li>品种</li>
+                        <li>比特币期货</li>
+                    </ul>
+                    <ul>
+                        <li>交易所</li>
+                        <li>Bitmex</li>
+                    </ul>
+                    <ul>
+                        <li>合约乘数</li>
+                        <li>1000</li>
+                    </ul>
+                    <ul>
+                        <li>合约价值</li>
+                        <li>1000 USD</li>
+                    </ul>
+                    <ul>
+                        <li>最小价位</li>
+                        <li>5</li>
+                    </ul>
+                    <ul>
+                        <li>保证金要求</li>
+                        <li>保证金要求</li>
+                    </ul>
+                    <ul>
+                        <li>佣金</li>
+                        <li>合约价值0.1%</li>
+                    </ul>
+                    <ul>
+                        <li>资金费率</li>
+                        <li>每8小时支付/收取一次，资金费率为正时是多仓支付费用，空仓收取费用，反之亦然</li>
+                    </ul>
+                    <ul>
+                        <li>交易日</li>
+                        <li>周一至周日</li>
+                    </ul>
+                    <ul>
+                        <li>交易时间</li>
+                        <li><span>00:00 - 23:59</span><span class="camalar">计算器</span></li>
+                        <li>
+                            <dl class="dateSel">
+                                <dt>Trading Hours (EST)</dt>
+                                <dd>Sat 1/29  00:00 - 23:59</dd>
+                                <dd>Sat 1/29  00:00 - 23:59</dd>
+                                <dd class="on">Sat 1/29  00:00 - 23:59</dd>
+                                <dd>Sat 1/29  00:00 - 23:59</dd>
+                                <dd>Sat 1/29  00:00 - 23:59</dd>
+                                <dd>Sat 1/29  00:00 - 23:59</dd>
+                                <dd>Sat 1/29  00:00 - 23:59</dd>
+                            </dl>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>合约周期</li>
+                        <li>永续</li>
+                    </ul>
+                    <ul>
+                        <li>结算日</li>
+                        <li>每8小时结算利息</li>
+                    </ul>
+                    <ul>
+                        <li>结算价</li>
+                        <li>Bitmex资金费率</li>
+                    </ul>
+                    <ul>
+                        <li>单笔开仓</li>
+                        <li>1-10手</li>
+                    </ul>
+                </div>
+            </div>
+            <!--交易弹框-->
+            <div style="display: none;" class="exchange-mask trading">
+                <i class="iconfont icon-close"></i>
+                <h3>BTC</h3>
+                <div class="trading-content">
+                    <ul class="buy-sell-title flex-space-between">
+                        <li>
+                            <p class="title exchange-red">3860</p>
+                            <p class="text">佣金0.5%</p>
+                            <p class="sell exchange-red">卖空</p>
+                        </li>
+                        <li>
+                            <p class="title exchange-green">3860</p>
+                            <p class="text">佣金0.5%</p>
+                            <p class="buy exchange-green">买多</p>
+                        </li>
+                        <span class="middle-text">0.02</span>
+                    </ul>
+                    <ul class="market-or-price flex-space-between">
+                        <li>市价</li>
+                        <li class="on">限价</li>
+                    </ul>
+                    <div class="leverageSection mt-15">
+                        <ul class="leverage-text flex-space-between">
+                            <li>1X</li>
+                            <li>5X</li>
+                            <li>10X</li>
+                            <li>15X</li>
+                            <li>20X</li>
+                        </ul>
+                        <ul class="leverage flex-space-between">
+                            <li></li>
+                            <li class="on"></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <div style="width: 25%;" class="leverage-bg"></div>
+                        </ul>
+                    </div>
+                    <ul class="num-or-price flex-space-between">
+                        <li>数量</li>
+                        <li class="num-or-price-input cfd-error">
+                            <i class="iconfont icon-decrease"></i>
+                            <input type="text" value="23333">
+                            <p class="error-text">最小1; 最大100000000;</p>
+                            <i class="iconfont icon-increase"></i>
+                        </li>
+                    </ul>
+                    <ul class="num-or-price flex-space-between">
+                        <li>价格</li>
+                        <li class="num-or-price-input">
+                            <i class="iconfont icon-decrease"></i>
+                            <input type="text" value="23333">
+                            <i class="iconfont icon-increase"></i>
+                        </li>
+                    </ul>
+                    <p class="tips-text">保证金: <span>3494.0541 BTC</span></p>
+                    <p class="high-options-tips flex-space-between on">高级选项<i class="iconfont icon-xiala"></i></p>
+                    <ul class="entrust flex-space-between">
+                        <li>委托时效</li>
+                        <li class="item">一直有效<i class="iconfont icon-xiala"></i></li>
+                        <ul style="display: none;" class="show-entrust-item">
+                            <li>一直有效</li>
+                            <li>一直有效</li>
+                        </ul>
+                    </ul>
+                    <ul class="profit-or-loss flex-space-between on">
+                        <li>止盈</li>
+                        <li class="profit-or-loss-icon">
+                            距成交价
+                            <i class="iconfont icon-xiala"></i>
+                        </li>
+                        <ul style="" class="num-or-price flex-space-between">
+                            <li>价格</li>
+                            <li class="num-or-price-input">
+                                <i class="iconfont icon-decrease"></i>
+                                <input type="text" value="23333">
+                                <i class="iconfont icon-increase"></i>
+                            </li>
+                        </ul>
+                    </ul>
+                    <ul class="profit-or-loss flex-space-between">
+                        <li>止盈</li>
+                        <li class="profit-or-loss-icon">
+                            请选择(可选)
+                            <i class="iconfont icon-xiala"></i>
+                        </li>
+                        <ul style="display: none;" class="num-or-price flex-space-between">
+                            <li>价格</li>
+                            <li class="num-or-price-input">
+                                <i class="iconfont icon-decrease"></i>
+                                <input type="text" value="23333">
+                                <i class="iconfont icon-increase"></i>
+                            </li>
+                        </ul>
+                    </ul>
+                    <ul class="trading-btn flex-space-between">
+                        <li class="sell">做空</li>
+                        <li class="buy">做多</li>
+                    </ul>
+                    <div class="nodes-text">
+                        按输入的价格计算换算成点数12.9222/0.01 = 1292点，即1292
+                        点本金翻倍。翻倍点数随指数价格动态变化。
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,681 @@
+@charset "UTF-8";
+.spot-trading-style {
+    min-height: 900px;
+    background: #131316;
+    padding-top: 60px;
+    overflow: hidden;
+    .spot-trading-config {
+        width: 1200px;
+        margin: 10px auto 80px;
+        .trading-order-style-config {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: nowrap;
+        }
+    }
+    // 订单
+    .spot-trading-order {
+        width: 680px;
+        min-height: 523px;
+        // 头部
+        .spot-trading-order-header {
+            height: 40px;
+            display: flex;
+            padding: 0 20px;
+            justify-content: space-between;
+            flex-wrap: nowrap;
+            align-items: center;
+            background: #191a1e;
+            color: #6f6f6f;
+            >h3 {
+                color: #fff;
+                letter-spacing: 1px;
+                padding-right: 10px;
+            }
+            .spot-trading-link {
+                color: #f3b652;
+                transition: color 0.4s;
+                cursor: pointer;
+                padding-left: 25px;
+                &:hover {
+                    color: #ca912b;
+                }
+            }
+            .spot-trading-item {
+                padding-left: 25px;
+            }
+
+        }
+        // 内容
+        .spot-trading-order-body {
+            background: #1e2024;
+            overflow: hidden;
+            min-height: 483px;
+            // tab
+            .spot-trading-tab-config {
+                display: flex;
+                justify-content: center;
+                padding-top: 10px;
+                li {
+                    padding: 0 12px;
+                    margin: 0 28px;
+                    font-size: 16px;
+                    color: #6a6a6b;
+                    height: 50px;
+                    line-height: 50px;
+                    border-bottom: 2px solid transparent;
+                    transition: color 0.4s;
+                    letter-spacing: 1.5px;
+                    cursor: pointer;
+                    &:hover {
+                        color: #f3b652;
+                    }
+                }
+                li.active {
+                    color: #f3b652;
+                    border-bottom: 2px solid #f3b652;
+                }
+            }
+            // 输入
+            .spot-trading-all-input {
+                width: 365px;
+                margin: 25px auto 0;
+                .spot-trading-input-item {
+                    position: relative;
+                    margin-bottom: 20px;
+                    // input标题
+                    .spot-trading-input-title {
+                        position: absolute;
+                        top: 8px;
+                        left: -145px;
+                        width: 120px;
+                        text-align: right;
+                    }
+                    // input内容
+                    .spot-trading-input-config {
+                        height: 34px;
+                        position: relative;
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        flex-wrap: nowrap;
+                        background: #292a2e;
+                        padding: 0 10px;
+                        .spot-trading-input-text {
+                            color: #e5e6e8;
+                            cursor: default;
+                            font-size: 15px;
+                        }
+                        // input框
+                        input {
+                            border: 0;
+                            padding: 0;
+                            outline: none;
+                            font-size: 14px;
+                            color: #e5e6e8;
+                            width: 78%;
+                        }
+                        // 上下三角形
+                        .spot-trading-icon-up-down {
+                            .up {
+                                transform: rotate(90deg);
+                            }
+                            .down {
+                                transform: rotate(-90deg);
+                            }
+                        }
+                        // 百分比
+                        .spot-trading-span-Percentage {
+                            display: flex;
+                            justify-content: space-between;
+                            width: 100%;
+                            >span{
+                                display: inline-block;
+                                width: 82px;
+                                height: 33px;
+                                line-height: 33px;
+                                text-align: center;
+                                background: #292a2e;
+                                letter-spacing: 1px;
+                                font-size: 12px;
+                                cursor: pointer;
+                                padding-left: 4px;
+                                border: 1px solid transparent;
+                                box-sizing: border-box;
+                                transition: all 0.4s;
+                                &:hover {
+                                    border: 1px solid #6a6a6b;
+                                }
+                            }
+                            >span.on {
+                                border: 1px solid #6a6a6b;
+                                color: #fff;
+                                font-size: 14px;
+                             }
+                        }
+                        // 单位
+                        .uit{
+                            color: #757575;
+                        }
+                    }
+                    // 下拉框
+                    .spot-trading-input-drop-down {
+                        position: absolute;
+                        top: 39px;
+                        left: 0;
+                        width: 100%;
+                        z-index: 1;
+                        li {
+                            width: 100%;
+                            background: #292a2e;
+                            display: flex;
+                            height: 33px;
+                            align-items: center;
+                            padding: 0 10px;
+                            box-sizing: border-box;
+                            margin-bottom: 1px;
+                            color: #e5e6e8;
+                            cursor: pointer;
+                            transition: all 0.4s;
+                            box-shadow: 0px 2px 6px #0d0e13;
+                            &:hover {
+                                background-color: #383a42;
+                                color: #b1b8c5;
+                            }
+                        }
+                    }
+                    // 出错error
+                    .spot-trading-input-error {
+                        color: #ff8522;
+                        position: absolute;
+                        font-size: 12px;
+                        top: 35px;
+                        i {font-size: 12px;padding-right: 5px;padding-left: 10px;}
+                    }
+                    .spot-trading-input-config.active {
+                        .spot-trading-icon-triangle {
+                            transform: rotate(-90deg);
+                            //border-right: 8px solid #868a98;
+                        }
+                    }
+                    .spot-trading-input-config.bg-none {
+                        background: none;
+                        padding: 0;
+                    }
+                }
+                .spot-trading-input-item-text {
+                    display: flex;
+                    align-items: center;
+                    height: 28px;
+                    letter-spacing: 0.5px;
+                    >span {padding: 0 1px}
+                    .link-config-style {
+                        margin-left: 15px;
+                        transition: all 0.4s;
+                        &:hover {
+                            color: #f3b652;
+                        }
+                        >i {font-size: 13px;}
+                    }
+                }
+                .spot-trading-btn-config {
+                    width: 100%;
+                    background: none;
+                    border: 1px solid #f3b652;
+                    border-radius: 5px;
+                    height: 50px;
+                    line-height: 46px;
+                    color: #6a6a6b;
+                    margin: 22px auto 52px;
+                    letter-spacing: 0.5px;
+                    padding-left: 6px;
+                    box-sizing: border-box;
+                    font-size: 15px;
+                    transition: all 0.4s;
+                    outline: none;
+                    a {
+                        color: #f3b652;
+                        padding: 0 4px;
+                    }
+                }
+                .spot-trading-btn-config.buy {
+                    background: #81a417;
+                    color: #fff;
+                    border-color: #81a417;
+                    cursor: pointer;
+                    letter-spacing: 1px;
+                    &:hover {background: #a2c537;border-color: #a2c537;}
+                }
+                .spot-trading-btn-config.sell {
+                    background: #cc0765;
+                    color: #fff;
+                    border-color: #cc0765;
+                    cursor: pointer;
+                    letter-spacing: 1px;
+                    &:hover {background: #c3387a;color: #ffe9f4;border-color: #c3387a;}
+                }
+            }
+        }
+    }
+    // 深度
+    .spot-trading-depth {
+        width: 510px;
+        min-height: 523px;
+        background: #1e2024;
+        .spot-trading-list-config {
+            .list-config-title, .list-config-content {
+                display: flex;
+                flex-wrap: nowrap;
+                justify-content: space-around;
+                li {
+                    width: 100%;
+                    text-align: center;
+                }
+            }
+            .list-config-title {
+                background: #191a1e;
+                li {font-size: 12px;line-height: 40px;color: #6f6f6f;}
+            }
+            .list-config-content {
+                color: #f3f3f3;
+                transition: all 0.4s;
+                &:hover {
+                    background-color: #383a42;
+                    color: #b1b8c5;
+                }
+                li {line-height: 40px;font-size: 12px;}
+            }
+        }
+    }
+    // 历史记录
+    .spot-trading-history-config {
+        background: #1e2024;
+        margin-top: 10px;
+        // tab
+        .spot-trading-tab-config {
+            display: flex;
+            align-items: center;
+            background: #191a1e;
+            >li {
+                height: 40px;
+                line-height: 40px;
+                box-sizing: border-box;
+                padding: 0 5px;
+                margin: 0 32px;
+                border-bottom: 2px solid transparent;
+                cursor: pointer;
+                transition: all 0.4s;
+                &:hover {
+                    color: #f3b652;
+                }
+            }
+            >li.active {
+                color: #f3b652;
+                border-bottom: 2px solid #f3b652;
+            }
+        }
+        .spot-trading-tab-config.no-hover {
+            >li {
+                &:hover {
+                    color: #a2a2a2;
+                }
+            }
+        }
+        // 记录
+        .spot-trading-history-list {
+            min-height: 240px;
+            .list-config-title, .list-config-content {
+                display: flex;
+                flex-wrap: nowrap;
+                justify-content: space-around;
+                cursor: default;
+                li {
+                    width: 100%;
+                }
+                li:first-child {
+                    padding-left: 20px;
+                }
+            }
+            .list-config-title {
+                //background: #191a1e;
+                li {font-size: 12px;line-height: 40px;color: #6f6f6f;}
+            }
+            .list-config-content {
+                color: #959595;
+                transition: all 0.4s;
+                &:hover {
+                    background-color: #383a42;
+                    color: #b1b8c5;
+                }
+                li {line-height: 26px;font-size: 12px;}
+            }
+            // a链接
+            .link-config-style {
+                text-align: center;
+                margin-top: 20px;
+                >a {
+                    letter-spacing: 0.5px;
+                    transition: all 0.4s;
+                    font-size: 12px;
+                    &:hover {
+                        color: #f3b652;
+                    }
+                    >i {font-size: 13px;}
+                }
+            }
+        }
+        // 翻页
+        .spot-trading-pager-config {
+            margin-top: 20px;
+            text-align: center;
+            span {
+                font-size: 12px;
+                color: #848484;
+                cursor: default;
+            }
+            a {
+                margin-left: 5px;
+                padding: 3px 13px;
+                color: #a9a9a9;
+                font-size: 12px;
+                border: 1px solid #2a2c32;
+                border-radius: 1px;
+                background: #2a2c32;
+                transition: all 0.4s;
+            }
+            a:hover {
+                border: 1px #6a6a6b solid;
+            }
+            a.current {
+                display: inline-block;
+                min-width: 15px;
+                height: 17px;
+                line-height: 17px;
+                background: #2a2c32;
+                border: 1px solid #2a2c32;
+                cursor: default;
+            }
+            a.disabled, a.disabled:hover {
+                cursor: not-allowed;
+                border: 1px #2a2c32 solid !important;
+            }
+            .pageInput {
+                display: inline-block;
+                margin-left: 5px;
+                border: 0;
+                vertical-align: 0.5px;
+            }
+            .pageInput > input {
+                padding-left: 0px;
+                width: 40px;
+                height: 23px;
+                text-align: center;
+                border: 1px solid #2a2c32;
+                background: #2a2c32;
+                outline-color: #6a6a6b;
+                font-size: 12px;
+            }
+            .travel-to {margin-left: 20px;}
+        }
+    }
+    // 三角形icon
+    .spot-trading-icon-triangle {
+        width: 0px;
+        height: 0px;
+        border-top: 6px solid transparent;
+        border-right: 8px solid #fdfdfd;
+        border-bottom: 6px solid transparent;
+        cursor: pointer;
+        transition: all 0.4s;
+        display: block;
+        &:hover {
+            border-right: 8px solid #868a98;
+        }
+    }
+
+    // 颜色
+    .spot-color-f3f3f3 {color: #f3f3f3;} // 白色
+    .spot-color-b50a5c {color: #b50a5c;} // 红色
+    .spot-color-81a417 {color: #81a417;} // 绿色
+
+
+}
+// 提示框
+.spot-trading-tips-config {
+    position: fixed;
+    width: 502px;
+    height: 330px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background: #2b2c2f;
+    box-shadow: 1px 2px 10px #111213;
+    border-radius: 2px;
+    >h3 {
+        text-align: center;
+        font-size: 34px;
+        color: #f3f3f3;
+        font-weight: 300;
+        padding: 40px 0 24px 2px;
+        letter-spacing: 2px;
+    }
+    .spot-trading-tips-text {
+        width: 80%;
+        margin: 0 auto;
+        font-size: 15.5px;
+        letter-spacing: 0.5px;
+        line-height: 1.8;
+    }
+    .spot-trading-tips-btn {
+        padding-top: 40px;
+        text-align: center;
+
+        >button {
+            width: 188px;
+            height: 58px;
+            border: 1px solid #a2a2a2;
+            border-radius: 5px;
+            background: none;
+            color: #a2a2a2;
+            font-size: 14px;
+            box-sizing: border-box;
+            outline: none;
+            cursor: pointer;
+        }
+        >button.active {
+            background: #f3b652;
+            border-color: #f3b652;
+            color: #17181b;
+            margin-left: 20px;
+            transition: all 0.4s;
+            &:hover {
+                background: lighten(#f3b652, 5%);
+            }
+        }
+    }
+    .spot-trading-tips-icon-close {
+        position: absolute;
+        top: 15px;
+        right: 15px;
+        cursor: pointer;
+        transition: all 1s;
+        &:hover {
+            transform: rotate(180deg);
+        }
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .spot-trading-style {
+        .spot-trading-config {
+            width: 95%;
+            .trading-order-style-config {
+                flex-wrap: wrap;
+            }
+        }
+        // 订单
+        .spot-trading-order {
+            width: 100%;
+            .spot-trading-order-header {
+                position: relative;
+                height: 120px;
+                display: flex;
+                flex-wrap: wrap;
+                padding: 0;
+                >h3, .spot-trading-link, .spot-trading-item {padding: 0;}
+                //.spot-trading-link {padding: 0 10px;}
+                > p {
+                    width: 100%;
+                    >span {display: block;padding: 5px 0 !important;}
+                    >a {
+                        position: absolute;
+                        top: 15px;
+                        right: 10px;
+                    }
+                }
+
+            }
+            // 内容
+            .spot-trading-order-body {
+                .spot-trading-tab-config {
+                    padding-top: 10px;
+                    li {
+                        margin: 0 20px;
+                        height: 38px;
+                        line-height: 38px;
+                    }
+                }
+                // 输入
+                .spot-trading-all-input {
+                    width: 92%;
+                }
+            }
+        }
+        .spot-trading-depth {
+            width: 100%;
+        }
+        // 历史记录
+        .spot-trading-history-config {
+            // tab
+            .spot-trading-tab-config {
+                display: flex;
+                align-items: center;
+                >li {
+                    height: 40px;
+                    line-height: 40px;
+                    box-sizing: border-box;
+                    padding: 0 5px;
+                    margin: 0 10px;
+                    font-size: 13px;
+                }
+                >li.active {
+                    color: #f3b652;
+                    border-bottom: 2px solid #f3b652;
+                }
+            }
+            .spot-trading-tab-config.no-hover {
+                >li {
+                    &:hover {
+                        color: #a2a2a2;
+                    }
+                }
+            }
+            // 记录
+            .spot-trading-history-list {
+                overflow: auto;
+                .list-config-title ,.list-config-content {width: 1200px;}
+                .no-list-data {background: none;}
+            }
+        }
+        // 三角形icon
+        .spot-trading-icon-triangle {
+            width: 0px;
+            height: 0px;
+            border-top: 6px solid transparent;
+            border-right: 8px solid #fdfdfd;
+            border-bottom: 6px solid transparent;
+            cursor: pointer;
+            transition: all 0.4s;
+            display: block;
+            &:hover {
+                border-right: 8px solid #868a98;
+            }
+        }
+
+        // 颜色
+        .spot-color-f3f3f3 {color: #f3f3f3;} // 白色
+        .spot-color-b50a5c {color: #b50a5c;} // 红色
+        .spot-color-81a417 {color: #81a417;} // 绿色
+
+
+    }
+    // 提示框
+    .spot-trading-tips-config {
+        position: fixed;
+        width: 100%;
+        height: 330px;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        background: #2b2c2f;
+        box-shadow: 1px 2px 10px #111213;
+        border-radius: 2px;
+        >h3 {
+            text-align: center;
+            font-size: 34px;
+            color: #f3f3f3;
+            font-weight: 300;
+            padding: 40px 0 24px 2px;
+            letter-spacing: 2px;
+        }
+        .spot-trading-tips-text {
+            width: 80%;
+            margin: 0 auto;
+            font-size: 15.5px;
+            letter-spacing: 0.5px;
+            line-height: 1.8;
+        }
+        .spot-trading-tips-btn {
+            padding-top: 40px;
+            text-align: center;
+
+            >button {
+                width: 40%;
+                height: 58px;
+                border: 1px solid #a2a2a2;
+                border-radius: 5px;
+                background: none;
+                color: #a2a2a2;
+                font-size: 14px;
+                box-sizing: border-box;
+                outline: none;
+                cursor: pointer;
+            }
+            >button.active {
+                background: #f3b652;
+                border-color: #f3b652;
+                color: #17181b;
+                margin-left: 20px;
+                transition: all 0.4s;
+                &:hover {
+                    background: lighten(#f3b652, 5%);
+                }
+            }
+        }
+        .spot-trading-tips-icon-close {
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            cursor: pointer;
+            transition: all 1s;
+            &:hover {
+                transform: rotate(180deg);
+            }
+        }
+    }
+}

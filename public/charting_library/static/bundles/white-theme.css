@@ -1,0 +1,108 @@
+
+html, body {
+    background: #fff none repeat scroll 0 0 !important;
+    color: #888;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.chart-controls-bar-buttons a.active, .feature-no-touch .chart-controls-bar-buttons a.active:hover {
+    color: #8b8c8e !important;
+    stroke: #8b8c8e !important;
+    fill: #8b8c8e !important;
+}
+.loading-indicator{
+    background-color: #fff !important;
+}
+.chart-page .chart-container {
+    background-color: #fff !important;
+}
+/* tradingview 1.12 start  */
+.separator-3cgsM4c1-, .separator-1d19DzZR-{
+    height: 0 !important;
+}
+.menu-13SRjx2L-, .item-3ShHncG0-{
+    background-color: #fff !important;
+}
+.button-12d2ecdm-.isActive-2rPH92mZ- .bg-YlLYd-yv- {
+    background-color: rgba(0, 0, 0, 0) !important;
+}
+.charts-popup-list, ._tv-dialog {
+    background: #efefef !important;
+    border: 1px solid #b3b3b3 !important;
+}
+.checked-icon svg {
+    stroke: #363636 !important;
+}
+.charts-popup-list .item span, ._tv-dialog-content label, .properties-tabs a.properties-tabs-label, .property-page {
+    color: #363636 !important;
+}
+.charts-popup-list .item.special.disabled span {
+    color: #888 !important;
+}
+.tv-dropdown .tv-dropdown__body {
+    top:27px;
+    padding: 10px 0;
+}
+
+.header-chart-panel .group{
+    margin: 3px 0 2px;
+}
+.header-chart-panel .space-single {
+    float: left;
+}
+.header-chart-panel .left .header-group-indicators,
+.header-chart-panel .left .header-group-undo-redo,
+.header-chart-panel .left .header-group-fullscreen,
+.header-chart-panel .left .header-group-properties {
+    float: none;
+}
+.header-chart-panel .left .active {
+    background: #f1f3f6 !important;
+    color: #3bb3e4 !important;
+}
+.tv-trading-toolbar__qty-minus,
+.tv-trading-toolbar__qty-plus,
+.tv-trading-toolbar__qty-controls-wrapper {
+    border-top-color: #eee;
+    border-left-color: #eee;
+}
+/* tradingview 1.12 end  */
+.pane-separator{ background: #dcdcdc !important;}
+.tv-price-type{
+    padding-left: 5px;
+    background: #f1f3f6;
+    border:1px solid #dadde0;
+    height: 30px;
+    font-size: 12px;
+    color: #555;
+}
+.tv-price-type option{ padding: 10px 0; font-size: 14px; height: 22px;}
+
+.header-group-fullscreen .button{ padding: 3px 5px !important; height:auto !important;}
+.header-group-fullscreen .icon-full{ display: inline-block; background: url(../images/iconfull.png) no-repeat; width: 22px; height: 22px;}
+#zhuwenbo-toolbar{ display: none;}
+
+@media only screen and (min-width: 1000px) {
+    .header-chart-panel .group.header-group-intervals{
+        display: none !important;
+    }
+}
+@media only screen and (max-width: 1000px) {
+    .header-chart-panel .group.time-group-normal{
+        display: none !important;
+    }
+
+}
+
+@-moz-document url-prefix() {
+    select.sel-cus {
+        -moz-appearance: none;
+        appearance: none;
+        background-image: url("../images/icon-01.png");
+        background-repeat: no-repeat;
+        background-position: calc(100% - 4px) 10px;
+        background-size: 11% auto;
+        padding-right:14px;
+        outline: none;
+    }
+}

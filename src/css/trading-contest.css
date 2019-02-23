@@ -1,0 +1,632 @@
+.trading-contest {
+  background: #060952;
+  padding-top: 73px; }
+  .trading-contest .panel-head-top-title {
+    margin-top: 71px; }
+  .trading-contest .trading-contest-bg {
+    width: 100%;
+    height: 939px;
+    background: #060952 url("../images/activities/trading-contest/trading-contest-bg.jpg") no-repeat;
+    background-position: 50% !important;
+    background-size: cover !important;
+    padding-top: 1px; }
+  .trading-contest .panel-head-top-btn {
+    margin: 510px auto 0; }
+  .trading-contest .national-activities-bi-bg {
+    margin: 60px auto 20px;
+    width: 232px;
+    height: 36px;
+    background: url("../images/activities/trading-contest/national-trading-logo.png") no-repeat; }
+  .trading-contest .panel-head-top-h1 {
+    width: 527px;
+    height: 56px;
+    margin: 20px auto 6px; }
+  .trading-contest .panel-head-top-h1.zh-cn {
+    background: url("../images/activities/trading-contest/head-trading-text-zh-cn.png") no-repeat; }
+  .trading-contest .panel-head-top-h1.en-us {
+    background: url("../images/activities/trading-contest/head-national-text-en-us.png") no-repeat;
+    width: 780px; }
+  .trading-contest .trading-contest-flex-img.img0 {
+    background: url("../images/activities/trading-contest/national-trading-icon1.png") no-repeat; }
+  .trading-contest .trading-contest-flex-img.img1 {
+    background: url("../images/activities/trading-contest/national-trading-icon2.png") no-repeat;
+    height: 128px; }
+  .trading-contest .trading-contest-flex-img.img2 {
+    background: url("../images/activities/trading-contest/national-trading-icon3.png") no-repeat;
+    height: 128px; }
+  .trading-contest .trading-contest-flex-img.img3 {
+    background: url("../images/activities/trading-contest/national-trading-icon4.png") no-repeat;
+    width: 184px;
+    height: 115px; }
+  .trading-contest .trading-contest-flex-img.img4 {
+    background: url("../images/activities/trading-contest/national-trading-icon5.png") no-repeat;
+    width: 181px;
+    height: 121px; }
+  .trading-contest .trading-contest-flex-img.img5 {
+    background: url("../images/activities/trading-contest/national-trading-icon6.png") no-repeat;
+    width: 114px;
+    height: 121px; }
+  .trading-contest .en-us.panel-section-flex-img.img5 {
+    background: url("../images/activities/trading-contest/m-mock-ranking-list-icon6.png") no-repeat;
+    width: 210px; }
+  .trading-contest .panel-section-flex-img {
+    margin: 22px auto 30px; }
+  .trading-contest .panel-section-flex-img.img3 {
+    background: url("../images/activities/trading-contest/mock-ranking-list-icon4.png") no-repeat;
+    width: 142px; }
+  .trading-contest .panel-section-flex-img.img4 {
+    background: url("../images/activities/trading-contest/mock-ranking-list-icon5.png") no-repeat;
+    width: 160px; }
+  .trading-contest .panel-section-flex-img.img5 {
+    background: url("../images/activities/trading-contest/mock-ranking-list-icon6.png") no-repeat;
+    width: 120px; }
+  .trading-contest .media-support-section {
+    background: #050742;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    padding: 30px;
+    box-sizing: border-box; }
+    .trading-contest .media-support-section > a {
+      width: 293px;
+      height: 97px;
+      display: block;
+      background-size: 68%;
+      background-position: 50% 50%;
+      background-repeat: no-repeat;
+      overflow: hidden; }
+    .trading-contest .media-support-section .media-support-icon0 {
+      background-image: url("../images/activities/trading-contest/foot-national-icon9.png"); }
+    .trading-contest .media-support-section .media-support-icon1 {
+      background-image: url("../images/activities/trading-contest/foot-national-icon1.png"); }
+    .trading-contest .media-support-section .media-support-icon2 {
+      background-image: url("../images/activities/trading-contest/foot-national-icon2.png"); }
+    .trading-contest .media-support-section .media-support-icon3 {
+      background-image: url("../images/activities/trading-contest/foot-national-icon3.png"); }
+    .trading-contest .media-support-section .media-support-icon4 {
+      background-image: url("../images/activities/trading-contest/foot-national-icon4.png"); }
+    .trading-contest .media-support-section .media-support-icon5 {
+      background-image: url("../images/activities/trading-contest/foot-national-icon5.png"); }
+    .trading-contest .media-support-section .media-support-icon6 {
+      background-image: url("../images/activities/trading-contest/foot-national-icon6.png"); }
+    .trading-contest .media-support-section .media-support-icon7 {
+      background-image: url("../images/activities/trading-contest/foot-national-icon7.png"); }
+    .trading-contest .media-support-section .media-support-icon8 {
+      background-image: url("../images/activities/trading-contest/foot-national-icon8.png"); }
+    .trading-contest .media-support-section .media-support-icon9 {
+      background-image: url("../images/activities/trading-contest/foot-national-icon10.png"); }
+
+.trading-demo2 {
+  background: #110f0c;
+  padding-top: 73px;
+  text-align: center;
+  color: #fff; }
+  .trading-demo2 .trading-bg {
+    padding-top: 1px;
+    width: 100%;
+    height: 996px;
+    background-position: 50% !important; }
+  .trading-demo2 .trading-bg-zh-cn {
+    background: #110f0c url("../images/activities/activityTrading/activity-trading-bg-cn.jpg") no-repeat; }
+  .trading-demo2 .trading-bg-en-us {
+    background: #110f0c url("../images/activities/activityTrading/activity-trading-bg-en.jpg") no-repeat; }
+  .trading-demo2 .trading-demo2-go {
+    margin: 380px auto;
+    background: url("../images/activities/activityTrading/goto.jpg") no-repeat;
+    width: 225px;
+    height: 50px;
+    line-height: 50px;
+    color: #110f0c;
+    font-size: 20px;
+    cursor: pointer; }
+  .trading-demo2 .trading-demo2-go:hover {
+    color: #656058; }
+  .trading-demo2 .product-name {
+    position: relative;
+    margin: 65px auto 0;
+    width: 800px;
+    font-size: 12px; }
+    .trading-demo2 .product-name p:nth-child(1) {
+      position: absolute;
+      top: 85px;
+      left: 30px;
+      width: 250px; }
+    .trading-demo2 .product-name p:nth-child(2) {
+      position: relative;
+      top: 15px; }
+    .trading-demo2 .product-name p:nth-child(3) {
+      position: absolute;
+      top: 97px;
+      right: 50px;
+      width: 230px; }
+  .trading-demo2 .panel-receive-view {
+    display: flex;
+    padding: 40px 0 0 60px;
+    box-sizing: border-box;
+    text-align: left;
+    font-size: 15px; }
+    .trading-demo2 .panel-receive-view .receive-btn {
+      margin-top: 20px;
+      width: 160px;
+      height: 40px;
+      line-height: 40px;
+      background-color: #edcc92;
+      color: #110f0c;
+      text-align: center;
+      cursor: pointer; }
+    .trading-demo2 .panel-receive-view .receive-btn:hover {
+      background: #ecc379; }
+    .trading-demo2 .panel-receive-view > div {
+      flex: 1;
+      -ms-flex: 1 1; }
+    .trading-demo2 .panel-receive-view p {
+      line-height: 30px;
+      color: #f9dcaa; }
+      .trading-demo2 .panel-receive-view p label {
+        color: #fff; }
+      .trading-demo2 .panel-receive-view p .copy-btn {
+        display: inline-block;
+        margin-left: 20px;
+        padding: 0 10px;
+        font-size: 14px;
+        cursor: pointer; }
+      .trading-demo2 .panel-receive-view p .copy-btn:hover {
+        color: #ffebc9; }
+      .trading-demo2 .panel-receive-view p .copy-bd {
+        border: 1px solid #c0a982; }
+  .trading-demo2 .receive-asset {
+    position: relative;
+    margin: auto;
+    background: url("../images/activities/activityTrading/activity-login-bg.png");
+    width: 1100px;
+    height: 220px; }
+    .trading-demo2 .receive-asset .my-interests-btn {
+      position: relative;
+      left: 60px;
+      background: url("../images/activities/activityTrading/goto.jpg") no-repeat;
+      width: 298px;
+      height: 65px;
+      line-height: 65px;
+      font-size: 20px;
+      cursor: pointer; }
+      .trading-demo2 .receive-asset .my-interests-btn a {
+        display: inline-block;
+        width: 100%;
+        color: #110f0c; }
+    .trading-demo2 .receive-asset .btnDis {
+      color: #666 !important; }
+  .trading-demo2 .login-btn-pos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+  .trading-demo2 .panel-detail-section {
+    width: 1100px;
+    margin: 80px auto 0; }
+    .trading-demo2 .panel-detail-section .award-rank {
+      margin: 30px 0 20px;
+      color: #f9dcaa;
+      font-size: 26px; }
+  .trading-demo2 .award-section-title {
+    padding: 0 20px;
+    font-size: 26px; }
+    .trading-demo2 .award-section-title :before, .trading-demo2 .award-section-title :after {
+      display: inline-block;
+      margin: 0 30px;
+      background: url("../images/activities/activityTrading/dian.png") no-repeat;
+      width: 28px;
+      height: 28px;
+      content: " ";
+      vertical-align: middle; }
+  .trading-demo2 .awardImg1 {
+    background: url("../images/activities/activityTrading/award1.png") no-repeat;
+    width: 230px;
+    height: 110px; }
+  .trading-demo2 .awardImg2 {
+    background: url("../images/activities/activityTrading/award2.png") no-repeat;
+    width: 230px;
+    height: 110px; }
+  .trading-demo2 .awardImg3 {
+    background: url("../images/activities/activityTrading/award3.png") no-repeat;
+    width: 160px;
+    height: 110px; }
+  .trading-demo2 .awardImg4 {
+    background: url("../images/activities/activityTrading/award4.png") no-repeat;
+    width: 170px;
+    height: 110px; }
+  .trading-demo2 .awardImg5 {
+    background: url("../images/activities/activityTrading/award5.png") no-repeat;
+    width: 160px;
+    height: 110px; }
+  .trading-demo2 .award-section-detail {
+    width: 100%;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    border: none; }
+    .trading-demo2 .award-section-detail > div {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+      width: 24.5%;
+      background-color: #22211f; }
+    .trading-demo2 .award-section-detail .award-section-item-0, .trading-demo2 .award-section-detail .award-section-item-1 {
+      margin-right: 0.5%; }
+  .trading-demo2 .award-section-detail:last-child {
+    margin-top: 6px; }
+  .trading-demo2 .award-section-title {
+    margin-bottom: 50px; }
+  .trading-demo2 .panel-section-rank-detail {
+    margin-top: 50px;
+    border: 1px solid #85704b; }
+    .trading-demo2 .panel-section-rank-detail .wrapper {
+      position: relative; }
+    .trading-demo2 .panel-section-rank-detail .bscroll-vertical-scrollbar {
+      opacity: 1 !important;
+      background: #211e18 !important; }
+      .trading-demo2 .panel-section-rank-detail .bscroll-vertical-scrollbar .bscroll-indicator {
+        background: #322d24 !important;
+        border: 1px solid #4a4234 !important; }
+    .trading-demo2 .panel-section-rank-detail .demo2-rank li {
+      flex: 1;
+      -ms-flex: 1 1;
+      height: 60px;
+      line-height: 60px;
+      color: #9f8d6e;
+      background: #22211f;
+      border-right: 1px solid #453a28; }
+    .trading-demo2 .panel-section-rank-detail .demo2-ranking-list li {
+      flex: 1;
+      -ms-flex: 1 1;
+      height: 50px;
+      background: #15130f;
+      border-top: 1px solid #453a28;
+      border-right: 1px solid #453a28; }
+      .trading-demo2 .panel-section-rank-detail .demo2-ranking-list li img {
+        width: 24px; }
+  .trading-demo2 .demo2-media .media-support-iconBox {
+    background: #181715; }
+  .trading-demo2 .rule-bg {
+    background: none; }
+  .trading-demo2 .panel-rule-link-a {
+    color: #f9dcaa;
+    text-align: center;
+    display: block;
+    margin-top: 35px;
+    font-size: 16px; }
+
+.media-support-iconBox a {
+  width: 25% !important;
+  height: 65px !important; }
+.media-support-iconBox i {
+  display: inline-block;
+  height: 50px;
+  background: url("../images/activities/activityTrading/mediaLogo.png") no-repeat;
+  background-size: auto !important; }
+.media-support-iconBox .media0 {
+  background-position: 0 0 !important;
+  width: 135px; }
+.media-support-iconBox .media1 {
+  background-position: -150px 0 !important;
+  width: 165px; }
+.media-support-iconBox .media2 {
+  background-position: -335px 0 !important;
+  width: 110px; }
+.media-support-iconBox .media3 {
+  background-position: -458px 0 !important;
+  width: 150px; }
+.media-support-iconBox .media4 {
+  background-position: -630px 0 !important;
+  width: 150px; }
+.media-support-iconBox .media5 {
+  background-position: -790px 0 !important;
+  width: 160px; }
+.media-support-iconBox .media6 {
+  background-position: -965px 0 !important;
+  width: 148px; }
+.media-support-iconBox .media7 {
+  background-position: -1130px 0 !important;
+  width: 150px; }
+.media-support-iconBox .media8 {
+  background-position: -1280px 0 !important;
+  width: 150px; }
+.media-support-iconBox .media9 {
+  background-position: -1435px 0 !important;
+  width: 140px; }
+.media-support-iconBox .media10 {
+  background-position: -1585px 0 !important;
+  width: 160px; }
+.media-support-iconBox .media11 {
+  background-position: -1760px 0 !important;
+  width: 150px; }
+
+.panel-invite-award {
+  position: fixed;
+  left: calc(50% - 375px);
+  top: calc(50% - 350px);
+  width: 750px;
+  height: 700px;
+  z-index: 1005; }
+  .panel-invite-award .closeBox {
+    height: 36px; }
+    .panel-invite-award .closeBox .icon-close {
+      padding-top: 2px; }
+  .panel-invite-award .invite-income {
+    min-height: 500px;
+    background: #ded5c4; }
+  .panel-invite-award .invite-table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center; }
+    .panel-invite-award .invite-table thead {
+      background: #22211f;
+      color: #cfb78e; }
+    .panel-invite-award .invite-table tbody {
+      background: #ded5c4;
+      color: #110f0c; }
+    .panel-invite-award .invite-table td, .panel-invite-award .invite-table th {
+      height: 50px;
+      border: 1px solid #453a28; }
+    .panel-invite-award .invite-table th {
+      height: 60px; }
+  .panel-invite-award .tabpage {
+    background: #0c0a08; }
+
+.pop-div {
+  position: fixed;
+  left: calc(50% - 250px);
+  top: calc(50% - 230px);
+  width: 500px;
+  height: 460px;
+  background: #e9dcc5;
+  z-index: 1005; }
+  .pop-div .icon-close {
+    padding-top: 2px; }
+  .pop-div .pop-detail {
+    color: #110f0c;
+    text-align: center; }
+    .pop-div .pop-detail .pop-icon1 {
+      margin: 50px auto 0;
+      background: url("../images/activities/activityTrading/popIcon1.png") no-repeat;
+      width: 200px;
+      height: 200px; }
+    .pop-div .pop-detail .pop-icon2 {
+      margin: 50px auto 0;
+      background: url("../images/activities/activityTrading/popIcon2.png") no-repeat;
+      width: 200px;
+      height: 200px; }
+    .pop-div .pop-detail .pop-icon3 {
+      margin: 10px auto;
+      background: url("../images/activities/activityTrading/popIcon3.png") no-repeat;
+      width: 200px;
+      height: 230px; }
+    .pop-div .pop-detail .pop-icon4 {
+      margin: 50px auto 0;
+      background: url("../images/activities/activityTrading/popIcon4.png") no-repeat;
+      width: 200px;
+      height: 189px; }
+    .pop-div .pop-detail .pop-title {
+      line-height: 50px;
+      font-size: 26px; }
+    .pop-div .pop-detail .pop-title-sub {
+      line-height: 40px;
+      font-size: 16px; }
+    .pop-div .pop-detail .pop-btn {
+      margin: 20px auto;
+      font-size: 18px;
+      width: 200px;
+      height: 50px;
+      line-height: 50px;
+      background: #3b3b47;
+      color: #d2ba94;
+      cursor: pointer; }
+    .pop-div .pop-detail .pop-btn:hover {
+      background: #4e4e5f; }
+
+.act-mask-bg {
+  background: rgba(41, 37, 33, 0.8) !important; }
+
+@media screen and (max-width: 750px) {
+  .trading-contest {
+    padding-top: 0px; }
+    .trading-contest .trading-contest-bg {
+      width: 100%;
+      height: 540px;
+      background: #060952 url("../images/activities/trading-contest/m-national-trading-bg.jpg") no-repeat;
+      background-position: 50% !important;
+      background-size: cover !important;
+      padding-top: 1px; }
+    .trading-contest .panel-head-top-title {
+      height: 33px;
+      font-size: 13px;
+      font-weight: 500;
+      line-height: 31px;
+      margin-top: 40px; }
+    .trading-contest .panel-head-top-p {
+      font-size: 15px; }
+    .trading-contest .panel-head-top-time {
+      font-size: 12px; }
+    .trading-contest .panel-head-top-btn {
+      margin: 300px auto 0; }
+    .trading-contest .national-activities-bi-bg {
+      margin: 28px auto 15px;
+      width: 146px;
+      height: 22px;
+      background-size: 100% 100%; }
+    .trading-contest .panel-head-top-h1 {
+      background-size: cover !important;
+      width: 85%;
+      padding-top: 7%;
+      height: 0px; }
+    .trading-contest .panel-head-top-h1.en-us {
+      width: 92% !important;
+      background-size: 100% 100% !important;
+      height: 10px; }
+    .trading-contest .trading-contest-flex-img {
+      width: 82px;
+      height: 75px;
+      margin: 10px auto 10px; }
+    .trading-contest .trading-contest-flex-img.img1 {
+      height: 70px; }
+    .trading-contest .trading-contest-flex-img.img2 {
+      height: 70px; }
+    .trading-contest .trading-contest-flex-img.img3 {
+      width: 95px;
+      height: 65px; }
+    .trading-contest .trading-contest-flex-img.img4 {
+      width: 100px;
+      height: 70px; }
+    .trading-contest .trading-contest-flex-img.img5 {
+      width: 70px;
+      height: 70px; }
+    .trading-contest .panel-section-flex-img.img3 {
+      width: 96px; }
+    .trading-contest .panel-section-flex-img.img4 {
+      width: 100px; }
+    .trading-contest .panel-section-flex-img.img5 {
+      width: 70px; }
+    .trading-contest .trading-contest-flex {
+      font-size: 12px; }
+    .trading-contest .en-us.panel-section-flex-img.img5 {
+      width: 95%;
+      height: 15px; }
+    .trading-contest .media-support-section {
+      padding: 0px; }
+      .trading-contest .media-support-section > a {
+        width: 33.333%;
+        height: 60px;
+        background-size: 80% !important; }
+
+  .trading-demo2 .panel-head-share {
+    top: 100px;
+    z-index: 10; }
+  .trading-demo2 .trading-bg {
+    height: 505px; }
+  .trading-demo2 .trading-bg-zh-cn {
+    background: #110f0c url("../images/activities/activityTrading/activity-trading-bg-mb-cn.jpg") no-repeat;
+    background-size: cover !important; }
+  .trading-demo2 .trading-bg-en-us {
+    background: #110f0c url("../images/activities/activityTrading/activity-trading-bg-mb-en.jpg") no-repeat;
+    background-size: cover !important; }
+  .trading-demo2 .trading-demo2-go {
+    margin: 230px auto 0;
+    width: 50%;
+    height: 40px;
+    line-height: 40px; }
+  .trading-demo2 .receive-asset {
+    margin: 0 auto; }
+  .trading-demo2 .receive-btn {
+    padding: 0 10px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    height: 28px;
+    line-height: 28px;
+    color: #dec08a;
+    border: 1px solid #dec08a; }
+  .trading-demo2 .btnDis {
+    color: #666 !important; }
+  .trading-demo2 .panel-receive-view {
+    padding: 0;
+    width: 100%;
+    flex-wrap: wrap; }
+    .trading-demo2 .panel-receive-view > div {
+      flex: auto;
+      margin-top: 20px; }
+    .trading-demo2 .panel-receive-view div:nth-child(1) {
+      text-align: center; }
+    .trading-demo2 .panel-receive-view div:nth-child(2) {
+      padding-left: 20px; }
+    .trading-demo2 .panel-receive-view .receive-user-info {
+      display: flex;
+      justify-content: space-between;
+      padding: 0 10px; }
+      .trading-demo2 .panel-receive-view .receive-user-info label {
+        display: block; }
+      .trading-demo2 .panel-receive-view .receive-user-info span {
+        color: #f9dcaa;
+        font-size: 20px;
+        font-weight: bold; }
+    .trading-demo2 .panel-receive-view .receive-invite-info {
+      display: flex;
+      justify-content: space-between;
+      padding: 0 10px; }
+      .trading-demo2 .panel-receive-view .receive-invite-info p {
+        flex-grow: 1; }
+      .trading-demo2 .panel-receive-view .receive-invite-info p:last-child {
+        text-align: right; }
+  .trading-demo2 .panel-detail-section {
+    width: 100%; }
+    .trading-demo2 .panel-detail-section .award-section-detail {
+      justify-content: center; }
+      .trading-demo2 .panel-detail-section .award-section-detail > div {
+        width: 49%;
+        margin-top: 0.5%;
+        margin-right: 0.5%; }
+        .trading-demo2 .panel-detail-section .award-section-detail > div .trading-contest-flex-img {
+          width: 80%;
+          background-size: 100% !important; }
+      .trading-demo2 .panel-detail-section .award-section-detail .award-section-item-0 {
+        width: 100%;
+        margin-bottom: 1px; }
+        .trading-demo2 .panel-detail-section .award-section-detail .award-section-item-0 .awardImg1 {
+          width: 230px; }
+      .trading-demo2 .panel-detail-section .award-section-detail .award-section-item-2 .trading-contest-flex-img, .trading-demo2 .panel-detail-section .award-section-detail .award-section-item-1 .trading-contest-flex-img {
+        width: 100%; }
+    .trading-demo2 .panel-detail-section .awardImg1, .trading-demo2 .panel-detail-section .awardImg2 {
+      width: 230px;
+      height: 110px; }
+    .trading-demo2 .panel-detail-section .awardImg3, .trading-demo2 .panel-detail-section .awardImg4, .trading-demo2 .panel-detail-section .awardImg5, .trading-demo2 .panel-detail-section .awardImg6 {
+      width: 160px;
+      height: 110px; }
+  .trading-demo2 .login-btn-pos {
+    width: 100%; }
+    .trading-demo2 .login-btn-pos .my-interests-btn {
+      left: auto;
+      margin: auto; }
+  .trading-demo2 .award-section-title {
+    padding: 0;
+    font-size: 20px; }
+  .trading-demo2 .award-section-detail:last-child {
+    margin-top: 0; }
+  .trading-demo2 .demo2-rank li:nth-child(1), .trading-demo2 .demo2-ranking-list li:nth-child(1) {
+    flex-grow: 1; }
+  .trading-demo2 .demo2-rank li:nth-child(2), .trading-demo2 .demo2-ranking-list li:nth-child(2) {
+    flex-grow: 2; }
+  .trading-demo2 .demo2-rank li:nth-child(3), .trading-demo2 .demo2-ranking-list li:nth-child(3) {
+    flex-grow: 2; }
+  .trading-demo2 .media-support-iconBox a {
+    width: 50% !important;
+    height: 50px !important; }
+    .trading-demo2 .media-support-iconBox a i {
+      transform: scale(0.7); }
+
+  .panel-invite-award {
+    width: 98%;
+    left: 1%;
+    top: 30px; }
+    .panel-invite-award .invite-income {
+      min-height: 315px; }
+    .panel-invite-award .invite-table th, .panel-invite-award .invite-table td {
+      height: 30px; }
+    .panel-invite-award .invite-table tr td:nth-child(1), .panel-invite-award .invite-table tr td:nth-child(2) {
+      width: 25%; }
+    .panel-invite-award .invite-table tr td:nth-child(3) {
+      width: 50%; }
+
+  .pop-div {
+    left: 10%;
+    width: 80%;
+    height: 350px; }
+    .pop-div .pop-detail > div:first-child {
+      background-size: 100%;
+      height: 110px;
+      width: 110px; }
+    .pop-div .pop-detail .pop-title {
+      font-size: 20px; } }
+
+/*# sourceMappingURL=trading-contest.css.map */

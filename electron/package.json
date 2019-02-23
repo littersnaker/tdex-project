@@ -1,0 +1,76 @@
+{
+  "name": "TDEx",
+  "version": "0.2.8",
+  "description": "TDEx Desktop",
+  "main": "app/main.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=development electron app/main.js",
+    "build": "electron-builder --win",
+    "build:mac": "electron-builder --mac",
+    "start-renderer": "cd .. && cross-env NODE_ENV=development BABEL_ENV=development VER_ENV=desktop GENERATE_SOURCEMAP=false node ./scripts/start.js",
+    "build-renderer": "cd .. && cross-env NODE_ENV=production BABEL_ENV=production VER_ENV=desktop GENERATE_SOURCEMAP=false node ./scripts/build.js"
+  },
+  "author": "will lan",
+  "license": "",
+  "devDependencies": {
+    "cross-env": "^5.2.0",
+    "electron": "^2.0.0",
+    "electron-devtools-installer": "^2.2.4",
+    "electron-builder": "^20.19.2"
+  },
+  "dependencies": {
+    "electron-log": "^2.2.16",
+    "electron-updater": "^3.0.3",
+    "fs-extra": "^6.0.1"
+  },
+  "build": {
+    "productName": "TDEx",
+    "appId": "com.client.app.tdex",
+    "copyright": "2017-2018 TDEx@TDEx.com",
+    "directories": {
+      "output": "build"
+    },
+    "publish": [
+      {
+        "provider": "generic",
+        "url": "https://app-1257080242.cos.ap-guangzhou.myqcloud.com/pc/"
+      }
+    ],
+    "files": [
+      "**/*"
+    ],
+    "win": {
+      "icon": "./app/windows/img/icon.ico",
+      "artifactName": "${productName}_setup_${version}.${ext}"
+    },
+    "nsis": {
+      "oneClick": false,
+      "perMachine": true,
+      "allowElevation": true,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "runAfterFinish": true,
+      "installerIcon": "./app/windows/img/icon.ico",
+      "uninstallerIcon": "./app/windows/img/icon.ico"
+    },
+    "dmg": {
+      "contents": [
+        {
+          "x": 410,
+          "y": 150,
+          "type": "link",
+          "path": "/Applications"
+        },
+        {
+          "x": 130,
+          "y": 150,
+          "type": "file"
+        }
+      ]
+    },
+    "mac": {
+      "icon": "./app/windows/img/icon.icns",
+      "artifactName": "${productName}_setup_${version}.${ext}"
+    }
+  }
+}

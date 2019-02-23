@@ -1,0 +1,155 @@
+@charset "UTF-8";
+//经纪人bannar
+.invite-banar-bg {
+    width: 100%;
+    height: 520px;
+    background-position: 50% !important;
+    background-size: cover !important;
+}
+.invite-banar-bg.zh-cn {
+    background: url("../images/invite/banner/invite-bannar-bg-zh-cn.jpg") no-repeat;
+}
+.invite-banar-bg.en-us {
+    background: url("../images/invite/banner/invite-bannar-bg-en-us.jpg") no-repeat;
+}
+.invite-banar-bg.ja-jp {
+    background: url("../images/invite/banner/invite-bannar-bg-ja-jp.jpg") no-repeat;
+}
+//公共块
+.invite-double-page {
+    background: #1a1f27;
+    padding: 36px 33px;
+    margin-bottom: 24px;
+}
+//排行榜
+.invite-ranking-list {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    >ul {
+        width: 100%;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: left;
+        border-right: 1px solid #3a3e43;
+        margin-right: 34px;
+        padding-right: 34px;
+        box-sizing: border-box;
+        li {
+            p {padding-bottom: 6px;}
+            h3 {font-size: 15px;color: #fff;padding-bottom: 5px;}
+        }
+        li:first-child {
+            width: 30px;
+            display: flex;
+            align-items: center;
+            padding-right: 20px;
+            img {width: 100%;}
+        }
+        li:nth-child(2) {
+            width: 55%;
+        }
+    }
+    >ul:last-child {border-right: 0;margin-right: 0;padding-right: 0;}
+}
+//分享
+.invite-share-data, .user-share-data, .invite-item {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    .user-share-data {
+        width: 100%;
+        justify-content: left;
+        border-right: 1px solid #3a3e43;
+        margin-right: 34px;
+        padding-right: 34px;
+        box-sizing: border-box;
+        .share-data-config {
+            padding-left: 20px;
+            p {
+                line-height: 2;
+                font-size: 14px;
+                .share-text {color: #fff;font-size: 18px;}
+                input {border: 1px solid #767676;font-size: 12px;padding: 2px 8px;}
+                i {font-size: 22px;vertical-align: -4px;padding-left: 10px;cursor: pointer;transition: all 0.5s;}
+                i:hover {color: #f3b625;}
+            }
+        }
+        .user-share-qr {padding: 5px;background: #fff;}
+    }
+    .user-share-data:last-child {border-right: 0;margin-right: 0;padding-right: 0;}
+    .share-friend-data {
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+        position: relative;
+        p {color: #ffb62a;padding-top: 10px;padding-bottom: 15px;}
+        h5 {color: #fff;font-size: 24px;}
+    }
+    .share-friend-data:before {
+        content: '';
+        width: 1px;
+        height: 70px;
+        background: #3a3e43;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+}
+//列表
+.invite-data-list {
+    width: 46%;
+    .list-header-text {
+        h3 {color: #f3f3f3;font-size: 20px;letter-spacing: 1px;}
+    }
+    .list-global-config {
+        border: 0;
+        .list-config-title, .list-config-content {
+            border: 1px solid #767676;
+            li {font-size: 14px;border-color: #767676;}
+        }
+        .list-config-title {
+            background: none;
+            li {color: #767676;border-bottom: 0;}
+            li:last-child {border-right: 0;}
+        }
+        .list-config-content {
+            border-top: 0;
+            li {border-bottom: 1px;}
+        }
+    }
+    .no-list-data {
+        background: none;
+        border: 1px solid #767676;
+        border-top: 0;
+    }
+}
+//底部
+.invite-footer-list {
+    h3 {font-size: 20px;color: #f3f3f3;}
+    ul {
+        padding: 20px 0 20px 15px;
+        li {
+            list-style: decimal;
+            font-size: 14px;
+            line-height: 1.8;
+        }
+    }
+    >div>p {
+        padding-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .invite-data-list {
+        margin-top: 0;
+        .list-header-text {
+            display: none;
+        }
+    }
+}

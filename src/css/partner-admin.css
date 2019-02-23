@@ -1,0 +1,113 @@
+.partner-admin-head-flex {
+  display: flex;
+  justify-content: space-between; }
+  .partner-admin-head-flex > .item {
+    width: 48%;
+    border: 1px solid #e1e1e1;
+    box-sizing: border-box;
+    padding: 28px 20px;
+    position: relative; }
+    .partner-admin-head-flex > .item .title {
+      font-size: 35px;
+      font-weight: bold;
+      color: #17181b; }
+    .partner-admin-head-flex > .item .text {
+      font-size: 17px;
+      padding: 4px 0 15px;
+      cursor: pointer;
+      letter-spacing: 0.5px;
+      display: inline-block; }
+      .partner-admin-head-flex > .item .text .iconfont {
+        color: #17181b;
+        padding-left: 38px;
+        vertical-align: 0; }
+    .partner-admin-head-flex > .item .many {
+      padding-bottom: 9px;
+      letter-spacing: 0.5px; }
+      .partner-admin-head-flex > .item .many span {
+        color: #17181b;
+        font-weight: bold; }
+    .partner-admin-head-flex > .item .item-partner-bg, .partner-admin-head-flex > .item .item-account-bg {
+      position: absolute;
+      right: 32px;
+      top: 9px; }
+    .partner-admin-head-flex > .item .item-partner-bg {
+      background: url("../images/partner-admin/admin-head-item-bg1.png") no-repeat;
+      width: 162px;
+      height: 167px; }
+    .partner-admin-head-flex > .item .item-account-bg {
+      background: url("../images/partner-admin/admin-head-item-bg2.png") no-repeat;
+      width: 166px;
+      height: 155px; }
+
+.partner-admin-invitation-way {
+  padding-top: 50px; }
+  .partner-admin-invitation-way > h3 {
+    color: #17181b;
+    padding-bottom: 15px;
+    font-size: 18px;
+    letter-spacing: 1px; }
+  .partner-admin-invitation-way .invitation-way-content {
+    border: 1px solid #e1e1e1;
+    display: flex;
+    justify-content: flex-start;
+    padding: 30px; }
+    .partner-admin-invitation-way .invitation-way-content .invitation-way-qr {
+      text-align: center;
+      padding-right: 55px; }
+      .partner-admin-invitation-way .invitation-way-content .invitation-way-qr > div {
+        width: 160px;
+        height: 160px;
+        margin-bottom: 12px; }
+      .partner-admin-invitation-way .invitation-way-content .invitation-way-qr > p {
+        color: #17181b;
+        letter-spacing: 0.5px; }
+    .partner-admin-invitation-way .invitation-way-content .invitation-way-text {
+      cursor: default; }
+      .partner-admin-invitation-way .invitation-way-content .invitation-way-text > .item .title {
+        color: #17181b;
+        letter-spacing: 0.5px; }
+      .partner-admin-invitation-way .invitation-way-content .invitation-way-text > .item .input-config {
+        background: #f5f5f5;
+        border-radius: 3px;
+        padding: 14px 15px;
+        margin-top: 10px;
+        display: inline-block; }
+        .partner-admin-invitation-way .invitation-way-content .invitation-way-text > .item .input-config input {
+          color: #17181b;
+          font-size: 14px;
+          font-weight: 600;
+          border: 0;
+          outline: none;
+          padding: 0; }
+        .partner-admin-invitation-way .invitation-way-content .invitation-way-text > .item .input-config span {
+          cursor: pointer;
+          color: #f3b652;
+          transition: all 0.4s;
+          position: relative; }
+          .partner-admin-invitation-way .invitation-way-content .invitation-way-text > .item .input-config span:hover {
+            color: #f5c06a; }
+          .partner-admin-invitation-way .invitation-way-content .invitation-way-text > .item .input-config span:after {
+            content: '';
+            position: absolute;
+            width: 1px;
+            height: 28px;
+            top: 0;
+            left: -10px;
+            bottom: 0;
+            margin: auto;
+            background: #e1e1e1; }
+
+.partner-admin-tips {
+  margin: 40px auto 30px; }
+  .partner-admin-tips > p {
+    padding-bottom: 10px; }
+  .partner-admin-tips li {
+    line-height: 1.7;
+    padding-top: 7px; }
+    .partner-admin-tips li > p {
+      padding-left: 2em; }
+      .partner-admin-tips li > p:first-child {
+        padding-top: 4px; }
+
+/*# sourceMappingURL=partner-admin.css.map */

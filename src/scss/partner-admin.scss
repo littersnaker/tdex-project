@@ -1,0 +1,91 @@
+@charset "UTF-8";
+// 头部flex
+.partner-admin-head-flex {
+    display: flex;
+    justify-content: space-between;
+    > .item {
+        width: 48%;
+        border: 1px solid #e1e1e1;
+        box-sizing: border-box;
+        padding: 28px 20px;
+        position: relative;
+        .title {font-size: 35px;font-weight: bold;color: #17181b;}
+        .text {
+            font-size: 17px;
+            padding: 4px 0 15px;
+            cursor: pointer;
+            letter-spacing: 0.5px;
+            display: inline-block;
+            .iconfont {color: #17181b;padding-left: 38px;vertical-align: 0;}
+        }
+        .many {
+            padding-bottom: 9px;
+            letter-spacing: 0.5px;
+            span {color: #17181b;font-weight: bold;}
+        }
+        .item-partner-bg, .item-account-bg {
+            position: absolute;
+            right: 32px;
+            top: 9px;
+        }
+        .item-partner-bg {background: url("../images/partner-admin/admin-head-item-bg1.png") no-repeat;width: 162px;height: 167px;}
+        .item-account-bg {background: url("../images/partner-admin/admin-head-item-bg2.png") no-repeat;width: 166px;height: 155px;}
+    }
+}
+// 邀请方式
+.partner-admin-invitation-way {
+    padding-top: 50px;
+    >h3 {color: #17181b;padding-bottom: 15px;font-size: 18px;letter-spacing: 1px;}
+    .invitation-way-content {
+        border: 1px solid #e1e1e1;
+        display: flex;
+        justify-content: flex-start;
+        padding: 30px;
+        .invitation-way-qr {
+            text-align: center;
+            >div {width: 160px; height: 160px;margin-bottom: 12px;}
+            >p {color: #17181b;letter-spacing: 0.5px;}
+            padding-right: 55px;
+        }
+        .invitation-way-text {
+            cursor: default;
+            >.item {
+                .title {
+                    color: #17181b;
+                    letter-spacing: 0.5px;
+                }
+                .input-config {
+                    background: #f5f5f5;
+                    border-radius: 3px;
+                    padding: 14px 15px;
+                    margin-top: 10px;
+                    display: inline-block;
+                    input {color: #17181b; font-size: 14px;font-weight: 600;border: 0;outline: none;padding: 0;}
+                    span {
+                        cursor: pointer;
+                        color: #f3b652;
+                        transition: all 0.4s;
+                        position: relative;
+                        &:hover {color: lighten(#f3b652, 5%)}
+                        &:after {content: '';position: absolute;width: 1px; height: 28px;top: 0;left: -10px;bottom: 0;margin: auto;background: #e1e1e1;}
+                    }
+                }
+            }
+        }
+    }
+}
+// 备注
+.partner-admin-tips {
+    margin: 40px auto 30px;
+    >p {
+        padding-bottom: 10px;
+    }
+    li {
+        line-height: 1.7;
+        padding-top: 7px;
+        >p {
+            padding-left: 2em;
+            &:first-child {padding-top: 4px;}
+        }
+    }
+}

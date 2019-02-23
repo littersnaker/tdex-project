@@ -1,0 +1,508 @@
+.contract-trade-config {
+  background: #20264c;
+  color: #f6f7ff;
+  overflow: hidden; }
+  .contract-trade-config .contract-trade-banner {
+    width: 100%;
+    height: 723px;
+    background: url("../images/activities/contract-trade/contract-trade-banner.jpg") no-repeat 50%;
+    background-size: cover !important;
+    overflow: hidden;
+    cursor: default; }
+    .contract-trade-config .contract-trade-banner-title {
+      width: 517px;
+      height: 383px;
+      margin-top: 210px;
+      margin-left: 15%;
+      background: url("../images/activities/contract-trade/contract-trade-banner-title.png") no-repeat;
+      text-align: center; }
+      .contract-trade-config .contract-trade-banner-title > p {
+        color: #fff;
+        padding-top: 232px;
+        padding-left: 27px;
+        font-size: 16px;
+        letter-spacing: 1px;
+        text-align: left; }
+  .contract-trade-config .contract-trade-content {
+    width: 1200px;
+    margin: 60px auto 100px; }
+  .contract-trade-config .contract-trade-ranking {
+    background: #262c56;
+    height: 220px;
+    cursor: default;
+    text-align: center; }
+    .contract-trade-config .contract-trade-ranking-title, .contract-trade-config .contract-trade-ranking-content {
+      display: flex; }
+      .contract-trade-config .contract-trade-ranking-title > li, .contract-trade-config .contract-trade-ranking-content > li {
+        width: 100%; }
+    .contract-trade-config .contract-trade-ranking-title {
+      background: #303f7d;
+      height: 60px;
+      line-height: 60px;
+      font-size: 16px;
+      color: #afb7e7; }
+      .contract-trade-config .contract-trade-ranking-title > li {
+        letter-spacing: 1px; }
+    .contract-trade-config .contract-trade-ranking-content {
+      padding-top: 23px; }
+      .contract-trade-config .contract-trade-ranking-content > li {
+        position: relative; }
+        .contract-trade-config .contract-trade-ranking-content > li:after {
+          content: '';
+          position: absolute;
+          width: 1px;
+          height: 100px;
+          background: #686c89;
+          top: 0;
+          right: 0; }
+      .contract-trade-config .contract-trade-ranking-content li:last-child:after {
+        display: none; }
+      .contract-trade-config .contract-trade-ranking-content p {
+        font-size: 15px;
+        letter-spacing: 1px; }
+      .contract-trade-config .contract-trade-ranking-content .num-title {
+        font-size: 32px;
+        line-height: 65px; }
+    .contract-trade-config .contract-trade-ranking .contract-trade-btn {
+      margin-top: 86px; }
+  .contract-trade-config .contract-trade-section {
+    margin-top: 100px;
+    cursor: default; }
+    .contract-trade-config .contract-trade-section > h3 {
+      font-size: 22px;
+      letter-spacing: 1.5px;
+      padding-bottom: 40px;
+      font-weight: 500; }
+    .contract-trade-config .contract-trade-section-list {
+      cursor: default; }
+      .contract-trade-config .contract-trade-section-list ul {
+        display: flex;
+        height: 60px;
+        line-height: 60px; }
+        .contract-trade-config .contract-trade-section-list ul li {
+          width: 100%;
+          text-align: center;
+          letter-spacing: 1px; }
+      .contract-trade-config .contract-trade-section-list-title {
+        font-size: 16px;
+        background: #303f7d;
+        color: #afb7e7; }
+      .contract-trade-config .contract-trade-section-list-content {
+        font-size: 15px;
+        color: #f6f7ff;
+        background: #293160; }
+        .contract-trade-config .contract-trade-section-list-content:nth-child(odd) {
+          background: #262c56; }
+      .contract-trade-config .contract-trade-section-list-no-data {
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        padding-top: 180px;
+        color: #afb7e7;
+        box-sizing: border-box;
+        background: #293160 url("../images/user-info/no-list-data-back.png") no-repeat 50% 40%; }
+    .contract-trade-config .contract-trade-section-list-tab {
+      display: flex;
+      position: relative;
+      height: 60px; }
+      .contract-trade-config .contract-trade-section-list-tab li {
+        font-size: 22px;
+        letter-spacing: 1.5px;
+        color: #9da2c0;
+        margin-right: 50px;
+        font-weight: 500;
+        cursor: pointer; }
+        .contract-trade-config .contract-trade-section-list-tab li.active {
+          color: #f6f7ff;
+          font-size: 22px;
+          position: relative; }
+          .contract-trade-config .contract-trade-section-list-tab li.active:after {
+            content: '';
+            position: absolute;
+            left: 0;
+            right: 0;
+            margin: auto;
+            bottom: 19px;
+            height: 3px;
+            width: 120px;
+            background: #46bdd8; }
+      .contract-trade-config .contract-trade-section-list-tab-tips {
+        position: absolute;
+        right: 0;
+        top: 10px;
+        letter-spacing: 1px; }
+    .contract-trade-config .contract-trade-section .wrapper {
+      position: relative;
+      z-index: 0; }
+    .contract-trade-config .contract-trade-section .bscroll-vertical-scrollbar {
+      opacity: 1 !important;
+      background: #2e3a74  !important;
+      border-radius: 0 !important; }
+      .contract-trade-config .contract-trade-section .bscroll-vertical-scrollbar .bscroll-indicator {
+        background: #37498e !important;
+        border: 1px solid #37498e !important;
+        border-radius: 0 !important; }
+  .contract-trade-config .section-link-list {
+    background: #262c56;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px 0 30px 100px; }
+    .contract-trade-config .section-link-list a {
+      width: 225px;
+      height: 51px;
+      margin: 14px 16px;
+      background-size: 100% 100% !important; }
+      .contract-trade-config .section-link-list a:nth-child(1) {
+        background: url("../images/activities/contract-trade/logo/01.png") no-repeat; }
+      .contract-trade-config .section-link-list a:nth-child(2) {
+        background: url("../images/activities/contract-trade/logo/02.png") no-repeat; }
+      .contract-trade-config .section-link-list a:nth-child(3) {
+        background: url("../images/activities/contract-trade/logo/03.png") no-repeat; }
+      .contract-trade-config .section-link-list a:nth-child(4) {
+        background: url("../images/activities/contract-trade/logo/04.png") no-repeat; }
+      .contract-trade-config .section-link-list a:nth-child(5) {
+        background: url("../images/activities/contract-trade/logo/05.png") no-repeat; }
+      .contract-trade-config .section-link-list a:nth-child(6) {
+        background: url("../images/activities/contract-trade/logo/06.png") no-repeat; }
+      .contract-trade-config .section-link-list a:nth-child(7) {
+        background: url("../images/activities/contract-trade/logo/07.png") no-repeat; }
+      .contract-trade-config .section-link-list a:nth-child(8) {
+        background: url("../images/activities/contract-trade/logo/08.png") no-repeat; }
+      .contract-trade-config .section-link-list a:nth-child(9) {
+        background: url("../images/activities/contract-trade/logo/09.png") no-repeat; }
+      .contract-trade-config .section-link-list a:nth-child(10) {
+        background: url("../images/activities/contract-trade/logo/10.png") no-repeat; }
+      .contract-trade-config .section-link-list a:nth-child(11) {
+        background: url("../images/activities/contract-trade/logo/11.png") no-repeat; }
+      .contract-trade-config .section-link-list a:nth-child(12) {
+        background: url("../images/activities/contract-trade/logo/12.png") no-repeat; }
+      .contract-trade-config .section-link-list a:nth-child(13) {
+        background: url("../images/activities/contract-trade/logo/13.png") no-repeat; }
+      .contract-trade-config .section-link-list a:nth-child(14) {
+        background: url("../images/activities/contract-trade/logo/14.png") no-repeat; }
+      .contract-trade-config .section-link-list a:nth-child(15) {
+        background: url("../images/activities/contract-trade/logo/15.png") no-repeat; }
+      .contract-trade-config .section-link-list a:nth-child(16) {
+        background: url("../images/activities/contract-trade/logo/16.png") no-repeat; }
+  .contract-trade-config .section-rule-list {
+    color: #dddee9; }
+    .contract-trade-config .section-rule-list li {
+      padding-bottom: 20px;
+      letter-spacing: 1px;
+      font-size: 15px; }
+      .contract-trade-config .section-rule-list li span {
+        color: #43b3cf; }
+
+.contract-trade-btn {
+  background: #46bdd8;
+  border: 0;
+  border-radius: 2em;
+  padding: 13px 49px;
+  color: #fff;
+  margin-top: 28px;
+  font-size: 17px;
+  letter-spacing: 2px;
+  transition: all 0.4s;
+  cursor: pointer;
+  box-shadow: 0 2px 6px #262b56;
+  outline: none; }
+  .contract-trade-btn:hover {
+    background: #5bc5dc; }
+
+@media screen and (max-width: 750px) {
+  .contract-trade-config .contract-trade-banner {
+    width: 100%;
+    height: 500px;
+    background: url("../images/activities/contract-trade/m-contract-trade-banner.jpg") no-repeat 50%; }
+    .contract-trade-config .contract-trade-banner-title {
+      width: auto;
+      height: auto;
+      margin-top: 110px;
+      margin-left: 0;
+      background: none; }
+      .contract-trade-config .contract-trade-banner-title > p {
+        padding-top: 50px;
+        padding-left: 0;
+        font-size: 12px;
+        text-align: center; }
+  .contract-trade-config .contract-trade-content {
+    width: 100%;
+    margin: 40px auto 60px; }
+  .contract-trade-config .contract-trade-ranking {
+    width: 95%;
+    margin: auto;
+    height: 168px; }
+    .contract-trade-config .contract-trade-ranking-title {
+      height: 40px;
+      line-height: 40px;
+      font-size: 14px; }
+    .contract-trade-config .contract-trade-ranking-content {
+      padding-top: 20px; }
+      .contract-trade-config .contract-trade-ranking-content > li:after {
+        height: 85px; }
+      .contract-trade-config .contract-trade-ranking-content li:last-child:after {
+        display: none; }
+      .contract-trade-config .contract-trade-ranking-content p {
+        font-size: 12px; }
+      .contract-trade-config .contract-trade-ranking-content .num-title {
+        font-size: 30px;
+        line-height: 65px; }
+    .contract-trade-config .contract-trade-ranking .contract-trade-btn {
+      margin-top: 61px; }
+  .contract-trade-config .contract-trade-section {
+    margin: 50px auto 0;
+    width: 95%; }
+    .contract-trade-config .contract-trade-section > h3 {
+      font-size: 14px;
+      padding-bottom: 20px;
+      text-align: center; }
+    .contract-trade-config .contract-trade-section-list ul {
+      height: 40px;
+      line-height: 40px; }
+      .contract-trade-config .contract-trade-section-list ul li {
+        width: 100%;
+        text-align: center;
+        letter-spacing: 1px; }
+    .contract-trade-config .contract-trade-section-list-title {
+      font-size: 14px; }
+    .contract-trade-config .contract-trade-section-list-content {
+      font-size: 12px; }
+    .contract-trade-config .contract-trade-section-list-no-data {
+      padding-top: 165px;
+      background-size: 15%; }
+    .contract-trade-config .contract-trade-section-list.m-list li:nth-child(1) {
+      width: 20%; }
+    .contract-trade-config .contract-trade-section-list.m-list li:nth-child(2) {
+      width: 30%; }
+    .contract-trade-config .contract-trade-section-list.m-list li:nth-child(3) {
+      width: 50%; }
+    .contract-trade-config .contract-trade-section-list-tab {
+      display: flex;
+      justify-content: center;
+      height: 40px; }
+      .contract-trade-config .contract-trade-section-list-tab li {
+        font-size: 14px;
+        margin: 0 10px; }
+        .contract-trade-config .contract-trade-section-list-tab li.active {
+          font-size: 14px; }
+          .contract-trade-config .contract-trade-section-list-tab li.active:after {
+            content: '';
+            position: absolute;
+            left: 0;
+            right: 0;
+            margin: auto;
+            bottom: 19px;
+            height: 3px;
+            width: 40px;
+            background: #46bdd8; }
+      .contract-trade-config .contract-trade-section-list-tab-tips {
+        display: none; }
+  .contract-trade-config .section-link-list {
+    display: flex;
+    padding: 1% 1.5%; }
+    .contract-trade-config .section-link-list a {
+      width: 105px;
+      height: 24px;
+      margin: 5px; }
+  .contract-trade-config .section-rule-list li {
+    padding-bottom: 10px;
+    line-height: 1.7;
+    font-size: 12px; }
+
+  .contract-trade-btn {
+    padding: 11px 40px;
+    font-size: 15px; } }
+.vipVoucher {
+  padding-top: 70px;
+  overflow: hidden;
+  width: 100%;
+  background: #000; }
+  .vipVoucher > div {
+    padding: 1px; }
+  .vipVoucher .voucherBg-zh-cn {
+    margin: 0 auto 100px;
+    background: #000 url("../images/activities/vipVoucher/vipBg-zh.png") no-repeat 50%;
+    width: 1580px;
+    background-size: 100% 100% !important;
+    height: 1476px; }
+  .vipVoucher .voucherBg-en-us {
+    margin: 0 auto 100px;
+    background: #000 url("../images/activities/vipVoucher/vipBg-us.png") no-repeat 50%;
+    width: 1580px;
+    background-size: 100% 100% !important;
+    height: 1476px; }
+  .vipVoucher .voucherBtn {
+    text-align: center;
+    margin-top: 500px; }
+    .vipVoucher .voucherBtn button, .vipVoucher .voucherBtn a {
+      width: 300px;
+      height: 80px;
+      display: inline-block;
+      line-height: 79px;
+      background: #d10b0b;
+      border-radius: 40px;
+      font-size: 30px;
+      color: #fff;
+      text-align: center;
+      cursor: pointer;
+      transition: all 0.4s;
+      letter-spacing: 1.5px;
+      box-shadow: 0 2px 3px rgba(104, 0, 0, 0.5);
+      font-weight: 500;
+      border: 0; }
+      .vipVoucher .voucherBtn button.btnDis, .vipVoucher .voucherBtn a.btnDis {
+        border: 0;
+        outline: none; }
+      .vipVoucher .voucherBtn button:hover, .vipVoucher .voucherBtn a:hover {
+        background: #f51616; }
+  .vipVoucher .voucherMore {
+    margin-top: 480px;
+    font-size: 17px;
+    text-align: center;
+    font-weight: 500; }
+    .vipVoucher .voucherMore a {
+      color: #ffce7a;
+      transition: all 0.4s;
+      letter-spacing: 1.4px; }
+      .vipVoucher .voucherMore a:hover {
+        color: #f3b751; }
+    .vipVoucher .voucherMore i {
+      transition: all 0.4s;
+      color: #ffce7a; }
+      .vipVoucher .voucherMore i:hover {
+        color: #f3b751; }
+  .vipVoucher .voucherRule {
+    margin: 95px auto 0;
+    color: #6f6f6f;
+    width: 770px; }
+    .vipVoucher .voucherRule ul {
+      padding-left: 20px; }
+    .vipVoucher .voucherRule li {
+      list-style: decimal;
+      line-height: 2;
+      font-size: 14px;
+      font-weight: 500;
+      letter-spacing: 1px; }
+
+.vipVoucherPop {
+  width: 290px;
+  height: 350px;
+  background: #f6efe1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  border-radius: 2px;
+  text-align: center; }
+  .vipVoucherPop .iconfont {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    line-height: 25px;
+    cursor: pointer; }
+  .vipVoucherPop .iconfont:hover {
+    color: #333; }
+  .vipVoucherPop .voucher-header {
+    margin-top: 30px;
+    font-size: 16px;
+    color: #000; }
+  .vipVoucherPop .voucher-header:before, .vipVoucherPop .voucher-header:after {
+    content: "";
+    display: inline-block;
+    width: 50px;
+    border-bottom: 1px solid #333;
+    vertical-align: middle; }
+  .vipVoucherPop .voucher-header:before {
+    margin-right: 5px; }
+  .vipVoucherPop .voucher-header:after {
+    margin-left: 5px; }
+  .vipVoucherPop .voucher-title {
+    margin-top: 10px;
+    color: #d60a16;
+    font-size: 20px;
+    font-weight: 600; }
+  .vipVoucherPop .voucher-pop-bg {
+    margin: 0 auto 0;
+    background: url("../images/activities/vipVoucher/vip3.png") no-repeat;
+    width: 233px;
+    height: 194px; }
+  .vipVoucherPop .voucher-pop-btn {
+    margin: auto;
+    color: #fff;
+    background: #d10b0b;
+    font-size: 18px;
+    width: 190px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 25px;
+    font-weight: 600;
+    cursor: pointer; }
+
+@media screen and (max-width: 1500px) {
+  .voucherBg-zh-cn {
+    width: 1400px !important; }
+
+  .voucherBg-en-us {
+    width: 1400px !important; }
+
+  .voucherRule {
+    width: 685px !important; } }
+@media screen and (max-width: 750px) {
+  .vipVoucher {
+    padding-top: 0;
+    background: #222;
+    height: auto; }
+    .vipVoucher .voucherBg-zh-cn, .vipVoucher .voucherBg-en-us {
+      margin: auto !important;
+      width: 100% !important;
+      height: auto;
+      background: #2c2c2c; }
+    .vipVoucher .m-or-more {
+      width: 100%;
+      background: #2b2b2b url("../images/activities/vipVoucher/m-vipBg-footer-zh.jpg") no-repeat 50%;
+      background-size: 100% 100% !important;
+      height: 330px;
+      overflow: hidden; }
+    .vipVoucher .voucherBg-en-us .m-or-more {
+      background: #2b2b2b url("../images/activities/vipVoucher/m-vipBg-footer-us.jpg") no-repeat 50%; }
+    .vipVoucher .voucherBg-en-us .voucherBtn {
+      background: #000 url("../images/activities/vipVoucher/m-vipBg-us.jpg") no-repeat 50%; }
+    .vipVoucher .voucherBtn {
+      margin: 0;
+      width: 100%;
+      height: 343px;
+      background: #000 url("../images/activities/vipVoucher/m-vipBg-zh.jpg") no-repeat 50%;
+      background-size: 100% 100% !important; }
+      .vipVoucher .voucherBtn button, .vipVoucher .voucherBtn a {
+        width: 36%;
+        height: 40px;
+        line-height: 42px;
+        font-size: 14px;
+        margin-top: 265px;
+        font-weight: 600; }
+    .vipVoucher .voucherMore {
+      margin-top: 265px;
+      font-size: 14px; }
+      .vipVoucher .voucherMore i {
+        font-size: 14px;
+        vertical-align: -1px; }
+    .vipVoucher .voucherRule {
+      margin: 0 auto;
+      background: #2c2c2c;
+      overflow: hidden;
+      width: 95% !important;
+      padding-bottom: 30px; }
+      .vipVoucher .voucherRule li {
+        font-size: 12px; }
+
+  .panel-head-share {
+    background: #463721;
+    color: #ffe8cf;
+    line-height: 24px; } }
+
+/*# sourceMappingURL=activity.css.map */

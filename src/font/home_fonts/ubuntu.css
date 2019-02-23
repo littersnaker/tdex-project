@@ -1,0 +1,27 @@
+@font-face {
+    font-family: "Ubuntu Bold";
+    src: url('ubuntu/UbuntuBold.woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Ubuntu";
+    src: url("ubuntu/UbuntuLight.woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Ubuntu Medium";
+    src: url("ubuntu/UbuntuMedium.woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Ubuntu Regular";
+    src: url("ubuntu/UbuntuRegular.woff2");
+    font-weight: normal;
+    font-style: normal;
+}

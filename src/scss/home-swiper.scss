@@ -1,0 +1,73 @@
+@charset "UTF-8";
+.home-swiper {
+    width: 100%;
+    z-index: 0 !important;
+    .swiper-pagination {bottom: 60px !important;}
+    .swiper-pagination-bullet {
+        width: 30px;
+        height: 6px;
+        border-radius: 1em;
+        background: #343439;
+        opacity: 1;
+    }
+    .swiper-pagination-bullet-active {background: #a2a2a2;}
+
+    .swiper-wrapper {width: 100%;height: 504px;}
+
+    .slide-content-bg {width: 100%;height: 504px;object-fit: cover;}
+
+
+
+    //.slide-bg-swiper1-zh-cn {background: url("../images/swper_banner/bg-swiper1-zh-cn.jpg") no-repeat;}
+    //
+    //.slide-bg-swiper1-en-us {background: url("../images/swper_banner/bg-swiper1-en-us.jpg") no-repeat;}
+    //
+    //.slide-bg-swiper1-ja-jp {background: url("../images/swper_banner/bg-swiper1-ja-jp.jpg") no-repeat;}
+    //
+    //.slide-bg-swiper2-zh-cn {background: url("../images/swper_banner/bg-swiper2-zh-cn.jpg") no-repeat;}
+    //
+    //.slide-bg-swiper2-en-us {background: url("../images/swper_banner/bg-swiper2-en-us.jpg") no-repeat;}
+    //
+    //.slide-bg-swiper2-ja-jp {background: url("../images/swper_banner/bg-swiper2-ja-jp.jpg") no-repeat;}
+    //
+    //.slide-bg-swiper3-zh-cn {background: url("../images/swper_banner/bg-swiper3-zh-cn.jpg") no-repeat;}
+    //
+    //.slide-bg-swiper3-en-us {background: url("../images/swper_banner/bg-swiper3-en-us.jpg") no-repeat;}
+    //
+    //.slide-bg-swiper4-zh-cn {background: url("../images/swper_banner/bg-swiper4-zh-cn.jpg") no-repeat;}
+    //
+    //.slide-bg-swiper4-en-us {background: url("../images/swper_banner/bg-swiper4-en-us.jpg") no-repeat;}
+}
+@media screen and (max-width: 750px) {
+    .home-swiper {
+        .swiper-wrapper, .slide-content-bg {
+            height: 70vw;
+        }
+        .swiper-pagination {
+            bottom: 38px !important;
+        }
+        .swiper-pagination-bullet {
+            width: 20px;
+            height: 5px;
+        }
+        //.m-slide-bg-swiper1-zh-cn {background: url("../images/swper_banner/m-bg-swiper1-zh-cn.jpg") no-repeat;}
+        //
+        //.m-slide-bg-swiper1-en-us {background: url("../images/swper_banner/m-bg-swiper1-en-us.jpg") no-repeat;}
+        //
+        //.m-slide-bg-swiper1-ja-jp {background: url("../images/swper_banner/m-bg-swiper1-ja-jp.jpg") no-repeat;}
+        //
+        //.m-slide-bg-swiper2-zh-cn {background: url("../images/swper_banner/m-bg-swiper2-zh-cn.jpg") no-repeat;}
+        //
+        //.m-slide-bg-swiper2-en-us {background: url("../images/swper_banner/m-bg-swiper2-en-us.jpg") no-repeat;}
+        //
+        //.m-slide-bg-swiper2-ja-jp {background: url("../images/swper_banner/m-bg-swiper2-ja-jp.jpg") no-repeat;}
+        //
+        //.m-slide-bg-swiper3-en-us {background: url("../images/swper_banner/m-bg-swiper3-en-us.jpg") no-repeat;}
+        //
+        //.m-slide-bg-swiper3-zh-cn {background: url("../images/swper_banner/m-bg-swiper3-zh-cn.jpg") no-repeat;}
+        //
+        //.m-slide-bg-swiper4-en-us {background: url("../images/swper_banner/m-bg-swiper4-en-us.jpg") no-repeat;}
+        //
+        //.m-slide-bg-swiper4-zh-cn {background: url("../images/swper_banner/m-bg-swiper4-zh-cn.jpg") no-repeat;}
+    }
+}

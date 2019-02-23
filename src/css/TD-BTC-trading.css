@@ -1,0 +1,422 @@
+.currency-exchange-trading {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background: #151a1e;
+  cursor: default;
+  color: #dfdfdf; }
+  .currency-exchange-trading .trading-exchange-head {
+    width: 100%;
+    height: 50px;
+    background: #262d33;
+    border: 0; }
+    .currency-exchange-trading .trading-exchange-head.header-box {
+      color: #dfdfdf; }
+    .currency-exchange-trading .trading-exchange-head .login-bar a {
+      min-width: 40px;
+      border: 0;
+      margin: 0 4px;
+      transition: all 0.4s;
+      color: #dfdfdf; }
+      .currency-exchange-trading .trading-exchange-head .login-bar a:hover {
+        background: #313940;
+        color: #f3b652 !important; }
+    .currency-exchange-trading .trading-exchange-head .head-icon-config:hover {
+      background: #313940;
+      color: #f3b652; }
+    .currency-exchange-trading .trading-exchange-head .head-icon-config-hover {
+      background: #262d33;
+      box-shadow: 0 2px 6px #151a1e;
+      min-width: inherit; }
+      .currency-exchange-trading .trading-exchange-head .head-icon-config-hover a {
+        color: #dfdfdf; }
+        .currency-exchange-trading .trading-exchange-head .head-icon-config-hover a:hover {
+          color: #f3b652; }
+    .currency-exchange-trading .trading-exchange-head #langselect cite {
+      color: #dfdfdf; }
+  .currency-exchange-trading .trading-exchange-body {
+    margin-top: 10px;
+    width: 100%;
+    height: calc(100% - 60px);
+    position: relative; }
+    .currency-exchange-trading .trading-exchange-body .futures-bg-primary .ft-bd-78 {
+      border: none !important;
+      padding: 6px 6px 6px 0; }
+  .currency-exchange-trading .trading-exchange-chart {
+    width: calc(100% - 400px);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 270px; }
+  .currency-exchange-trading .trading-chart-library {
+    position: absolute;
+    top: 0;
+    left: 10px;
+    width: calc(100% - 420px);
+    height: calc(100% - 270px);
+    background: #262d33; }
+  .currency-exchange-trading .trading-exchange-order {
+    width: calc(100% - 20px);
+    height: 250px;
+    margin: 10px auto 0;
+    background: #22272b; }
+    .currency-exchange-trading .trading-exchange-order .item-title, .currency-exchange-trading .trading-exchange-order .item-content {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-left: 20px;
+      box-sizing: border-box; }
+      .currency-exchange-trading .trading-exchange-order .item-title li, .currency-exchange-trading .trading-exchange-order .item-content li {
+        width: 100%;
+        height: 32px;
+        line-height: 32px; }
+        .currency-exchange-trading .trading-exchange-order .item-title li:nth-child(1), .currency-exchange-trading .trading-exchange-order .item-title li:nth-child(2), .currency-exchange-trading .trading-exchange-order .item-title li:nth-child(5), .currency-exchange-trading .trading-exchange-order .item-title li:nth-child(6), .currency-exchange-trading .trading-exchange-order .item-content li:nth-child(1), .currency-exchange-trading .trading-exchange-order .item-content li:nth-child(2), .currency-exchange-trading .trading-exchange-order .item-content li:nth-child(5), .currency-exchange-trading .trading-exchange-order .item-content li:nth-child(6) {
+          width: 105%; }
+        .currency-exchange-trading .trading-exchange-order .item-title li:last-child, .currency-exchange-trading .trading-exchange-order .item-content li:last-child {
+          width: 90%; }
+    .currency-exchange-trading .trading-exchange-order .item-title {
+      margin-top: 10px;
+      position: relative; }
+      .currency-exchange-trading .trading-exchange-order .item-title .exchange-product {
+        position: absolute;
+        bottom: 0; }
+      .currency-exchange-trading .trading-exchange-order .item-title li {
+        white-space: nowrap;
+        text-overflow: ellipsis; }
+    .currency-exchange-trading .trading-exchange-order .item-content {
+      transition: all 0.4s; }
+      .currency-exchange-trading .trading-exchange-order .item-content .custom-checkbox div {
+        margin: 0 3px 3px 0; }
+      .currency-exchange-trading .trading-exchange-order .item-content li, .currency-exchange-trading .trading-exchange-order .item-content li i {
+        font-size: 12px; }
+      .currency-exchange-trading .trading-exchange-order .item-content li {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap; }
+      .currency-exchange-trading .trading-exchange-order .item-content:hover {
+        background: #262d33; }
+        .currency-exchange-trading .trading-exchange-order .item-content:hover .custom-checkbox div {
+          cursor: pointer; }
+          .currency-exchange-trading .trading-exchange-order .item-content:hover .custom-checkbox div .input_check + i {
+            border: 1px solid #f3b652; }
+      .currency-exchange-trading .trading-exchange-order .item-content .operation {
+        border: 1px solid #49555f;
+        display: inline-block;
+        box-sizing: border-box;
+        padding: 0 12px;
+        height: 22px;
+        line-height: 22px;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: all 0.4s; }
+        .currency-exchange-trading .trading-exchange-order .item-content .operation:hover {
+          border-color: #f3b652;
+          color: #f3b652; }
+    .currency-exchange-trading .trading-exchange-order .tab-content-auto {
+      width: 100%; }
+    .currency-exchange-trading .trading-exchange-order .no-list-data {
+      width: 100%;
+      height: 100%;
+      position: relative;
+      background: #22272b; }
+      .currency-exchange-trading .trading-exchange-order .no-list-data .no-list-data-position {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        margin: auto;
+        width: 114px;
+        height: 83px;
+        overflow: hidden; }
+        .currency-exchange-trading .trading-exchange-order .no-list-data .no-list-data-position > p {
+          color: #4d5564;
+          font-size: 13px;
+          padding-top: 10px;
+          padding-left: 3px; }
+      .currency-exchange-trading .trading-exchange-order .no-list-data .no-list-data-pic {
+        background: url("../images/user-info/no-list-data-back.png") no-repeat;
+        background-size: 100% 100%;
+        width: 46px;
+        height: 56px;
+        padding: 0;
+        position: initial; }
+  .currency-exchange-trading .trading-exchange-depth {
+    width: 400px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0; }
+  .currency-exchange-trading .fillet-global-config {
+    border-radius: 4px;
+    overflow: hidden; }
+  .currency-exchange-trading .fillet-global-config-auto {
+    border-radius: 4px; }
+
+.exchange-white {
+  color: #dfdfdf !important; }
+
+.exchange-red {
+  color: #ff1e6c; }
+
+.exchange-green {
+  color: #679f1e; }
+
+.currency-exchange-trading-list {
+  width: calc(100% - 10px);
+  height: calc(100% - 431px);
+  background: #22272b; }
+  .currency-exchange-trading-list-content {
+    width: 100%; }
+    .currency-exchange-trading-list-content .deep-list-title, .currency-exchange-trading-list-content .deep-list-content {
+      padding: 0 20px;
+      display: flex;
+      box-sizing: border-box; }
+      .currency-exchange-trading-list-content .deep-list-title li, .currency-exchange-trading-list-content .deep-list-content li {
+        width: 100%; }
+        .currency-exchange-trading-list-content .deep-list-title li:first-child, .currency-exchange-trading-list-content .deep-list-content li:first-child {
+          width: 120%; }
+        .currency-exchange-trading-list-content .deep-list-title li:last-child, .currency-exchange-trading-list-content .deep-list-content li:last-child {
+          text-align: right; }
+      .currency-exchange-trading-list-content .deep-list-title.exchange li, .currency-exchange-trading-list-content .deep-list-content.exchange li {
+        width: 100%; }
+        .currency-exchange-trading-list-content .deep-list-title.exchange li:nth-child(2), .currency-exchange-trading-list-content .deep-list-content.exchange li:nth-child(2) {
+          text-align: right;
+          padding-right: 5px; }
+        .currency-exchange-trading-list-content .deep-list-title.exchange li:nth-child(3), .currency-exchange-trading-list-content .deep-list-content.exchange li:nth-child(3) {
+          padding-left: 5px; }
+        .currency-exchange-trading-list-content .deep-list-title.exchange li:first-child, .currency-exchange-trading-list-content .deep-list-title.exchange li:last-child, .currency-exchange-trading-list-content .deep-list-content.exchange li:first-child, .currency-exchange-trading-list-content .deep-list-content.exchange li:last-child {
+          width: 80%; }
+    .currency-exchange-trading-list-content .deep-list-title {
+      padding: 20px 20px 5px; }
+      .currency-exchange-trading-list-content .deep-list-title li {
+        font-size: 14px;
+        color: #49555f; }
+    .currency-exchange-trading-list-content .deep-list-content {
+      transition: all 0.4s; }
+      .currency-exchange-trading-list-content .deep-list-content li {
+        height: 24px;
+        line-height: 24px;
+        font-size: 12px; }
+      .currency-exchange-trading-list-content .deep-list-content:hover {
+        background: #262d33; }
+      .currency-exchange-trading-list-content .deep-list-content.exchange li {
+        height: 40px;
+        line-height: 40px; }
+
+.currency-exchange-trading-order {
+  width: calc(100% - 10px);
+  height: 410px;
+  background: #22272b;
+  margin-top: 10px; }
+  .currency-exchange-trading-order .trading-order-input {
+    padding: 3px 20px 0 20px;
+    height: calc(100% - 96px); }
+    .currency-exchange-trading-order .trading-order-input .trading-order-input-flex {
+      display: flex;
+      justify-content: space-between;
+      padding-top: 20px;
+      font-size: 12px;
+      align-items: center; }
+    .currency-exchange-trading-order .trading-order-input .trading-order-link {
+      color: #f3b652; }
+    .currency-exchange-trading-order .trading-order-input .trading-order-box {
+      height: 38px;
+      line-height: 38px;
+      width: 76%;
+      border: 1px solid #49555f;
+      box-sizing: border-box;
+      border-radius: 4px;
+      text-align: center;
+      background: #262d33;
+      position: relative;
+      cursor: pointer; }
+      .currency-exchange-trading-order .trading-order-input .trading-order-box .icon-xiala {
+        position: absolute;
+        right: 9px;
+        font-size: 18px; }
+    .currency-exchange-trading-order .trading-order-input .trading-order-hide {
+      position: absolute;
+      width: 100%;
+      top: 39px;
+      left: 0;
+      padding: 5px 0;
+      border-radius: 4px;
+      background: #262d33; }
+      .currency-exchange-trading-order .trading-order-input .trading-order-hide li {
+        transition: all 0.4s; }
+        .currency-exchange-trading-order .trading-order-input .trading-order-hide li:hover {
+          background: #313a42; }
+    .currency-exchange-trading-order .trading-order-input .trading-order-box-input {
+      height: 38px;
+      width: 76%;
+      box-sizing: border-box;
+      position: relative; }
+      .currency-exchange-trading-order .trading-order-input .trading-order-box-input input {
+        width: 100%;
+        height: 100%;
+        border: 1px solid #49555f;
+        border-radius: 4px;
+        outline-color: #f3b652;
+        padding-right: 40px;
+        text-align: right;
+        color: #fff; }
+      .currency-exchange-trading-order .trading-order-input .trading-order-box-input .iconfont {
+        position: absolute;
+        width: 30px;
+        height: 100%;
+        top: 1px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer; }
+        .currency-exchange-trading-order .trading-order-input .trading-order-box-input .iconfont:after {
+          content: '';
+          position: absolute;
+          top: -2px;
+          bottom: 0;
+          margin: auto;
+          width: 1px;
+          height: 20px;
+          background-color: #49555f; }
+        .currency-exchange-trading-order .trading-order-input .trading-order-box-input .iconfont.icon-decrease {
+          left: 0; }
+          .currency-exchange-trading-order .trading-order-input .trading-order-box-input .iconfont.icon-decrease:after {
+            right: 0; }
+        .currency-exchange-trading-order .trading-order-input .trading-order-box-input .iconfont.icon-increase {
+          right: 0; }
+          .currency-exchange-trading-order .trading-order-input .trading-order-box-input .iconfont.icon-increase:after {
+            left: 0; }
+      .currency-exchange-trading-order .trading-order-input .trading-order-box-input .input-tips-test {
+        padding-top: 10px; }
+      .currency-exchange-trading-order .trading-order-input .trading-order-box-input .error-text {
+        position: absolute;
+        bottom: -16px;
+        color: #ff8522;
+        font-size: 12px; }
+      .currency-exchange-trading-order .trading-order-input .trading-order-box-input-not {
+        height: 38px;
+        width: 76%;
+        border-radius: 4px;
+        background-color: #262d33;
+        text-align: center;
+        line-height: 38px; }
+    .currency-exchange-trading-order .trading-order-input .trading-order-Percentage li {
+      width: 20%;
+      height: 24px;
+      text-align: center;
+      line-height: 24px;
+      border-radius: 4px;
+      border: 1px solid #49555f;
+      background-color: #262d33;
+      cursor: pointer;
+      transition: all 0.4s; }
+      .currency-exchange-trading-order .trading-order-input .trading-order-Percentage li.on, .currency-exchange-trading-order .trading-order-input .trading-order-Percentage li:hover {
+        border-color: #f3b652;
+        color: #f3b652; }
+    .currency-exchange-trading-order .trading-order-input .trading-order-input-tab {
+      position: relative;
+      padding-top: 0;
+      margin-top: 20px; }
+      .currency-exchange-trading-order .trading-order-input .trading-order-input-tab li {
+        width: 48%;
+        height: 40px;
+        line-height: 40px;
+        background: #151a1e;
+        text-align: center;
+        cursor: pointer;
+        border-radius: 4px; }
+        .currency-exchange-trading-order .trading-order-input .trading-order-input-tab li .title, .currency-exchange-trading-order .trading-order-input .trading-order-input-tab li .number {
+          color: #fff;
+          letter-spacing: 0.5px; }
+        .currency-exchange-trading-order .trading-order-input .trading-order-input-tab li .title {
+          font-size: 12px;
+          vertical-align: 4px; }
+        .currency-exchange-trading-order .trading-order-input .trading-order-input-tab li .number {
+          font-size: 19px;
+          padding-left: 4px;
+          font-weight: 600; }
+        .currency-exchange-trading-order .trading-order-input .trading-order-input-tab li.active {
+          transition: all 0.4s; }
+          .currency-exchange-trading-order .trading-order-input .trading-order-input-tab li.active.sell {
+            background: #ce1c5a; }
+            .currency-exchange-trading-order .trading-order-input .trading-order-input-tab li.active.sell:hover {
+              background: #e12265; }
+          .currency-exchange-trading-order .trading-order-input .trading-order-input-tab li.active.buy {
+            background: #679f1e; }
+            .currency-exchange-trading-order .trading-order-input .trading-order-input-tab li.active.buy:hover {
+              background: #75b422; }
+      .currency-exchange-trading-order .trading-order-input .trading-order-input-tab .exchange-rate {
+        position: absolute;
+        height: 17px;
+        line-height: 17px;
+        background-color: #262d33;
+        color: #fff;
+        border-radius: 1em;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        width: 50px;
+        text-align: center;
+        margin: auto; }
+  .currency-exchange-trading-order .trading-order-input-btn {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1.5px;
+    padding-left: 2px;
+    box-sizing: border-box;
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.4s; }
+    .currency-exchange-trading-order .trading-order-input-btn.sell {
+      background: #ce1c5a; }
+      .currency-exchange-trading-order .trading-order-input-btn.sell:hover {
+        background: #e12265; }
+    .currency-exchange-trading-order .trading-order-input-btn.buy {
+      background: #679f1e; }
+      .currency-exchange-trading-order .trading-order-input-btn.buy:hover {
+        background: #75b422; }
+
+.currency-exchange-trading-order-tab {
+  display: flex;
+  padding: 0 20px;
+  box-sizing: border-box;
+  height: 46px;
+  align-items: center;
+  background: #262d33;
+  position: relative;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.08); }
+  .currency-exchange-trading-order-tab > li {
+    margin: auto 18px;
+    cursor: pointer;
+    height: 100%;
+    line-height: 46px;
+    transition: all 0.4s;
+    position: relative;
+    letter-spacing: 0.5px;
+    font-size: 14px; }
+    .currency-exchange-trading-order-tab > li:before {
+      content: '';
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      margin: auto;
+      height: 3px;
+      width: 100%;
+      transition: all 0.4s; }
+    .currency-exchange-trading-order-tab > li:hover, .currency-exchange-trading-order-tab > li.active {
+      position: relative;
+      color: #f3b652; }
+    .currency-exchange-trading-order-tab > li.active:before {
+      background: #f3b652; }
+    .currency-exchange-trading-order-tab > li:first-child {
+      margin-left: 0; }
+
+/*# sourceMappingURL=TD-BTC-trading.css.map */

@@ -1,0 +1,235 @@
+@charset "UTF-8";
+@import "contract-trade"; // 合约交易赛活动
+
+.vipVoucher{
+    padding-top: 70px;
+    overflow: hidden;
+    width: 100%;
+    background: #000;
+    >div{
+      padding: 1px;
+    }
+    .voucherBg-zh-cn{
+        margin: 0 auto 100px;
+        background: #000 url("../images/activities/vipVoucher/vipBg-zh.png") no-repeat 50%;
+        width: 1580px;
+        background-size: 100% 100% !important;
+        height: 1476px;
+    }
+    .voucherBg-en-us{
+        margin: 0 auto 100px;
+        background: #000 url("../images/activities/vipVoucher/vipBg-us.png") no-repeat 50%;
+        width: 1580px;
+        background-size: 100% 100% !important;
+        height: 1476px;
+    }
+
+    .voucherBtn{
+        text-align: center;
+        margin-top: 500px;
+        button, a {
+            width: 300px;
+            height: 80px;
+            display: inline-block;
+            line-height: 79px;
+            background: #d10b0b;
+            border-radius: 40px;
+            font-size: 30px;
+            color:#fff;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.4s;
+            letter-spacing: 1.5px;
+            box-shadow: 0 2px 3px rgba(104, 0, 0, 0.5);
+            font-weight: 500;
+            border: 0;
+            &.btnDis {border: 0;outline: none;}
+            &:hover {background: #f51616;}
+        }
+    }
+    .voucherMore{
+        margin-top: 480px;
+        font-size: 17px;
+        text-align: center;
+        font-weight: 500;
+        a{
+            color: #ffce7a;
+            //text-decoration: underline;
+            transition: all 0.4s;
+            letter-spacing: 1.4px;
+            //border-bottom: 1px solid #ffce7a;
+            &:hover{
+                color: #f3b751;
+                //border-bottom: 1px solid #f3b751;
+            }
+        }
+        i {
+            transition: all 0.4s;
+            color: #ffce7a;
+            &:hover{
+                color: #f3b751;
+            }
+        }
+
+    }
+    .voucherRule{
+        margin: 95px auto 0;
+        color: #6f6f6f;
+        width: 770px;
+        ul{
+            padding-left: 20px;
+        }
+        li{
+            list-style: decimal;
+            line-height: 2;
+            font-size: 14px;
+            font-weight: 500;
+            letter-spacing: 1px;
+        }
+    }
+}
+.vipVoucherPop{
+    width: 290px;
+    height: 350px;
+    background: #f6efe1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    border-radius: 2px;
+    text-align: center;
+    .iconfont{
+        position: absolute;
+        right: 5px;
+        top: 5px;
+        width: 25px;
+        height: 25px;
+        display: inline-block;
+        line-height: 25px;
+        cursor: pointer;
+    }
+    .iconfont:hover{
+        color: #333;
+    }
+    .voucher-header{
+        margin-top: 30px;
+        font-size: 16px;
+        color: #000;
+    }
+    .voucher-header:before,.voucher-header:after{
+        content:"";
+        display: inline-block;
+        width: 50px;
+        border-bottom: 1px solid #333;
+        vertical-align: middle;
+    }
+    .voucher-header:before{
+        margin-right: 5px;
+    }
+    .voucher-header:after{
+        margin-left: 5px;
+    }
+    .voucher-title{
+        margin-top: 10px;
+        color: #d60a16;
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .voucher-pop-bg{
+        margin: 0 auto 0;
+        background: url("../images/activities/vipVoucher/vip3.png") no-repeat;
+        width: 233px;
+        height: 194px;
+    }
+    .voucher-pop-btn{
+        margin: auto;
+        color: #fff;
+        background: #d10b0b;
+        font-size: 18px;
+        width: 190px;
+        height: 50px;
+        line-height: 50px;
+        border-radius: 25px;
+        font-weight: 600;
+        cursor: pointer;
+    }
+}
+
+@media screen and (max-width: 1500px) {
+    .voucherBg-zh-cn{
+        width: 1400px !important;
+    }
+    .voucherBg-en-us {
+        width: 1400px !important;
+    }
+    .voucherRule {
+        width: 685px !important;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .vipVoucher {
+        padding-top: 0;
+        background: #222;
+        height: auto;
+        .voucherBg-zh-cn, .voucherBg-en-us {
+            margin: auto !important;
+            width: 100% !important;
+            height: auto;
+            background: #2c2c2c;
+        }
+        .m-or-more {
+            width: 100%;
+            background: #2b2b2b url("../images/activities/vipVoucher/m-vipBg-footer-zh.jpg") no-repeat 50%;
+            background-size: 100% 100% !important;
+            height: 330px;
+            overflow: hidden;
+        }
+        .voucherBg-en-us {
+            .m-or-more {
+                background: #2b2b2b url("../images/activities/vipVoucher/m-vipBg-footer-us.jpg") no-repeat 50%;
+            }
+            .voucherBtn {
+                background: #000 url("../images/activities/vipVoucher/m-vipBg-us.jpg") no-repeat 50%;
+            }
+        }
+        .voucherBtn {
+            margin: 0;
+            width: 100%;
+            height: 343px;
+            background: #000 url("../images/activities/vipVoucher/m-vipBg-zh.jpg") no-repeat 50%;
+            background-size: 100% 100% !important;
+            button, a {
+                width: 36%;
+                height: 40px;
+                line-height: 42px;
+                font-size: 14px;
+                margin-top: 265px;
+                font-weight: 600;
+            }
+        }
+        .voucherMore {
+            margin-top: 265px;
+            font-size: 14px;
+            i {font-size: 14px;vertical-align: -1px;}
+        }
+        .voucherRule{
+            margin: 0 auto;
+            background: #2c2c2c;
+            overflow: hidden;
+            width: 95% !important;
+            padding-bottom: 30px;
+            li{
+                font-size: 12px;
+            }
+        }
+    }
+
+    .panel-head-share {
+        background: #463721;
+        color: #ffe8cf;
+        line-height: 24px;
+    }
+}

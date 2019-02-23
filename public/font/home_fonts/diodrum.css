@@ -1,0 +1,34 @@
+/*@font-face {*/
+    /*font-family: "Diodrum Bold";*/
+    /*src: url('diodrum/DiodrumBold.otf') format("opentype");!* Open Type Font *!*/
+    /*font-weight: normal;*/
+    /*font-style: normal;*/
+/*}*/
+
+@font-face {
+    font-family: "Diodrum Light";
+    src: url("diodrum/DiodrumLight.otf") format("opentype"); /* Open Type Font */
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Diodrum Medium";
+    src: url("diodrum/DiodrumMedium.otf") format("opentype"); /* Open Type Font */
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Diodrum Regular";
+    src: url("diodrum/DiodrumRegular.otf") format("opentype"); /* Open Type Font */
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Diodrum Semibold";
+    src: url("diodrum/DiodrumSemibold.otf") format("opentype"); /* Open Type Font */
+    font-weight: normal;
+    font-style: normal;
+}

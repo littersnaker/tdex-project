@@ -1,0 +1,10 @@
+{
+  "win.close.title": "提示",
+  "win.close.confirm": "确定要退出系统吗？",
+  "win.close.ok": "是",
+  "win.close.cancel": "否",
+  "version.error":"检查更新出错",
+  "version.checking": "正在检查更新……",
+  "version.updateAva": "检测到新版本，正在下载……",
+  "version.updateNotAva": "已经是最新版本"
+}

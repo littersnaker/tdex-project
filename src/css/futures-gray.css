@@ -1,0 +1,534 @@
+@charset "UTF-8";
+.futures-bg-gray {
+  background: #555;
+  color: #eee; }
+
+.futures-bg-gray {
+  /* book */
+  /* trade panel */
+  /* tradingview1.12  */
+  /* right menu */
+  /* 简易版 new order*/
+  /* skin setting  计算器 */ }
+  .futures-bg-gray .green6 {
+    color: #b4e522; }
+  .futures-bg-gray .red6 {
+    color: #e26c4b; }
+  .futures-bg-gray .buy {
+    color: #e5684e; }
+  .futures-bg-gray .sell {
+    color: #a3c6f1; }
+  .futures-bg-gray .ft-bd-78 {
+    border: 1px #787878 solid; }
+  .futures-bg-gray .header-box {
+    background: #454545;
+    border-bottom: 1px #787878 solid;
+    color: #eee; }
+  .futures-bg-gray .tradefull-head-box .header-logo-box .drop-menu-horizontal:hover {
+    background-color: #363636; }
+  .futures-bg-gray .tradefull-head-box .login-box {
+    height: 50px;
+    line-height: 50px; }
+    .futures-bg-gray .tradefull-head-box .login-box .login-bar a {
+      color: #ccc !important; }
+    .futures-bg-gray .tradefull-head-box .login-box .login-bar a:hover {
+      background-color: #363636; }
+  .futures-bg-gray .tradefull-head-box .header-lang #langselect cite:hover {
+    background-color: #363636; }
+  .futures-bg-gray .drop-menu-children {
+    border-color: #999;
+    box-shadow: 1px 1px 6px #000; }
+    .futures-bg-gray .drop-menu-children .drop-menu-header {
+      position: relative; }
+      .futures-bg-gray .drop-menu-children .drop-menu-header div {
+        position: absolute;
+        top: 4px;
+        right: 0;
+        width: 100px;
+        white-space: nowrap;
+        overflow: hidden;
+        border: 1px #555 solid;
+        background: #3e3e3e; }
+        .futures-bg-gray .drop-menu-children .drop-menu-header div input {
+          display: inline-block;
+          width: 80px;
+          padding: 2px 2px;
+          border: 0;
+          -moz-outline: none;
+          outline: none;
+          font-size: 12px; }
+        .futures-bg-gray .drop-menu-children .drop-menu-header div i {
+          padding-left: 3px;
+          font-size: 12px;
+          line-height: 0; }
+    .futures-bg-gray .drop-menu-children .drop-menu-item {
+      background: #313131; }
+      .futures-bg-gray .drop-menu-children .drop-menu-item span:nth-child(1) i {
+        padding-right: 5px;
+        font-size: 15px;
+        font-weight: 600;
+        color: #fff; }
+  .futures-bg-gray .drop-item-style1 {
+    background: #282828; }
+    .futures-bg-gray .drop-item-style1 .product-menu-bg {
+      margin: 8px;
+      background-color: #313131; }
+    .futures-bg-gray .drop-item-style1 .drop-menu-header {
+      border-bottom: 1px #323c45 solid; }
+    .futures-bg-gray .drop-item-style1 li.drop-menu-header {
+      border-bottom: 1px #444 solid; }
+      .futures-bg-gray .drop-item-style1 li.drop-menu-header a.current {
+        background: #555; }
+    .futures-bg-gray .drop-item-style1 li.drop-menu-conten, .futures-bg-gray .drop-item-style1 li.drop-menu-item {
+      border-bottom: 1px #333 solid; }
+    .futures-bg-gray .drop-item-style1 li.drop-menu-item:hover {
+      background: #444; }
+  .futures-bg-gray .show-head-options {
+    background: #454545; }
+    .futures-bg-gray .show-head-options .trading-exchange-order-tab-title {
+      background: #454545; }
+    .futures-bg-gray .show-head-options .trading-exchange-search input {
+      background: #3c3c3c; }
+    .futures-bg-gray .show-head-options .trading-exchange-list {
+      background: #363636; }
+    .futures-bg-gray .show-head-options .trading-exchange-list-title {
+      background: #363636;
+      color: #869bad; }
+    .futures-bg-gray .show-head-options .trading-exchange-list-content .item {
+      border-bottom: 1px solid #404142; }
+    .futures-bg-gray .show-head-options .trading-exchange-list-content .item-content:hover {
+      background: #454545; }
+  .futures-bg-gray .login-box {
+    background: #454545; }
+  .futures-bg-gray .login-box a,
+  .futures-bg-gray .header-box .border-l {
+    border-left: none;
+    min-width: 50px;
+    color: #eee;
+    font-size: 1em; }
+  .futures-bg-gray .head-icon-config:hover {
+    background: #363636;
+    color: #f3b652; }
+  .futures-bg-gray .head-icon-config-hover {
+    background: #555;
+    border: 1px solid #787878; }
+  .futures-bg-gray .header-lang {
+    right: 27px; }
+  .futures-bg-gray #langselect cite {
+    padding-left: 8px; }
+  .futures-bg-gray #langselect ul {
+    background: #555;
+    border-color: #787878; }
+  .futures-bg-gray #langselect cite {
+    color: #ccc; }
+  .futures-bg-gray .skin-box, .futures-bg-gray .mode-box {
+    background: #363636;
+    border-color: #555; }
+    .futures-bg-gray .skin-box p:hover, .futures-bg-gray .mode-box p:hover {
+      background: #444; }
+  .futures-bg-gray .skin-set:hover, .futures-bg-gray .mode-set:hover {
+    background: #363636; }
+  .futures-bg-gray .futures-fullTrade-history .ff-history-nav {
+    position: relative;
+    border-bottom: 1px #919191 solid;
+    height: 28px; }
+  .futures-bg-gray .futures-fullTrade-history .ff-history-nav-l {
+    position: relative;
+    z-index: 15; }
+  .futures-bg-gray .ff-history-nav-l > span {
+    display: inline-block;
+    padding: 0 30px;
+    height: 25px;
+    line-height: 25px;
+    background: #4e4e4e;
+    border-top: 1px #787878 solid;
+    border-right: 1px #787878 solid;
+    border-bottom: 1px #919191 solid;
+    vertical-align: bottom;
+    text-align: center;
+    cursor: pointer; }
+  .futures-bg-gray .ff-history-nav-l > span:first-child {
+    border-left: 1px solid #787878; }
+  .futures-bg-gray .ff-history-nav-l > span.current {
+    padding-top: 1px;
+    height: 27px;
+    line-height: 27px;
+    background: #454545;
+    border-left: 1px solid #919191;
+    border-top: 1px #919191 solid;
+    border-right: 1px #919191 solid;
+    border-bottom: none; }
+  .futures-bg-gray .ff-history-nav-r .icon-add-bg {
+    color: #f1f1f1;
+    font-size: 14px;
+    vertical-align: middle; }
+  .futures-bg-gray .ff-history-nav-r .sm-asset-box {
+    background: #555 !important;
+    border-color: #787878 !important; }
+    .futures-bg-gray .ff-history-nav-r .sm-asset-box span i:hover {
+      color: #999 !important; }
+  .futures-bg-gray .futures-fullTrade-history-detail {
+    background-color: #454545; }
+    .futures-bg-gray .futures-fullTrade-history-detail .ft-order-log {
+      overflow: hidden; }
+      .futures-bg-gray .futures-fullTrade-history-detail .ft-order-log .trade-new .f-clear dd {
+        text-align: center; }
+      .futures-bg-gray .futures-fullTrade-history-detail .ft-order-log .trade-new .f-clear dd:nth-child(9) div {
+        display: inline-block;
+        vertical-align: top;
+        font-size: 0;
+        box-sizing: border-box;
+        overflow: hidden;
+        border: 1px solid #999; }
+        .futures-bg-gray .futures-fullTrade-history-detail .ft-order-log .trade-new .f-clear dd:nth-child(9) div input {
+          -moz-outline: none;
+          outline: none;
+          border: 0;
+          width: 70px;
+          padding: 1px 4px;
+          font-size: 12px;
+          line-height: 1.5;
+          background: #363636; }
+        .futures-bg-gray .futures-fullTrade-history-detail .ft-order-log .trade-new .f-clear dd:nth-child(9) div div {
+          width: 40px;
+          height: 20px;
+          background: red;
+          font-size: 12px;
+          background: #c0d2df;
+          text-align: center;
+          border: 0;
+          line-height: 21px;
+          border-left: 1px solid #999;
+          cursor: pointer;
+          color: #555; }
+        .futures-bg-gray .futures-fullTrade-history-detail .ft-order-log .trade-new .f-clear dd:nth-child(9) div div:nth-child(3) {
+          background: #ed9076;
+          color: #e1dcdb; }
+        .futures-bg-gray .futures-fullTrade-history-detail .ft-order-log .trade-new .f-clear dd:nth-child(9) div div:nth-child(2):hover {
+          background: #9fc2dc; }
+        .futures-bg-gray .futures-fullTrade-history-detail .ft-order-log .trade-new .f-clear dd:nth-child(9) div div:nth-child(3):hover {
+          background: #ed552b; }
+  .futures-bg-gray .ft-order-log {
+    border: 1px #919191 solid;
+    border-top: none; }
+  .futures-bg-gray .ft-order-log dl {
+    border-bottom: 1px solid #555 !important; }
+  .futures-bg-gray .ft-order-log dd {
+    text-align: right;
+    border-right: 1px #555 solid;
+    overflow: hidden; }
+  .futures-bg-gray .ft-order-log .log-list dl:nth-child(odd) {
+    background: #404040; }
+  .futures-bg-gray .futures-book-box {
+    width: 246px;
+    background-color: #454545;
+    border: 1px #787878 solid; }
+  .futures-bg-gray .trade-full-price-title li > span {
+    color: #eee; }
+  .futures-bg-gray .futures-book-title li {
+    float: left;
+    width: 246px;
+    height: 25px; }
+  .futures-bg-gray .futures-fullTrade-book {
+    width: 100% !important;
+    overflow: hidden; }
+  .futures-bg-gray .futures-fullTrade-book .order-current {
+    height: 36px;
+    line-height: 36px;
+    background: #555;
+    border: none; }
+  .futures-bg-gray .futures-fullTrade-close ul li span:nth-child(3) {
+    width: 30% !important;
+    color: #757575; }
+  .futures-bg-gray .futures-order-sell li > div:first-child {
+    background: #675162; }
+  .futures-bg-gray .futures-order-buy li > div:first-child {
+    background: #546151; }
+  .futures-bg-gray .futures-order-sell li div span > i.gray {
+    color: #ab5373; }
+  .futures-bg-gray .futures-order-buy li div span > i.gray {
+    color: #619200; }
+  .futures-bg-gray .futures-order-sell li span:first-child:hover i {
+    color: #ff0066; }
+  .futures-bg-gray .futures-order-buy li span:first-child:hover i {
+    color: #9ac635; }
+  .futures-bg-gray .futures-fullTrade-panel-box {
+    box-sizing: border-box;
+    border: 1px solid #787878;
+    background: #454545; }
+    .futures-bg-gray .futures-fullTrade-panel-box .futures-fullTrade-panel .head-nav {
+      overflow: hidden; }
+      .futures-bg-gray .futures-fullTrade-panel-box .futures-fullTrade-panel .head-nav dd:nth-child(3) select, .futures-bg-gray .futures-fullTrade-panel-box .futures-fullTrade-panel .head-nav dd:nth-child(3) .select {
+        width: 80px;
+        -moz-outline: none;
+        outline: none;
+        cursor: pointer;
+        font-size: 12px;
+        color: #eee;
+        background: #363636;
+        border-color: #787878;
+        padding-bottom: 1px;
+        margin: 3px 0 2.5px 0; }
+  .futures-bg-gray .futures-fullTrade-panel-detail .numberBox {
+    width: 150px;
+    height: 28px;
+    border-color: #5a5a5a;
+    background: #363636; }
+  .futures-bg-gray .futures-fullTrade-panel-detail input[type="text"] {
+    width: 90px;
+    height: 28px; }
+  .futures-bg-gray .futures-fullTrade-panel-detail .number-title {
+    width: 37px;
+    border-left-color: #5a5a5a !important;
+    color: #787878; }
+  .futures-bg-gray .futures-fullTrade-panel-detail .numberBox .arrowup,
+  .futures-bg-gray .futures-fullTrade-panel-detail .numberBox .arrowdown {
+    padding-top: 0;
+    width: 20px;
+    height: 14px;
+    line-height: 14px;
+    color: #555;
+    box-sizing: border-box;
+    border-left-color: #5a5a5a;
+    font-size: 12px; }
+  .futures-bg-gray .numberBox .arrowup:hover,
+  .futures-bg-gray .numberBox .arrowdown:hover {
+    color: #ccc; }
+  .futures-bg-gray .futures-leverage-detail .numberBox {
+    background: #363636; }
+  .futures-bg-gray .ft-limit-commission {
+    background-color: #363636; }
+  .futures-bg-gray .ft-order-limit.limit-disable div .date-class, .futures-bg-gray .ft-order-limit.limit-disable div .time-edit input, .futures-bg-gray .ft-order-limit.limit-disable div .limit-min {
+    color: #888 !important; }
+  .futures-bg-gray .ft-order-limit.limit-disable div .custom-radio:checked + .custom-radioInput:after {
+    background-color: #787878; }
+  .futures-bg-gray .ft-order-limit.limit-disable div .slider-number-box input {
+    color: #666; }
+  .futures-bg-gray .ft-log-w2 .ft-can-edit dd:nth-child(5), .futures-bg-gray .ft-log-w2 .ft-can-edit dd:nth-child(6), .futures-bg-gray .ft-log-w2 .ft-can-edit dd:nth-child(7), .futures-bg-gray .ft-log-w2 .ft-can-edit dd:nth-child(10),
+  .futures-bg-gray .ft-log-w2 .ft-can-edit dd:nth-child(11), .futures-bg-gray .ft-log-w2 .ft-can-edit dd:nth-child(12), .futures-bg-gray .ft-log-w2 .ft-can-edit dd:nth-child(15), .futures-bg-gray .ft-log-w3 .ft-can-edit dd:nth-child(10),
+  .futures-bg-gray .ft-log-w3 .ft-can-edit dd:nth-child(11), .futures-bg-gray .ft-log-w3 .ft-can-edit dd:nth-child(15) {
+    background-color: #363636; }
+  .futures-bg-gray .ft-order-log dl {
+    border-bottom: 1px solid #555 !important; }
+    .futures-bg-gray .ft-order-log dl dd {
+      text-align: center;
+      border-right: 1px #555 solid; }
+      .futures-bg-gray .ft-order-log dl dd .slider-number-box {
+        background: #363636; }
+  .futures-bg-gray .table-book-deep .red6, .futures-bg-gray .table-book-deep .green6 {
+    color: #f0f0f0; }
+  .futures-bg-gray .ft-bd-53 {
+    border: 1px solid #535353; }
+  .futures-bg-gray .ft-order-box {
+    background: #454545;
+    border: 1px solid #787878; }
+    .futures-bg-gray .ft-order-box .slider-number-box {
+      background-color: #363636; }
+    .futures-bg-gray .ft-order-box select, .futures-bg-gray .ft-order-box .select, .futures-bg-gray .ft-order-box .select .option {
+      background-color: #363636; }
+    .futures-bg-gray .ft-order-box .select .option .active {
+      background-color: #4a4a4a; }
+  .futures-bg-gray .ft-order-box .order-code {
+    background-color: #363636; }
+  .futures-bg-gray .ft-order-deep .table-book-deep {
+    font-weight: 300; }
+  .futures-bg-gray .ft-order-deep table tbody tr:nth-child(odd) {
+    background: #3c3c3c; }
+  .futures-bg-gray .ft-order-deep table td, .futures-bg-gray .ft-order-deep table th {
+    border: 1px solid #535353; }
+  .futures-bg-gray .ft-order-deep table tbody td:nth-child(odd) {
+    text-align: left;
+    padding-left: 5px; }
+  .futures-bg-gray .ft-order-deep table tbody td:nth-child(even) {
+    text-align: right;
+    padding-right: 5px; }
+  .futures-bg-gray .ft-order-deep.color-pg1 .deep-bg-r {
+    background-color: #393e40 !important; }
+  .futures-bg-gray .ft-order-deep.color-pg1 .deep-bg-l {
+    background-color: #45322e !important; }
+  .futures-bg-gray .skin-dif-table .div-table-bd {
+    padding-bottom: 1px;
+    border: 1px solid #535353; }
+  .futures-bg-gray .skin-dif-table table tr {
+    border-bottom: 1px solid #535353; }
+  .futures-bg-gray .skin-dif-table table tbody tr:nth-child(odd) {
+    background: #454545; }
+  .futures-bg-gray .skin-dif-table table td, .futures-bg-gray .skin-dif-table table th {
+    border: none; }
+  .futures-bg-gray .ft-new-deal, .futures-bg-gray .ft-km {
+    border: 1px solid #535353;
+    background: #404040; }
+  .futures-bg-gray .ft-order-market > div {
+    background: #454545; }
+  .futures-bg-gray .order-menu-setting .drop-child {
+    background: #333 !important; }
+  .futures-bg-gray .order-menu-setting li:hover .custom-radio:checked + .custom-radioInput:after {
+    background-color: #fff; }
+  .futures-bg-gray .dialog-head {
+    border-bottom-color: #555; }
+  .futures-bg-gray .mining-setting {
+    background: #404040;
+    border: 1px solid #696969; }
+  .futures-bg-gray .mining-setting .mining-detail {
+    border-bottom: 1px solid #555 !important; }
+  .futures-bg-gray .mining-detail .slider-number-box input {
+    background: #363636; }
+  .futures-bg-gray .mining-detail select {
+    background-color: #363636 !important;
+    color: #ccc;
+    border: 1px solid #535353;
+    vertical-align: -2px; }
+  .futures-bg-gray .zh-trading-bg {
+    background: #454545;
+    box-shadow: 0 0 10px 2px #666;
+    width: 298px;
+    font-size: .75em; }
+    .futures-bg-gray .zh-trading-bg .ft-order-box {
+      border: none;
+      background: none; }
+  .futures-bg-gray .floating-toolbar {
+    position: absolute !important;
+    background-color: #555;
+    box-shadow: 0 1px 4px 0 rgba(35, 35, 35, 0.4);
+    border-radius: 1px;
+    border: 1px solid;
+    border-color: #555;
+    color: #eee;
+    font-size: 14px;
+    touch-action: none;
+    right: 160px;
+    top: 40px; }
+  .futures-bg-gray .toolbar-wrapper {
+    display: flex; }
+  .futures-bg-gray .toolbar-drag {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    /* cursor: url(grab.bc15652….cur),move; */
+    cursor: -webkit-grab;
+    cursor: grab;
+    width: 30px; }
+  .futures-bg-gray .toolbar-drag svg {
+    width: 6px;
+    height: 12px;
+    fill: #dadde0; }
+  .futures-bg-gray .toolbar-content {
+    display: flex;
+    flex-shrink: 0;
+    overflow: hidden;
+    border-top-right-radius: 1px;
+    border-bottom-right-radius: 1px; }
+  .futures-bg-gray .toolbar-widget {
+    display: flex;
+    align-items: stretch;
+    border-left: 1px solid;
+    border-left-color: #787878; }
+  .futures-bg-gray .toolbar-button {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    min-width: 85px;
+    padding: 4px 7px;
+    transition: background-color .175s ease; }
+  .futures-bg-gray .toolbar-sell {
+    background-color: rgba(255, 74, 104, 0.07); }
+  .futures-bg-gray .toolbar-sell .toolbar-title {
+    color: #ff4a68; }
+  .futures-bg-gray .toolbar-button span {
+    font-size: 12px; }
+  .futures-bg-gray .toolbar-spread {
+    color: #8a8a8a;
+    padding: 0 11px;
+    line-height: 17px;
+    cursor: default;
+    display: flex;
+    align-items: center; }
+  .futures-bg-gray .menu-list {
+    line-height: 25px;
+    color: #c7c7c7;
+    background: #454545;
+    border: 1px solid #535353; }
+    .futures-bg-gray .menu-list li {
+      padding: 0 15px;
+      white-space: nowrap; }
+    .futures-bg-gray .menu-list li:hover {
+      background: #555; }
+    .futures-bg-gray .menu-list li.bd-b {
+      border-bottom: 1px solid #535353; }
+    .futures-bg-gray .menu-list li.disable {
+      color: #888; }
+    .futures-bg-gray .menu-list li.disable:hover {
+      background: #454545; }
+  .futures-bg-gray .tabpage span {
+    color: #eee; }
+  .futures-bg-gray .tabpage a {
+    color: #aaa;
+    border: 1px solid #aaa; }
+  .futures-bg-gray .tabpage a:hover {
+    color: #ddd;
+    border: 1px #ddd solid; }
+  .futures-bg-gray .tabpage a.current {
+    color: #ccc;
+    background: #555;
+    border: 1px solid #bbb; }
+  .futures-bg-gray .tabpage a.disabled, .futures-bg-gray .tabpage .tabpage a.disabled:hover {
+    color: #ddd !important;
+    background: #777 !important;
+    border-color: #999 !important; }
+  .futures-bg-gray .ft-newOrder-easy .ft-easy-tab {
+    display: flex;
+    justify-content: space-between;
+    width: 100%; }
+    .futures-bg-gray .ft-newOrder-easy .ft-easy-tab > span {
+      display: inline-block;
+      flex-grow: 1;
+      height: 25px;
+      line-height: 25px;
+      background: #4e4e4e;
+      border-top: 1px #535353 solid;
+      border-right: 1px #535353 solid;
+      border-bottom: 1px #535353 solid;
+      vertical-align: bottom;
+      text-align: center;
+      cursor: pointer; }
+    .futures-bg-gray .ft-newOrder-easy .ft-easy-tab > span:first-child {
+      border-left: 1px solid #535353; }
+    .futures-bg-gray .ft-newOrder-easy .ft-easy-tab > span.current {
+      background: #454545;
+      border-bottom: none; }
+  .futures-bg-gray .ft-newOrder-easy .ft-newOrder-easy-detail {
+    padding: 10px 5px;
+    border: 1px solid #535353;
+    border-top: none; }
+    .futures-bg-gray .ft-newOrder-easy .ft-newOrder-easy-detail .easy-price-dis {
+      background: #404040;
+      text-align: center;
+      line-height: 22px;
+      width: 100%;
+      color: #ccc; }
+  .futures-bg-gray .pbuy .txt {
+    color: #e5684e; }
+  .futures-bg-gray .psell .txt {
+    color: #a3c6f1; }
+  .futures-bg-gray .btn-buy {
+    background: #af3c3c;
+    color: #efefef; }
+  .futures-bg-gray .btn-sell {
+    background: #7a97bb;
+    color: #efefef; }
+  .futures-bg-gray .btn-buy:hover {
+    background: #c74646; }
+  .futures-bg-gray .btn-sell:hover {
+    background: #85a4cc; }
+  .futures-bg-gray .orderMask {
+    background: #3c3c3c; }
+  .futures-bg-gray .ft-calculator-detail .slider-number-box {
+    background: #363636; }
+
+.futures-bg-gray.ft-trade-easy-panel {
+  background: #454545; }
+  .futures-bg-gray.ft-trade-easy-panel .ft-newOrder-easy .ft-easy-tab {
+    width: 70%; }
+
+/*# sourceMappingURL=futures-gray.css.map */

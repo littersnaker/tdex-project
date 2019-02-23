@@ -1,0 +1,271 @@
+@charset "UTF-8";
+.contract-online-style {
+    background: #000 ;
+    margin-top: 0;
+    padding-top: 72px;
+    box-sizing: border-box;
+    position: relative;
+    .inside-page-web-bg {
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: url("../images/activities/contract-online/contract-online.jpg") no-repeat 50%;
+        width: 100%;
+        height: 1153px;
+        background-size: cover;
+    }
+    .inside-web-part {text-align: center;position: relative;z-index: 1;overflow: hidden;}
+    // 标题
+    .contract-online-title, .contract-online-text, .contract-online-time {
+        cursor: default;
+        >span {letter-spacing: 2px;}
+    }
+    .contract-online-title {
+        font-size: 55px;
+        padding-top: 75px;
+        >span {
+            padding: 0 10px;
+        }
+    }
+    .contract-online-text {
+        font-size: 34px;
+        font-weight: 100;
+        line-height: 100px;
+        position: relative;
+        display: inline-block;
+        >span {font-weight: 500;padding-left: 5px;}
+    }
+    .contract-online-text:before {
+        content: '';
+        width: 500px;
+        height: 1px;
+        position: absolute;
+        top: 18px;
+        left: 0;
+        background: linear-gradient(to right, #78756f, #0c0c0c);
+    }
+    .contract-online-text:after {
+        content: '';
+        width: 500px;
+        height: 1px;
+        position: absolute;
+        right: 0;
+        bottom: 18px;
+        background: linear-gradient(to left, #78756f, #0c0c0c);
+    }
+    .contract-online-time {
+        font-weight: 100;
+        letter-spacing: 1px;
+    }
+    // 内容
+    .contract-online-content {
+        background: #151515;
+        margin: 230px auto 65px;
+        width: 1200px;
+        min-height: 500px;
+        .contract-online-unline {
+            width: 100%;
+            height: 3px;
+            background: linear-gradient(to left, #151107, #fcc14c, #151107);
+        }
+        .contract-online-flex {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            padding-top: 70px;
+            >.item {
+                width: 270px;
+                margin: 0 20px;
+                height: 348px;
+                position: relative;
+                background: url("../images/activities/contract-online/contract-online-actvity.png") no-repeat;
+                background-size: 100% 100%;
+                .contract-online-actvity-title {height: 120px;}
+                h4 {
+                    font-size: 30px;
+                    color: #fcbd46;
+                    letter-spacing: 2px;
+                    font-weight: 500;
+                    padding-top: 20px;
+                    cursor: default;
+                }
+                p {
+                    font-size: 16px;
+                    color: #fcbd46;
+                    padding-top: 5px;
+                    letter-spacing: 1px;
+                    cursor: default;
+                }
+                .fs12 {font-size: 12px;}
+
+                .contract-online-actvity-bg.bg-0 {
+                    background: url("../images/activities/contract-online/contract-online-icon1.png") no-repeat center;
+                    width: 268px;
+                    height: 204px;
+                }
+                .contract-online-actvity-bg.bg-1 {
+                    background: url("../images/activities/contract-online/contract-online-icon2.png") no-repeat center;
+                    width: 165px;
+                    height: 187px;
+                }
+                .contract-online-actvity-bg.bg-2 {
+                    background: url("../images/activities/contract-online/contract-online-icon3.png") no-repeat center;
+                    width: 186px;
+                    height: 170px;
+
+                }
+                .contract-online-actvity-bg {
+                    background-size: 90% 90% !important;
+                    margin: 0 auto;
+                }
+                button, a {
+                    position: absolute;
+                    width: 143px;
+                    height: 43px;
+                    line-height: 43px;
+                    top: 380px;
+                    left: 0;
+                    right: 0;
+                    margin: auto;
+                    border: 0;
+                    border-radius: 5px;
+                    font-size: 16px;
+                    letter-spacing: 2px;
+                    color: #644000;
+                    font-weight: bold;
+                    cursor: pointer;
+                    outline: none;
+                    background: linear-gradient(to bottom, #ffd76e, #faab29);
+                }
+            }
+            >.item.en-us {
+                button, a {width: 200px;}
+            }
+        }
+        // 规则
+        .contract-online-rule {
+            padding: 150px 0 120px;
+            width: 852px;
+            margin: 0 auto;
+            >h3 {
+                color: #fcbd46;
+                text-align: left;
+                font-size: 24px;
+                letter-spacing: 2px;
+                padding-bottom: 15px;
+                cursor: default;
+            }
+            .contract-online-rule-text {
+                text-align: left;
+                li {line-height: 2;cursor: default}
+                span {
+                    color: #fdca5b;
+                    cursor: pointer;
+                    &:hover {text-decoration: underline;}
+                }
+            }
+        }
+    }
+}
+// 颜色
+.contract-online-f3b652 {color: #f3b652;}
+.contract-online-fff {color: #fff;}
+@media screen and (max-width: 750px) {
+    .contract-online-style {
+        padding-top: 0;
+        font-weight: 500;
+        .inside-page-web-bg {
+            background: url("../images/activities/contract-online/m-contract-online.jpg") no-repeat 50%;
+            height: 320px;
+            background-size: cover !important;
+        }
+        // 标题
+        .contract-online-title, .contract-online-text, .contract-online-time {
+            font-weight: 500;
+            >span {letter-spacing: 1.2px;}
+        }
+        .contract-online-title {
+            font-size: 24px;
+            >span {padding: 0 5px;}
+        }
+        .contract-online-text {
+            font-size: 14px;
+            line-height: 50px;
+        }
+        .contract-online-text:before {
+            width: 250px;
+            top: 10px;
+        }
+        .contract-online-text:after {
+            width: 270px;
+            bottom: 9px;
+            right: 0;
+        }
+        .contract-online-time {font-size: 12px;}
+        // 内容
+        .contract-online-content {
+            width: 100%;
+            margin: 120px auto 0;
+            .contract-online-unline {
+                height: 1px;
+            }
+            .contract-online-flex {
+                padding-top: 25px;
+                >.item {
+                    width: 100%;
+                    margin: 8px 2.5%;
+                    height: 120px;
+                    position: inherit;
+                    background: url("../images/activities/contract-online/m-contract-online-actvity.png") no-repeat;
+                    background-size: 100% 100%;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    padding: 10px;
+                    box-sizing: border-box;
+                    .contract-online-actvity-title {height: 102px;width: 100px;}
+                    h4, p {text-align: left;}
+                    h4 {
+                        font-size: 15px;
+                        font-weight: bold;
+                        padding-top: 18px;
+                        padding-bottom: 3px;
+                    }
+                    p {
+                        font-size: 12px;
+                        color: #ffd971;
+                        line-height: 1.7;
+                    }
+                    .contract-online-actvity-bg.bg-0 {width: 132px;height: 87px;background-size: 100% 120% !important;background-position: 0% -9% !important;}
+                    .contract-online-actvity-bg.bg-1 {width: 90px;height: 100px;}
+                    .contract-online-actvity-bg.bg-2 {width: 100px;height: 100px;}
+                    .contract-online-actvity-bg {background-size: 100% 100% !important;margin: 0;}
+                    button, a {
+                        position: inherit;
+                        width: 85px;
+                        height: 33px;
+                        line-height: 33px;
+                        margin: 0;
+                        font-size: 13px;
+                        letter-spacing: 1px;
+                    }
+                }
+            }
+            // 规则
+            .contract-online-rule {
+                padding: 30px 0 20px;
+                width: 95%;
+                margin: 0 auto;
+                >h3 {
+                    font-size: 16px;
+                    text-align: center;
+                    padding-bottom: 12px;
+                }
+                .contract-online-rule-text {
+                    li {line-height: 1.7;font-size: 12px;padding: 4px 0;}
+                }
+            }
+        }
+    }
+}

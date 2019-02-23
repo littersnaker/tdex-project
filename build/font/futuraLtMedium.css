@@ -1,0 +1,29 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: "Futura LT Medium";
+    font-style: normal;
+    font-weight: normal;
+    src: url("Futura_LT_Medium/FuturaLTMedium.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: "Futura LT Medium";
+    font-style: normal;
+    font-weight: 300;
+    src: url("Futura_LT_Medium/FuturaLTMedium.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: "Futura LT Medium";
+    font-style: normal;
+    font-weight: 600;
+    src: url("Futura_LT_Medium/FuturaLTMedium.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: "Futura LT Medium";
+    font-style: normal;
+    font-weight: bold;
+    src: url("Futura_LT_Medium/FuturaLTMedium.ttf") format('truetype');
+}

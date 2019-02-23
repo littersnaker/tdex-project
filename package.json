@@ -1,0 +1,192 @@
+{
+  "name": "web_okk",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "main": "webpack.config.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=development BABEL_ENV=development VER_ENV=web node scripts/start.js",
+    "test": "cross-env NODE_ENV=test BABEL_ENV=development VER_ENV=web node scripts/build.js test",
+    "build:sim": "cross-env NODE_ENV=production BABEL_ENV=production VER_ENV=simulate GENERATE_SOURCEMAP=false CDN_USE=1 node scripts/build.js",
+    "build": "cross-env NODE_ENV=production BABEL_ENV=production VER_ENV=web GENERATE_SOURCEMAP=false PUBLIC_URL=https://res1.tdex.com CDN_USE=1 node scripts/build.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@sentry/browser": "^4.5.1",
+    "better-scroll": "^1.13.2",
+    "big.js": "^5.1.2",
+    "blueimp-md5": "^2.10.0",
+    "classnames": "^2.2.5",
+    "clipboard": "^2.0.1",
+    "echarts": "^4.1.0",
+    "events": "^3.0.0",
+    "immutable": "^3.8.2",
+    "jquery-qrcode": "^1.0.0",
+    "js-cookie": "^2.2.0",
+    "moment": "^2.22.2",
+    "pako": "^1.0.6",
+    "prop-types": "^15.6.1",
+    "qrcode.react": "^0.8.0",
+    "rc-menu": "^7.0.5",
+    "react": "^16.4.0",
+    "react-contextmenu": "^2.9.2",
+    "react-datepicker": "^1.5.0",
+    "react-dom": "^16.4.0",
+    "react-draggable": "^3.0.5",
+    "react-dragger-r": "0.0.12",
+    "react-fastclick": "^3.0.2",
+    "react-grid-layout": "^0.16.6",
+    "react-lazyload": "^2.3.0",
+    "react-loadable": "^5.4.0",
+    "react-motion": "^0.5.2",
+    "react-notification-system": "^0.2.17",
+    "react-router": "^3.2.1",
+    "react-scrollbar": "^0.5.4",
+    "react-style": "^0.5.5",
+    "react-table": "^6.8.6",
+    "react-virtualized": "^9.19.1",
+    "reactjs-swiper": "^0.1.0",
+    "store": "^2.0.12",
+    "swiper": "^4.3.5"
+  },
+  "devDependencies": {
+    "autodll-webpack-plugin": "^0.3.9",
+    "autoprefixer": "^7.1.6",
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^7.2.3",
+    "babel-jest": "^23.0.1",
+    "babel-loader": "^7.1.4",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-react-app": "^3.1.1",
+    "babel-runtime": "^6.26.0",
+    "case-sensitive-paths-webpack-plugin": "^2.1.2",
+    "chalk": "^1.1.3",
+    "chinese-s2t": "^1.0.0",
+    "console-polyfill": "^0.3.0",
+    "cross-env": "^5.2.0",
+    "css-loader": "^0.28.11",
+    "dotenv": "^4.0.0",
+    "dotenv-expand": "^4.2.0",
+    "es3ify-loader": "^0.2.0",
+    "eslint": "^4.19.1",
+    "eslint-config-react-app": "^2.1.0",
+    "eslint-loader": "^1.9.0",
+    "eslint-plugin-flowtype": "^2.49.3",
+    "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-jsx-a11y": "^5.1.1",
+    "eslint-plugin-react": "^7.9.1",
+    "exceljs": "^1.4.10",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "fetch-ie8": "^1.5.0",
+    "file-loader": "^1.1.11",
+    "fs-extra": "^6.0.1",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "http-proxy-middleware": "^0.18.0",
+    "jest": "^23.1.0",
+    "less": "^3.0.4",
+    "less-loader": "^4.1.0",
+    "object-assign": "^4.1.1",
+    "postcss-flexbugs-fixes": "^3.3.1",
+    "postcss-loader": "^2.1.5",
+    "promise": "^8.0.1",
+    "react-dev-utils": "^5.0.1",
+    "style-loader": "^0.21.0",
+    "sw-precache-webpack-plugin": "^0.11.5",
+    "url-loader": "^1.0.1",
+    "webpack": "^3.8.1",
+    "webpack-dev-server": "^2.9.4",
+    "webpack-manifest-plugin": "^2.0.3"
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "src/**/*.{js,jsx}"
+    ],
+    "setupFiles": [
+      "<rootDir>/config/polyfills.js"
+    ],
+    "testMatch": [
+      "<rootDir>/src/**/__tests__/**/*.js?(x)",
+      "<rootDir>/src/**/?(*.)(spec|test).js?(x)"
+    ],
+    "testEnvironment": "node",
+    "testURL": "http://localhost",
+    "transform": {
+      "^.+\\.(js|jsx)$": "<rootDir>/node_modules/babel-jest",
+      "^.+\\.css$": "<rootDir>/config/jest/cssTransform.js",
+      "^(?!.*\\.(js|jsx|css|json)$)": "<rootDir>/config/jest/fileTransform.js"
+    },
+    "transformIgnorePatterns": [
+      "[/\\\\]node_modules[/\\\\].+\\.(js|jsx)$"
+    ],
+    "moduleNameMapper": {
+      "^react-native$": "react-native-web"
+    },
+    "moduleFileExtensions": [
+      "web.js",
+      "js",
+      "json",
+      "web.jsx",
+      "jsx"
+    ]
+  },
+  "babel": {
+    "presets": [
+      "react-app"
+    ],
+    "plugins": [
+      "react-loadable/babel"
+    ]
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "proxy": {
+    "/server/": {
+      "target": "https://tdex.com",
+      "changeOrigin": true,
+      "cookies": true,
+      "secure": false,
+      "logLevel": "debug"
+    },
+    "/api/v0.1.1": {
+      "target": "https://tdex.com",
+      "changeOrigin": true,
+      "cookies": true,
+      "secure": false,
+      "logLevel": "debug"
+    },
+    "/captcha": {
+      "target": "https://tdex.com",
+      "secure": false,
+      "changeOrigin": true
+    },
+    "/zendesk": {
+      "target": "https://tdex.com",
+      "secure": false,
+      "changeOrigin": true
+    },
+    "/entry": {
+      "target": "wss://tdex.com",
+      "changeOrigin": true,
+      "secure": false,
+      "ws": true,
+      "logLevel": "debug"
+    },
+    "/realtime": {
+      "target": "wss://tdex.com",
+      "changeOrigin": true,
+      "secure": false,
+      "ws": true,
+      "logLevel": "debug"
+    },
+    "/chat": {
+      "target": "wss://tdex.com",
+      "changeOrigin": true,
+      "secure": false,
+      "ws": true,
+      "logLevel": "debug"
+    }
+  }
+}

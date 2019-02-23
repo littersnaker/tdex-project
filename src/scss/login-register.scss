@@ -1,0 +1,188 @@
+@charset "UTF-8";
+.login, .register {
+    width: 100%;
+    height: 929px;
+    background: url("../images/verify/login-bg.jpg") no-repeat;
+    background-position:50% !important;
+    background-size: cover !important;
+    .login-box, .register-box {
+        width: 1100px;
+        margin: 0 auto;
+        padding-top: 9%;
+        h3 {
+            font-size: 36px;
+            color: #f3f3f3;
+            letter-spacing: 2px;
+        }
+        .login-input-box, .register-input-box {
+            width: 100%;
+            display: flex;
+            flex-wrap: nowrap;
+            justify-content: left;
+            align-items: flex-start;
+            form {
+                margin-right: 70px;
+                .login-input-text, .register-input-text {
+                    position: relative;
+                    input {border: 1px solid #4b4232;outline-color: #f3b652;font-size: 15px;width: 450px;height: 54px;margin-top: 38px;padding-right: 45px;}
+                    .input-icon {position: absolute;right: 12px;top: 57px;cursor: pointer;}
+                    .input-icon.icon-eye-false {color: #6a6868;}
+                    .input-icon.icon-eye-true {color: #f3b652;}
+                    .input-error {
+                        color: #ff8522;
+                        position: absolute;
+                        bottom: -23px;
+                        font-size: 12px;
+                        i {font-size: 12px;padding-right: 5px;padding-left: 10px;}
+                    }
+                }
+                .register-input-text {
+                    input {padding-right: 10px;}
+                }
+                .register-error-text {
+                    font-size: 12px;
+                    padding-top: 5px;
+                    margin-bottom: -20px;
+                    padding-left: 10px;
+                    p {padding-top: 5px;}
+                    .icon-true{
+                        color: #04e6a9;
+                    }
+                    i {font-size: 12px;padding-right: 5px;}
+                }
+                .referee-text {
+                    color: #f3b652;
+                    margin-top: 35px;
+                    margin-bottom: -30px;
+                    cursor: default;
+                    i {font-size: 12px;padding-right: 5px;}
+                    i:hover {color: #f3b652 !important;}
+
+                }
+                .agentHide {
+                    margin-bottom: -18px;
+                    i {
+                        transform: rotate(-90deg);
+                        display: inline-block;
+                        position: relative;
+                        top: -3px;
+                    }
+                }
+                .forget-password-text {
+                    text-align: right;
+                    padding-top: 20px;
+                    color: #f3b652;
+                    a {color: #f3b652;font-size: 14px;}
+                }
+                .agree-clause-text {
+                    margin-top: 38px;
+                    margin-bottom: -18px;
+                    label {cursor: pointer;}
+                    a {padding-left: 5px;color: #f3b652;}
+                    .input-agree {
+                        appearance: none;
+                        -webkit-appearance: none;
+                        outline: none;
+                        display: none;
+                    }
+                    .input-agree+span {
+                        width: 16px;
+                        height: 16px;
+                        background-color: red;
+                        display: inline-block;
+                        background: url('../images/icons/icon-checkbox.png') no-repeat;
+                        background-position-y: -21px;
+                        vertical-align: -3px;
+                        margin-right: 10px;
+                    }
+                    .input-agree:checked+span {
+                        background-position: 0 0px;
+                    }
+                }
+                button {
+                    width: 450px;
+                    height: 58px;
+                    box-sizing: border-box;
+                    font-size: 18px;
+                    border-radius: 5px;
+                    margin-top: 50px;
+                    cursor: pointer;
+                    outline-color: #f3b652;
+                }
+                button.active {
+                    background: #f3b652;
+                    border: 1px solid #f3b652;
+                }
+                button.active:hover {
+                    background: #f3b652;
+                    border: 1px solid #f3b652;
+                }
+                .btnDis {border-color: #4b4232!important;background: #4b4232 !important;color: #757575 !important;cursor: not-allowed;}
+                .text-link {
+                    text-align: center;
+                    font-size: 15px;
+                    padding-top: 15px;
+                    a {
+                        padding-left: 5px;
+                        color: #f3b652;
+                    }
+                }
+            }
+            .login-input-right-text, .register-input-right-text {
+                p,a {font-size: 15px;color: #757575;line-height: 34px;cursor: default;letter-spacing: 1px;}
+                p:first-child {padding-top: 27px;font-size: 18px;}
+                .text-action {color: #f3b652;padding-top: 10px;display: inline-block;cursor: pointer;padding-right: 20px;}
+            }
+            .register-input-right-text {
+                position: relative;
+                padding-top: 27px;
+                .register-right-bg {
+                    background: url("../images/verify/register-bg-right.png") no-repeat;
+                    width: 550px;
+                    height: 363px;
+                    position: absolute;
+                    background-size: 100% 100%;
+                    top: 130px;
+                    left: 50px;
+                }
+                p {font-size: 14px !important;}
+            }
+        }
+        input:-webkit-autofill { background-color: #151618 !important; -webkit-box-shadow: 0 0 0 1000px #151618 inset !important;}
+    }
+}
+.register {
+    background: url("../images/verify/login-bg.jpg") no-repeat;
+}
+
+@media screen and (max-width: 750px) {
+    .login, .register {
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+        overflow-x: hidden;
+        .login-box, .register-box {
+            width: 95%;
+            margin: 0 auto;
+            padding-top:100px;
+            h3 {font-size: 30px;}
+            .login-input-box, .register-input-box {
+                form {
+                    width: 100%;
+                    margin-right: 0px;
+                    margin-bottom: 50px;
+                    .login-input-text, .register-input-text {
+                        input {width: 100%;}
+                    }
+                    button {
+                        width: 100%;
+                    }
+
+                }
+                .login-input-right-text, .register-input-right-text {
+                    display: none;
+                }
+            }
+        }
+    }
+}

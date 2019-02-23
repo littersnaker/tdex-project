@@ -1,0 +1,229 @@
+.user-modify-verify {
+  width: 100%;
+  height: 929px;
+  background: #fff;
+  padding-top: 125px;
+  box-sizing: border-box; }
+  .user-modify-verify .modify-verify-title, .user-modify-verify .modify-verify-box {
+    width: 1100px;
+    margin: 0 auto; }
+  .user-modify-verify .modify-verify-title {
+    border-bottom: 1px solid #dcdcde;
+    padding-bottom: 15px; }
+    .user-modify-verify .modify-verify-title > h3 {
+      font-size: 30px;
+      cursor: default; }
+      .user-modify-verify .modify-verify-title > h3 a {
+        color: #191919; }
+      .user-modify-verify .modify-verify-title > h3 span:last-child {
+        color: #919296;
+        padding-left: 20px;
+        font-size: 26px; }
+      .user-modify-verify .modify-verify-title > h3 span:last-child:before {
+        content: '>';
+        padding-right: 16px; }
+  .user-modify-verify .modify-verify-box {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: left;
+    align-items: flex-start; }
+    .user-modify-verify .modify-verify-box .modify-verify-left {
+      margin-right: 70px; }
+      .user-modify-verify .modify-verify-box .modify-verify-left > h3 {
+        font-size: 36px;
+        color: #18191d;
+        letter-spacing: 2px;
+        padding-top: 40px; }
+      .user-modify-verify .modify-verify-box .modify-verify-left form .modify-verify-input {
+        position: relative; }
+        .user-modify-verify .modify-verify-box .modify-verify-left form .modify-verify-input input {
+          border: 1px solid #dcdcde;
+          outline-color: #f3b652;
+          font-size: 15px;
+          width: 450px;
+          height: 52px;
+          margin-top: 38px; }
+        .user-modify-verify .modify-verify-box .modify-verify-left form .modify-verify-input .input-error {
+          color: #ff8522;
+          position: absolute;
+          bottom: -23px;
+          font-size: 12px; }
+          .user-modify-verify .modify-verify-box .modify-verify-left form .modify-verify-input .input-error i {
+            font-size: 12px; }
+        .user-modify-verify .modify-verify-box .modify-verify-left form .modify-verify-input .forget-password-text {
+          text-align: right;
+          padding-top: 20px;
+          color: #f3b652;
+          font-size: 15px; }
+      .user-modify-verify .modify-verify-box .modify-verify-left form .modify-tel-phone-input {
+        margin-top: 38px; }
+        .user-modify-verify .modify-verify-box .modify-verify-left form .modify-tel-phone-input .intl-tel-input {
+          padding: 0; }
+          .user-modify-verify .modify-verify-box .modify-verify-left form .modify-tel-phone-input .intl-tel-input .selected-flag {
+            width: 50px;
+            height: 52px;
+            border: 1px solid #dcdcde;
+            border-right: 0;
+            top: -1px; }
+          .user-modify-verify .modify-verify-box .modify-verify-left form .modify-tel-phone-input .intl-tel-input input {
+            width: 400px;
+            margin-left: 51px; }
+      .user-modify-verify .modify-verify-box .modify-verify-left form .modify-verify-input-btn input {
+        width: 328px !important; }
+      .user-modify-verify .modify-verify-box .modify-verify-left form .modify-verify-input-btn a {
+        background: #f3b652;
+        border: 1px solid #f3b652;
+        font-size: 15px;
+        width: 100px;
+        height: 50px;
+        padding: 0;
+        line-height: 50px;
+        vertical-align: 0px;
+        color: #fff; }
+      .user-modify-verify .modify-verify-box .modify-verify-left form .agree-clause-text {
+        margin-top: 38px;
+        margin-bottom: -18px; }
+        .user-modify-verify .modify-verify-box .modify-verify-left form .agree-clause-text label {
+          cursor: pointer; }
+        .user-modify-verify .modify-verify-box .modify-verify-left form .agree-clause-text a {
+          padding-left: 5px;
+          color: #f3b652; }
+        .user-modify-verify .modify-verify-box .modify-verify-left form .agree-clause-text .input-agree {
+          appearance: none;
+          -webkit-appearance: none;
+          outline: none;
+          display: none; }
+        .user-modify-verify .modify-verify-box .modify-verify-left form .agree-clause-text .input-agree + span {
+          width: 16px;
+          height: 16px;
+          background-color: red;
+          display: inline-block;
+          background: url("../images/icons/icon-checkbox.png") no-repeat;
+          background-position-y: -21px;
+          vertical-align: -3px;
+          margin-right: 10px; }
+        .user-modify-verify .modify-verify-box .modify-verify-left form .agree-clause-text .input-agree:checked + span {
+          background-position: 0 0px; }
+      .user-modify-verify .modify-verify-box .modify-verify-left form .bind-google-auth .google-auth-title {
+        color: #18191d;
+        padding-top: 15px; }
+      .user-modify-verify .modify-verify-box .modify-verify-left form .bind-google-auth .google-app-store {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        margin: 10px 0; }
+        .user-modify-verify .modify-verify-box .modify-verify-left form .bind-google-auth .google-app-store a {
+          display: inline-block;
+          color: #18191d;
+          border: 1px solid #dcdcde;
+          outline-color: #f3b652;
+          font-size: 15px;
+          height: 45px;
+          line-height: 45px;
+          padding: 0 20px;
+          width: 150px; }
+      .user-modify-verify .modify-verify-box .modify-verify-left form .bind-google-auth .google-app-qr-code {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        margin: 15px 0;
+        cursor: default; }
+        .user-modify-verify .modify-verify-box .modify-verify-left form .bind-google-auth .google-app-qr-code .google-qr-code-title {
+          color: #18191d;
+          font-size: 15px; }
+          .user-modify-verify .modify-verify-box .modify-verify-left form .bind-google-auth .google-app-qr-code .google-qr-code-title .google-copy-title {
+            color: #f3b652;
+            cursor: pointer;
+            font-weight: bold; }
+        .user-modify-verify .modify-verify-box .modify-verify-left form .bind-google-auth .google-app-qr-code .google-app-qr-map {
+          padding: 10px; }
+        .user-modify-verify .modify-verify-box .modify-verify-left form .bind-google-auth .google-app-qr-code .google-app-qr-cur {
+          width: 250px; }
+        .user-modify-verify .modify-verify-box .modify-verify-left form .bind-google-auth .google-app-qr-code .google-qr-code-box {
+          background: #f5f5f5;
+          width: 100%;
+          line-height: 45px;
+          height: 45px;
+          margin-top: 10px;
+          text-align: center;
+          font-size: 16px;
+          font-weight: bold;
+          color: #18191d;
+          border: 0;
+          outline: 0;
+          padding: 0; }
+        .user-modify-verify .modify-verify-box .modify-verify-left form .bind-google-auth .google-app-qr-code .google-qr-code-text {
+          font-size: 12px;
+          padding-top: 5px; }
+      .user-modify-verify .modify-verify-box .modify-verify-left form .modify-verify-google-input input {
+        margin-top: 20px; }
+      .user-modify-verify .modify-verify-box .modify-verify-left form button {
+        width: 450px;
+        height: 58px;
+        box-sizing: border-box;
+        font-size: 18px;
+        border-radius: 5px;
+        margin-top: 50px;
+        cursor: pointer;
+        color: #fff; }
+      .user-modify-verify .modify-verify-box .modify-verify-left form button.active {
+        background: #f3b652;
+        border: 1px solid #f3b652; }
+      .user-modify-verify .modify-verify-box .modify-verify-left form button.active:hover {
+        background: #f3b652;
+        border: 1px solid #f3b652; }
+      .user-modify-verify .modify-verify-box .modify-verify-left form .btnDis {
+        border-color: #dcdcde !important;
+        background: #dcdcde !important;
+        color: #ffffff;
+        cursor: not-allowed; }
+      .user-modify-verify .modify-verify-box .modify-verify-left form .btnDis:hover {
+        color: #ffffff !important; }
+    .user-modify-verify .modify-verify-box .modify-verify-right {
+      padding-top: 116px; }
+      .user-modify-verify .modify-verify-box .modify-verify-right p {
+        font-size: 15px;
+        color: #757575;
+        line-height: 32px;
+        cursor: default;
+        letter-spacing: 1px; }
+
+@media screen and (max-width: 750px) {
+  .user-modify-verify {
+    width: 100%;
+    overflow-x: hidden; }
+    .user-modify-verify .modify-verify-title, .user-modify-verify .modify-verify-box {
+      width: 95%; }
+    .user-modify-verify .modify-verify-box {
+      flex-wrap: wrap; }
+      .user-modify-verify .modify-verify-box .modify-verify-left {
+        margin-right: 0;
+        width: 100%; }
+        .user-modify-verify .modify-verify-box .modify-verify-left form {
+          width: 100%; }
+          .user-modify-verify .modify-verify-box .modify-verify-left form .modify-verify-input {
+            width: 100%; }
+            .user-modify-verify .modify-verify-box .modify-verify-left form .modify-verify-input input {
+              width: 100%; }
+          .user-modify-verify .modify-verify-box .modify-verify-left form .modify-verify-input-btn input {
+            width: 60% !important; }
+          .user-modify-verify .modify-verify-box .modify-verify-left form .modify-verify-input-btn a {
+            width: 30%;
+            margin-left: 9%; }
+          .user-modify-verify .modify-verify-box .modify-verify-left form .modify-tel-phone-input .intl-tel-input {
+            width: 100%; }
+            .user-modify-verify .modify-verify-box .modify-verify-left form .modify-tel-phone-input .intl-tel-input input {
+              width: calc(100% - 51px);
+              margin-left: 51px; }
+          .user-modify-verify .modify-verify-box .modify-verify-left form .bind-google-auth .google-app-store a {
+            width: auto; }
+          .user-modify-verify .modify-verify-box .modify-verify-left form .bind-google-auth .google-app-qr-code .google-app-qr-cur {
+            width: calc(100% - 100px); }
+          .user-modify-verify .modify-verify-box .modify-verify-left form button {
+            width: 100%; }
+      .user-modify-verify .modify-verify-box .modify-verify-right {
+        padding: 40px 0; }
+    .user-modify-verify .modify-verify-title > h3 span:last-child {
+      font-size: 20px; } }
+
+/*# sourceMappingURL=user-modify-verify.css.map */

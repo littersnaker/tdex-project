@@ -1,0 +1,349 @@
+@charset "UTF-8";
+.contract-trade-config {
+    background: #20264c;
+    color: #f6f7ff;
+    overflow: hidden;
+    .contract-trade-banner {
+        width: 100%;
+        height: 723px;
+        background: url("../images/activities/contract-trade/contract-trade-banner.jpg") no-repeat 50%;
+        background-size: cover !important;
+        overflow: hidden;
+        cursor: default;
+        &-title {
+            width: 517px;
+            height: 383px;
+            margin-top: 210px;
+            margin-left: 15%;
+            background: url("../images/activities/contract-trade/contract-trade-banner-title.png") no-repeat;
+            text-align: center;
+            >p {color: #fff;padding-top: 232px;padding-left: 27px;font-size: 16px;letter-spacing: 1px;text-align: left;}
+        }
+    }
+
+    .contract-trade-content {
+        width: 1200px;
+        margin: 60px auto 100px;
+    }
+
+    .contract-trade-ranking {
+        background: #262c56;
+        height: 220px;
+        cursor: default;
+        text-align: center;
+        &-title, &-content {
+            display: flex;
+            >li {width: 100%;}
+        }
+        &-title {
+            background: #303f7d;
+            height: 60px;
+            line-height: 60px;
+            font-size: 16px;
+            color: #afb7e7;
+            >li {letter-spacing: 1px;}
+        }
+        &-content {
+            padding-top: 23px;
+            >li {
+                position: relative;
+                &:after {
+                    content: '';
+                    position: absolute;
+                    width: 1px;
+                    height: 100px;
+                    background: #686c89;
+                    top: 0;
+                    right: 0;
+                }
+            }
+            li:last-child {
+                &:after {display: none;}
+            }
+            p {font-size: 15px;letter-spacing: 1px;}
+            .num-title {
+                font-size: 32px;
+                line-height: 65px;
+            }
+        }
+        .contract-trade-btn {
+            margin-top: 86px;
+        }
+    }
+
+    .contract-trade-section {
+        margin-top: 100px;
+        cursor: default;
+        >h3 {font-size: 22px;letter-spacing: 1.5px;padding-bottom: 40px;font-weight: 500;}
+        &-list {
+            cursor: default;
+            ul {
+                display: flex;
+                height: 60px;
+                line-height: 60px;
+                li {
+                    width: 100%;
+                    text-align: center;
+                    letter-spacing: 1px;
+                }
+            }
+            &-title {
+                font-size: 16px;
+                background: #303f7d;
+                color: #afb7e7;
+            }
+            &-content {
+                font-size: 15px;
+                color: #f6f7ff;
+                background: #293160;
+                &:nth-child(odd) {background: #262c56;}
+            }
+            &-no-data {
+                width: 100%;
+                height: 100%;
+                text-align: center;
+                padding-top: 180px;
+                color: #afb7e7;
+                box-sizing: border-box;
+                background: #293160 url("../images/user-info/no-list-data-back.png") no-repeat 50% 40%;
+            }
+        }
+        &-list-tab {
+            display: flex;
+            position: relative;
+            height: 60px;
+            li{
+                font-size: 22px;
+                letter-spacing: 1.5px;
+                color: #9da2c0;
+                margin-right: 50px;
+                font-weight: 500;
+                cursor: pointer;
+                &.active {
+                    color: #f6f7ff;
+                    font-size: 22px;
+                    position: relative;
+                    &:after {
+                        content: '';
+                        position: absolute;
+                        left: 0;
+                        right: 0;
+                        margin: auto;
+                        bottom: 19px;
+                        height: 3px;
+                        width: 120px;
+                        background: #46bdd8;
+                    }
+                }
+            }
+            &-tips {
+                position: absolute;
+                right: 0;
+                top: 10px;
+                letter-spacing: 1px;
+            }
+        }
+        .wrapper{ position: relative;z-index: 0;}
+        .bscroll-vertical-scrollbar{
+            opacity: 1 !important;
+            background: #2e3a74  !important;
+            border-radius: 0 !important;
+            .bscroll-indicator{
+                background: #37498e !important;
+                border: 1px solid #37498e !important;
+                border-radius: 0 !important;
+            }
+        }
+    }
+
+    .section-link-list {
+        background: #262c56;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 30px 0 30px 100px;
+        a {
+            width: 225px;
+            height: 51px;
+            margin: 14px 16px;
+            background-size: 100% 100% !important;
+            &:nth-child(1) {background: url("../images/activities/contract-trade/logo/01.png") no-repeat;}
+            &:nth-child(2) {background: url("../images/activities/contract-trade/logo/02.png") no-repeat;}
+            &:nth-child(3) {background: url("../images/activities/contract-trade/logo/03.png") no-repeat;}
+            &:nth-child(4) {background: url("../images/activities/contract-trade/logo/04.png") no-repeat;}
+            &:nth-child(5) {background: url("../images/activities/contract-trade/logo/05.png") no-repeat;}
+            &:nth-child(6) {background: url("../images/activities/contract-trade/logo/06.png") no-repeat;}
+            &:nth-child(7) {background: url("../images/activities/contract-trade/logo/07.png") no-repeat;}
+            &:nth-child(8) {background: url("../images/activities/contract-trade/logo/08.png") no-repeat;}
+            &:nth-child(9) {background: url("../images/activities/contract-trade/logo/09.png") no-repeat;}
+            &:nth-child(10) {background: url("../images/activities/contract-trade/logo/10.png") no-repeat;}
+            &:nth-child(11) {background: url("../images/activities/contract-trade/logo/11.png") no-repeat;}
+            &:nth-child(12) {background: url("../images/activities/contract-trade/logo/12.png") no-repeat;}
+            &:nth-child(13) {background: url("../images/activities/contract-trade/logo/13.png") no-repeat;}
+            &:nth-child(14) {background: url("../images/activities/contract-trade/logo/14.png") no-repeat;}
+            &:nth-child(15) {background: url("../images/activities/contract-trade/logo/15.png") no-repeat;}
+            &:nth-child(16) {background: url("../images/activities/contract-trade/logo/16.png") no-repeat;}
+        }
+    }
+
+    .section-rule-list {
+        color: #dddee9;
+        li {
+            padding-bottom: 20px;
+            letter-spacing: 1px;
+            font-size: 15px;
+            span {color: #43b3cf;}
+        }
+    }
+}
+
+.contract-trade-btn {
+    background: #46bdd8;
+    border: 0;
+    border-radius: 2em;
+    padding: 13px 49px;
+    color: #fff;
+    margin-top: 28px;
+    font-size: 17px;
+    letter-spacing: 2px;
+    transition: all 0.4s;
+    cursor: pointer;
+    box-shadow: 0 2px 6px #262b56;
+    outline: none;
+    &:hover {
+        background: lighten(#46bdd8, 5%);
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .contract-trade-config {
+        .contract-trade-banner {
+            width: 100%;
+            height: 500px;
+            background: url("../images/activities/contract-trade/m-contract-trade-banner.jpg") no-repeat 50%;
+            &-title {
+                width: auto;
+                height: auto;
+                margin-top: 110px;
+                margin-left: 0;
+                background: none;
+                >p {padding-top: 50px;padding-left: 0;font-size: 12px;text-align: center;}
+            }
+        }
+
+        .contract-trade-content {
+            width: 100%;
+            margin: 40px auto 60px;
+        }
+
+        .contract-trade-ranking {
+            width: 95%;
+            margin: auto;
+            height: 168px;
+            &-title {
+                height: 40px;
+                line-height: 40px;
+                font-size: 14px;
+            }
+            &-content {
+                padding-top: 20px;
+                >li {
+                    &:after {
+                        height: 85px;
+                    }
+                }
+                li:last-child {
+                    &:after {display: none;}
+                }
+                p {font-size: 12px;}
+                .num-title {
+                    font-size: 30px;
+                    line-height: 65px;
+                }
+            }
+            .contract-trade-btn {
+                margin-top: 61px;
+            }
+        }
+
+        .contract-trade-section {
+            margin: 50px auto 0;
+            width: 95%;
+            >h3 {font-size: 14px;padding-bottom: 20px;text-align: center;}
+            &-list {
+                ul {
+                    height: 40px;
+                    line-height: 40px;
+                    li {
+                        width: 100%;
+                        text-align: center;
+                        letter-spacing: 1px;
+                    }
+                }
+                &-title {
+                    font-size: 14px;
+                }
+                &-content {
+                    font-size: 12px;
+                }
+                &-no-data {
+                    padding-top: 165px;
+                    background-size: 15%;
+                }
+            }
+            &-list.m-list {
+                li:nth-child(1) {width: 20%;}
+                li:nth-child(2) {width: 30%;}
+                li:nth-child(3) {width: 50%;}
+            }
+            &-list-tab {
+                display: flex;
+                justify-content: center;
+                height: 40px;
+                li{
+                    font-size: 14px;
+                    margin: 0 10px;
+                    &.active {
+                        font-size: 14px;
+                        &:after {
+                            content: '';
+                            position: absolute;
+                            left: 0;
+                            right: 0;
+                            margin: auto;
+                            bottom: 19px;
+                            height: 3px;
+                            width: 40px;
+                            background: #46bdd8;
+                        }
+                    }
+                }
+                &-tips {
+                    display: none;
+                }
+            }
+        }
+
+        .section-link-list {
+            display: flex;
+            padding: 1% 1.5%;
+            a {
+                width: 105px;
+                height: 24px;
+                margin: 5px;
+            }
+        }
+
+        .section-rule-list {
+            li {
+                padding-bottom: 10px;
+                line-height: 1.7;
+                font-size: 12px;
+            }
+        }
+    }
+
+    .contract-trade-btn {
+        padding: 11px 40px;
+        font-size: 15px;
+    }
+}

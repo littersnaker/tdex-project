@@ -1,0 +1,380 @@
+.main-content-part {
+  margin-top: 72px;
+  min-height: 800px;
+  color: #151a1e;
+  background: #f8f8fa;
+  overflow-x: hidden; }
+
+.asset-section {
+  padding: 30px 0; }
+  .asset-section input {
+    border: none;
+    outline: none; }
+  .asset-section .asset-theme {
+    padding-left: 35px;
+    height: 48px;
+    line-height: 48px;
+    border: 1px solid #edf1fc;
+    font-size: 20px;
+    background: #fff;
+    border-radius: 4px; }
+  .asset-section .asset-safe-tip {
+    margin-top: 10px;
+    padding-left: 35px;
+    height: 40px;
+    line-height: 40px;
+    background: #fffaea;
+    color: #796858;
+    border: 1px solid #edf1fc;
+    border-radius: 4px; }
+    .asset-section .asset-safe-tip .icon-tips {
+      color: #fc8423; }
+    .asset-section .asset-safe-tip span, .asset-section .asset-safe-tip a {
+      display: inline-block;
+      color: #fe973b; }
+  .asset-section .asset-contain {
+    padding: 30px 35px;
+    border: 1px solid #edf1fc;
+    background: #fff;
+    border-radius: 4px; }
+    .asset-section .asset-contain .asset-contain-main {
+      display: flex;
+      min-height: 250px; }
+      .asset-section .asset-contain .asset-contain-main-l {
+        min-width: 335px; }
+      .asset-section .asset-contain .asset-contain-main-r {
+        flex-grow: 1; }
+      .asset-section .asset-contain .asset-contain-main .account-block li {
+        display: flex;
+        margin-top: 20px; }
+        .asset-section .asset-contain .asset-contain-main .account-block li span:first-child {
+          width: 40%; }
+        .asset-section .asset-contain .asset-contain-main .account-block li span:last-child {
+          width: 60%;
+          text-align: right; }
+      .asset-section .asset-contain .asset-contain-main .address-block h4 {
+        font-size: 16px; }
+      .asset-section .asset-contain .asset-contain-main .address-block .address-get {
+        margin-top: 30px;
+        color: #6b798e; }
+      .asset-section .asset-contain .asset-contain-main .address-block .address-copy {
+        display: flex;
+        height: 45px;
+        line-height: 45px; }
+        .asset-section .asset-contain .asset-contain-main .address-block .address-copy input {
+          width: 400px;
+          background: #f8f8fa;
+          font-size: 16px;
+          color: #151a1e; }
+      .asset-section .asset-contain .asset-contain-main .address-block .copy-txt {
+        padding-left: 15px;
+        color: #f3b652;
+        cursor: pointer;
+        white-space: nowrap; }
+      .asset-section .asset-contain .asset-contain-main .address-block .copy-txt:hover {
+        color: #e0a138; }
+      .asset-section .asset-contain .asset-contain-main .address-block .remark-tip {
+        padding: 10px 0;
+        color: #ff8522; }
+      .asset-section .asset-contain .asset-contain-main .label-block {
+        display: flex; }
+        .asset-section .asset-contain .asset-contain-main .label-block dt {
+          padding-right: 20px;
+          height: 46px;
+          line-height: 46px;
+          font-size: 16px;
+          width: 17%; }
+        .asset-section .asset-contain .asset-contain-main .label-block dt.wp-30 {
+          width: 30%; }
+        .asset-section .asset-contain .asset-contain-main .label-block dd {
+          width: 70%; }
+        .asset-section .asset-contain .asset-contain-main .label-block dd.wp-80 {
+          width: 80%; }
+        .asset-section .asset-contain .asset-contain-main .label-block input {
+          width: 100%;
+          height: 100%;
+          line-height: 100%;
+          font-size: 14px; }
+          .asset-section .asset-contain .asset-contain-main .label-block input::placeholder {
+            font-size: 14px;
+            color: #9099a8; }
+        .asset-section .asset-contain .asset-contain-main .label-block .address-txt > input {
+          padding: 0; }
+        .asset-section .asset-contain .asset-contain-main .label-block .more-input {
+          display: flex;
+          justify-content: space-between;
+          line-height: 46px; }
+        .asset-section .asset-contain .asset-contain-main .label-block .input-border {
+          display: flex;
+          justify-content: space-between;
+          line-height: 46px;
+          height: 46px;
+          border: 1px solid #c4cfe0;
+          border-radius: 2px;
+          box-sizing: border-box; }
+          .asset-section .asset-contain .asset-contain-main .label-block .input-border .code-unit {
+            color: #f3b652;
+            white-space: nowrap;
+            text-align: right;
+            cursor: pointer;
+            font-weight: 500; }
+        .asset-section .asset-contain .asset-contain-main .label-block .commit-box .btn {
+          width: 200px;
+          height: 47px;
+          background: #f3b652;
+          color: #fff;
+          border-radius: 4px; }
+        .asset-section .asset-contain .asset-contain-main .label-block .commit-box .btn:hover {
+          background: #f3ab36; }
+        .asset-section .asset-contain .asset-contain-main .label-block .rate-txt {
+          color: #99a1af; }
+        .asset-section .asset-contain .asset-contain-main .label-block .change-radio {
+          display: block;
+          margin: 2px 20px;
+          width: 36px;
+          height: 36px;
+          line-height: 36px;
+          color: #fff;
+          background: #f3b652;
+          text-align: center;
+          border-radius: 50%;
+          font-weight: bold;
+          cursor: pointer; }
+        .asset-section .asset-contain .asset-contain-main .label-block .change-radio:hover {
+          background: #e0a138; }
+    .asset-section .asset-contain .ver-line {
+      margin: 0 40px;
+      border-left: 1px solid #edf1fc; }
+    .asset-section .asset-contain .hor-line {
+      margin: 40px 0;
+      border-top: 1px solid #edf1fc; }
+    .asset-section .asset-contain .hor-line-20 {
+      margin: 20px 0;
+      border-top: 1px solid #edf1fc; }
+    .asset-section .asset-contain .asset-contain-tips h4 {
+      padding-bottom: 10px;
+      color: #ff8522;
+      font-size: 12px; }
+    .asset-section .asset-contain .asset-contain-tips ul {
+      line-height: 24px;
+      color: #aab0bb; }
+    .asset-section .asset-contain .asset-contain-tips ul.number-li {
+      padding-left: 15px; }
+      .asset-section .asset-contain .asset-contain-tips ul.number-li li {
+        list-style: decimal; }
+    .asset-section .asset-contain .bd-err {
+      border-color: #ff8522 !important; }
+    .asset-section .asset-contain .select-box {
+      position: relative;
+      width: 100%; }
+      .asset-section .asset-contain .select-box .select {
+        display: flex;
+        justify-content: space-between;
+        padding-left: 15px;
+        width: 100%;
+        height: 46px;
+        line-height: 46px;
+        border: 1px #c0c6d0 solid;
+        box-sizing: border-box;
+        border-radius: 2px; }
+        .asset-section .asset-contain .select-box .select .icon-xiala {
+          color: #9099a8;
+          font-size: 20px; }
+        .asset-section .asset-contain .select-box .select .icon-xiala.on {
+          display: inline-block;
+          transform: rotate(-180deg);
+          transition: all 0.2s; }
+        .asset-section .asset-contain .select-box .select .currency_text {
+          font-size: 16px;
+          overflow: hidden; }
+      .asset-section .asset-contain .select-box .select-option {
+        position: absolute;
+        padding: 10px 0;
+        width: 100%;
+        line-height: 40px;
+        background: #fefefe;
+        border: 1px #edf1fc solid;
+        box-shadow: 1px 2px 6px rgba(34, 39, 43, 0.1);
+        overflow: auto;
+        box-sizing: border-box;
+        z-index: 9;
+        border-radius: 2px; }
+        .asset-section .asset-contain .select-box .select-option li {
+          padding-left: 15px;
+          width: 100%;
+          height: 40px;
+          line-height: 40px;
+          font-size: 14px;
+          cursor: pointer;
+          box-sizing: border-box; }
+        .asset-section .asset-contain .select-box .select-option li:hover {
+          background: #f8f8fa; }
+  .asset-section .warn-tip {
+    position: absolute;
+    bottom: -15px;
+    color: #ff8522;
+    font-size: 12px; }
+
+.asset-header {
+  display: flex;
+  align-items: center; }
+  .asset-header li {
+    margin-right: 20px;
+    padding: 0 10px;
+    min-width: 130px;
+    height: 36px;
+    line-height: 34px;
+    font-weight: 500;
+    text-align: center;
+    border: 1px solid #f3b652;
+    border-radius: 18px;
+    color: #f3b652;
+    transition: all 0.4s;
+    box-sizing: border-box; }
+    .asset-header li a {
+      display: inline-block;
+      width: 100%;
+      color: #f3b652;
+      transition: all 0.4s; }
+    .asset-header li a:hover {
+      color: #fff; }
+    .asset-header li i {
+      font-size: 16px;
+      padding-right: 5px;
+      vertical-align: middle; }
+      .asset-header li i.icon-recharge {
+        font-size: 18px; }
+      .asset-header li i.icon-assets {
+        font-size: 18px; }
+      .asset-header li i.icon-change {
+        font-size: 15px; }
+      .asset-header li i.icon-vip {
+        font-size: 15px; }
+      .asset-header li i.icon-SecuritySettings {
+        font-size: 19px; }
+      .asset-header li i.icon-api-link {
+        font-size: 18px; }
+  .asset-header li:hover, .asset-header li.current {
+    background: #f3b652;
+    color: #fff;
+    box-shadow: 0 6px 11px -5px rgba(243, 182, 82, 0.65); }
+    .asset-header li:hover a, .asset-header li.current a {
+      color: #fff; }
+
+.all-assets-section .asset-config-list-content > li span {
+  display: inline-block;
+  padding-right: 20px;
+  min-width: 26px;
+  color: #f3b652; }
+.all-assets-section .asset-config-list-content > li span:last-child {
+  padding-right: 0; }
+
+.record-lists {
+  padding: 0 20px 20px;
+  background: #fff;
+  border: 1px solid #edf1fc;
+  border-radius: 4px; }
+  .record-lists .lists-header {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10px;
+    height: 60px;
+    line-height: 60px;
+    border-bottom: 1px solid #edf1fc; }
+    .record-lists .lists-header h3 {
+      font-size: 20px; }
+    .record-lists .lists-header a {
+      color: #f4bb62;
+      font-weight: 500; }
+    .record-lists .lists-header a:hover {
+      color: #e0a138; }
+  .record-lists .lists-content li {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    text-align: center; }
+  .record-lists .lists-content li:first-child {
+    text-align: left; }
+  .record-lists .lists-content li:last-child {
+    text-align: right; }
+  .record-lists .lists-content li.oprate {
+    display: flex;
+    justify-content: space-around; }
+    .record-lists .lists-content li.oprate span, .record-lists .lists-content li.oprate a {
+      color: #f3b652;
+      cursor: pointer; }
+    .record-lists .lists-content li.oprate span:hover, .record-lists .lists-content li.oprate a:hover {
+      color: #e0a138; }
+  .record-lists .lists-content .lists-theme {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    padding: 0 10px;
+    color: #848fa0; }
+  .record-lists .lists-content .lists-list {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    padding: 0 10px;
+    border-radius: 2px; }
+  .record-lists .lists-content .lists-list:hover {
+    background: #f8f8fa; }
+  .record-lists .lists-content .lists-detail {
+    background: #f8f8fa; }
+    .record-lists .lists-content .lists-detail li {
+      display: flex;
+      flex-wrap: nowrap;
+      justify-content: space-around;
+      padding: 0; }
+      .record-lists .lists-content .lists-detail li > span {
+        width: 100%;
+        text-align: center; }
+
+@media screen and (max-width: 760px) {
+  .asset-header {
+    flex-wrap: wrap;
+    justify-content: space-between; }
+    .asset-header li {
+      margin-top: 10px;
+      margin-right: 0;
+      width: 48%; }
+
+  .asset-section {
+    padding: 0 20px 20px;
+    box-sizing: border-box; }
+    .asset-section .asset-safe-tip {
+      padding: 10px;
+      height: auto;
+      line-height: 22px; }
+    .asset-section .asset-contain {
+      padding: 0 0 20px;
+      border: none; }
+      .asset-section .asset-contain .asset-contain-main {
+        display: block; }
+        .asset-section .asset-contain .asset-contain-main .label-block {
+          display: block; }
+          .asset-section .asset-contain .asset-contain-main .label-block dt, .asset-section .asset-contain .asset-contain-main .label-block dd {
+            width: 100% !important; }
+          .asset-section .asset-contain .asset-contain-main .label-block .commit-box .btn {
+            width: 100%; }
+      .asset-section .asset-contain .asset-contain-main-l {
+        min-width: 100%;
+        width: 100% !important; }
+      .asset-section .asset-contain .asset-contain-main-r {
+        margin-top: 20px;
+        width: 100% !important; }
+      .asset-section .asset-contain .select-box .select .currency_text {
+        font-size: 13px;
+        overflow: hidden; }
+
+  .record-lists {
+    border: none;
+    padding: 0;
+    margin-bottom: 50px; }
+
+  .asset-config-list.assets-border {
+    overflow-x: auto; }
+    .asset-config-list.assets-border .asset-config-list-title, .asset-config-list.assets-border .asset-config-list-content {
+      width: 800px; } }
+
+/*# sourceMappingURL=asset.css.map */

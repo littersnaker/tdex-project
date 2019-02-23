@@ -1,0 +1,165 @@
+.invite-banar-bg {
+  width: 100%;
+  height: 520px;
+  background-position: 50% !important;
+  background-size: cover !important; }
+
+.invite-banar-bg.zh-cn {
+  background: url("../images/invite/banner/invite-bannar-bg-zh-cn.jpg") no-repeat; }
+
+.invite-banar-bg.en-us {
+  background: url("../images/invite/banner/invite-bannar-bg-en-us.jpg") no-repeat; }
+
+.invite-banar-bg.ja-jp {
+  background: url("../images/invite/banner/invite-bannar-bg-ja-jp.jpg") no-repeat; }
+
+.invite-double-page {
+  background: #1a1f27;
+  padding: 36px 33px;
+  margin-bottom: 24px; }
+
+.invite-ranking-list {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: flex-start; }
+  .invite-ranking-list > ul {
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: left;
+    border-right: 1px solid #3a3e43;
+    margin-right: 34px;
+    padding-right: 34px;
+    box-sizing: border-box; }
+    .invite-ranking-list > ul li p {
+      padding-bottom: 6px; }
+    .invite-ranking-list > ul li h3 {
+      font-size: 15px;
+      color: #fff;
+      padding-bottom: 5px; }
+    .invite-ranking-list > ul li:first-child {
+      width: 30px;
+      display: flex;
+      align-items: center;
+      padding-right: 20px; }
+      .invite-ranking-list > ul li:first-child img {
+        width: 100%; }
+    .invite-ranking-list > ul li:nth-child(2) {
+      width: 55%; }
+  .invite-ranking-list > ul:last-child {
+    border-right: 0;
+    margin-right: 0;
+    padding-right: 0; }
+
+.invite-share-data, .user-share-data, .invite-item {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center; }
+  .invite-share-data .user-share-data, .user-share-data .user-share-data, .invite-item .user-share-data {
+    width: 100%;
+    justify-content: left;
+    border-right: 1px solid #3a3e43;
+    margin-right: 34px;
+    padding-right: 34px;
+    box-sizing: border-box; }
+    .invite-share-data .user-share-data .share-data-config, .user-share-data .user-share-data .share-data-config, .invite-item .user-share-data .share-data-config {
+      padding-left: 20px; }
+      .invite-share-data .user-share-data .share-data-config p, .user-share-data .user-share-data .share-data-config p, .invite-item .user-share-data .share-data-config p {
+        line-height: 2;
+        font-size: 14px; }
+        .invite-share-data .user-share-data .share-data-config p .share-text, .user-share-data .user-share-data .share-data-config p .share-text, .invite-item .user-share-data .share-data-config p .share-text {
+          color: #fff;
+          font-size: 18px; }
+        .invite-share-data .user-share-data .share-data-config p input, .user-share-data .user-share-data .share-data-config p input, .invite-item .user-share-data .share-data-config p input {
+          border: 1px solid #767676;
+          font-size: 12px;
+          padding: 2px 8px; }
+        .invite-share-data .user-share-data .share-data-config p i, .user-share-data .user-share-data .share-data-config p i, .invite-item .user-share-data .share-data-config p i {
+          font-size: 22px;
+          vertical-align: -4px;
+          padding-left: 10px;
+          cursor: pointer;
+          transition: all 0.5s; }
+        .invite-share-data .user-share-data .share-data-config p i:hover, .user-share-data .user-share-data .share-data-config p i:hover, .invite-item .user-share-data .share-data-config p i:hover {
+          color: #f3b625; }
+    .invite-share-data .user-share-data .user-share-qr, .user-share-data .user-share-data .user-share-qr, .invite-item .user-share-data .user-share-qr {
+      padding: 5px;
+      background: #fff; }
+  .invite-share-data .user-share-data:last-child, .user-share-data .user-share-data:last-child, .invite-item .user-share-data:last-child {
+    border-right: 0;
+    margin-right: 0;
+    padding-right: 0; }
+  .invite-share-data .share-friend-data, .user-share-data .share-friend-data, .invite-item .share-friend-data {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    position: relative; }
+    .invite-share-data .share-friend-data p, .user-share-data .share-friend-data p, .invite-item .share-friend-data p {
+      color: #ffb62a;
+      padding-top: 10px;
+      padding-bottom: 15px; }
+    .invite-share-data .share-friend-data h5, .user-share-data .share-friend-data h5, .invite-item .share-friend-data h5 {
+      color: #fff;
+      font-size: 24px; }
+  .invite-share-data .share-friend-data:before, .user-share-data .share-friend-data:before, .invite-item .share-friend-data:before {
+    content: '';
+    width: 1px;
+    height: 70px;
+    background: #3a3e43;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto; }
+
+.invite-data-list {
+  width: 46%; }
+  .invite-data-list .list-header-text h3 {
+    color: #f3f3f3;
+    font-size: 20px;
+    letter-spacing: 1px; }
+  .invite-data-list .list-global-config {
+    border: 0; }
+    .invite-data-list .list-global-config .list-config-title, .invite-data-list .list-global-config .list-config-content {
+      border: 1px solid #767676; }
+      .invite-data-list .list-global-config .list-config-title li, .invite-data-list .list-global-config .list-config-content li {
+        font-size: 14px;
+        border-color: #767676; }
+    .invite-data-list .list-global-config .list-config-title {
+      background: none; }
+      .invite-data-list .list-global-config .list-config-title li {
+        color: #767676;
+        border-bottom: 0; }
+      .invite-data-list .list-global-config .list-config-title li:last-child {
+        border-right: 0; }
+    .invite-data-list .list-global-config .list-config-content {
+      border-top: 0; }
+      .invite-data-list .list-global-config .list-config-content li {
+        border-bottom: 1px; }
+  .invite-data-list .no-list-data {
+    background: none;
+    border: 1px solid #767676;
+    border-top: 0; }
+
+.invite-footer-list h3 {
+  font-size: 20px;
+  color: #f3f3f3; }
+.invite-footer-list ul {
+  padding: 20px 0 20px 15px; }
+  .invite-footer-list ul li {
+    list-style: decimal;
+    font-size: 14px;
+    line-height: 1.8; }
+.invite-footer-list > div > p {
+  padding-bottom: 10px; }
+
+@media screen and (max-width: 750px) {
+  .invite-data-list {
+    margin-top: 0; }
+    .invite-data-list .list-header-text {
+      display: none; } }
+
+/*# sourceMappingURL=invite.css.map */

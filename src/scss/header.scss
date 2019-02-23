@@ -1,0 +1,210 @@
+@charset "UTF-8";
+#header {
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 73px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 1200px;
+    z-index: 10;
+    .header-left, .header-right {
+        display: flex;
+        align-items: center;
+        li {
+            position: relative;
+            line-height: 73px;
+            a {
+                cursor: pointer;
+                transition: all 0.4s;
+                font-size: 14px;
+                letter-spacing: 1px;
+                white-space: nowrap;
+            }
+            a.active {
+                color: #f3b652;
+            }
+            .activeList {
+                i{
+                    vertical-align: -1px;
+                }
+            }
+            .activebox {
+                background: #1d1e21;
+                position: absolute;
+                top: 73px;
+                left: -21px;
+                padding: 18px;
+                border-radius: 3px;
+                p {white-space: nowrap;line-height: 1;padding-bottom: 20px;}
+                p:last-child {padding-bottom: 0;}
+                a:hover{color: #f3b652;}
+            }
+            .activebox.show-asset {
+                left: 0;
+                right: 0;
+                margin: auto;
+                width: 113px;
+                box-sizing: border-box;
+                &.en-us {
+                    width: 182px;
+                }
+            }
+            .messageBox{
+                background: #1d1e21;
+                position: absolute;
+                top: 73px;
+                left: -95px;
+                padding: 20px;
+                line-height: 18px;
+                >div{
+                    padding: 5px 0;
+                    width: 230px;
+                    cursor: pointer;
+                    border-bottom: 1px solid #303235;
+                    .f-tof{
+                        display: inline-block;
+                        width: 215px;
+                        vertical-align: middle;
+                    }
+                    p{ color: #a2a2a2;}
+                    p.white2>a{ color:#efefef;}
+                }
+                >div:hover{
+                    a,span,i{ color: #f3b652;}
+                }
+                .more{
+                    margin-top: 20px;
+                    text-align: center;
+                    border: none;
+                }
+            }
+        }
+        li:hover>a {color: #f3b652;}
+    }
+    .header-left {
+        padding-left: 45px;
+        justify-content: flex-start;
+        li {
+            padding-right: 30px;
+        }
+    }
+    .header-right {
+        padding-right: 45px;
+        justify-content: flex-end;
+        li {
+            padding-left: 30px;
+        }
+        .header-right-login-bar {
+            margin-left: 30px;
+            position: relative;
+            a:first-child {margin-right: 25px;}
+            a {transition: all 0.4s;}
+            a.active {color: #f3b652;}
+            a:hover {color: #f3b652;}
+        }
+        .header-right-login-bar:after {
+            content: '';
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            margin:auto;
+            width: 1px;
+            height: 16px;
+            background: #a2a2a2;
+            right: 38px;
+        }
+        .header-right-login-bar.en-us:after {right: 72px;}
+        .header-message{
+            position: relative;
+            font-size: 20px;
+            cursor: pointer;
+            i{
+                position: absolute;
+                top: -3px;
+                left: 12px;
+                display: inline-block;
+                width: 8px;
+                height: 8px;
+                background: #f00;
+                border-radius: 50%;
+            }
+        }
+        .header-message:hover{
+            color: #fefefe;
+        }
+    }
+    .header-logo-tdex {
+        background: url("../images/logo.png") no-repeat;
+        width: 99px;
+        height: 37px;
+        cursor: pointer;
+    }
+    .change-lang {
+        padding-left: 15px;
+        cursor: pointer;
+        transition: all 0.4s;
+        span {display: inline-block;}
+        span:last-child {padding-left: 4px;vertical-align: -1px;}
+        .change-lang-img {
+            width: 22px;
+            height: 14px;
+            background: url("../images/icons/new-flag.png") no-repeat;
+            background-size: auto 100%;
+            margin-right: 4px;
+            vertical-align: -3px;
+        }
+        .change-lang-img.flag-en-us {background-position:-27px 0;}
+        .change-lang-img.flag-zh-cn {background-position:0 0;}
+        .change-lang-img.flag-zh-tw {background-position:0 0;}
+        .change-lang-img.flag-ko-kr {background-position:-54px 0;}
+        .change-lang-img.flag-ja-jp {background-position:-81px 0;}
+        .change-lang-img.flag-fr-fr {background-position:-108px 0;}
+        .change-lang-img.flag-es-es {background-position:-135px 0;}
+        .change-lang-img.flag-pt-pt {background-position:-162px 0;}
+        .change-lang-img.flag-ru-ru {background-position:-189px 0;}
+        .change-lang-img.flag-tr-tr {background-position:-216px 0;}
+    }
+    .no-active {cursor: not-allowed;}
+    .no-active span {color: #5e5f65;}
+    .change-lang:hover {color: #f3b652;}
+    .change-lang-list {
+        position: absolute;
+        top: 73px;
+        right: 0px;
+        background: #1d1e21;
+        width: 280px;
+        padding: 22px 20px 6px;
+        box-sizing: border-box;
+        border-radius: 3px;
+        ul {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            li {
+                padding:0 0 20px 10px;
+                width: 100px;
+                line-height: 1.4;
+            }
+        }
+    }
+
+}
+#header.header-top {
+    background: none;
+    transition: all 0.5s;
+}
+#header.header-down {
+    background: rgba(23, 24, 28, 0.9);
+    transition: all 0.5s;
+}
+
+@media screen and (max-width: 750px) {
+    #header {
+        height: 50px;
+        min-width: inherit;
+    }
+}

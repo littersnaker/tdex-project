@@ -1,0 +1,616 @@
+@charset "UTF-8";
+// 公共内页
+.inside-page-web {
+    margin-top: 72px;
+    background: #f8f8fa;
+    color: #777;
+    min-height: 800px;
+    overflow-x: hidden;
+    .inside-web-part {
+        margin: 0 auto;
+        width: 1200px;
+        padding: 30px 0;
+    }
+}
+// 黑色背景
+.inside-page-web.back {
+    background: #0b0d10;
+}
+// 公共列表
+.tab-data-list, .title-data-list, .account-data-list {
+    margin-top: 40px;
+    position: relative;
+    // 列表头是标题?
+    .list-header-text {
+        display: flex;
+        display: -ms-flexbox;// 兼用ie10+
+        justify-content: space-between;
+        flex-wrap: nowrap;
+        align-items: center;
+        padding-bottom: 20px;
+        h3 {font-size: 18px;color: #17181b;}
+        .header-path-text {
+            color: #f3b652;
+            font-size: 15px;
+            cursor: pointer;
+            i {font-size: 12px;vertical-align: 1px;}
+        }
+    }
+    // 列表头是tab?
+    .list-header-tab {
+        justify-content: flex-start;
+        margin-bottom: 20px;
+        padding-bottom: 0px;
+        h3 {margin-right: 32px;position: relative;padding-bottom: 15px;font-size: 16px;cursor: pointer;}
+        .active {font-size: 18px;font-weight: 600;}
+        .active:before {
+            content: '';
+            position: absolute;
+            left: 0;
+            right: 0;
+            margin: auto;
+            bottom: 0;
+            width: 45px;
+            height: 4px;
+            background: #f3b652;
+        }
+    }
+    .list-global-config {
+        border: 1px solid #e1e1e1;
+        // 顶部有大标题???
+        .list-config-title-top {
+            display: flex;
+            justify-content: flex-start;
+            height: 60px;
+            align-items: center;
+            padding: 0 20px;
+            box-sizing: border-box;
+            letter-spacing: 0.5px;
+            p {font-size: 15px;padding-right: 40px;}
+            span {
+                color: #17181b;
+                font-size: 17px;
+                font-weight: 600;
+            }
+
+        }
+        .list-config-title, .list-config-content {
+            display: flex;
+            flex-wrap: nowrap;
+            justify-content: space-around;
+            li {
+                width: 100%;
+                text-align: center;
+                border-right: 1px solid #e1e1e1;
+                border-bottom: 1px solid #e1e1e1;
+            }
+            li:last-child {border-right: 0;margin-right: -1px;}
+        }
+        // 出现滚动
+        .list-config-content-auto {height: 154px; overflow-x: hidden;overflow-y: auto;}
+        .list-config-title:last-child, .list-config-content:last-child {
+            li {border-bottom: 0;}
+        }
+        .list-config-title {
+            background: #dcdcde;
+            li {font-size: 15px;color: #17181b;line-height: 36px;}
+        }
+        .list-config-content {
+            li {line-height: 30px;}
+        }
+        .list-sub-detail{
+            background: #fcfcfc;
+            border-bottom: 1px solid #e1e1e1;
+            li {
+                display: flex;
+                justify-content: center;
+                >span{
+                    width: 100%;
+                    line-height: 30px;
+                    text-align: center;
+                }
+            }
+        }
+    }
+    // 列表头有选择日期???
+    .list-change-date {
+        position: absolute;
+        right: 0;
+        color: #26272a;
+        display: flex;
+        .change-date-label {height: 30px;line-height: 30px;margin-right: 30px;}
+        .custom-radioInput {
+            border: 2px solid #dcdcde;
+            &.on { border-color: #eab762;}
+        }
+        .custom-radio:checked + .custom-radioInput:after { background-color: #f3b458;}
+        // 下拉框
+        .change-date-option {
+            display: flex;
+            align-items: center;
+            position: relative;
+            >.item {
+                border: 1px solid #dcdcde;
+                height: 30px;
+                line-height: 30px;
+                box-sizing: border-box;
+                padding-left: 8px;
+                padding-right: 35px;
+                cursor: pointer;
+                position: relative;
+                >.iconfont {
+                    position: absolute;
+                    right: 5px;
+                }
+            }
+            >span {padding: 0 14px;}
+            .change-date-option-item {
+                position: absolute;
+                top: 30px;
+                left: -1px;
+                background: #fff;
+                width: 103%;
+                height: 126px;
+                overflow: auto;
+                &::-webkit-scrollbar {width: 6px;}
+                &::-webkit-scrollbar-thumb {
+                    background: #aaa;
+                }
+                &::-webkit-scrollbar-track {background: #f1f1f1;}
+                >li {
+                    width: 100%;
+                    border: 1px solid #dcdcde;
+                    height: 30px;
+                    line-height: 30px;
+                    box-sizing: border-box;
+                    padding-left: 8px;
+                    margin: 1px auto;
+                    transition: all 0.4s;
+                    &:hover {background: #f1f1f1;}
+                }
+            }
+        }
+        // 搜索
+        .change-date-search {
+            margin-left: 30px;
+            position: relative;
+            input {
+                width: 160px;
+                border: 1px solid #dcdcde;
+                outline-color: #f4bb5e;
+                height: 30px;
+                font-size: 14px;
+                padding-right: 32px;
+                box-sizing: border-box;
+            }
+            > .iconfont {
+                position: absolute;
+                top: 0;
+                right: 8px;
+                line-height: 30px;
+                color: #f3b652;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+.account-data-list {.list-header-text {padding-bottom: 0;}}
+// 列表没有数据时
+.no-list-data {
+    position: relative;
+    text-align: center;
+    .no-list-data-pic {
+        background: url("../images/user-info/no-list-data.png") no-repeat;
+        background-size: 100% 100%;
+        height: 0;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 48px;
+        padding-top: 56px;
+        top: -42px;
+    }
+}
+
+.no-list-data.back {
+    .no-list-data-pic {
+        background: url("../images/user-info/no-list-data-back.png") no-repeat;
+        background-size: 100% 100%;
+    }
+    p {color: #5b5e65 !important;}
+}
+// 显示5条数据时
+.no-list-data.show-5 {
+    height: 154px;
+    p {padding-top: 92px;
+        color: #c8c8d8;}
+}
+// 显示10条数据时
+.no-list-data.show-10 {
+    height: 470px;
+    p {padding-top: 220px;color: #c8c8d8;}
+    .no-list-data-pic {
+        top: -100px;
+    }
+}
+// 公共面包屑
+.crumbs-header-link {
+    border-bottom: 1px solid #dcdcde;
+    padding-bottom: 22px;
+    margin-bottom: 33px;
+    a {
+        font-size: 24px;
+        cursor: pointer;
+        i {vertical-align: middle;font-size: 18px;padding: 0 10px;}
+    }
+    a:first-child {color: #17181b;}
+}
+// 公共翻页
+.tabpage{
+    .public-pages-config {
+        margin: 20px auto;
+        span {
+            font-size: 14px;
+            color: #848484;
+            cursor: default;
+        }
+        a {
+            margin-left: 5px;
+            height: 25px;
+            line-height: 25px;
+            //padding: 5px 10px;
+            color: #a9a9a9;
+            font-size: 13px;
+            border: 1px solid #dcdcde;
+            border-radius: 1px;
+            background: #fff;
+            transition: all 0.5s;
+            box-sizing: border-box;
+        }
+        a:hover {
+            color: #eab862;
+            border: 1px #eab862 solid;
+        }
+        a.current {
+            display: inline-block;
+            min-width: 15px;
+            height: 25px;
+            line-height: 25px;
+            color: #fff;
+            background: #f3b652;
+            border: 1px solid #f3b652;
+            cursor: default;
+        }
+        a.disabled, a.disabled:hover {
+            color: #919297;
+            background: #f5f5f5 !important;
+            border-color: #f2f2f2 !important;
+            cursor: not-allowed;
+        }
+        .pageInput {
+            display: inline-block;
+            margin-left: 5px;
+            height: 25px;
+            border: 0;
+            vertical-align: 1px;
+        }
+        .pageInput > input {
+            padding-left: 0;
+            width: 40px;
+            text-align: center;
+            border: 1px solid #dcdcde;
+            outline-color: #f3b652;
+        }
+        .travel-to {margin-left: 20px;}
+    }
+}
+// 日期选择
+.selection-date-config {
+    height: 32px;
+    margin-bottom: 20px;
+    .change-fenfa-type {
+        border: 1px solid #d3d3d3;
+        height: 32px;
+        line-height: 32px;
+        padding: 0 30px 0 20px;
+        display: inline-block;
+        cursor: pointer;
+        box-sizing: border-box;
+        vertical-align: -1px;
+        margin-right: 15px;
+        background: url(../images/icons/xjt.png) no-repeat right 9px;
+        position: relative;
+    }
+    .change-fenfa-type-list {position: absolute;top: 31px;width: 100%;left: -1px;z-index: 9;}
+    .change-fenfa-type-list li {
+        border: 1px solid #d3d3d3;
+        width: 100%;
+        background: #fff;
+        text-align: center;
+        border-top: 0;
+        transition: all 0.4s;
+        &:hover {
+            background: #eee;
+        }
+    }
+    .date-time-box > span {
+        border: 1px solid transparent;
+        &.current {
+            border: 1px solid #d3d3d3;
+        }
+    }
+    .date-picket-box-btn {
+        background: #f4b653;
+        color: #fff;
+        border: 0;
+        transition: all 0.4s;
+        &:hover {
+            background: #ffd28b;
+        }
+    }
+    // 左边下载icon
+    .download-csv-icon {
+        float: right;
+        padding-top: 10px;
+        cursor: pointer;
+        transition: all 0.4s;
+        &:hover {color: #f3b652;}
+    }
+}
+
+@media screen and (max-width: 750px) {
+    // 公共内页
+    .inside-page-web {
+        margin-top: 0px;
+        padding-top: 40px;
+        min-height: inherit;
+        box-sizing: border-box;
+        .inside-web-part {
+            margin: 0 auto;
+            width: 95%;
+            padding-top: 45px;
+            overflow: hidden;
+        }
+        // 交易记录改动
+        .trading-web-part {
+            width: 100%;
+            padding-top: 40px;
+            background: #fff;
+        }
+        .trading-web-part-head {
+            width: 95%;
+            margin: 0 auto;
+            .list-header-text, .list-header-tab {
+                justify-content: center !important;
+                margin-bottom: 17px;
+                margin-top: 5px;
+                h3 {margin: 0 10px;}
+            }
+            .selection-date-config {
+                margin-bottom: 10px;
+                padding-bottom: 15px;
+            }
+        }
+    }
+    // 公共列表
+    .tab-data-list, .title-data-list, .account-data-list {
+        margin-top: 20px;
+        // 列表头是标题?
+        .list-header-text {
+            padding-bottom: 10px;
+            h3 {font-size: 14px;font-weight: 600;}
+            .header-path-text {
+                font-size: 12px;
+                i {font-size: 12px;vertical-align: 0px;}
+            }
+        }
+        // 列表头是tab?
+        .list-header-tab {
+            margin-bottom: 10px;
+            padding-bottom: 0px;
+            h3 {margin-right: 10px;padding-bottom: 8px;font-size: 14px;font-weight: 500;}
+            .active {font-size: 14px;}
+            .active:before {
+                width: 35px;
+                height: 3px;
+            }
+        }
+        .list-global-config {
+            .list-config-title, .list-config-content {
+                //li:nth-child(4) {border-right: 0;margin-right: -1px;}
+                li:last-child {border-right: 0;margin-right: -1px;}
+            }
+            .list-config-title {
+                li {font-size: 12px;}
+            }
+            .list-config-content {
+                li {line-height: 30px;font-size: 12px;}
+            }
+        }
+    }
+    // 列表没有数据时
+    .no-list-data {
+        position: relative;
+        text-align: center;
+        background: #f3f3f3;
+        p {font-size: 12px;}
+        .no-list-data-pic {
+            background: url("../images/user-info/no-list-data.png") no-repeat;
+            background-size: 100% 100%;
+            height: 0;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+            width: 48px;
+            padding-top: 47px;
+            top: -42px;
+        }
+    }
+    // 显示5条数据时
+    .no-list-data.show-5 {
+        height: 155px;
+        p {padding-top: 92px;}
+    }
+    // 显示10条数据时
+    .no-list-data.show-10 {
+        height: 400px;
+        p {padding-top: 185px;}
+    }
+    // 公共面包屑
+    .crumbs-header-link {
+        padding-bottom: 8px;
+        margin-bottom: 20px;
+        a {
+            font-size: 16px;
+            i {font-size: 14px;}
+        }
+        a:first-child {font-weight: bold;}
+    }
+    // 日期选择
+    .selection-date-config {
+        height: 60px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-bottom: 15px;
+        .selection-date-config-box {
+            height: 32px;
+            width: 65%;
+            border: 1px solid #d3d3d3;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-sizing: border-box;
+            >p {font-size: 12px;min-width: 20px;text-align: center;}
+            input {border: 0;width: 90px;outline: none;padding: 0 8px;box-sizing: border-box;text-align: center;}
+        }
+        .date-picket-box-btn {
+            width: 26%;
+        }
+        .selection-time-config-box {
+            width: 100%;
+            text-align: center;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin-top: 10px;
+            .current {
+                color: #f3b652;
+            }
+        }
+    }
+    // 公共翻页
+    .public-pages-config {
+        text-align: center;
+        span {
+            //font-size: 14px;
+            //color: #848484;
+            //cursor: default;
+            display: none !important;
+        }
+        a:last-child{
+            display: none !important;
+        }
+        a {
+            margin-left: 5px;
+            padding: 2px 10px;
+            color: #a9a9a9;
+            font-size: 14px;
+            border: 1px solid #f5f5f5;
+            border-radius: 1px;
+            background: #f5f5f5;
+            transition: all 0.5s;
+        }
+        a:hover {
+            color: #eab862;
+            border: 1px #eab862 solid;
+        }
+        a.current {
+            display: inline-block;
+            min-width: 15px;
+            height: 17px;
+            line-height: 17px;
+            color: #fff;
+            background: #f3b652;
+            border: 1px solid #f3b652;
+            cursor: default;
+        }
+        a.disabled, a.disabled:hover {
+            color: #919297;
+            background: #fff;
+            border-color: #dcdcde !important;
+            cursor: not-allowed;
+        }
+        .pageInput {
+            display: inline-block;
+            margin-left: 5px;
+            border: 0;
+            vertical-align: 1px;
+        }
+        .pageInput > input {
+            padding-left: 0px;
+            width: 40px;
+            height: 25px;
+            text-align: center;
+            border: 1px solid #ccc;
+            outline-color: #f3b652;
+        }
+        .travel-to {margin-left: 20px; display: none;}
+    }
+    // 移动端列表
+    .m-list-global-config {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        background: #fff;
+        padding: 2.5%;
+        box-sizing: border-box;
+        margin-bottom: 10px;
+        >li {
+            width: 50%;
+            line-height: 30px;
+            span:nth-child(1) {
+                font-size: 12px;
+            }
+            span:nth-child(2) {
+                color: #000;
+                padding-left: 4px;
+            }
+
+
+        }
+        .m-list-config-title {
+            width: 100%;
+            margin-bottom: 10px;
+            height: 32px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid #f2f2f2;
+            >p {
+                span {
+                    &.red {background: #eb147b;color: #fff;padding: 1px 5px;border-radius: 4px;}
+                    &.green {background: #94c248;color: #fff;padding: 1px 5px;border-radius: 4px;}
+                    &.title {font-weight: bold;}
+                }
+            }
+        }
+    }
+    .m-list-global-config-auto {
+        height: calc(100vh - 219px);
+        overflow-x: hidden;
+        overflow-y: auto;
+        background: #f3f3f3;
+        padding-top: 10px;
+        .public-pages-config {
+            background: #fff;
+            margin: 0 !important;
+            padding: 20px 0 40px;
+        }
+    }
+}

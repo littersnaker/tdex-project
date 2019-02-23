@@ -1,0 +1,61 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/>
+  <meta http-equiv="pragma" content="no-cache"/>
+  <meta http-equiv="Cache-Control" content="no-cache, must-revalidate"/>
+  <meta http-equiv="expires" content="0"/>
+  <meta name="format-detection" content="telephone=no"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+  <meta name="renderer" content="webkit"/>
+  <!--Google沉浸式状态栏-->
+	<meta name="theme-color" content="#f3f3f3">
+  <meta name="keywords" content="TDEx,trading,futrues,stock,BTC,ETH,USDT">
+  <meta name="description" content="致力合作，实现共赢">
+  <title>TDEx | Turing Derivatives Exchange</title>
+  <base href="/"/>
+  <link rel="Bookmark" href="%PUBLIC_URL%/favicon.ico" >
+  <link rel="Shortcut Icon" href="%PUBLIC_URL%/favicon.ico" />
+  <script src="%PUBLIC_URL%/lib/jq/jquery-1.7.2.min.js"></script>
+  <!--[if lte IE 9]>
+  <script src="%PUBLIC_URL%/lib/react/es5-shim.js"></script>
+  <script src="%PUBLIC_URL%/lib/react/es5-sham.js"></script>
+  <script type="text/javascript" src="%PUBLIC_URL%/lib/react/JSXTransformer.js"></script>
+  <![endif]-->
+  <script>
+    var _hmt = _hmt || [];
+    if ("%NODE_ENV%"=="production"){
+        (function() {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?"+("%VER_ENV%"!="simulate" ? "41fe9a717bed50ec0e4ad7ed14049aee" : "c32d55032570c652e3f53307d526c858");
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    }
+  </script>
+
+</head>
+  <body>
+    <noscript>
+      You need to enable JavaScript to run this app.
+    </noscript>
+    <!--<div class="loadingBox"><div class="loadingBg"></div></div>-->
+    <div id="root"></div>
+    <div class="mask hide" style="z-index: 1001;"></div>
+    <div class="popDiv" id="popDiv"></div>
+    <div id="dragDiv"></div>
+    <div class="toast" id="toast"></div>
+    <div id="notification"></div>
+    <div id="tooltip"></div>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-130499910-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-130499910-1');
+    </script>
+  </body>
+</html>
